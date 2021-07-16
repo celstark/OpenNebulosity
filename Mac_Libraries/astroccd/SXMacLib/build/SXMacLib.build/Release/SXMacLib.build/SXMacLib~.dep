@@ -1,0 +1,13 @@
+e8114689a8ca6766ddfbd9a33f45e574 27c71b738d66d5e12f3f1cb2f4b9ac38 ffffffffffffffffffffffffffffffff 44152 /Users/stark/dev/astroccd/SXMacLib/build/Release/libSXMacLib.a
+53ff32b3a2eafa017efa1a8fbfa21bcc de153ac695e2fcc7180322afeeaca4dc ffffffffffffffffffffffffffffffff 20496 /Users/stark/dev/astroccd/SXMacLib/build/SXMacLib.build/Release/SXMacLib.build/Objects-normal/i386/libSXMacLib.a
+9d1d2748fc0d82bd6afa0c047d5afbdd f8e669b463cfe31dd1f8ed871311a1b9 ffffffffffffffffffffffffffffffff 23608 /Users/stark/dev/astroccd/SXMacLib/build/SXMacLib.build/Release/SXMacLib.build/Objects-normal/ppc/libSXMacLib.a
+000000004ee31d380000000000022b55 53ff32b3a6187edb7efa1a8fbfa03077 ffffffffffffffffffffffffffffffff 19772 /Users/stark/dev/astroccd/SXMacLib/build/SXMacLib.build/Release/SXMacLib.build/Objects-normal/i386/sxusbcam.o
+000000004ee31d380000000000022b55 9d1d2748f8ff06676afa0c047d58d066 ffffffffffffffffffffffffffffffff 22884 /Users/stark/dev/astroccd/SXMacLib/build/SXMacLib.build/Release/SXMacLib.build/Objects-normal/ppc/sxusbcam.o
+00000000000000000000000000000000 c81be803497d4f6ddd9b4bb4ec5599f0 ffffffffffffffffffffffffffffffff 5805 /Users/stark/dev/astroccd/SXMacLib/build/Release/usr/local/include/sxusbcam.h
+ffffffffffffffffffffffffffffffff 3204691912094852f726873f309aca8d ffffffffffffffffffffffffffffffff 19912 /Users/stark/dev/astroCCD/SXMacLib/build/SXMacLib.build/Release/SXMacLib.build/Objects-normal/i386/sxusbcam.o
+ffffffffffffffffffffffffffffffff 8b338195e104656633906c616ffd0193 ffffffffffffffffffffffffffffffff 22860 /Users/stark/dev/astroCCD/SXMacLib/build/SXMacLib.build/Release/SXMacLib.build/Objects-normal/ppc/sxusbcam.o
+ffffffffffffffffffffffffffffffff 30b55a6df7e933310fa8fa2123a5ed32 ffffffffffffffffffffffffffffffff 44296 /Users/stark/dev/astroCCD/SXMacLib/build/Release/libSXMacLib.a
+ffffffffffffffffffffffffffffffff aad73033218bb57d23fdc20349858da6 ffffffffffffffffffffffffffffffff 20664 /Users/stark/dev/astroCCD/SXMacLib/build/SXMacLib.build/Release/SXMacLib.build/Objects-normal/i386/libSXMacLib.a
+ffffffffffffffffffffffffffffffff 07731f988b05a0ec0c36455e3236d248 ffffffffffffffffffffffffffffffff 23584 /Users/stark/dev/astroCCD/SXMacLib/build/SXMacLib.build/Release/SXMacLib.build/Objects-normal/ppc/libSXMacLib.a
+00000000000000000000000000000000 d5141cdbef8b044e496e2b3a36f041ab ffffffffffffffffffffffffffffffff 5730 /Users/stark/dev/astroCCD/SXMacLib/build/Release/usr/local/include/sxusbcam.h
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/stark/dev/astroCCD/SXMacLib/build/Release/usr/local/include/sx_ezusb_code.h

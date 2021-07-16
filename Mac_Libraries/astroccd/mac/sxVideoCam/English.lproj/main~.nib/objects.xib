@@ -1,0 +1,469 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="56" name="allObjects">
+    <object class="IBCarbonMenu" id="29">
+      <string name="title">main</string>
+      <array count="3" name="items">
+        <object class="IBCarbonMenuItem" id="185">
+          <string name="title">Foo</string>
+          <object name="submenu" class="IBCarbonMenu" id="184">
+            <string name="title">Foo</string>
+            <array count="2" name="items">
+              <object class="IBCarbonMenuItem" id="251">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Preferences</string>
+                <ostype name="command">pref</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="187">
+                <string name="title">About sxVideoCam</string>
+                <int name="keyEquivalentModifier">0</int>
+                <ostype name="command">abou</ostype>
+              </object>
+            </array>
+            <string name="name">_NSAppleMenu</string>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="127">
+          <string name="title">Camera</string>
+          <object name="submenu" class="IBCarbonMenu" id="131">
+            <string name="title">Camera</string>
+            <array count="13" name="items">
+              <object class="IBCarbonMenuItem" id="204">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Increase Resolution</string>
+                <string name="keyEquivalent">=</string>
+                <ostype name="command">Rinc</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="205">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Decrease Resolution</string>
+                <string name="keyEquivalent">-</string>
+                <ostype name="command">Rdec</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="234">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="139">
+                <string name="title">Increase Exposure</string>
+                <string name="keyEquivalent">]</string>
+                <ostype name="command">Einc</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="130">
+                <string name="title">Decrease Exposure</string>
+                <string name="keyEquivalent">[</string>
+                <ostype name="command">Edec</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="232">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="235">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Auto Bright/Contrast</string>
+                <string name="keyEquivalent">a</string>
+                <ostype name="command">Auto</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="228">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Increase Brightness</string>
+                <string name="keyEquivalent">&apos;</string>
+                <ostype name="command">Binc</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="229">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Decrease Brightness</string>
+                <string name="keyEquivalent">;</string>
+                <ostype name="command">Bdec</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="230">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Increase Contrast</string>
+                <string name="keyEquivalent">.</string>
+                <ostype name="command">Cinc</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="231">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Decrease Contrast</string>
+                <string name="keyEquivalent">,</string>
+                <ostype name="command">Cdec</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="233">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="225">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Set Model</string>
+                <ostype name="command">Cset</ostype>
+              </object>
+            </array>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="192">
+          <string name="title">Window</string>
+          <object name="submenu" class="IBCarbonMenu" id="195">
+            <string name="title">Window</string>
+            <array count="5" name="items">
+              <object class="IBCarbonMenuItem" id="197">
+                <string name="title">Zoom Window</string>
+                <ostype name="command">zoom</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="190">
+                <boolean name="dynamic">TRUE</boolean>
+                <string name="title">Minimize Window</string>
+                <string name="keyEquivalent">m</string>
+                <ostype name="command">mini</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="227">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Full Screen</string>
+                <string name="keyEquivalent">f</string>
+                <ostype name="command">Fscr</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="237">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="236">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">Cycle Palette</string>
+                <string name="keyEquivalent">\</string>
+                <ostype name="command">Pcyc</ostype>
+              </object>
+            </array>
+            <string name="name">_NSWindowsMenu</string>
+          </object>
+        </object>
+      </array>
+      <string name="name">_NSMainMenu</string>
+    </object>
+    <reference idRef="127"/>
+    <reference idRef="130"/>
+    <reference idRef="131"/>
+    <reference idRef="139"/>
+    <object class="IBCarbonWindow" id="166">
+      <string name="windowRect">268 81 628 561 </string>
+      <string name="title">Astro Video Camera</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="bounds">0 0 360 480 </string>
+        <string name="viewFrame">0 0 480 360 </string>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="windowPosition">4</int>
+    </object>
+    <reference idRef="167"/>
+    <reference idRef="184"/>
+    <reference idRef="185"/>
+    <reference idRef="187"/>
+    <reference idRef="190"/>
+    <reference idRef="192"/>
+    <reference idRef="195"/>
+    <reference idRef="197"/>
+    <reference idRef="204"/>
+    <reference idRef="205"/>
+    <object class="IBCarbonRootControl" id="206">
+      <string name="bounds">0 0 100 260 </string>
+      <string name="viewFrame">0 0 260 100 </string>
+      <array count="3" name="subviews">
+        <object class="IBCarbonCheckBox" id="212">
+          <string name="bounds">63 21 77 145 </string>
+          <string name="viewFrame">21 63 124 14 </string>
+          <ostype name="controlSignature">SXVC</ostype>
+          <int name="controlID">1002</int>
+          <boolean name="small">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="title">Don&apos;t Ask Again</string>
+          <ostype name="command">CMas</ostype>
+        </object>
+        <object class="IBCarbonButton" id="213">
+          <string name="bounds">60 170 80 240 </string>
+          <string name="viewFrame">170 60 70 20 </string>
+          <ostype name="controlSignature">SXVC</ostype>
+          <int name="controlID">1000</int>
+          <string name="title">OK</string>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+        </object>
+        <object class="IBCarbonPopupButton" id="216">
+          <string name="bounds">20 21 40 240 </string>
+          <string name="viewFrame">21 20 219 20 </string>
+          <ostype name="controlSignature">SXVC</ostype>
+          <int name="controlID">1001</int>
+          <string name="title">Camera Model</string>
+          <ostype name="command">CMls</ostype>
+          <int name="titleJustification">-2</int>
+          <object name="menu" class="IBCarbonMenu" id="214">
+            <string name="title">Popup:</string>
+            <array count="9" name="items">
+              <object class="IBCarbonMenuItem" id="215">
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">MX-5</string>
+                <ostype name="command">MX5 </ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="217">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">MX-5C</string>
+                <ostype name="command">MX5C</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="218">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">MX-7</string>
+                <ostype name="command">MX7 </ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="219">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">MX-7C</string>
+                <ostype name="command">MX7C</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="220">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">MX-9</string>
+                <ostype name="command">MX9 </ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="221">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">HX-5</string>
+                <ostype name="command">HX5 </ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="222">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">HX-9</string>
+                <ostype name="command">HX9 </ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="223">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">SXV-H9</string>
+                <ostype name="command">XV9 </ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="224">
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <string name="title">SXV-H9C</string>
+                <ostype name="command">XV9C</ostype>
+              </object>
+            </array>
+          </object>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonWindow" id="207">
+      <string name="windowRect">85 52 185 312 </string>
+      <string name="title">New Camera Attached</string>
+      <reference name="rootControl" idRef="206"/>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <boolean name="isConstrained">FALSE</boolean>
+    </object>
+    <reference idRef="212"/>
+    <reference idRef="213"/>
+    <reference idRef="214"/>
+    <reference idRef="215"/>
+    <reference idRef="216"/>
+    <reference idRef="217"/>
+    <reference idRef="218"/>
+    <reference idRef="219"/>
+    <reference idRef="220"/>
+    <reference idRef="221"/>
+    <reference idRef="222"/>
+    <reference idRef="223"/>
+    <reference idRef="224"/>
+    <reference idRef="225"/>
+    <reference idRef="227"/>
+    <reference idRef="228"/>
+    <reference idRef="229"/>
+    <reference idRef="230"/>
+    <reference idRef="231"/>
+    <reference idRef="232"/>
+    <reference idRef="233"/>
+    <reference idRef="234"/>
+    <reference idRef="235"/>
+    <reference idRef="236"/>
+    <reference idRef="237"/>
+    <object class="IBCarbonWindow" id="238">
+      <string name="windowRect">226 51 357 509 </string>
+      <string name="title">Preferences</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="239">
+        <string name="bounds">0 0 131 458 </string>
+        <string name="viewFrame">0 0 458 131 </string>
+        <array count="10" name="subviews">
+          <object class="IBCarbonButton" id="240">
+            <string name="bounds">20 368 40 438 </string>
+            <string name="viewFrame">368 20 70 20 </string>
+            <ostype name="controlSignature">SXVC</ostype>
+            <int name="controlID">2002</int>
+            <string name="title">Browse</string>
+            <ostype name="command">ISbr</ostype>
+          </object>
+          <object class="IBCarbonStaticText" id="241">
+            <string name="bounds">21 20 37 122 </string>
+            <string name="viewFrame">20 21 102 16 </string>
+            <string name="title">Snapshot Folder</string>
+          </object>
+          <object class="IBCarbonEditText" id="242">
+            <string name="bounds">24 133 40 357 </string>
+            <string name="viewFrame">133 24 224 16 </string>
+            <ostype name="controlSignature">SXVC</ostype>
+            <int name="controlID">2001</int>
+            <ostype name="command">ISlo</ostype>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonStaticText" id="243">
+            <string name="bounds">51 56 67 122 </string>
+            <string name="viewFrame">56 51 66 16 </string>
+            <string name="title">FileName</string>
+          </object>
+          <object class="IBCarbonEditText" id="244">
+            <string name="bounds">52 133 68 265 </string>
+            <string name="viewFrame">133 52 132 16 </string>
+            <ostype name="controlSignature">SXVC</ostype>
+            <int name="controlID">2003</int>
+            <ostype name="command">ISfn</ostype>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonStaticText" id="245">
+            <string name="bounds">51 276 67 284 </string>
+            <string name="viewFrame">276 51 8 16 </string>
+            <string name="title">-</string>
+          </object>
+          <object class="IBCarbonEditText" id="247">
+            <string name="bounds">52 295 68 336 </string>
+            <string name="viewFrame">295 52 41 16 </string>
+            <ostype name="controlSignature">SXVC</ostype>
+            <int name="controlID">2004</int>
+            <string name="title">0000</string>
+            <ostype name="command">ISsq</ostype>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+          </object>
+          <object class="IBCarbonLittleArrows" id="248">
+            <string name="bounds">49 347 71 360 </string>
+            <string name="viewFrame">347 49 13 22 </string>
+            <ostype name="controlSignature">SXVC</ostype>
+            <int name="controlID">2005</int>
+            <ostype name="command">ISup</ostype>
+          </object>
+          <object class="IBCarbonButton" id="249">
+            <string name="bounds">91 368 111 438 </string>
+            <string name="viewFrame">368 91 70 20 </string>
+            <ostype name="controlSignature">SXVC</ostype>
+            <int name="controlID">2007</int>
+            <string name="title">OK</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="250">
+            <string name="bounds">91 286 111 356 </string>
+            <string name="viewFrame">286 91 70 20 </string>
+            <ostype name="controlSignature">SXVC</ostype>
+            <int name="controlID">2006</int>
+            <string name="title">Cancel</string>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+          </object>
+        </array>
+      </object>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <boolean name="isConstrained">FALSE</boolean>
+    </object>
+    <reference idRef="239"/>
+    <reference idRef="240"/>
+    <reference idRef="241"/>
+    <reference idRef="242"/>
+    <reference idRef="243"/>
+    <reference idRef="244"/>
+    <reference idRef="245"/>
+    <reference idRef="247"/>
+    <reference idRef="248"/>
+    <reference idRef="249"/>
+    <reference idRef="250"/>
+    <reference idRef="251"/>
+  </array>
+  <array count="56" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="29"/>
+    <reference idRef="131"/>
+    <reference idRef="127"/>
+    <reference idRef="131"/>
+    <reference idRef="1"/>
+    <reference idRef="166"/>
+    <reference idRef="185"/>
+    <reference idRef="29"/>
+    <reference idRef="184"/>
+    <reference idRef="195"/>
+    <reference idRef="29"/>
+    <reference idRef="192"/>
+    <reference idRef="195"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="207"/>
+    <reference idRef="1"/>
+    <reference idRef="206"/>
+    <reference idRef="206"/>
+    <reference idRef="216"/>
+    <reference idRef="214"/>
+    <reference idRef="206"/>
+    <reference idRef="214"/>
+    <reference idRef="214"/>
+    <reference idRef="214"/>
+    <reference idRef="214"/>
+    <reference idRef="214"/>
+    <reference idRef="214"/>
+    <reference idRef="214"/>
+    <reference idRef="214"/>
+    <reference idRef="131"/>
+    <reference idRef="195"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="195"/>
+    <reference idRef="195"/>
+    <reference idRef="1"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="184"/>
+  </array>
+  <dictionary count="5" name="nameTable">
+    <string>CameraDialog</string>
+    <reference idRef="207"/>
+    <string>Files Owner</string>
+    <reference idRef="1"/>
+    <string>MainWindow</string>
+    <reference idRef="166"/>
+    <string>MenuBar</string>
+    <reference idRef="29"/>
+    <string>Preferences</string>
+    <reference idRef="238"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">252</unsigned_int>
+</object>

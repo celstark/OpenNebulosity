@@ -1,0 +1,1 @@
+/Users/stark/dev/qsiapi-7.2.0/lib/qsiapi.h

@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "eae839d3-ccf3-465b-98d2-9b281c9b2073++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "eae839d3-ccf3-465b-98d2-9b281c9b2073++505" : {
+
+    },
+    "c3d73ce0-8a6f-49c7-b76d-6d57e0e08775++3560" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "eae839d3-ccf3-465b-98d2-9b281c9b2073++505" : 0,
+    "c3d73ce0-8a6f-49c7-b76d-6d57e0e08775++3560" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FC6765DB-1F45-4ED8-9E9C-142DF6FC167B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "eae839d3-ccf3-465b-98d2-9b281c9b2073++505" : "nebulosity3",
+    "c3d73ce0-8a6f-49c7-b76d-6d57e0e08775++3560" : "wxWidgets_svn"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "nebulosity4_XC6",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "nebulosity4_XC6.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.wxwidgets.org\/svn\/wx",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c3d73ce0-8a6f-49c7-b76d-6d57e0e08775++3560"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/subversion.assembla.com\/svn\/nebulosity3",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "eae839d3-ccf3-465b-98d2-9b281c9b2073++505"
+    }
+  ]
+}

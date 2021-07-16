@@ -1,0 +1,6 @@
+progicon ICON "neb3_icon.ico"
+pixel_cursor CURSOR "at_curs1.cur"
+area1_cursor CURSOR "at_curs3.cur"
+#define wxUSE_NO_MANIFEST 1 
+#include "wx/msw/wx.rc"
+

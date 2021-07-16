@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Nebulosity 4 64.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Nebulosity 4 copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>nebulosity 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>581465E50C280F3C0036037A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58554BE70E2E4D8400F73972</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5863007815D81D380080DA04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58BACBD10E70DDAB004ED49A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F487A70109BE242D005A3E96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

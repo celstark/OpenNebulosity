@@ -1,0 +1,7 @@
+14:51:46: /Users/stark/dev/nebulosity3/de/nebulosity.po:595:22: invalid control sequence
+14:51:46: /Users/stark/dev/nebulosity3/de/nebulosity.po:663:36: invalid control sequence
+14:51:46: /Users/stark/dev/nebulosity3/de/nebulosity.po:671:16: invalid control sequence
+14:51:46: /Users/stark/dev/nebulosity3/de/nebulosity.po:695:45: invalid control sequence
+14:51:46: /Users/stark/dev/nebulosity3/de/nebulosity.po:703:35: invalid control sequence
+14:51:46: /Users/stark/dev/nebulosity3/de/nebulosity.po:795:32: invalid control sequence
+14:51:46: /Applications/Poedit.app/Contents/MacOS/msgfmt: found 6 fatal errors

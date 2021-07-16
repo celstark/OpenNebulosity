@@ -1,0 +1,3 @@
+22:28:09: /Users/stark/dev/nebulosity3/language_files/portuguese_v2.po:3312: end-of-line within string
+22:28:09: /Users/stark/dev/nebulosity3/language_files/portuguese_v2.po:3316: end-of-line within string
+22:28:09: /Applications/Poedit.app/Contents/MacOS/msgfmt: found 2 fatal errors

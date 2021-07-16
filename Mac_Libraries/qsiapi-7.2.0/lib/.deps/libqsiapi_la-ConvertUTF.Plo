@@ -1,0 +1,3 @@
+libqsiapi_la-ConvertUTF.lo: ConvertUTF.c ConvertUTF.h
+
+ConvertUTF.h:

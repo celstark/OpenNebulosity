@@ -1,0 +1,1130 @@
+# Language file for Nebulosity 3.
+# Copyright (2012) Craig Stark, Stark Labs
+# This file is distributed under the same license as the Nebulosity package.
+# Craig Stark: (craig@stark-labs.com)
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-02 18:00-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Nebulosity.cpp:356
+msgid "&Open File\tCtrl+O"
+msgstr ""
+
+#: ../Nebulosity.cpp:356
+msgid "Open file"
+msgstr ""
+
+#: ../Nebulosity.cpp:358
+msgid "Preview Files"
+msgstr ""
+
+#: ../Nebulosity.cpp:358
+msgid "Preview / Rename / Delete files"
+msgstr ""
+
+#: ../Nebulosity.cpp:359
+msgid "DSS Loader"
+msgstr ""
+
+#: ../Nebulosity.cpp:359
+msgid "Download DSS Image"
+msgstr ""
+
+#: ../Nebulosity.cpp:360
+msgid "FITS Header Tool"
+msgstr ""
+
+#: ../Nebulosity.cpp:360
+msgid "View FITS header"
+msgstr ""
+
+#: ../Nebulosity.cpp:363
+msgid "&Save Current File\tCtrl+S"
+msgstr ""
+
+#: ../Nebulosity.cpp:363
+msgid "Save current file as FITS"
+msgstr ""
+
+#: ../Nebulosity.cpp:364
+msgid "Save &BMP File as Displayed"
+msgstr ""
+
+#: ../Nebulosity.cpp:364
+msgid "Save current display in 24-bit BMP format"
+msgstr ""
+
+#: ../Nebulosity.cpp:365
+msgid "Save &JPG File as Displayed"
+msgstr ""
+
+#: ../Nebulosity.cpp:365
+msgid "Save current display in 24-bit JPG format"
+msgstr ""
+
+#: ../Nebulosity.cpp:366
+msgid "Save 16-bit/color &TIFF File"
+msgstr ""
+
+#: ../Nebulosity.cpp:366
+msgid "Save as 16-bit/color TIFF (uncompressed)"
+msgstr ""
+
+#: ../Nebulosity.cpp:367
+msgid "Save 16-bit/color &Compressed TIFF File"
+msgstr ""
+
+#: ../Nebulosity.cpp:367
+msgid "Save as 16-bit/color TIFF (compressed)"
+msgstr ""
+
+#: ../Nebulosity.cpp:368
+msgid "Save 16-bit/color &PNG File"
+msgstr ""
+
+#: ../Nebulosity.cpp:368
+msgid "Save as 16-bit/color PNG"
+msgstr ""
+
+#: ../Nebulosity.cpp:369
+msgid "Save 16-bit/color &PPM/PGM/PNM File"
+msgstr ""
+
+#: ../Nebulosity.cpp:369
+msgid "Save as 16-bit/color PNM file"
+msgstr ""
+
+#: ../Nebulosity.cpp:370
+msgid "Save Color Components"
+msgstr ""
+
+#: ../Nebulosity.cpp:370
+msgid "Split color components into different files"
+msgstr ""
+
+#: ../Nebulosity.cpp:372
+msgid "Launch new instance"
+msgstr ""
+
+#: ../Nebulosity.cpp:372
+msgid "Launch new instance of Nebulosity"
+msgstr ""
+
+#: ../Nebulosity.cpp:374
+msgid "Change language"
+msgstr ""
+
+#: ../Nebulosity.cpp:374
+msgid "Change language / locale"
+msgstr ""
+
+#: ../Nebulosity.cpp:375
+msgid "Exit\tCtrl+Q"
+msgstr ""
+
+#: ../Nebulosity.cpp:375
+msgid "Quit program"
+msgstr ""
+
+#: ../Nebulosity.cpp:377
+msgid "Undo\tCtrl+Z"
+msgstr ""
+
+#: ../Nebulosity.cpp:377
+msgid "Undo last image change"
+msgstr ""
+
+#: ../Nebulosity.cpp:378
+msgid "Redo\tCtrl+Y"
+msgstr ""
+
+#: ../Nebulosity.cpp:378
+msgid "Redo last undo"
+msgstr ""
+
+#: ../Nebulosity.cpp:382
+msgid "&Image Info"
+msgstr ""
+
+#: ../Nebulosity.cpp:382
+msgid "Info on current image"
+msgstr ""
+
+#: ../Nebulosity.cpp:383
+msgid "Measure &Distance"
+msgstr ""
+
+#: ../Nebulosity.cpp:383
+msgid "Measure distance between points on image"
+msgstr ""
+
+#: ../Nebulosity.cpp:386
+msgid "Edit/Create Script"
+msgstr ""
+
+#: ../Nebulosity.cpp:386
+msgid "Edit or create script file"
+msgstr ""
+
+#: ../Nebulosity.cpp:387
+msgid "Run Script\tCtrl+R"
+msgstr ""
+
+#: ../Nebulosity.cpp:387
+msgid "Run (execute) a script file"
+msgstr ""
+
+#: ../Nebulosity.cpp:390
+msgid "&Preferences"
+msgstr ""
+
+#: ../Nebulosity.cpp:390
+msgid "Set program options and preferences"
+msgstr ""
+
+#: ../Nebulosity.cpp:391
+msgid "De-select cameras"
+msgstr ""
+
+#: ../Nebulosity.cpp:391
+msgid "Enable / disable cameras"
+msgstr ""
+
+#: ../Nebulosity.cpp:393
+msgid "Check / Update license"
+msgstr ""
+
+#: ../Nebulosity.cpp:393
+msgid "Check or change your license"
+msgstr ""
+
+#: ../Nebulosity.cpp:395
+msgid "Pre-process &Color Images"
+msgstr ""
+
+#: ../Nebulosity.cpp:395
+msgid "Dark/flat/bias on full color images"
+msgstr ""
+
+#: ../Nebulosity.cpp:396
+msgid "Pre-process &B&&W/Raw Images"
+msgstr ""
+
+#: ../Nebulosity.cpp:396
+msgid "Dark/flat/bias on B&W or RAW color images"
+msgstr ""
+
+#: ../Nebulosity.cpp:397
+msgid "Pre-process multiple sets"
+msgstr ""
+
+#: ../Nebulosity.cpp:397
+msgid "Dark/flat/bias on several sets of images"
+msgstr ""
+
+#: ../Nebulosity.cpp:399
+msgid "Make Bad Pixel Map"
+msgstr ""
+
+#: ../Nebulosity.cpp:399
+msgid "Create map of bad pixels"
+msgstr ""
+
+#: ../Nebulosity.cpp:400
+msgid "Remove Bad Pixels: RAW Color"
+msgstr ""
+
+#: ../Nebulosity.cpp:400
+msgid "Remove bad pixels from a set of RAW color images"
+msgstr ""
+
+#: ../Nebulosity.cpp:401
+msgid "Remove Bad Pixels: B&&W"
+msgstr ""
+
+#: ../Nebulosity.cpp:401
+msgid "Remove bad pixels from a set of B&W images"
+msgstr ""
+
+#: ../Nebulosity.cpp:402
+msgid "Bad Pixels"
+msgstr ""
+
+#: ../Nebulosity.cpp:404
+msgid "Batch Demosaic+Square RAW color"
+msgstr ""
+
+#: ../Nebulosity.cpp:404
+msgid "Batch recon RAW color recon: Demosaic + Squaring"
+msgstr ""
+
+#: ../Nebulosity.cpp:405
+msgid "Batch Square B&&W "
+msgstr ""
+
+#: ../Nebulosity.cpp:405
+msgid "Batch RAW recon B&W frames: Pixel squaring"
+msgstr ""
+
+#: ../Nebulosity.cpp:407
+msgid "Grade Image Quality (auto)"
+msgstr ""
+
+#: ../Nebulosity.cpp:407
+msgid "Grade images based on quality"
+msgstr ""
+
+#: ../Nebulosity.cpp:408
+msgid "Normalize Intensities"
+msgstr ""
+
+#: ../Nebulosity.cpp:408
+msgid "Normalize image intensities"
+msgstr ""
+
+#: ../Nebulosity.cpp:409
+msgid "Match histograms"
+msgstr ""
+
+#: ../Nebulosity.cpp:409
+msgid "Match image histograms to a reference"
+msgstr ""
+
+#: ../Nebulosity.cpp:411
+msgid "&Align and Combine Images"
+msgstr ""
+
+#: ../Nebulosity.cpp:411
+msgid "Alignment and stacking (all methods)"
+msgstr ""
+
+#: ../Nebulosity.cpp:413
+msgid "&Automatic Alignment (non-stellar)"
+msgstr ""
+
+#: ../Nebulosity.cpp:413
+msgid "Automatic image registration"
+msgstr ""
+
+#: ../Nebulosity.cpp:417
+msgid "2x2 Bin: Sum"
+msgstr ""
+
+#: ../Nebulosity.cpp:417
+msgid "Batch 2x2 bin - sum"
+msgstr ""
+
+#: ../Nebulosity.cpp:418
+msgid "2x2 Bin: Average"
+msgstr ""
+
+#: ../Nebulosity.cpp:418
+msgid "Batch 2x2 bin - average"
+msgstr ""
+
+#: ../Nebulosity.cpp:419
+msgid "2x2 Bin: Adaptive"
+msgstr ""
+
+#: ../Nebulosity.cpp:419
+msgid "Batch 2x2 bin - adaptive"
+msgstr ""
+
+#: ../Nebulosity.cpp:420
+msgid "L-R Mirror"
+msgstr ""
+
+#: ../Nebulosity.cpp:420
+msgid "Batch Left-Right mirror"
+msgstr ""
+
+#: ../Nebulosity.cpp:421
+msgid "U-D Mirror"
+msgstr ""
+
+#: ../Nebulosity.cpp:421
+msgid "Batch Up-Down mirror"
+msgstr ""
+
+#: ../Nebulosity.cpp:422
+msgid "90-CW Rotation"
+msgstr ""
+
+#: ../Nebulosity.cpp:422
+msgid "Batch 90-CW Rotation"
+msgstr ""
+
+#: ../Nebulosity.cpp:423
+msgid "180 Rotation"
+msgstr ""
+
+#: ../Nebulosity.cpp:423
+msgid "Batch 180 Rotation"
+msgstr ""
+
+#: ../Nebulosity.cpp:424
+msgid "90-CCW Rotation"
+msgstr ""
+
+#: ../Nebulosity.cpp:424
+msgid "Batch 90-CCW Rotation"
+msgstr ""
+
+#: ../Nebulosity.cpp:425
+msgid "Resize"
+msgstr ""
+
+#: ../Nebulosity.cpp:425
+msgid "Batch Resize"
+msgstr ""
+
+#: ../Nebulosity.cpp:426
+msgid "Crop"
+msgstr ""
+
+#: ../Nebulosity.cpp:426
+msgid "Batch Crop"
+msgstr ""
+
+#: ../Nebulosity.cpp:427
+msgid "Batch Geometry"
+msgstr ""
+
+#: ../Nebulosity.cpp:429
+msgid "FITS to PNG"
+msgstr ""
+
+#: ../Nebulosity.cpp:429
+msgid "Batch convert FITS to 16-bit/color PNG"
+msgstr ""
+
+#: ../Nebulosity.cpp:430
+msgid "FITS to TIFF"
+msgstr ""
+
+#: ../Nebulosity.cpp:430
+msgid "Batch convert FITS to 16-bit/color TIFF"
+msgstr ""
+
+#: ../Nebulosity.cpp:431
+msgid "Graphics File to FITS"
+msgstr ""
+
+#: ../Nebulosity.cpp:431
+msgid "Batch convert BMP, JPG, PNG, etc. to FITS"
+msgstr ""
+
+#: ../Nebulosity.cpp:432
+msgid "DSLR RAW to FITS"
+msgstr ""
+
+#: ../Nebulosity.cpp:433
+msgid "Color to mono"
+msgstr ""
+
+#: ../Nebulosity.cpp:433
+msgid "Batch convert color into mono files"
+msgstr ""
+
+#: ../Nebulosity.cpp:434
+msgid "RGB to 3 separate color"
+msgstr ""
+
+#: ../Nebulosity.cpp:434
+msgid "Batch convert color 3 mono files"
+msgstr ""
+
+#: ../Nebulosity.cpp:436
+msgid "Batch Conversion"
+msgstr ""
+
+#: ../Nebulosity.cpp:438 ../Nebulosity.cpp:454
+msgid "Generic RAW into Luminosity only"
+msgstr ""
+
+#: ../Nebulosity.cpp:438 ../Nebulosity.cpp:454
+msgid "Strip Bayer pattern into Luminosity channel only"
+msgstr ""
+
+#: ../Nebulosity.cpp:439 ../Nebulosity.cpp:455
+msgid "Low-Noise 2x2 Bin"
+msgstr ""
+
+#: ../Nebulosity.cpp:439 ../Nebulosity.cpp:455
+msgid "Adaptive binning for filtered one-shot color images"
+msgstr ""
+
+#: ../Nebulosity.cpp:440 ../Nebulosity.cpp:459
+msgid "RGB camera, Extract R"
+msgstr ""
+
+#: ../Nebulosity.cpp:440 ../Nebulosity.cpp:459
+msgid "Extract R pixels only"
+msgstr ""
+
+#: ../Nebulosity.cpp:441 ../Nebulosity.cpp:462
+msgid "RGB camera, Extract G"
+msgstr ""
+
+#: ../Nebulosity.cpp:441 ../Nebulosity.cpp:462
+msgid "Extract G pixels only (average fields)"
+msgstr ""
+
+#: ../Nebulosity.cpp:442 ../Nebulosity.cpp:463
+msgid "RGB camera, Extract B"
+msgstr ""
+
+#: ../Nebulosity.cpp:442 ../Nebulosity.cpp:463
+msgid "Extract B pixels only"
+msgstr ""
+
+#: ../Nebulosity.cpp:443 ../Nebulosity.cpp:457
+msgid "RGB camera, Nebula filter"
+msgstr ""
+
+#: ../Nebulosity.cpp:443 ../Nebulosity.cpp:457 ../Nebulosity.cpp:458
+msgid "RAW conversion with nebula filter and RGB array"
+msgstr ""
+
+#: ../Nebulosity.cpp:444 ../Nebulosity.cpp:466
+msgid "CMYG camera, Ha filter"
+msgstr ""
+
+#: ../Nebulosity.cpp:445 ../Nebulosity.cpp:467
+msgid "CMYG camera, pure O-III filter"
+msgstr ""
+
+#: ../Nebulosity.cpp:445 ../Nebulosity.cpp:467
+msgid "RAW conversion with pure O-III filter CMYG array"
+msgstr ""
+
+#: ../Nebulosity.cpp:446 ../Nebulosity.cpp:465
+msgid "CMYG camera, Nebula filter"
+msgstr ""
+
+#: ../Nebulosity.cpp:446 ../Nebulosity.cpp:465
+msgid "RAW conversion with nebula filter and CMYG array"
+msgstr ""
+
+#: ../Nebulosity.cpp:447
+msgid "Batch One-shot Color with Line Filters"
+msgstr ""
+
+#: ../Nebulosity.cpp:450
+msgid "De-mosaic RAW (&Faster) + Square"
+msgstr ""
+
+#: ../Nebulosity.cpp:450
+msgid "Fast: Convert RAW image to color image"
+msgstr ""
+
+#: ../Nebulosity.cpp:451
+msgid "&De-mosaic RAW (Best quality) + Square\tCtrl+B"
+msgstr ""
+
+#: ../Nebulosity.cpp:451
+msgid "Best quality: Convert RAW image to color image"
+msgstr ""
+
+#: ../Nebulosity.cpp:452
+msgid "Square B&&W pixels"
+msgstr ""
+
+#: ../Nebulosity.cpp:452
+msgid "Square black and white pixels"
+msgstr ""
+
+#: ../Nebulosity.cpp:458
+msgid "RGB camera, Nebula filter v2"
+msgstr ""
+
+#: ../Nebulosity.cpp:460
+msgid "RGB camera, Extract G1"
+msgstr ""
+
+#: ../Nebulosity.cpp:460
+msgid "Extract G pixels only - Field 1"
+msgstr ""
+
+#: ../Nebulosity.cpp:461
+msgid "RGB camera, Extract G2"
+msgstr ""
+
+#: ../Nebulosity.cpp:461
+msgid "Extract G pixels only - Field 2"
+msgstr ""
+
+#: ../Nebulosity.cpp:466
+msgid "RAW conversion with Ha filter and CMYG array"
+msgstr ""
+
+#: ../Nebulosity.cpp:468
+msgid "One-shot Color with Line Filters"
+msgstr ""
+
+#: ../Nebulosity.cpp:471
+msgid "Crop\tCtrl+K"
+msgstr ""
+
+#: ../Nebulosity.cpp:471
+msgid "Crop imaget"
+msgstr ""
+
+#: ../Nebulosity.cpp:473
+msgid "L-R (Horiz.) Mirror"
+msgstr ""
+
+#: ../Nebulosity.cpp:473
+msgid "Left/Right mirror image"
+msgstr ""
+
+#: ../Nebulosity.cpp:474
+msgid "U-D (Vert.) Mirror"
+msgstr ""
+
+#: ../Nebulosity.cpp:474
+msgid "Up/Down mirror image"
+msgstr ""
+
+#: ../Nebulosity.cpp:475
+msgid "Rotate 90 CW"
+msgstr ""
+
+#: ../Nebulosity.cpp:475
+msgid "Rotate 90 clockwise"
+msgstr ""
+
+#: ../Nebulosity.cpp:476
+msgid "Rotate 90 CCW"
+msgstr ""
+
+#: ../Nebulosity.cpp:476
+msgid "Rotate 90 counter-clockwise"
+msgstr ""
+
+#: ../Nebulosity.cpp:477
+msgid "Rotate 180"
+msgstr ""
+
+#: ../Nebulosity.cpp:477
+msgid "Rotate 180 degrees"
+msgstr ""
+
+#: ../Nebulosity.cpp:478
+msgid "Mirror/Rotate Image"
+msgstr ""
+
+#: ../Nebulosity.cpp:479
+msgid "Resize Image"
+msgstr ""
+
+#: ../Nebulosity.cpp:479
+msgid "Resize / resample image"
+msgstr ""
+
+#: ../Nebulosity.cpp:481
+msgid "Levels / Power Stretch\tCtrl+L"
+msgstr ""
+
+#: ../Nebulosity.cpp:481
+msgid "Apply Levels / Power stretch tool to the image"
+msgstr ""
+
+#: ../Nebulosity.cpp:482
+msgid "Digital Development (DDP)\tCtrl+D"
+msgstr ""
+
+#: ../Nebulosity.cpp:482
+msgid "Digital Development Processing"
+msgstr ""
+
+#: ../Nebulosity.cpp:483
+msgid "Curves\tAlt+C"
+msgstr ""
+
+#: ../Nebulosity.cpp:483
+msgid "Bezier Curves"
+msgstr ""
+
+#: ../Nebulosity.cpp:484
+msgid "&Zero Min"
+msgstr ""
+
+#: ../Nebulosity.cpp:484
+msgid "Reset image min to zero"
+msgstr ""
+
+#: ../Nebulosity.cpp:485
+msgid "&Scale Intensity"
+msgstr ""
+
+#: ../Nebulosity.cpp:485
+msgid "Rescale image by a constant"
+msgstr ""
+
+#: ../Nebulosity.cpp:488
+msgid "Adjust Color Background (Offset)\tCtrl+A"
+msgstr ""
+
+#: ../Nebulosity.cpp:488
+msgid "Subtract color to balance background"
+msgstr ""
+
+#: ../Nebulosity.cpp:489
+msgid "Adjust Color Scaling\tAlt+S"
+msgstr ""
+
+#: ../Nebulosity.cpp:489
+msgid "Rescale each color by a constant"
+msgstr ""
+
+#: ../Nebulosity.cpp:490
+msgid "Auto Color Balance"
+msgstr ""
+
+#: ../Nebulosity.cpp:490
+msgid "Equate color channel histograms"
+msgstr ""
+
+#: ../Nebulosity.cpp:491
+msgid "Adjust Hue / Saturation"
+msgstr ""
+
+#: ../Nebulosity.cpp:491
+msgid "Adjust Hue, Saturation and Lightness"
+msgstr ""
+
+#: ../Nebulosity.cpp:492
+msgid "Discard color (L only)"
+msgstr ""
+
+#: ../Nebulosity.cpp:492
+msgid "Extract luminance data"
+msgstr ""
+
+#: ../Nebulosity.cpp:493
+msgid "LRGB Color Synthesis"
+msgstr ""
+
+#: ../Nebulosity.cpp:493
+msgid "Combine (L)RGB data"
+msgstr ""
+
+#: ../Nebulosity.cpp:497
+msgid "2x2 bin: Sum"
+msgstr ""
+
+#: ../Nebulosity.cpp:497
+msgid "2x2 binning, adding data"
+msgstr ""
+
+#: ../Nebulosity.cpp:498
+msgid "2x2 bin: Average"
+msgstr ""
+
+#: ../Nebulosity.cpp:498
+msgid "2x2 binning, averaging data"
+msgstr ""
+
+#: ../Nebulosity.cpp:499
+msgid "2x2 bin: Adaptive"
+msgstr ""
+
+#: ../Nebulosity.cpp:499
+msgid "2x2 binning, using full scale"
+msgstr ""
+
+#: ../Nebulosity.cpp:500
+msgid "Gaussian blur"
+msgstr ""
+
+#: ../Nebulosity.cpp:506
+msgid "3x3 Pixel Median"
+msgstr ""
+
+#: ../Nebulosity.cpp:506
+msgid "3x3 pixel median"
+msgstr ""
+
+#: ../Nebulosity.cpp:507
+msgid "Bin/Blur Image"
+msgstr ""
+
+#: ../Nebulosity.cpp:509
+msgid "Sharpen"
+msgstr ""
+
+#: ../Nebulosity.cpp:509
+msgid "Traditional sharpen filter"
+msgstr ""
+
+#: ../Nebulosity.cpp:510
+msgid "Laplacian sharpen filter"
+msgstr ""
+
+#: ../Nebulosity.cpp:511
+msgid "Tighten star edges (morphological)\tCtrl+T"
+msgstr ""
+
+#: ../Nebulosity.cpp:511
+msgid "Tighten stars with edge detection"
+msgstr ""
+
+#: ../Nebulosity.cpp:512
+msgid "Unsharp mask"
+msgstr ""
+
+#: ../Nebulosity.cpp:512
+msgid "Sharpen via unsharp mask"
+msgstr ""
+
+#: ../Nebulosity.cpp:513
+msgid "Sharpen image"
+msgstr ""
+
+#: ../Nebulosity.cpp:514
+msgid "&Vertical smoothing (deinterlace)"
+msgstr ""
+
+#: ../Nebulosity.cpp:514
+msgid "Vertical smoothing (deinterlace)"
+msgstr ""
+
+#: ../Nebulosity.cpp:515
+msgid "&Adaptive median noise reduction"
+msgstr ""
+
+#: ../Nebulosity.cpp:515
+msgid "Noise reduction by local adaptive median filtering"
+msgstr ""
+
+#: ../Nebulosity.cpp:516
+msgid "&GREYCstoration noise reduction"
+msgstr ""
+
+#: ../Nebulosity.cpp:516
+msgid "Noise reduction using the GREYCstoration tool"
+msgstr ""
+
+#: ../Nebulosity.cpp:525 ../Nebulosity.cpp:891
+msgid "Main Image"
+msgstr ""
+
+#: ../Nebulosity.cpp:525
+msgid "Toggle main image"
+msgstr ""
+
+#: ../Nebulosity.cpp:527
+msgid "Display Control"
+msgstr ""
+
+#: ../Nebulosity.cpp:527
+msgid "Toggle display control"
+msgstr ""
+
+#: ../Nebulosity.cpp:529 ../Nebulosity.cpp:901
+msgid "Capture Control"
+msgstr ""
+
+#: ../Nebulosity.cpp:529
+msgid "Toggle capture control"
+msgstr ""
+
+#: ../Nebulosity.cpp:531 ../Nebulosity.cpp:1042
+msgid "Notes"
+msgstr ""
+
+#: ../Nebulosity.cpp:531
+msgid "Toggle notes window"
+msgstr ""
+
+#: ../Nebulosity.cpp:533 ../Nebulosity.cpp:1044
+msgid "History"
+msgstr ""
+
+#: ../Nebulosity.cpp:533
+msgid "Toggle history window"
+msgstr ""
+
+#: ../Nebulosity.cpp:535
+msgid "SBIG Control"
+msgstr ""
+
+#: ../Nebulosity.cpp:535
+msgid "SBIG Control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:538
+msgid "QSI Control"
+msgstr ""
+
+#: ../Nebulosity.cpp:538
+msgid "QSI Control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:542
+msgid "QHY9 Control"
+msgstr ""
+
+#: ../Nebulosity.cpp:542
+msgid "QHY9 Control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:546
+msgid "Apogee Control"
+msgstr ""
+
+#: ../Nebulosity.cpp:546
+msgid "Apogee Control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:548
+msgid "FLI Control"
+msgstr ""
+
+#: ../Nebulosity.cpp:548
+msgid "FLI Control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:550
+msgid "Moravian Control"
+msgstr ""
+
+#: ../Nebulosity.cpp:550
+msgid "Moravian Control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:554
+msgid "PHD Link"
+msgstr ""
+
+#: ../Nebulosity.cpp:554
+msgid "PHD Control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:556
+msgid "Ext. Filter Wheel"
+msgstr ""
+
+#: ../Nebulosity.cpp:556
+msgid "External filter wheel control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:558
+msgid "Mini Capture"
+msgstr ""
+
+#: ../Nebulosity.cpp:558
+msgid "Mini Capture Control panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:560
+msgid "Pixel Stats"
+msgstr ""
+
+#: ../Nebulosity.cpp:560
+msgid "Pixel statistics panel"
+msgstr ""
+
+#: ../Nebulosity.cpp:563
+msgid "Reset view"
+msgstr ""
+
+#: ../Nebulosity.cpp:564
+msgid "Reset position"
+msgstr ""
+
+#: ../Nebulosity.cpp:566
+msgid "&About"
+msgstr ""
+
+#: ../Nebulosity.cpp:566
+msgid "About Nebulosity"
+msgstr ""
+
+#: ../Nebulosity.cpp:567
+msgid "View Help"
+msgstr ""
+
+#: ../Nebulosity.cpp:567
+msgid "View Nebulosity manual"
+msgstr ""
+
+#: ../Nebulosity.cpp:568
+msgid "Check Web for Updates"
+msgstr ""
+
+#: ../Nebulosity.cpp:568
+msgid "Check website for updates"
+msgstr ""
+
+#: ../Nebulosity.cpp:574
+msgid "&File"
+msgstr ""
+
+#: ../Nebulosity.cpp:575
+msgid "&Edit"
+msgstr ""
+
+#: ../Nebulosity.cpp:577
+msgid "&Batch"
+msgstr ""
+
+#: ../Nebulosity.cpp:578
+msgid "&Image"
+msgstr ""
+
+#: ../Nebulosity.cpp:580
+msgid "&View"
+msgstr ""
+
+#: ../Nebulosity.cpp:581
+msgid "&Help"
+msgstr ""
+
+#: ../Nebulosity.cpp:658
+msgid "Raw image level to set to black"
+msgstr ""
+
+#: ../Nebulosity.cpp:659
+msgid "Raw image level to set to white"
+msgstr ""
+
+#: ../Nebulosity.cpp:677
+msgid "Zoom"
+msgstr ""
+
+#: ../Nebulosity.cpp:695
+msgid "No camera"
+msgstr ""
+
+#: ../Nebulosity.cpp:696
+msgid "Simulator"
+msgstr ""
+
+#: ../Nebulosity.cpp:753
+msgid "Advanced"
+msgstr ""
+
+#: ../Nebulosity.cpp:772
+msgid "Duration"
+msgstr ""
+
+#: ../Nebulosity.cpp:782
+msgid "Gain       "
+msgstr ""
+
+#: ../Nebulosity.cpp:787
+msgid "Offset"
+msgstr ""
+
+#: ../Nebulosity.cpp:797
+msgid "# Exposures"
+msgstr ""
+
+#: ../Nebulosity.cpp:804
+msgid "Time lapse (s)"
+msgstr ""
+
+#: ../Nebulosity.cpp:814
+msgid "Capture Series"
+msgstr ""
+
+#: ../Nebulosity.cpp:816
+msgid "Preview"
+msgstr ""
+
+#: ../Nebulosity.cpp:819
+msgid "Frame and Focus"
+msgstr ""
+
+#: ../Nebulosity.cpp:821
+msgid "Fine Focus"
+msgstr ""
+
+#: ../Nebulosity.cpp:823
+msgid "Abort"
+msgstr ""
+
+#: ../Nebulosity.cpp:825
+msgid "Directory"
+msgstr ""
+
+#: ../Nebulosity.cpp:829
+msgid "Name"
+msgstr ""
+
+#: ../Nebulosity.cpp:891 ../Nebulosity.cpp:1036
+msgid "Main"
+msgstr ""
+
+#: ../Nebulosity.cpp:893 ../Nebulosity.cpp:1038
+msgid "Display"
+msgstr ""
+
+#: ../Nebulosity.cpp:901 ../Nebulosity.cpp:1040
+msgid "Capture"
+msgstr ""
+
+#: ../Nebulosity.cpp:920
+msgid "Idle"
+msgstr ""
+
+#: ../Nebulosity.cpp:1060
+msgid "ExtFW"
+msgstr ""
+
+#: ../Nebulosity.cpp:1062
+msgid "MiniCapture"
+msgstr ""
+
+#: ../Nebulosity.cpp:1064
+msgid "PixStats"
+msgstr ""
+
+#: ../Nebulosity.cpp:1068
+msgid "View will be reset the next time you start Nebulosity"
+msgstr ""
+
+#: ../Nebulosity.cpp:1397
+msgid " SPAWNED"
+msgstr ""
+
+#: ../Nebulosity.cpp:1417
+msgid "Please choose a language"
+msgstr ""
+
+#: ../Nebulosity.cpp:1417
+msgid "Language"
+msgstr ""
+
+#: ../Nebulosity.cpp:1473
+msgid "Unable to connect to www.stark-labs.com to check for updates"
+msgstr ""
+
+#: ../Nebulosity.cpp:1473 ../Nebulosity.cpp:1496
+msgid "Info"
+msgstr ""
+
+#: ../Nebulosity.cpp:1490
+msgid "Your version is current.  No updates available"
+msgstr ""
+
+#: ../Nebulosity.cpp:1494
+msgid ""
+"A more recent version of Nebulosity is available at: http://www.stark-labs.com\n"
+"\n"
+"Click OK to open your browser and go there or Cancel to download later.\n"
+"\n"
+msgstr ""

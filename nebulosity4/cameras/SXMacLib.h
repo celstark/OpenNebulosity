@@ -1,0 +1,1 @@
+/Users/stark/dev/astroccd/mac/sxVideoCam/sxusbcam.h

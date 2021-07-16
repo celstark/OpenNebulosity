@@ -1,0 +1,3322 @@
+// !$*UTF8*$!
+{
+	5800E0031039B10C00807492 /* geometry.cpp:622 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5821929C0B6682D500E52BC7 /* geometry.cpp */;
+		functionName = "MyFrame::OnBatchGeometry()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 622;
+		location = nebulosity;
+		modificationTime = 345534570.805177;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	580130C1148741DD003AFA7F /* Nebulosity.cpp:1013 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::MyFrame(wxFrame *frame, const wxString& title, const wxPoint& pos, const wxSize& size)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1013;
+		location = nebulosity;
+		modificationTime = 345534570.812631;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	580130CA14874843003AFA7F /* Nebulosity.cpp:1012 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::MyFrame(wxFrame *frame, const wxString& title, const wxPoint& pos, const wxSize& size)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1012;
+		modificationTime = 345534570.812742;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	58044C5411FF4586000C548B /* Opticstar336.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 5473}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 901}";
+		};
+	};
+	58044C5511FF4586000C548B /* Moravian.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1461, 8827}}";
+			sepNavSelRange = "{17230, 62}";
+			sepNavVisRange = "{18199, 1450}";
+		};
+	};
+	58044C5711FF4586000C548B /* Moravian.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 819}}";
+			sepNavSelRange = "{1233, 0}";
+			sepNavVisRange = "{921, 861}";
+		};
+	};
+	58044CA711FF5285000C548B /* scripts.cpp:661 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A72009BE2499005A3E96 /* scripts.cpp */;
+		functionName = "StartScriptServer(bool state, int port)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 661;
+		location = nebulosity;
+		modificationTime = 345534570.807349;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58044CC711FF531C000C548B /* scripts.cpp:281 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A72009BE2499005A3E96 /* scripts.cpp */;
+		functionName = "MyFrame::OnRunScript(wxCommandEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 281;
+		location = nebulosity;
+		modificationTime = 345534570.807425;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58044D3B11FFEDF6000C548B /* scripts.cpp:707 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A72009BE2499005A3E96 /* scripts.cpp */;
+		functionName = "MyFrame::OnScriptServerEvent(wxSocketEvent& event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 707;
+		location = nebulosity;
+		modificationTime = 345534570.807467;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58044D3D11FFEDFA000C548B /* scripts.cpp:733 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A72009BE2499005A3E96 /* scripts.cpp */;
+		functionName = "MyFrame::OnScriptSocketEvent(wxSocketEvent& event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 733;
+		location = nebulosity;
+		modificationTime = 345534570.807569;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58044D8B11FFF625000C548B /* setup_tools.cpp:1032 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58D258290CBE9FB600E3CF5A /* setup_tools.cpp */;
+		functionName = "PHDDialog::OnConnect(wxCommandEvent &evt)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1032;
+		modificationTime = 345534570.807635;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	5806E19D0A72771A00E85E30 /* CIM.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1089, 6916}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1469}";
+			sepNavVisRect = "{{0, 4178}, {965, 590}}";
+			sepNavWindowFrame = "{{330, 152}, {750, 726}}";
+		};
+	};
+	5806E19F0A72772000E85E30 /* drizzle.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 7618}}";
+			sepNavSelRange = "{5817, 0}";
+			sepNavVisRange = "{4870, 689}";
+			sepNavVisRect = "{{0, 906}, {786, 438}}";
+			sepNavWindowFrame = "{{38, 70}, {718, 782}}";
+		};
+	};
+	5807AD9F0C0BC70C0036C117 /* Opticstar335.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 5670}}";
+			sepNavSelRange = "{8432, 47}";
+			sepNavVisRect = "{{0, 2060}, {838, 543}}";
+		};
+	};
+	5807ADA00C0BC70C0036C117 /* Opticstar335.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {686, 436}}";
+			sepNavSelRange = "{418, 16}";
+			sepNavVisRect = "{{0, 0}, {686, 436}}";
+		};
+	};
+	5808EE3F0A7BED1600CB1D62 /* artemis.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 6617}}";
+			sepNavSelRange = "{1097, 27}";
+			sepNavVisRange = "{1996, 1852}";
+			sepNavVisRect = "{{0, 5319}, {1285, 387}}";
+			sepNavWindowFrame = "{{400, 75}, {750, 726}}";
+		};
+	};
+	580914FE0ADEC93C0042AFAB /* preferences.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 517}}";
+			sepNavSelRange = "{164, 15}";
+			sepNavVisRect = "{{0, 0}, {690, 517}}";
+			sepNavWindowFrame = "{{15, 90}, {1030, 783}}";
+		};
+	};
+	5809968413FE22FE0065435E /* focus.cpp:177 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 581A4E180B9E4DC3002C95A7 /* focus.cpp */;
+		functionName = "CalcHFR(fImage& Image, int orig_x, int orig_y)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 177;
+		location = nebulosity;
+		modificationTime = 345534570.811828;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	580AD7E50CB7F454004504CC /* greyc.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1363, 3237}}";
+			sepNavSelRange = "{7425, 43}";
+			sepNavVisRange = "{6445, 1359}";
+			sepNavVisRect = "{{0, 1785}, {965, 590}}";
+		};
+	};
+	580D90390B33968E00018760 /* LRGB.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 624}}";
+			sepNavSelRange = "{143, 0}";
+			sepNavVisRect = "{{0, 0}, {1115, 624}}";
+		};
+	};
+	580D903A0B33968E00018760 /* LRGB.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1053, 5031}}";
+			sepNavSelRange = "{11450, 0}";
+			sepNavVisRange = "{10401, 1140}";
+			sepNavVisRect = "{{0, 438}, {647, 488}}";
+			sepNavWindowFrame = "{{38, 83}, {1077, 769}}";
+		};
+	};
+	580FB2BC10A876CC00AE3868 /* SXV.cpp:259 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::Connect()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 259;
+		location = nebulosity;
+		modificationTime = 345534570.805526;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5810A77010BB4BED00AFA6CE /* alignment.cpp:1774 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70609BE2499005A3E96 /* alignment.cpp */;
+		functionName = "FixedCombine(int comb_method, wxArrayString &paths, wxArrayString &filenames, wxString &out_dir, bool save_file)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1774;
+		location = nebulosity;
+		modificationTime = 345534570.805718;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5810A78810BB504700AFA6CE /* alignment.cpp:1573 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70609BE2499005A3E96 /* alignment.cpp */;
+		functionName = "FixedCombine(int comb_method, wxArrayString &paths, wxArrayString &filenames, wxString &out_dir, bool save_file)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1573;
+		location = nebulosity;
+		modificationTime = 345534570.80574;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5810A81610BE602C00AFA6CE /* autoalign.cpp:284 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 589EEBC8109CF183003418B2 /* autoalign.cpp */;
+		functionName = "MyFrame::OnAutoAlign(wxCommandEvent& WXUNUSED(evt))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 284;
+		location = nebulosity;
+		modificationTime = 345534570.805802;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5810A87310BFB05400AFA6CE /* image_io.cpp:539 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71309BE2499005A3E96 /* image_io.cpp */;
+		functionName = "SaveTempTIFF(fImage &orig_img, const wxString base_fname, int mode)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 539;
+		location = nebulosity;
+		modificationTime = 345534570.805836;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5810A88C10BFB3AC00AFA6CE /* image_io.cpp:655 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71309BE2499005A3E96 /* image_io.cpp */;
+		functionName = "SaveTempTIFF(fImage &orig_img, const wxString base_fname, int mode)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 655;
+		location = nebulosity;
+		modificationTime = 345534570.806187;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5810A8F910BFC0BE00AFA6CE /* autoalign.cpp:612 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 589EEBC8109CF183003418B2 /* autoalign.cpp */;
+		functionName = "MyFrame::OnAutoAlign(wxCommandEvent& WXUNUSED(evt))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 612;
+		location = nebulosity;
+		modificationTime = 345534570.806321;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5810A94110C03E1200AFA6CE /* autoalign.cpp:654 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 589EEBC8109CF183003418B2 /* autoalign.cpp */;
+		functionName = "MyFrame::OnAutoAlign(wxCommandEvent& WXUNUSED(evt))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 654;
+		location = nebulosity;
+		modificationTime = 345534570.806368;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	581465E50C280F3C0036037A /* CanonTest */ = {
+		activeExec = 0;
+		executables = (
+			581465E70C280F3C0036037A /* CanonTest */,
+		);
+	};
+	581465E70C280F3C0036037A /* CanonTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CanonTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	581465ED0C280F930036037A /* CanonTest.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 5785}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{14790, 1086}";
+			sepNavVisRect = "{{0, 5939}, {1016, 389}}";
+		};
+	};
+	5819C49A140ABDA8006B5B5B /* QSI500.cpp:163 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5895D9260D616CE600B19589 /* QSI500.cpp */;
+		functionName = "Cam_QSI500Class::Connect()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 163;
+		location = nebulosity;
+		modificationTime = 345534570.812197;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	581A4E170B9E4DC3002C95A7 /* focus.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {830, 406}}";
+			sepNavSelRange = "{250, 61}";
+			sepNavVisRect = "{{0, 0}, {830, 406}}";
+		};
+	};
+	581A4E180B9E4DC3002C95A7 /* focus.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 3042}}";
+			sepNavSelRange = "{4778, 0}";
+			sepNavVisRange = "{910, 598}";
+			sepNavVisRect = "{{0, 369}, {799, 350}}";
+		};
+	};
+	581C83130BAF1A9F0051AACE /* Q8HR.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 6656}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1044}";
+			sepNavVisRect = "{{0, 6437}, {978, 591}}";
+		};
+	};
+	581C83140BAF1A9F0051AACE /* Q8HR.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 695}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {973, 695}}";
+		};
+	};
+	5821929C0B6682D500E52BC7 /* geometry.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2133, 8372}}";
+			sepNavSelRange = "{18346, 0}";
+			sepNavVisRange = "{16883, 2441}";
+			sepNavVisRect = "{{0, 2688}, {799, 350}}";
+			sepNavWindowFrame = "{{260, 76}, {843, 784}}";
+		};
+	};
+	58242BD00C35D9D2001F7E4A /* qhy268.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 7150}}";
+			sepNavSelRange = "{10990, 0}";
+			sepNavVisRange = "{10336, 972}";
+			sepNavVisRect = "{{0, 1157}, {1016, 389}}";
+		};
+	};
+	58242BD10C35D9D2001F7E4A /* qhy268.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 577}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1069, 577}}";
+		};
+	};
+	58249515128B00EB00E2A072 /* Opticstar615.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 5759}}";
+			sepNavSelRange = "{5979, 15}";
+			sepNavVisRange = "{5339, 1473}";
+		};
+	};
+	58249576128BC3DF00E2A072 /* display.cpp:644 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70E09BE2499005A3E96 /* display.cpp */;
+		functionName = "MyCanvas::OnPaint(wxPaintEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 644;
+		location = nebulosity;
+		modificationTime = 345534570.809764;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582CDCA5108E09980015ADD4 /* clock.cpp:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70A09BE2499005A3E96 /* clock.cpp */;
+		functionName = "MyFrame::UpdateTime()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		location = nebulosity;
+		modificationTime = 345534570.805417;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582E4656103F0E2D00BFB987 /* preferences.cpp:91 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 585C82ED0ABB0D0A0095F5FA /* preferences.cpp */;
+		functionName = "PropertyDialog::PropertyDialog()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 91;
+		location = nebulosity;
+		modificationTime = 345534570.805322;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	582ECEC9148FFB62002F8602 /* preprocess.cpp:2411 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71E09BE2499005A3E96 /* preprocess.cpp */;
+		functionName = "MyFrame::OnPreProcessMulti(wxCommandEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2411;
+		location = nebulosity;
+		modificationTime = 345534570.8128371;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ECEDC14900E6B002F8602 /* Nebulosity.cpp:1919 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::OnIdle(wxIdleEvent& WXUNUSED(evt))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1919;
+		location = nebulosity;
+		modificationTime = 345534570.8130031;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ECF1414901A60002F8602 /* alignment.cpp:1185 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70609BE2499005A3E96 /* alignment.cpp */;
+		functionName = "FixedCombine(int comb_method, wxArrayString &paths, wxString &out_dir, bool save_file)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1185;
+		location = nebulosity;
+		modificationTime = 345534570.813176;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ECFBF14955BDC002F8602 /* preprocess.cpp:800 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71E09BE2499005A3E96 /* preprocess.cpp */;
+		functionName = "PreProcessSet (wxString dark_fname, wxString flat_fname, wxString bias_fname, wxArrayString light_fnames, int flat_proc_mode, int dark_proc_mode)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 800;
+		location = nebulosity;
+		modificationTime = 345534570.813347;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ECFD5149561F4002F8602 /* preprocess.cpp:180 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71E09BE2499005A3E96 /* preprocess.cpp */;
+		functionName = "BadPixelDialog::OnSliderUpdate(wxScrollEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 180;
+		location = nebulosity;
+		modificationTime = 345534570.813452;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ECFDA1495636C002F8602 /* preprocess.cpp:259 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71E09BE2499005A3E96 /* preprocess.cpp */;
+		functionName = "MyFrame::OnMakeBadPixelMap(wxCommandEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 259;
+		location = nebulosity;
+		modificationTime = 345534570.813542;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ECFF114956835002F8602 /* preprocess.cpp:269 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71E09BE2499005A3E96 /* preprocess.cpp */;
+		functionName = "MyFrame::OnMakeBadPixelMap(wxCommandEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 269;
+		location = nebulosity;
+		modificationTime = 345534570.813647;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ED010149580C3002F8602 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 585277320B60641B000EC3A9 /* preview.cpp */;
+		name = "preview.cpp: 171";
+		rLen = 0;
+		rLoc = 6130;
+		rType = 0;
+		vrLen = 2194;
+		vrLoc = 4882;
+	};
+	582ED011149580C3002F8602 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71F09BE2499005A3E96 /* preprocess.h */;
+		name = "preprocess.h: 30";
+		rLen = 0;
+		rLoc = 519;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 326;
+	};
+	582ED01B14958193002F8602 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71809BE2499005A3E96 /* main_classes.h */;
+		name = "main_classes.h: 34";
+		rLen = 0;
+		rLoc = 901;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 316;
+	};
+	582ED06E14959635002F8602 /* file_tools.cpp:1317 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71109BE2499005A3E96 /* file_tools.cpp */;
+		functionName = "LibRAWLoad(fImage& Image, wxString &fname)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1317;
+		location = nebulosity;
+		modificationTime = 345534570.813794;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ED0751495A68B002F8602 /* file_tools.cpp:1343 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71109BE2499005A3E96 /* file_tools.cpp */;
+		functionName = "LibRAWLoad(fImage& Image, wxString &fname)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1343;
+		location = nebulosity;
+		modificationTime = 345534570.813903;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582ED08F14986075002F8602 /* iostream */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = iostream;
+		path = "/Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/iostream";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 1040}}";
+			sepNavSelRange = "{2873, 0}";
+			sepNavVisRange = "{1264, 1694}";
+		};
+	};
+	582ED18514987114002F8602 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71109BE2499005A3E96 /* file_tools.cpp */;
+		name = "file_tools.cpp: 1241";
+		rLen = 38;
+		rLoc = 42711;
+		rType = 0;
+		vrLen = 844;
+		vrLoc = 42686;
+	};
+	582EDEBF0E62093E00B7354E /* Opticstar142.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 4979}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 804}";
+			sepNavVisRect = "{{0, 4599}, {1175, 273}}";
+		};
+	};
+	582EDEC00E62093E00B7354E /* Opticstar142.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 515}}";
+			sepNavSelRange = "{0, 523}";
+			sepNavVisRect = "{{0, 0}, {862, 515}}";
+		};
+	};
+	582F358C13A7BC8600975C32 /* Nebulosity.cpp:1879 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::OnClose(wxCloseEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1879;
+		location = nebulosity;
+		modificationTime = 345534570.810766;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	582F359F13A7BDBF00975C32 /* Nebulosity.cpp:1870 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::OnQuit(wxCommandEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1870;
+		location = nebulosity;
+		modificationTime = 345534570.810905;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	583308C00AF69CAC000A9E0D /* NGC.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1073, 543}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 489}";
+			sepNavVisRect = "{{0, 0}, {787, 563}}";
+			sepNavWindowFrame = "{{15, 297}, {857, 578}}";
+		};
+	};
+	583308C10AF69CAC000A9E0D /* NGC.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1073, 4433}}";
+			sepNavSelRange = "{5297, 0}";
+			sepNavVisRange = "{4887, 1037}";
+			sepNavVisRect = "{{0, 2523}, {1016, 389}}";
+			sepNavWindowFrame = "{{140, 167}, {857, 578}}";
+		};
+	};
+	58347361119F78B60005833E /* alignment.cpp:1086 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70609BE2499005A3E96 /* alignment.cpp */;
+		functionName = "AverageAlign()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1086;
+		location = nebulosity;
+		modificationTime = 345534570.807182;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5835AE240B6CEE84006EC993 /* SXV.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 16406}}";
+			sepNavSelRange = "{22661, 0}";
+			sepNavVisRange = "{21730, 1298}";
+			sepNavVisRect = "{{24, 8006}, {742, 565}}";
+			sepNavWindowFrame = "{{565, 67}, {843, 784}}";
+		};
+	};
+	5835AE250B6CEE84006EC993 /* SXV.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {958, 741}}";
+			sepNavSelRange = "{140, 0}";
+			sepNavVisRange = "{0, 739}";
+			sepNavVisRect = "{{0, 0}, {1052, 641}}";
+			sepNavWindowFrame = "{{565, 67}, {843, 784}}";
+		};
+	};
+	583ED74C0FC7BA540043E9D8 /* qhy9.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 975}}";
+			sepNavSelRange = "{542, 0}";
+			sepNavVisRange = "{0, 828}";
+		};
+	};
+	583ED74D0FC7BA540043E9D8 /* qhy9.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 8788}}";
+			sepNavSelRange = "{1095, 0}";
+			sepNavVisRange = "{18835, 687}";
+			sepNavVisRect = "{{0, 3178}, {965, 590}}";
+		};
+	};
+	583FECA60B39C00D00495689 /* Starfish.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {826, 547}}";
+			sepNavSelRange = "{473, 57}";
+			sepNavVisRange = "{0, 646}";
+			sepNavVisRect = "{{0, 0}, {710, 525}}";
+			sepNavWindowFrame = "{{593, 77}, {1030, 783}}";
+		};
+	};
+	583FECA70B39C00D00495689 /* Starfish.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 5213}}";
+			sepNavSelRange = "{7256, 0}";
+			sepNavVisRange = "{6722, 951}";
+			sepNavVisRect = "{{0, 661}, {690, 517}}";
+			sepNavWindowFrame = "{{34, 76}, {843, 784}}";
+		};
+	};
+	5844005F112462C600AE5327 /* alignment.cpp:842 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70609BE2499005A3E96 /* alignment.cpp */;
+		functionName = "AverageAlign()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 842;
+		location = nebulosity;
+		modificationTime = 345534570.806572;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	584503AB1094D4C000273CE4 /* display.cpp:377 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70E09BE2499005A3E96 /* display.cpp */;
+		functionName = "MyCanvas::UpdateDisplayedBitmap(bool fast_update_stats)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 377;
+		location = nebulosity;
+		modificationTime = 345534570.8054429;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	584503FB1094F33E00273CE4 /* QSI500.cpp:169 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5895D9260D616CE600B19589 /* QSI500.cpp */;
+		functionName = "Cam_QSI500Class::Connect()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 169;
+		modificationTime = 345534570.8054649;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	584B7D2B1356B3FC001A5FB8 /* canon_cr2.cpp:379 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5867497C0A9DEEEA003D4F5F /* canon_cr2.cpp */;
+		functionName = "MyFrame::OnLoadCR2(wxCommandEvent & event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 379;
+		location = nebulosity;
+		modificationTime = 345534570.810452;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	584B7D4E13573FDA001A5FB8 /* CanonDSLR.cpp:355 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */;
+		functionName = "MemStreamToRAWCurrImage(EdsStreamRef stream)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 355;
+		location = nebulosity;
+		modificationTime = 345534570.8106111;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5850204D13C7C46C00EFFCE8 /* debayer.cpp:885 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70C09BE2499005A3E96 /* debayer.cpp */;
+		functionName = "VNG_Interpolate_MT(int array_type, int xoff, int yoff, int trim)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 885;
+		location = nebulosity;
+		modificationTime = 345534570.8112569;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	585020B013C8E15400EFFCE8 /* debayer.cpp:885 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70C09BE2499005A3E96 /* debayer.cpp */;
+		functionName = "VNG_Interpolate_MT(int array_type, int xoff, int yoff, int trim)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 885;
+		location = nebulosity;
+		modificationTime = 345534570.811422;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5850210E13C902AF00EFFCE8 /* debayer.cpp:867 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70C09BE2499005A3E96 /* debayer.cpp */;
+		functionName = "VNG_Interpolate_MT(int array_type, int xoff, int yoff, int trim)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 867;
+		location = nebulosity;
+		modificationTime = 345534570.81156;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	585257B21339A6F70069B282 /* camera.cpp:1197 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70809BE2499005A3E96 /* camera.cpp */;
+		functionName = "SetupCameraVars()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1197;
+		location = nebulosity;
+		modificationTime = 345534570.810089;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	585257C81339A8820069B282 /* Nebulosity.cpp:2507 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::OnExpCtrlUpdate(wxCommandEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2507;
+		location = nebulosity;
+		modificationTime = 345534570.810155;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	585257CA1339A88C0069B282 /* Nebulosity.cpp:2469 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::OnExpCtrlSpinUpdate(wxSpinEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2469;
+		location = nebulosity;
+		modificationTime = 345534570.810202;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	585277320B60641B000EC3A9 /* preview.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2133, 4368}}";
+			sepNavSelRange = "{6130, 0}";
+			sepNavVisRange = "{1234, 2897}";
+			sepNavVisRect = "{{0, 826}, {799, 350}}";
+			sepNavWindowFrame = "{{50, 320}, {750, 558}}";
+		};
+	};
+	58554BE70E2E4D8400F73972 /* nebulosity1 */ = {
+		activeExec = 0;
+		executables = (
+			58554C3B0E2E4D8400F73972 /* nebulosity1 */,
+		);
+	};
+	58554C3B0E2E4D8400F73972 /* nebulosity1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = nebulosity1;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	585B73B1123B4243007A5F5A /* SXV.cpp:815 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::CaptureFineFocus(int click_x, int click_y)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 815;
+		location = nebulosity;
+		modificationTime = 345534570.8096889;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	585C82ED0ABB0D0A0095F5FA /* preferences.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 16926}}";
+			sepNavSelRange = "{12344, 0}";
+			sepNavVisRange = "{12343, 1642}";
+			sepNavVisRect = "{{0, 8484}, {799, 350}}";
+			sepNavWindowFrame = "{{11, 59}, {1002, 799}}";
+		};
+	};
+	5867497C0A9DEEEA003D4F5F /* canon_cr2.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 12558}}";
+			sepNavSelRange = "{12091, 0}";
+			sepNavVisRange = "{14757, 1123}";
+			sepNavVisRect = "{{0, 4076}, {978, 739}}";
+			sepNavWindowFrame = "{{163, 78}, {1002, 799}}";
+		};
+	};
+	586B3DC80B8F3F7D004B0C55 /* SBIG.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 767}}";
+			sepNavSelRange = "{701, 0}";
+			sepNavVisRange = "{409, 881}";
+			sepNavVisRect = "{{0, 295}, {647, 488}}";
+		};
+	};
+	586B3DC90B8F3F7D004B0C55 /* SBIG.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1238, 11622}}";
+			sepNavSelRange = "{18411, 36}";
+			sepNavVisRange = "{261, 1358}";
+			sepNavVisRect = "{{0, 1482}, {965, 590}}";
+		};
+	};
+	586B6D730E1051DD00FBD251 /* artemis.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {647, 518}}";
+			sepNavSelRange = "{533, 0}";
+			sepNavVisRect = "{{0, 0}, {647, 488}}";
+		};
+	};
+	587B2B73143176160094FDE9 /* main_classes.cpp:164 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71709BE2499005A3E96 /* main_classes.cpp */;
+		functionName = "fImage::InitCopyROI(fImage& src, int x1, int y1, int x2, int y2)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 164;
+		location = nebulosity;
+		modificationTime = 345534570.812341;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	587B2B7F143177260094FDE9 /* main_classes.cpp:237 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71709BE2499005A3E96 /* main_classes.cpp */;
+		functionName = "fImage::InitCopyROI(fImage& src, int x1, int y1, int x2, int y2)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 237;
+		location = nebulosity;
+		modificationTime = 345534570.812421;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	587B2B8414317A3E0094FDE9 /* *0x000d2b4c */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = nebulosity;
+		modificationTime = 345534570.819534;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = "*0x000d2b4c";
+	};
+	5881D1A60ADFBDE10071BE95 /* DSUSB.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1072, 4628}}";
+			sepNavSelRange = "{230, 23}";
+			sepNavVisRange = "{401, 890}";
+			sepNavVisRect = "{{0, 630}, {799, 350}}";
+		};
+	};
+	5881D1A70ADFBDE10071BE95 /* DSUSB.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1072, 546}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{74, 1071}";
+			sepNavVisRect = "{{0, 0}, {777, 487}}";
+		};
+	};
+	588227AF14675FC100E44118 /* camera.cpp:1385 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70809BE2499005A3E96 /* camera.cpp */;
+		functionName = "IdentifyCamera()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1385;
+		location = nebulosity;
+		modificationTime = 345534570.812502;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5883B4560AD6F37500D45DB9 /* canon_cr2.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 456}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 497}";
+			sepNavVisRect = "{{0, 0}, {847, 522}}";
+			sepNavWindowFrame = "{{60, 58}, {1009, 820}}";
+		};
+	};
+	588509AE11F9F3AF000F721C /* SXV.cpp:245 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::Connect()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 245;
+		location = nebulosity;
+		modificationTime = 345534570.807289;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	588898430ED4D7CD005B8BF4 /* serialport.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 754}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1197}";
+			sepNavVisRect = "{{0, 121}, {862, 515}}";
+		};
+	};
+	5888A1D0108049A50040E36E /* greyc.cpp:105 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 580AD7E50CB7F454004504CC /* greyc.cpp */;
+		functionName = "GREYCDialog::OnPropChanged(wxPropertyGridEvent& event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 105;
+		location = nebulosity;
+		modificationTime = 345534570.805355;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5889E792113A350B0042F472 /* preprocess.cpp:2122 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71E09BE2499005A3E96 /* preprocess.cpp */;
+		functionName = "MultiPreprocDialog::CheckValid(wxString &errmsg)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2122;
+		location = nebulosity;
+		modificationTime = 345534570.8066069;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	5889E7EF113B8D4E0042F472 /* preprocess.cpp:2287 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71E09BE2499005A3E96 /* preprocess.cpp */;
+		functionName = "MyFrame::OnPreProcessMulti(wxCommandEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2287;
+		location = nebulosity;
+		modificationTime = 345534570.806645;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	588F8AC3117FE8E60088B493 /* CanonDSLR.cpp:1533 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */;
+		functionName = "Cam_CanonDSLRClass::Capture()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1533;
+		location = nebulosity;
+		modificationTime = 345534570.806846;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	588F8B1B118007C00088B493 /* CanonDSLR.cpp:2560 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */;
+		functionName = "Cam_CanonDSLRClass::OpenLEShutter()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2560;
+		modificationTime = 345534570.80689;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	5890308D10B4CFF500AFE1C7 /* Nebulosity.cpp:1990 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::OnCheckUpdate(wxCommandEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1990;
+		modificationTime = 345534570.805562;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	589030B510B4D10300AFE1C7 /* DSSView.cpp:313 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5896DAFC1038F08E00754FA2 /* DSSView.cpp */;
+		functionName = "DSSDialog::OnLoadButton(wxCommandEvent& WXUNUSED(evt))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 313;
+		modificationTime = 345534570.805587;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	5890BE670DFCF9C900285D09 /* mersenne.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {639, 2842}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1782}";
+			sepNavVisRect = "{{0, 0}, {965, 590}}";
+		};
+	};
+	589504D811E51E2200F5561C /* Nebulosity.cpp:292 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyApp::OnInit(void)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 292;
+		modificationTime = 345534570.807245;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	5895D9250D616CE600B19589 /* QSI500.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 585}}";
+			sepNavSelRange = "{540, 0}";
+			sepNavVisRange = "{0, 930}";
+			sepNavVisRect = "{{0, 0}, {965, 590}}";
+		};
+	};
+	5895D9260D616CE600B19589 /* QSI500.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 11063}}";
+			sepNavSelRange = "{20181, 0}";
+			sepNavVisRange = "{0, 821}";
+			sepNavVisRect = "{{0, 3586}, {838, 543}}";
+		};
+	};
+	5895D9280D616CE600B19589 /* QHY2Pro.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 5837}}";
+			sepNavSelRange = "{8324, 0}";
+			sepNavVisRange = "{7583, 890}";
+			sepNavVisRect = "{{0, 2690}, {838, 543}}";
+		};
+	};
+	5896DAFC1038F08E00754FA2 /* DSSView.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 5187}}";
+			sepNavSelRange = "{3716, 6}";
+			sepNavVisRange = "{2998, 1965}";
+			sepNavVisRect = "{{0, 4534}, {799, 350}}";
+		};
+	};
+	5896DAFD1038F08E00754FA2 /* Apogee.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 6825}}";
+			sepNavSelRange = "{7398, 0}";
+			sepNavVisRange = "{8479, 844}";
+			sepNavVisRect = "{{0, 6629}, {799, 350}}";
+		};
+	};
+	5896DAFE1038F08E00754FA2 /* Apogee.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 598}}";
+			sepNavSelRange = "{656, 0}";
+			sepNavVisRange = "{126, 741}";
+		};
+	};
+	5897831A0ED091ED00807186 /* nikon.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1072, 1235}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{33, 723}";
+			sepNavVisRect = "{{0, 684}, {965, 590}}";
+		};
+	};
+	5897831B0ED091ED00807186 /* nikon.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1072, 20943}}";
+			sepNavSelRange = "{253, 0}";
+			sepNavVisRange = "{0, 777}";
+			sepNavVisRect = "{{0, 12228}, {787, 563}}";
+		};
+	};
+	589D2A1B1228C39C00969972 /* SXV.cpp:459 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::Capture ()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 459;
+		location = nebulosity;
+		modificationTime = 345534570.807727;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	589D2A3E1228C67400969972 /* SXV.cpp:551 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::Capture ()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 551;
+		location = nebulosity;
+		modificationTime = 345534570.807786;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	589EB7E90B011852009CAA3B /* DsiDevice.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 2470}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1183}";
+			sepNavVisRect = "{{0, 0}, {647, 488}}";
+			sepNavWindowFrame = "{{436, 122}, {857, 578}}";
+		};
+	};
+	589EB7F80B0119AA009CAA3B /* MeadeDSI.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 7566}}";
+			sepNavSelRange = "{9172, 0}";
+			sepNavVisRange = "{8350, 1026}";
+			sepNavVisRect = "{{0, 7518}, {965, 590}}";
+			sepNavWindowFrame = "{{425, 168}, {857, 578}}";
+		};
+	};
+	589EB7F90B0119AA009CAA3B /* MeadeDSI.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {830, 582}}";
+			sepNavSelRange = "{575, 26}";
+			sepNavVisRect = "{{0, 0}, {830, 582}}";
+			sepNavWindowFrame = "{{304, 1188}, {857, 578}}";
+		};
+	};
+	589EEBC8109CF183003418B2 /* autoalign.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 11284}}";
+			sepNavSelRange = "{8269, 0}";
+			sepNavVisRange = "{8267, 521}";
+		};
+	};
+	589EEBCD109CF1B6003418B2 /* autoalign.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1099, 483}}";
+			sepNavSelRange = "{170, 0}";
+			sepNavVisRange = "{0, 291}";
+		};
+	};
+	58A07C93104C82D100935597 /* FLI.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 6747}}";
+			sepNavSelRange = "{7154, 56}";
+			sepNavVisRange = "{8811, 919}";
+		};
+	};
+	58A07C94104C82D100935597 /* FLI.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 624}}";
+			sepNavSelRange = "{615, 0}";
+			sepNavVisRange = "{123, 699}";
+		};
+	};
+	58A7772213B4362A00255109 /* drizzle.cpp:118 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5806E19F0A72772000E85E30 /* drizzle.cpp */;
+		functionName = "DrizzleThread::Entry()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 118;
+		location = nebulosity;
+		modificationTime = 345534570.810952;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58A7772813B436A800255109 /* drizzle.cpp:462 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5806E19F0A72772000E85E30 /* drizzle.cpp */;
+		functionName = "Drizzle()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 462;
+		location = nebulosity;
+		modificationTime = 345534570.811047;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58A7777213B44F1400255109 /* image_manip.cpp:2555 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71409BE2499005A3E96 /* image_manip.cpp */;
+		functionName = "BCurveDialog::BezierStretch()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2555;
+		location = nebulosity;
+		modificationTime = 345534570.811115;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58A7903010B5A76800A645B1 /* main_classes.cpp:356 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71709BE2499005A3E96 /* main_classes.cpp */;
+		functionName = "Dialog_Hist_Window::OnPaint(wxPaintEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 356;
+		location = nebulosity;
+		modificationTime = 345534570.8056871;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58AFAE5E122E0848001BCFF5 /* Nebulosity.cpp:3066 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::TempFunc (wxCommandEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 3066;
+		location = nebulosity;
+		modificationTime = 345534570.808133;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58AFAEA8122EA45D001BCFF5 /* Nebulosity.cpp:2985 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::TempFunc (wxCommandEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2985;
+		location = nebulosity;
+		modificationTime = 345534570.8082219;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58AFAFD71232F98E001BCFF5 /* code_graveyard */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {958, 2275}}";
+			sepNavSelRange = "{6105, 0}";
+			sepNavVisRange = "{0, 1473}";
+		};
+	};
+	58AFB1311235F86D001BCFF5 /* SXV.cpp:1090 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::GetTECTemp()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1090;
+		location = nebulosity;
+		modificationTime = 345534570.808322;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58AFB1521235FBA4001BCFF5 /* camera.cpp:425 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70809BE2499005A3E96 /* camera.cpp */;
+		functionName = "MyFrame::OnCameraChoice(wxCommandEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 425;
+		location = nebulosity;
+		modificationTime = 345534570.80836;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58AFB15E1235FC7F001BCFF5 /* SXV.cpp:90 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::Connect()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 90;
+		location = nebulosity;
+		modificationTime = 345534570.8084871;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58AFB1601235FCBD001BCFF5 /* SXV.cpp:1072 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::SetTEC(bool state, int temp)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1072;
+		location = nebulosity;
+		modificationTime = 345534570.8086;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58B3F39C0EAF913400EDDB3A /* Opticstar142c.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {939, 5166}}";
+			sepNavSelRange = "{9870, 0}";
+			sepNavVisRect = "{{0, 4569}, {939, 534}}";
+		};
+	};
+	58B3F39D0EAF913400EDDB3A /* Opticstar142c.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 515}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 515}}";
+		};
+	};
+	58BACBD10E70DDAB004ED49A /* nebulosity 2IL */ = {
+		activeExec = 0;
+		executables = (
+			58BACC250E70DDAB004ED49A /* nebulosity 2IL */,
+		);
+	};
+	58BACC250E70DDAB004ED49A /* nebulosity 2IL */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "nebulosity 2IL";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$ss = 1;
+			"cur_pos-unsigned int-MyFrame::OnLoadCR2" = 1;
+			"fpos2-unsigned int-MyFrame::OnLoadCR2" = 1;
+			"p1-int-MyFrame::OnLoadCR2" = 1;
+			"p2-int-MyFrame::OnLoadCR2" = 1;
+			"ulCapID-long unsigned int-NK_SetEnumUnsignedCapability" = 1;
+			"ulID-long unsigned int-NK_SetEnumUnsignedCapability" = 1;
+		};
+	};
+	58BC0E3A12EB824D00576485 /* CanonDSLR.cpp:2304 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */;
+		functionName = "Cam_CanonDSLRClass::GetLiveViewImage()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2304;
+		location = nebulosity;
+		modificationTime = 345534570.809871;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58BC0F7D12EF31E800576485 /* CanonDSLR.cpp:1976 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */;
+		functionName = "Cam_CanonDSLRClass::CaptureFineFocus(int click_x, int click_y)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1976;
+		location = nebulosity;
+		modificationTime = 345534570.809948;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58BCBACC10EC03340061A7AC /* ext_filterwheel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1072, 1404}}";
+			sepNavSelRange = "{160, 75}";
+			sepNavVisRange = "{0, 948}";
+		};
+	};
+	58BCBACD10EC03340061A7AC /* ext_filterwheel.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1072, 4303}}";
+			sepNavSelRange = "{3108, 12}";
+			sepNavVisRange = "{2863, 977}";
+		};
+	};
+	58BCBB5310EC1B870061A7AC /* ext_filterwheel.cpp:193 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58BCBACD10EC03340061A7AC /* ext_filterwheel.cpp */;
+		functionName = "ExtFW_SXClass::Connect()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 193;
+		modificationTime = 345534570.806447;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	58BDAAFB1348DB87007A9672 /* setup_tools.cpp:1242 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58D258290CBE9FB600E3CF5A /* setup_tools.cpp */;
+		functionName = "PHDDialog::DitherPHD()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1242;
+		location = nebulosity;
+		modificationTime = 345534570.810272;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58C1CBD71159D8AA00DB8BCA /* geometry.cpp:194 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5821929C0B6682D500E52BC7 /* geometry.cpp */;
+		functionName = "MyFrame::OnImageCrop(wxCommandEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 194;
+		modificationTime = 345534570.806682;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	58C1CC52115AEB4A00DB8BCA /* image_math.cpp:1723 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71509BE2499005A3E96 /* image_math.cpp */;
+		functionName = "MatchHistToRef (wxString ref_fname, wxArrayString paths)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1723;
+		location = nebulosity;
+		modificationTime = 345534570.806765;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58C1CC5C115AEC9000DB8BCA /* file_tools.cpp:123 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71109BE2499005A3E96 /* file_tools.cpp */;
+		functionName = "SaveFITS (fImage& Image, wxString fname, int colormode)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 123;
+		location = nebulosity;
+		modificationTime = 345534570.8068089;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58C495971182A5E0002DC33B /* CanonDSLR.cpp:1155 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */;
+		functionName = "Cam_CanonDSLRClass::Connect()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1155;
+		location = nebulosity;
+		modificationTime = 345534570.806929;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58C4960711839BBF002DC33B /* CanonDSLR.cpp:2400 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */;
+		functionName = "Cam_CanonDSLRClass::OpenLEAdapter()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2400;
+		location = nebulosity;
+		modificationTime = 345534570.8069631;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58C77D221262C8F50013EA11 /* ASCOMLateCamera.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 15353}}";
+			sepNavSelRange = "{26036, 21}";
+			sepNavVisRange = "{25465, 1157}";
+		};
+	};
+	58C83D3C1237498000E0CD14 /* display.cpp:133 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A70E09BE2499005A3E96 /* display.cpp */;
+		functionName = "SetUIState(bool state)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 133;
+		location = nebulosity;
+		modificationTime = 345534570.808714;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58C83D5112374A6300E0CD14 /* Nebulosity.cpp:2379 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::OnPreviewButton(wxCommandEvent &evt)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2379;
+		location = nebulosity;
+		modificationTime = 345534570.809583;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58C83DE21237E9C000E0CD14 /* simulator.cpp:188 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58EE69650A403DAC002BCD28 /* simulator.cpp */;
+		functionName = "Cam_SimClass::Capture()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 188;
+		location = nebulosity;
+		modificationTime = 345534570.809645;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58CB23D80A02AD2E00F24639 /* manual_color_camera.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 2353}}";
+			sepNavSelRange = "{4491, 25}";
+			sepNavVisRange = "{2365, 2945}";
+			sepNavVisRect = "{{0, 952}, {898, 749}}";
+			sepNavWindowFrame = "{{38, 119}, {1110, 733}}";
+		};
+	};
+	58D258290CBE9FB600E3CF5A /* setup_tools.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 23465}}";
+			sepNavSelRange = "{41895, 22}";
+			sepNavVisRange = "{40000, 1809}";
+			sepNavVisRect = "{{0, 18133}, {838, 543}}";
+		};
+	};
+	58D258370CBEA2E300E3CF5A /* setup_tools.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1273, 3172}}";
+			sepNavSelRange = "{1435, 0}";
+			sepNavVisRange = "{724, 1320}";
+			sepNavVisRect = "{{0, 2495}, {838, 543}}";
+		};
+	};
+	58D320A712D8D61900B48745 /* image_math.cpp:1110 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71509BE2499005A3E96 /* image_math.cpp */;
+		functionName = "SquarePixels(float xsize, float ysize)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1110;
+		modificationTime = 345534570.809834;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	58D808050A9C9CB90056433F /* quality.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {958, 577}}";
+			sepNavSelRange = "{213, 0}";
+			sepNavVisRange = "{0, 213}";
+			sepNavVisRect = "{{0, 0}, {690, 517}}";
+			sepNavWindowFrame = "{{15, 74}, {1002, 799}}";
+		};
+	};
+	58D808060A9C9CB90056433F /* quality.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2133, 4498}}";
+			sepNavSelRange = "{9553, 0}";
+			sepNavVisRange = "{8537, 1300}";
+			sepNavVisRect = "{{0, 3914}, {759, 572}}";
+			sepNavWindowFrame = "{{15, 74}, {1002, 799}}";
+		};
+	};
+	58DCCE560DEB0D8200BFD72C /* Opticstar145.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1191, 5096}}";
+			sepNavSelRange = "{8055, 9}";
+			sepNavVisRect = "{{0, 622}, {1191, 558}}";
+		};
+	};
+	58DCCE570DEB0D8200BFD72C /* Opticstar145.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {647, 488}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {647, 488}}";
+		};
+	};
+	58DFD9561405676200EFABCE /* image_manip.cpp:587 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71409BE2499005A3E96 /* image_manip.cpp */;
+		functionName = "MyFrame::OnImageColorBalance(wxCommandEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 587;
+		location = nebulosity;
+		modificationTime = 345534570.81196;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58DFD98714056B4F00EFABCE /* image_manip.cpp:2013 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71409BE2499005A3E96 /* image_manip.cpp */;
+		functionName = "MyImageManipDialog::UpdateColorHist()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2013;
+		location = nebulosity;
+		modificationTime = 345534570.812067;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58E94E6309CC9360006073FB /* nebulosity */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = nebulosity;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$mm0 = 1;
+			$mm1 = 1;
+			$mm2 = 1;
+			$mm3 = 1;
+			$mm4 = 1;
+			$mm5 = 1;
+			$mm6 = 1;
+			$mm7 = 1;
+			$mxcsr = 1;
+			$ss = 1;
+			$xmm0 = 1;
+			$xmm1 = 1;
+			$xmm2 = 1;
+			$xmm3 = 1;
+			$xmm4 = 1;
+			$xmm5 = 1;
+			$xmm6 = 1;
+			$xmm7 = 1;
+			"tag-unsigned int-MyFrame::OnLoadCRW" = 1;
+		};
+	};
+	58E94E7709CC93B0006073FB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	58E94E7809CC93B0006073FB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	58EA49C914A19D47008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71E09BE2499005A3E96 /* preprocess.cpp */;
+		name = "preprocess.cpp: 315";
+		rLen = 0;
+		rLoc = 12452;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 11468;
+	};
+	58EA49EC14A1A02D008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71309BE2499005A3E96 /* image_io.cpp */;
+		name = "image_io.cpp: 680";
+		rLen = 0;
+		rLoc = 23071;
+		rType = 0;
+		vrLen = 1573;
+		vrLoc = 21533;
+	};
+	58EA4A0514A1A17B008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58EA4A0614A1A17B008D8569 /* mac_xhair.xpm */;
+		name = "mac_xhair.xpm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 0;
+	};
+	58EA4A0614A1A17B008D8569 /* mac_xhair.xpm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = mac_xhair.xpm;
+		path = /Users/stark/dev/nebulosity/mac_xhair.xpm;
+		sourceTree = "<absolute>";
+	};
+	58EA4A0714A1A17B008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58EA4A0814A1A17B008D8569 /* stop1.xpm */;
+		name = "stop1.xpm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1267;
+		vrLoc = 0;
+	};
+	58EA4A0814A1A17B008D8569 /* stop1.xpm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = stop1.xpm;
+		path = /Users/stark/dev/PHD/icons/stop1.xpm;
+		sourceTree = "<absolute>";
+	};
+	58EA4A0C14A1A17B008D8569 /* ThreeD_red_v2.xpm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = ThreeD_red_v2.xpm;
+		path = /Users/stark/dev/nebulosity/ThreeD_red_v2.xpm;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 3679}}";
+			sepNavSelRange = "{452, 1}";
+			sepNavVisRange = "{0, 895}";
+		};
+	};
+	58EA4A7214A1A20A008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58EA4A0C14A1A17B008D8569 /* ThreeD_red_v2.xpm */;
+		name = "ThreeD_red_v2.xpm: 26";
+		rLen = 1;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 0;
+	};
+	58EA4AB014A2EEC2008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A72009BE2499005A3E96 /* scripts.cpp */;
+		name = "scripts.cpp: 355";
+		rLen = 0;
+		rLoc = 11808;
+		rType = 0;
+		vrLen = 1585;
+		vrLoc = 14954;
+	};
+	58EA4AC314A2F676008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71B09BE2499005A3E96 /* Nebulosity.h */;
+		name = "Nebulosity.h: 149";
+		rLen = 0;
+		rLoc = 2970;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 443;
+	};
+	58EA4B1814A2FFF3008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */;
+		name = "CanonDSLR.cpp: 1194";
+		rLen = 41;
+		rLoc = 36091;
+		rType = 0;
+		vrLen = 1387;
+		vrLoc = 35024;
+	};
+	58EA4B2D14A30367008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5821929C0B6682D500E52BC7 /* geometry.cpp */;
+		name = "geometry.cpp: 538";
+		rLen = 0;
+		rLoc = 18346;
+		rType = 0;
+		vrLen = 2441;
+		vrLoc = 16883;
+	};
+	58EA4B2E14A30367008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71409BE2499005A3E96 /* image_manip.cpp */;
+		name = "image_manip.cpp: 536";
+		rLen = 4;
+		rLoc = 17158;
+		rType = 0;
+		vrLen = 1521;
+		vrLoc = 16295;
+	};
+	58EA4B3F14A307E8008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71509BE2499005A3E96 /* image_math.cpp */;
+		name = "image_math.cpp: 2125";
+		rLen = 0;
+		rLoc = 74174;
+		rType = 0;
+		vrLen = 2237;
+		vrLoc = 73990;
+	};
+	58EA4B5A14A39349008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A70D09BE2499005A3E96 /* debayer.h */;
+		name = "debayer.h: 13";
+		rLen = 0;
+		rLoc = 583;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 0;
+	};
+	58EA4B5C14A39349008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58FF990C0AA3535400638F98 /* reconstruct.cpp */;
+		name = "reconstruct.cpp: 99";
+		rLen = 45;
+		rLoc = 3294;
+		rType = 0;
+		vrLen = 2216;
+		vrLoc = 1284;
+	};
+	58EA4B6F14A3943C008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 582ED08F14986075002F8602 /* iostream */;
+		name = "iostream: 76";
+		rLen = 0;
+		rLoc = 2873;
+		rType = 0;
+		vrLen = 1694;
+		vrLoc = 1264;
+	};
+	58EA4B9114A396CD008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		name = "Nebulosity.cpp: 2885";
+		rLen = 0;
+		rLoc = 123288;
+		rType = 0;
+		vrLen = 1770;
+		vrLoc = 121686;
+	};
+	58EA4B9214A396CD008D8569 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Iteration variable 'row' is unsigned";
+		fRef = F487A70C09BE2499005A3E96 /* debayer.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 1934;
+		rType = 1;
+	};
+	58EA4B9814A57E7B008D8569 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F487A70C09BE2499005A3E96 /* debayer.cpp */;
+		name = "debayer.cpp: 1935";
+		rLen = 0;
+		rLoc = 62243;
+		rType = 0;
+		vrLen = 1650;
+		vrLoc = 60987;
+	};
+	58EB4C120D538936006B7157 /* Opticstar130.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1016, 4760}}";
+			sepNavSelRange = "{4662, 0}";
+			sepNavVisRect = "{{0, 2417}, {1016, 389}}";
+		};
+	};
+	58EB4C130D538936006B7157 /* Opticstar130.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 487}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {777, 487}}";
+		};
+	};
+	58EC32BD1114DDFF00ECCEF7 /* qhy9.cpp:567 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 583ED74D0FC7BA540043E9D8 /* qhy9.cpp */;
+		functionName = "Cam_QHY9Class::Reconstruct(int mode)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 567;
+		location = nebulosity;
+		modificationTime = 345534570.8065261;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58EE695E0A403DAC002BCD28 /* cam_class.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 1144}}";
+			sepNavSelRange = "{1359, 9}";
+			sepNavVisRange = "{1078, 1844}";
+			sepNavVisRect = "{{0, 569}, {742, 565}}";
+			sepNavWindowFrame = "{{38, 119}, {1110, 733}}";
+		};
+	};
+	58EE69600A403DAC002BCD28 /* sac10.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {890, 6776}}";
+			sepNavSelRange = "{13757, 9}";
+			sepNavVisRect = "{{0, 378}, {647, 488}}";
+			sepNavWindowFrame = "{{84, 77}, {1110, 733}}";
+		};
+	};
+	58EE69610A403DAC002BCD28 /* sac10.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 537}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {643, 537}}";
+			sepNavWindowFrame = "{{38, 119}, {1110, 733}}";
+		};
+	};
+	58EE69620A403DAC002BCD28 /* SAC78.CPP */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 3668}}";
+			sepNavSelRange = "{7076, 0}";
+			sepNavVisRect = "{{0, 3025}, {647, 488}}";
+			sepNavWindowFrame = "{{12, 138}, {1110, 733}}";
+		};
+	};
+	58EE69630A403DAC002BCD28 /* SAC78.H */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 574}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {710, 525}}";
+			sepNavWindowFrame = "{{311, 113}, {1110, 733}}";
+		};
+	};
+	58EE69640A403DAC002BCD28 /* SACStarShoot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 549}}";
+			sepNavSelRange = "{273, 0}";
+			sepNavVisRect = "{{0, 0}, {985, 549}}";
+			sepNavWindowFrame = "{{84, 77}, {1110, 733}}";
+		};
+	};
+	58EE69650A403DAC002BCD28 /* simulator.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 3939}}";
+			sepNavSelRange = "{795, 0}";
+			sepNavVisRange = "{0, 798}";
+			sepNavVisRect = "{{0, 2189}, {1052, 591}}";
+			sepNavWindowFrame = "{{61, 98}, {1110, 733}}";
+		};
+	};
+	58EE69660A403DAC002BCD28 /* simulator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1223, 891}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 388}";
+			sepNavVisRect = "{{0, 0}, {985, 549}}";
+			sepNavWindowFrame = "{{38, 69}, {1030, 783}}";
+		};
+	};
+	58EE69670A403DAC002BCD28 /* Starshoot.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1072, 6487}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 939}";
+			sepNavVisRect = "{{0, 6281}, {1016, 389}}";
+			sepNavWindowFrame = "{{768, 74}, {1110, 733}}";
+		};
+	};
+	58EE69680A403DAC002BCD28 /* StarShootDLL.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 604}}";
+			sepNavSelRange = "{930, 0}";
+			sepNavVisRect = "{{0, 0}, {1071, 604}}";
+			sepNavWindowFrame = "{{61, 98}, {1110, 733}}";
+		};
+	};
+	58EE989013CD50B6009EC68D /* file_tools.cpp:633 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71109BE2499005A3E96 /* file_tools.cpp */;
+		functionName = "MyFrame::OnDropFile(wxDropFilesEvent &event)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 633;
+		modificationTime = 345534570.81168;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	58EE98A613CD514E009EC68D /* Nebulosity.cpp:1825 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyApp::MacOpenFile(const wxString &filename)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1825;
+		location = nebulosity;
+		modificationTime = 345534570.811756;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58F052A40B0FF7780053B421 /* serialport.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 515}}";
+			sepNavSelRange = "{402, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 515}}";
+			sepNavWindowFrame = "{{38, 69}, {1030, 783}}";
+		};
+	};
+	58F210840DFBA5E7001A6E06 /* ASCOMCamera.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 9594}}";
+			sepNavSelRange = "{16355, 0}";
+			sepNavVisRange = "{13852, 253}";
+			sepNavVisRect = "{{0, 4527}, {965, 590}}";
+		};
+	};
+	58F210850DFBA5E7001A6E06 /* ASCOMCamera.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 1482}}";
+			sepNavSelRange = "{2993, 0}";
+			sepNavVisRange = "{1007, 942}";
+			sepNavVisRect = "{{0, 0}, {830, 521}}";
+		};
+	};
+	58F23EB512299227004F372B /* setup_tools.cpp:1641 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 58D258290CBE9FB600E3CF5A /* setup_tools.cpp */;
+		functionName = "PixStatsDialog::UpdateInfo(int x, int y)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1641;
+		location = nebulosity;
+		modificationTime = 345534570.807922;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58F23F0C122ABDF5004F372B /* SXV.cpp:63 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5835AE240B6CEE84006EC993 /* SXV.cpp */;
+		functionName = "Cam_SXVClass::Disconnect()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 63;
+		location = nebulosity;
+		modificationTime = 345534570.808;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58F23FA9122ADEE9004F372B /* Nebulosity.cpp:3032 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */;
+		functionName = "MyFrame::TempFunc (wxCommandEvent& WXUNUSED(event))";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 3032;
+		location = nebulosity;
+		modificationTime = 345534570.808057;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	58FED1860FCF4D1B00F18967 /* QHY8Pro.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 10049}}";
+			sepNavSelRange = "{20955, 0}";
+			sepNavVisRange = "{20751, 345}";
+			sepNavVisRect = "{{0, 8523}, {978, 591}}";
+		};
+	};
+	58FED1870FCF4D1B00F18967 /* QHY8Pro.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1273, 988}}";
+			sepNavSelRange = "{1109, 0}";
+			sepNavVisRange = "{0, 1531}";
+			sepNavVisRect = "{{0, 71}, {978, 591}}";
+		};
+	};
+	58FF990C0AA3535400638F98 /* reconstruct.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 7891}}";
+			sepNavSelRange = "{3294, 45}";
+			sepNavVisRange = "{1284, 2216}";
+			sepNavVisRect = "{{0, 195}, {965, 590}}";
+			sepNavWindowFrame = "{{405, 63}, {1002, 799}}";
+		};
+	};
+	58FF99140AA3549C00638F98 /* CanonDSLR.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 37063}}";
+			sepNavSelRange = "{36091, 41}";
+			sepNavVisRange = "{35024, 1387}";
+			sepNavVisRect = "{{0, 27110}, {742, 565}}";
+			sepNavWindowFrame = "{{711, 70}, {802, 800}}";
+		};
+	};
+	58FF99190AA354B200638F98 /* CanonDSLR.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1036, 3575}}";
+			sepNavSelRange = "{1615, 0}";
+			sepNavVisRange = "{791, 987}";
+			sepNavVisRect = "{{0, 686}, {759, 572}}";
+			sepNavWindowFrame = "{{15, 73}, {1048, 800}}";
+		};
+	};
+	F487A6C409BE226F005A3E96 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = 58BACC250E70DDAB004ED49A /* nebulosity 2IL */;
+		activeTarget = 58BACBD10E70DDAB004ED49A /* nebulosity 2IL */;
+		addToTargets = (
+			58BACBD10E70DDAB004ED49A /* nebulosity 2IL */,
+		);
+		breakpoints = (
+			5800E0031039B10C00807492 /* geometry.cpp:622 */,
+			582E4656103F0E2D00BFB987 /* preferences.cpp:91 */,
+			5888A1D0108049A50040E36E /* greyc.cpp:105 */,
+			582CDCA5108E09980015ADD4 /* clock.cpp:41 */,
+			584503AB1094D4C000273CE4 /* display.cpp:377 */,
+			584503FB1094F33E00273CE4 /* QSI500.cpp:169 */,
+			580FB2BC10A876CC00AE3868 /* SXV.cpp:259 */,
+			5890308D10B4CFF500AFE1C7 /* Nebulosity.cpp:1990 */,
+			589030B510B4D10300AFE1C7 /* DSSView.cpp:313 */,
+			58A7903010B5A76800A645B1 /* main_classes.cpp:356 */,
+			5810A77010BB4BED00AFA6CE /* alignment.cpp:1774 */,
+			5810A78810BB504700AFA6CE /* alignment.cpp:1573 */,
+			5810A81610BE602C00AFA6CE /* autoalign.cpp:284 */,
+			5810A87310BFB05400AFA6CE /* image_io.cpp:539 */,
+			5810A88C10BFB3AC00AFA6CE /* image_io.cpp:655 */,
+			5810A8F910BFC0BE00AFA6CE /* autoalign.cpp:612 */,
+			5810A94110C03E1200AFA6CE /* autoalign.cpp:654 */,
+			58BCBB5310EC1B870061A7AC /* ext_filterwheel.cpp:193 */,
+			58EC32BD1114DDFF00ECCEF7 /* qhy9.cpp:567 */,
+			5844005F112462C600AE5327 /* alignment.cpp:842 */,
+			5889E792113A350B0042F472 /* preprocess.cpp:2122 */,
+			5889E7EF113B8D4E0042F472 /* preprocess.cpp:2287 */,
+			58C1CBD71159D8AA00DB8BCA /* geometry.cpp:194 */,
+			58C1CC52115AEB4A00DB8BCA /* image_math.cpp:1723 */,
+			58C1CC5C115AEC9000DB8BCA /* file_tools.cpp:123 */,
+			588F8AC3117FE8E60088B493 /* CanonDSLR.cpp:1533 */,
+			588F8B1B118007C00088B493 /* CanonDSLR.cpp:2560 */,
+			58C495971182A5E0002DC33B /* CanonDSLR.cpp:1155 */,
+			58C4960711839BBF002DC33B /* CanonDSLR.cpp:2400 */,
+			58347361119F78B60005833E /* alignment.cpp:1086 */,
+			589504D811E51E2200F5561C /* Nebulosity.cpp:292 */,
+			588509AE11F9F3AF000F721C /* SXV.cpp:245 */,
+			58044CA711FF5285000C548B /* scripts.cpp:661 */,
+			58044CC711FF531C000C548B /* scripts.cpp:281 */,
+			58044D3B11FFEDF6000C548B /* scripts.cpp:707 */,
+			58044D3D11FFEDFA000C548B /* scripts.cpp:733 */,
+			58044D8B11FFF625000C548B /* setup_tools.cpp:1032 */,
+			589D2A1B1228C39C00969972 /* SXV.cpp:459 */,
+			589D2A3E1228C67400969972 /* SXV.cpp:551 */,
+			58F23EB512299227004F372B /* setup_tools.cpp:1641 */,
+			58F23F0C122ABDF5004F372B /* SXV.cpp:63 */,
+			58F23FA9122ADEE9004F372B /* Nebulosity.cpp:3032 */,
+			58AFAE5E122E0848001BCFF5 /* Nebulosity.cpp:3066 */,
+			58AFAEA8122EA45D001BCFF5 /* Nebulosity.cpp:2985 */,
+			58AFB1311235F86D001BCFF5 /* SXV.cpp:1090 */,
+			58AFB1521235FBA4001BCFF5 /* camera.cpp:425 */,
+			58AFB15E1235FC7F001BCFF5 /* SXV.cpp:90 */,
+			58AFB1601235FCBD001BCFF5 /* SXV.cpp:1072 */,
+			58C83D3C1237498000E0CD14 /* display.cpp:133 */,
+			58C83D5112374A6300E0CD14 /* Nebulosity.cpp:2379 */,
+			58C83DE21237E9C000E0CD14 /* simulator.cpp:188 */,
+			585B73B1123B4243007A5F5A /* SXV.cpp:815 */,
+			58249576128BC3DF00E2A072 /* display.cpp:644 */,
+			58D320A712D8D61900B48745 /* image_math.cpp:1110 */,
+			58BC0E3A12EB824D00576485 /* CanonDSLR.cpp:2304 */,
+			58BC0F7D12EF31E800576485 /* CanonDSLR.cpp:1976 */,
+			585257B21339A6F70069B282 /* camera.cpp:1197 */,
+			585257C81339A8820069B282 /* Nebulosity.cpp:2507 */,
+			585257CA1339A88C0069B282 /* Nebulosity.cpp:2469 */,
+			58BDAAFB1348DB87007A9672 /* setup_tools.cpp:1242 */,
+			584B7D2B1356B3FC001A5FB8 /* canon_cr2.cpp:379 */,
+			584B7D4E13573FDA001A5FB8 /* CanonDSLR.cpp:355 */,
+			582F358C13A7BC8600975C32 /* Nebulosity.cpp:1879 */,
+			582F359F13A7BDBF00975C32 /* Nebulosity.cpp:1870 */,
+			58A7772213B4362A00255109 /* drizzle.cpp:118 */,
+			58A7772813B436A800255109 /* drizzle.cpp:462 */,
+			58A7777213B44F1400255109 /* image_manip.cpp:2555 */,
+			5850204D13C7C46C00EFFCE8 /* debayer.cpp:885 */,
+			585020B013C8E15400EFFCE8 /* debayer.cpp:885 */,
+			5850210E13C902AF00EFFCE8 /* debayer.cpp:867 */,
+			58EE989013CD50B6009EC68D /* file_tools.cpp:633 */,
+			58EE98A613CD514E009EC68D /* Nebulosity.cpp:1825 */,
+			5809968413FE22FE0065435E /* focus.cpp:177 */,
+			58DFD9561405676200EFABCE /* image_manip.cpp:587 */,
+			58DFD98714056B4F00EFABCE /* image_manip.cpp:2013 */,
+			5819C49A140ABDA8006B5B5B /* QSI500.cpp:163 */,
+			587B2B73143176160094FDE9 /* main_classes.cpp:164 */,
+			587B2B7F143177260094FDE9 /* main_classes.cpp:237 */,
+			587B2B8414317A3E0094FDE9 /* *0x000d2b4c */,
+			588227AF14675FC100E44118 /* camera.cpp:1385 */,
+			580130C1148741DD003AFA7F /* Nebulosity.cpp:1013 */,
+			580130CA14874843003AFA7F /* Nebulosity.cpp:1012 */,
+			582ECEC9148FFB62002F8602 /* preprocess.cpp:2411 */,
+			582ECEDC14900E6B002F8602 /* Nebulosity.cpp:1919 */,
+			582ECF1414901A60002F8602 /* alignment.cpp:1185 */,
+			582ECFBF14955BDC002F8602 /* preprocess.cpp:800 */,
+			582ECFD5149561F4002F8602 /* preprocess.cpp:180 */,
+			582ECFDA1495636C002F8602 /* preprocess.cpp:259 */,
+			582ECFF114956835002F8602 /* preprocess.cpp:269 */,
+			582ED06E14959635002F8602 /* file_tools.cpp:1317 */,
+			582ED0751495A68B002F8602 /* file_tools.cpp:1343 */,
+		);
+		codeSenseManager = 58E94E7809CC93B0006073FB /* Code sense */;
+		executables = (
+			58E94E6309CC9360006073FB /* nebulosity */,
+			581465E70C280F3C0036037A /* CanonTest */,
+			58554C3B0E2E4D8400F73972 /* nebulosity1 */,
+			58BACC250E70DDAB004ED49A /* nebulosity 2IL */,
+		);
+		expressions = (
+			"hotx[i]",
+			"hoty[i]",
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					282,
+					20,
+					182,
+					181,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					305.5835,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_MessageID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					588,
+					223.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					597,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_ObjectSize_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					893,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					428,
+					424,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					438,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					853,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 346136961;
+			PBXWorkspaceStateSaveDate = 346136961;
+		};
+		perUserProjectItems = {
+			582ED010149580C3002F8602 /* PBXTextBookmark */ = 582ED010149580C3002F8602 /* PBXTextBookmark */;
+			582ED011149580C3002F8602 /* PBXTextBookmark */ = 582ED011149580C3002F8602 /* PBXTextBookmark */;
+			582ED01B14958193002F8602 /* PBXTextBookmark */ = 582ED01B14958193002F8602 /* PBXTextBookmark */;
+			582ED18514987114002F8602 /* PBXTextBookmark */ = 582ED18514987114002F8602 /* PBXTextBookmark */;
+			58EA49C914A19D47008D8569 /* PBXTextBookmark */ = 58EA49C914A19D47008D8569 /* PBXTextBookmark */;
+			58EA49EC14A1A02D008D8569 /* PBXTextBookmark */ = 58EA49EC14A1A02D008D8569 /* PBXTextBookmark */;
+			58EA4A0514A1A17B008D8569 /* PBXTextBookmark */ = 58EA4A0514A1A17B008D8569 /* PBXTextBookmark */;
+			58EA4A0714A1A17B008D8569 /* PBXTextBookmark */ = 58EA4A0714A1A17B008D8569 /* PBXTextBookmark */;
+			58EA4A7214A1A20A008D8569 /* PBXTextBookmark */ = 58EA4A7214A1A20A008D8569 /* PBXTextBookmark */;
+			58EA4AB014A2EEC2008D8569 /* PBXTextBookmark */ = 58EA4AB014A2EEC2008D8569 /* PBXTextBookmark */;
+			58EA4AC314A2F676008D8569 /* PBXTextBookmark */ = 58EA4AC314A2F676008D8569 /* PBXTextBookmark */;
+			58EA4B1814A2FFF3008D8569 /* PBXTextBookmark */ = 58EA4B1814A2FFF3008D8569 /* PBXTextBookmark */;
+			58EA4B2D14A30367008D8569 /* PBXTextBookmark */ = 58EA4B2D14A30367008D8569 /* PBXTextBookmark */;
+			58EA4B2E14A30367008D8569 /* PBXTextBookmark */ = 58EA4B2E14A30367008D8569 /* PBXTextBookmark */;
+			58EA4B3F14A307E8008D8569 /* PBXTextBookmark */ = 58EA4B3F14A307E8008D8569 /* PBXTextBookmark */;
+			58EA4B5A14A39349008D8569 /* PBXTextBookmark */ = 58EA4B5A14A39349008D8569 /* PBXTextBookmark */;
+			58EA4B5C14A39349008D8569 /* PBXTextBookmark */ = 58EA4B5C14A39349008D8569 /* PBXTextBookmark */;
+			58EA4B6F14A3943C008D8569 /* PBXTextBookmark */ = 58EA4B6F14A3943C008D8569 /* PBXTextBookmark */;
+			58EA4B9114A396CD008D8569 /* PBXTextBookmark */ = 58EA4B9114A396CD008D8569 /* PBXTextBookmark */;
+			58EA4B9214A396CD008D8569 /* XCBuildMessageTextBookmark */ = 58EA4B9214A396CD008D8569 /* XCBuildMessageTextBookmark */;
+			58EA4B9814A57E7B008D8569 /* PBXTextBookmark */ = 58EA4B9814A57E7B008D8569 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 58E94E7709CC93B0006073FB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	F487A70109BE242D005A3E96 /* nebulosity */ = {
+		activeExec = 0;
+		executables = (
+			58E94E6309CC9360006073FB /* nebulosity */,
+		);
+	};
+	F487A70509BE242D005A3E96 /* nebulosity-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 602}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {777, 487}}";
+			sepNavWindowFrame = "{{15, 140}, {1110, 733}}";
+		};
+	};
+	F487A70609BE2499005A3E96 /* alignment.cpp */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{44607, 789}\";\n            s = 0;\n        },\n                {\n            r = \"{48965, 14604}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 70365}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {2133, 20397}}";
+			sepNavSelRange = "{49846, 0}";
+			sepNavVisRange = "{48963, 2400}";
+			sepNavVisRect = "{{0, 6134}, {838, 543}}";
+			sepNavWindowFrame = "{{209, 1054}, {1077, 769}}";
+		};
+	};
+	F487A70709BE2499005A3E96 /* alignment.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 1209}}";
+			sepNavSelRange = "{1433, 0}";
+			sepNavVisRange = "{325, 1255}";
+			sepNavVisRect = "{{0, 0}, {965, 590}}";
+			sepNavWindowFrame = "{{124, 93}, {1039, 702}}";
+		};
+	};
+	F487A70809BE2499005A3E96 /* camera.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 23816}}";
+			sepNavSelRange = "{16418, 0}";
+			sepNavVisRange = "{16084, 538}";
+			sepNavVisRect = "{{0, 6440}, {838, 543}}";
+			sepNavWindowFrame = "{{565, 43}, {843, 784}}";
+		};
+	};
+	F487A70909BE2499005A3E96 /* camera.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 2704}}";
+			sepNavSelRange = "{2739, 0}";
+			sepNavVisRange = "{2320, 983}";
+			sepNavVisRect = "{{0, 395}, {838, 543}}";
+			sepNavWindowFrame = "{{15, 140}, {1110, 733}}";
+		};
+	};
+	F487A70A09BE2499005A3E96 /* clock.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 1157}}";
+			sepNavSelRange = "{912, 0}";
+			sepNavVisRange = "{1165, 1321}";
+			sepNavVisRect = "{{0, 14}, {838, 543}}";
+		};
+	};
+	F487A70B09BE2499005A3E96 /* code_check.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {934, 1495}}";
+			sepNavSelRange = "{1338, 5}";
+			sepNavVisRange = "{786, 1601}";
+			sepNavVisRect = "{{0, 849}, {1016, 389}}";
+			sepNavWindowFrame = "{{528, 282}, {857, 578}}";
+		};
+	};
+	F487A70C09BE2499005A3E96 /* debayer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 24934}}";
+			sepNavSelRange = "{44774, 0}";
+			sepNavVisRange = "{43743, 1766}";
+			sepNavVisRect = "{{0, 9873}, {965, 590}}";
+			sepNavWindowFrame = "{{84, 255}, {843, 555}}";
+		};
+	};
+	F487A70D09BE2499005A3E96 /* debayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 715}}";
+			sepNavSelRange = "{583, 0}";
+			sepNavVisRange = "{0, 648}";
+			sepNavVisRect = "{{0, 0}, {965, 590}}";
+			sepNavWindowFrame = "{{15, 147}, {750, 726}}";
+		};
+	};
+	F487A70E09BE2499005A3E96 /* display.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 12987}}";
+			sepNavSelRange = "{4327, 35}";
+			sepNavVisRange = "{3105, 1603}";
+			sepNavVisRect = "{{0, 1280}, {787, 563}}";
+			sepNavWindowFrame = "{{367, 67}, {975, 794}}";
+		};
+	};
+	F487A70F09BE2499005A3E96 /* dummy.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {685, 490}}";
+			sepNavSelRange = "{348, 0}";
+			sepNavVisRect = "{{0, 0}, {685, 490}}";
+		};
+	};
+	F487A71009BE2499005A3E96 /* dummy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {888, 535}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {888, 535}}";
+		};
+	};
+	F487A71109BE2499005A3E96 /* file_tools.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2273, 21944}}";
+			sepNavSelRange = "{42711, 38}";
+			sepNavVisRange = "{42686, 844}";
+			sepNavVisRect = "{{0, 6544}, {787, 563}}";
+			sepNavWindowFrame = "{{194, 74}, {975, 794}}";
+		};
+	};
+	F487A71209BE2499005A3E96 /* file_tools.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {958, 577}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 551}";
+			sepNavVisRect = "{{0, 0}, {1052, 591}}";
+			sepNavWindowFrame = "{{182, 84}, {975, 794}}";
+		};
+	};
+	F487A71309BE2499005A3E96 /* image_io.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 9191}}";
+			sepNavSelRange = "{23092, 0}";
+			sepNavVisRange = "{22837, 561}";
+			sepNavVisRect = "{{0, 314}, {799, 350}}";
+			sepNavWindowFrame = "{{68, 7}, {975, 794}}";
+		};
+	};
+	F487A71409BE2499005A3E96 /* image_manip.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 37856}}";
+			sepNavSelRange = "{17152, 33}";
+			sepNavVisRange = "{16794, 816}";
+			sepNavVisRect = "{{0, 31418}, {838, 543}}";
+			sepNavWindowFrame = "{{40, 82}, {975, 794}}";
+		};
+	};
+	F487A71509BE2499005A3E96 /* image_math.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 30836}}";
+			sepNavSelRange = "{74174, 0}";
+			sepNavVisRange = "{73990, 2237}";
+			sepNavVisRect = "{{0, 23856}, {799, 350}}";
+			sepNavWindowFrame = "{{406, 137}, {1039, 702}}";
+		};
+	};
+	F487A71609BE2499005A3E96 /* image_math.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {958, 871}}";
+			sepNavSelRange = "{448, 0}";
+			sepNavVisRange = "{0, 1715}";
+			sepNavVisRect = "{{0, 0}, {978, 591}}";
+			sepNavWindowFrame = "{{469, -133}, {750, 726}}";
+		};
+	};
+	F487A71709BE2499005A3E96 /* main_classes.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 9009}}";
+			sepNavSelRange = "{2646, 21}";
+			sepNavVisRange = "{151, 1701}";
+			sepNavVisRect = "{{0, 2185}, {787, 563}}";
+			sepNavWindowFrame = "{{333, 43}, {975, 794}}";
+		};
+	};
+	F487A71809BE2499005A3E96 /* main_classes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 1729}}";
+			sepNavSelRange = "{901, 0}";
+			sepNavVisRange = "{316, 1055}";
+			sepNavVisRect = "{{0, 1417}, {799, 350}}";
+			sepNavWindowFrame = "{{567, 84}, {975, 794}}";
+		};
+	};
+	F487A71A09BE2499005A3E96 /* Nebulosity.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 44824}}";
+			sepNavSelRange = "{123288, 0}";
+			sepNavVisRange = "{121686, 1770}";
+			sepNavVisRect = "{{0, 21101}, {1016, 389}}";
+			sepNavWindowFrame = "{{53, 48}, {1009, 820}}";
+		};
+	};
+	F487A71B09BE2499005A3E96 /* Nebulosity.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 8177}}";
+			sepNavSelRange = "{2970, 0}";
+			sepNavVisRange = "{443, 1005}";
+			sepNavVisRect = "{{0, 1619}, {838, 543}}";
+			sepNavWindowFrame = "{{247, 44}, {975, 794}}";
+		};
+	};
+	F487A71C09BE2499005A3E96 /* osxfuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {934, 750}}";
+			sepNavSelRange = "{188, 33}";
+			sepNavVisRange = "{0, 392}";
+			sepNavVisRect = "{{0, 0}, {898, 749}}";
+			sepNavWindowFrame = "{{15, 91}, {718, 782}}";
+		};
+	};
+	F487A71D09BE2499005A3E96 /* osxfuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 590}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {965, 590}}";
+			sepNavWindowFrame = "{{15, 58}, {1009, 820}}";
+		};
+	};
+	F487A71E09BE2499005A3E96 /* preprocess.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1993, 31811}}";
+			sepNavSelRange = "{12452, 0}";
+			sepNavVisRange = "{11468, 1487}";
+			sepNavVisRect = "{{0, 4469}, {838, 543}}";
+			sepNavWindowFrame = "{{380, 84}, {975, 794}}";
+		};
+	};
+	F487A71F09BE2499005A3E96 /* preprocess.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 1105}}";
+			sepNavSelRange = "{519, 0}";
+			sepNavVisRange = "{326, 1166}";
+			sepNavVisRect = "{{0, 0}, {973, 695}}";
+			sepNavWindowFrame = "{{15, 90}, {1030, 783}}";
+		};
+	};
+	F487A72009BE2499005A3E96 /* scripts.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 11336}}";
+			sepNavSelRange = "{11808, 0}";
+			sepNavVisRange = "{14954, 1585}";
+			sepNavVisRect = "{{0, 2331}, {1016, 389}}";
+			sepNavWindowFrame = "{{15, 90}, {1030, 783}}";
+		};
+	};
+}

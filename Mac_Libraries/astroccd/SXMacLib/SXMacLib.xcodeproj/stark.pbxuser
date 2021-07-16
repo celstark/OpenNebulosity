@@ -1,0 +1,186 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
+		activeTarget = D2AAC045055464E500DB518D /* SXMacLib */;
+		addToTargets = (
+			D2AAC045055464E500DB518D /* SXMacLib */,
+		);
+		codeSenseManager = 58270EAB0B778B6600976AB9 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					133,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					882,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					579,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 362417710;
+			PBXWorkspaceStateSaveDate = 362417710;
+		};
+		perUserProjectItems = {
+			585AD140157D039D00176800 /* PBXTextBookmark */ = 585AD140157D039D00176800 /* PBXTextBookmark */;
+			587C63A4154900E600AC63BC /* PBXTextBookmark */ = 587C63A4154900E600AC63BC /* PBXTextBookmark */;
+			588C59DE159C188B0054D6B2 /* PBXTextBookmark */ = 588C59DE159C188B0054D6B2 /* PBXTextBookmark */;
+			588C59DF159C188B0054D6B2 /* PBXTextBookmark */ = 588C59DF159C188B0054D6B2 /* PBXTextBookmark */;
+			58B5D6031089648F00F331B4 /* PBXTextBookmark */ = 58B5D6031089648F00F331B4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 58270EAA0B778B6600976AB9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	58270EAA0B778B6600976AB9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	58270EAB0B778B6600976AB9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	58270EAC0B778BE000976AB9 /* sx_ezusb_code.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1060, 4316}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3360, 5917}";
+			sepNavVisRect = "{{0, 0}, {1103, 641}}";
+			sepNavWindowFrame = "{{15, 103}, {1142, 770}}";
+		};
+	};
+	58270EAD0B778BE000976AB9 /* sxusbcam.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1060, 21255}}";
+			sepNavSelRange = "{55409, 0}";
+			sepNavVisRange = "{54191, 1131}";
+			sepNavVisRect = "{{0, 7245}, {774, 542}}";
+			sepNavWindowFrame = "{{15, 1092}, {1142, 770}}";
+		};
+	};
+	58270EAE0B778BE000976AB9 /* sxusbcam.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1195, 2171}}";
+			sepNavSelRange = "{6448, 28}";
+			sepNavVisRange = "{936, 2529}";
+			sepNavVisRect = "{{0, 1281}, {898, 749}}";
+			sepNavWindowFrame = "{{210, 1060}, {1142, 770}}";
+		};
+	};
+	585AD140157D039D00176800 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58270EAE0B778BE000976AB9 /* sxusbcam.h */;
+		name = "sxusbcam.h: 162";
+		rLen = 28;
+		rLoc = 6448;
+		rType = 0;
+		vrLen = 2529;
+		vrLoc = 936;
+	};
+	587C63A4154900E600AC63BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58270EAC0B778BE000976AB9 /* sx_ezusb_code.h */;
+		name = "sx_ezusb_code.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 5917;
+		vrLoc = 3360;
+	};
+	588C59DE159C188B0054D6B2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58270EAD0B778BE000976AB9 /* sxusbcam.c */;
+		name = "sxusbcam.c: 221";
+		rLen = 16;
+		rLoc = 8543;
+		rType = 0;
+		vrLen = 1828;
+		vrLoc = 2443;
+	};
+	588C59DF159C188B0054D6B2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58270EAD0B778BE000976AB9 /* sxusbcam.c */;
+		name = "sxusbcam.c: 1576";
+		rLen = 0;
+		rLoc = 55409;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 54191;
+	};
+	58B5D6031089648F00F331B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 58B5D6041089648F00F331B4 /* main.c */;
+		name = "main.c: 779";
+		rLen = 0;
+		rLoc = 26649;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 25870;
+	};
+	58B5D6041089648F00F331B4 /* main.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = main.c;
+		path = /Users/stark/dev/astroccd/mac/sxVideoCam/main.c;
+		sourceTree = "<absolute>";
+	};
+	D2AAC045055464E500DB518D /* SXMacLib */ = {
+		activeExec = 0;
+	};
+}

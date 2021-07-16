@@ -1,0 +1,4 @@
+08:19:38: /Users/stark/dev/nebulosity3/fr/nebulosity.po:3766: keyword "Capture" unknown
+08:19:38: /Users/stark/dev/nebulosity3/fr/nebulosity.po:3766:17: syntax error
+08:19:38: /Users/stark/dev/nebulosity3/fr/nebulosity.po:3767: end-of-line within string
+08:19:38: /Applications/Poedit.app/Contents/MacOS/msgfmt: found 3 fatal errors

@@ -1,0 +1,170 @@
+// !$*UTF8*$!
+{
+	F487A6C409BE226F005A3E96 = {
+		activeBuildStyle = F487A6C209BE226F005A3E96;
+		activeExecutable = F487A70409BE242D005A3E96;
+		activeTarget = F487A70109BE242D005A3E96;
+		addToTargets = (
+			F487A70109BE242D005A3E96,
+		);
+		codeSenseManager = F487A6C609BE226F005A3E96;
+		executables = (
+			F487A70409BE242D005A3E96,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					63,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 163455599;
+			PBXWorkspaceStateSaveDate = 163455599;
+		};
+		perUserProjectItems = {
+			F487A75409BE2A88005A3E96 = F487A75409BE2A88005A3E96;
+			F487A75B09BE2B29005A3E96 = F487A75B09BE2B29005A3E96;
+			F487A76309BF8ED0005A3E96 = F487A76309BF8ED0005A3E96;
+			F487A76609BF8ED0005A3E96 = F487A76609BF8ED0005A3E96;
+		};
+		sourceControlManager = F487A6C509BE226F005A3E96;
+		userBuildSettings = {
+		};
+	};
+	F487A6C509BE226F005A3E96 = {
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	F487A6C609BE226F005A3E96 = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+	};
+	F487A70109BE242D005A3E96 = {
+		activeExec = 0;
+		executables = (
+			F487A70409BE242D005A3E96,
+		);
+	};
+	F487A70409BE242D005A3E96 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		cppStopOnCatchEnabled = 0;
+		cppStopOnThrowEnabled = 0;
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		isa = PBXExecutable;
+		libgmallocEnabled = 0;
+		name = nebulosity;
+		shlibInfoDictList_v2 = (
+		);
+		sourceDirectories = (
+		);
+	};
+	F487A70E09BE2499005A3E96 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 3738}}";
+			sepNavSelRange = "{8176, 15}";
+			sepNavVisRect = "{{0, 3342}, {715, 321}}";
+			sepNavWindowFrame = "{{15, 291}, {754, 450}}";
+		};
+	};
+	F487A71409BE2499005A3E96 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 11788}}";
+			sepNavSelRange = "{7978, 38}";
+			sepNavVisRect = "{{0, 2492}, {715, 321}}";
+		};
+	};
+	F487A71A09BE2499005A3E96 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1322, 17724}}";
+			sepNavSelRange = "{17438, 0}";
+			sepNavVisRect = "{{0, 4453}, {715, 321}}";
+		};
+	};
+	F487A75409BE2A88005A3E96 = {
+		fRef = F487A71A09BE2499005A3E96;
+		isa = PBXTextBookmark;
+		rLen = 15;
+		rLoc = 45585;
+		rType = 0;
+	};
+	F487A75B09BE2B29005A3E96 = {
+		fRef = F487A71409BE2499005A3E96;
+		isa = PBXBookmark;
+	};
+	F487A76309BF8ED0005A3E96 = {
+		fRef = F487A71A09BE2499005A3E96;
+		isa = PBXTextBookmark;
+		name = "Nebulosity.cpp: 322";
+		rLen = 0;
+		rLoc = 17438;
+		rType = 0;
+		vrLen = 1182;
+		vrLoc = 17248;
+	};
+	F487A76609BF8ED0005A3E96 = {
+		fRef = F487A71409BE2499005A3E96;
+		isa = PBXTextBookmark;
+		name = "SetBackgroundStyle(wxBG_STYLE_CUSTOM);";
+		rLen = 38;
+		rLoc = 7978;
+		rType = 0;
+		vrLen = 1016;
+		vrLoc = 7145;
+	};
+}

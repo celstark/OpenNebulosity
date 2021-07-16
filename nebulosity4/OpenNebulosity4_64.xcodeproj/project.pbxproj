@@ -1,0 +1,1400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58025CA615AD4EBE0051BAC2 /* CCDAD_QHY10.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA115AD4EBE0051BAC2 /* CCDAD_QHY10.HEX */; };
+		58025CA815AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA315AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX */; };
+		58025CA915AD4EBE0051BAC2 /* CCDAD_QHY8L.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA415AD4EBE0051BAC2 /* CCDAD_QHY8L.HEX */; };
+		58025CAA15AD4EBE0051BAC2 /* CCDAD_QHY12.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA515AD4EBE0051BAC2 /* CCDAD_QHY12.HEX */; };
+		58044C5811FF4587000C548B /* Opticstar336.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58044C5411FF4586000C548B /* Opticstar336.cpp */; };
+		58044C5911FF4587000C548B /* Moravian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58044C5511FF4586000C548B /* Moravian.cpp */; };
+		5806D72B15C0F6AB00536F95 /* Opticstar616.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5806D72A15C0F6AB00536F95 /* Opticstar616.cpp */; };
+		581044EB15ADF97E00FF78C9 /* CCDAD_QHY9.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 581044EA15ADF97E00FF78C9 /* CCDAD_QHY9.HEX */; };
+		5810454915B1FA5B00FF78C9 /* SBIGUDrv.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 586BBA44156A054E0095447D /* SBIGUDrv.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		58157B5F176994980056B3BD /* liblcms2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58157B5E176994980056B3BD /* liblcms2.a */; };
+		581768AE1CCDAACA00F78ED9 /* libfli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 581768AD1CCDAACA00F78ED9 /* libfli.a */; };
+		581B212619AEB93800B22AFF /* EDSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5848281419AEA193001BF25E /* EDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		581C28B81C06286B0094BE9E /* altair_astro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581C28B61C06286B0094BE9E /* altair_astro.cpp */; };
+		581C41AB1A8527990017C023 /* APyTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581C41AA1A8527990017C023 /* APyTools.cpp */; };
+		58249518128B00EB00E2A072 /* Opticstar615.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58249515128B00EB00E2A072 /* Opticstar615.cpp */; };
+		5824BB4A14A91BBD009F81E1 /* libfreeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5824BB4914A91BBD009F81E1 /* libfreeimage.a */; };
+		582C50A614E1EC6200D520CF /* macro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 582C50A414E1EC6200D520CF /* macro.cpp */; };
+		5836CF6716053C970092F683 /* focuser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5836CF6516053C970092F683 /* focuser.cpp */; };
+		5839A3E01AA2E17C00C6D7E8 /* libftdi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852646A0E14B787002F2164 /* libftdi.a */; };
+		583ED74F0FC7BA540043E9D8 /* qhy9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 583ED74D0FC7BA540043E9D8 /* qhy9.cpp */; };
+		5844197E22DD7F95009D58FA /* libatikcameras.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 580C09161D793495009EBE29 /* libatikcameras.dylib */; };
+		5844197F22DD8759009D58FA /* libftd2xx.1.2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58929A281AA296C0006EB776 /* libftd2xx.1.2.2.dylib */; };
+		5844198022DD8792009D58FA /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58929A291AA296C0006EB776 /* libusb-1.0.0.dylib */; };
+		5844198422DD8EA4009D58FA /* libatikcameras.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 580C09161D793495009EBE29 /* libatikcameras.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5844198522DD8EB9009D58FA /* libftd2xx.1.2.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58929A281AA296C0006EB776 /* libftd2xx.1.2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5844198622DD8EC1009D58FA /* libusb-1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58929A291AA296C0006EB776 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5844778B1A81E09A00F5CD38 /* libwx_baseu_net-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5844778A1A81E09A00F5CD38 /* libwx_baseu_net-3.1.a */; };
+		5848281519AEA193001BF25E /* EDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5848281419AEA193001BF25E /* EDSDK.framework */; };
+		584BFB8E14EEB7A300DA5085 /* nebulosity.mo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 584BFB8914EEB73100DA5085 /* nebulosity.mo */; };
+		584BFB9014EEB7C700DA5085 /* nebulosity.mo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 584BFB8B14EEB74500DA5085 /* nebulosity.mo */; };
+		58512F3E23122B350088F599 /* libEFWFilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58512F3D23122B340088F599 /* libEFWFilter.a */; };
+		585836C80FE850CF00772871 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585836C70FE850CF00772871 /* OpenGL.framework */; };
+		5862FF9014BB79090006746D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5862FF8F14BB79090006746D /* IOKit.framework */; };
+		586BBA45156A054E0095447D /* SBIGUDrv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BBA44156A054E0095447D /* SBIGUDrv.framework */; };
+		586BE90D1526782200C42CEF /* libwx_baseu_xml-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9041526782200C42CEF /* libwx_baseu_xml-3.1.a */; };
+		586BE90E1526782200C42CEF /* libwx_baseu-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9051526782200C42CEF /* libwx_baseu-3.1.a */; };
+		586BE90F1526782200C42CEF /* libwx_osx_cocoau_adv-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9061526782200C42CEF /* libwx_osx_cocoau_adv-3.1.a */; };
+		586BE9101526782200C42CEF /* libwx_osx_cocoau_aui-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9071526782200C42CEF /* libwx_osx_cocoau_aui-3.1.a */; };
+		586BE9111526782200C42CEF /* libwx_osx_cocoau_core-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9081526782200C42CEF /* libwx_osx_cocoau_core-3.1.a */; };
+		586BE9121526782200C42CEF /* libwx_osx_cocoau_html-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9091526782200C42CEF /* libwx_osx_cocoau_html-3.1.a */; };
+		586BE9131526782200C42CEF /* libwx_osx_cocoau_media-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE90A1526782200C42CEF /* libwx_osx_cocoau_media-3.1.a */; };
+		586BE9141526782200C42CEF /* libwx_osx_cocoau_propgrid-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE90B1526782200C42CEF /* libwx_osx_cocoau_propgrid-3.1.a */; };
+		586E61AF1AAE4CF50009F22C /* CamToolDialogs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 586E61AD1AAE4CF50009F22C /* CamToolDialogs.cpp */; };
+		5874C7C823E650B10045FF41 /* Starfish.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5874C7C623E650B10045FF41 /* Starfish.cpp */; };
+		58770E1D23BED0B100D3F68D /* libusb-1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58D186941ABF2E6200928AD9 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5884D007159CBDB500D8A58E /* QHY8L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5884D005159CBDB500D8A58E /* QHY8L.cpp */; };
+		588898450ED4D7CD005B8BF4 /* serialport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 588898430ED4D7CD005B8BF4 /* serialport.cpp */; };
+		5896DAFF1038F08E00754FA2 /* DSSView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5896DAFC1038F08E00754FA2 /* DSSView.cpp */; };
+		5896DB001038F08E00754FA2 /* Apogee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5896DAFD1038F08E00754FA2 /* Apogee.cpp */; };
+		589BD0D815870AB100DC0F0C /* libQHYCSlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 589BD0D715870AB100DC0F0C /* libQHYCSlib.a */; };
+		589BD0DD15870C5500DC0F0C /* QHY10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589BD0D915870C5500DC0F0C /* QHY10.cpp */; };
+		589BD0DE15870C5500DC0F0C /* QHY12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589BD0DB15870C5500DC0F0C /* QHY12.cpp */; };
+		589BD0E215870D4600DC0F0C /* fxload-osx in Resources */ = {isa = PBXBuildFile; fileRef = 589BD0E015870D4600DC0F0C /* fxload-osx */; };
+		589EEBCA109CF183003418B2 /* autoalign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589EEBC8109CF183003418B2 /* autoalign.cpp */; };
+		58A07C95104C82D100935597 /* FLI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A07C93104C82D100935597 /* FLI.cpp */; };
+		58A346641A82F9C600AAFBC6 /* APyTools in Resources */ = {isa = PBXBuildFile; fileRef = 58A346631A82F9C600AAFBC6 /* APyTools */; };
+		58A6FBD2116453C600C522C4 /* WarpImageMultiTransform in Resources */ = {isa = PBXBuildFile; fileRef = 58A6FBCF116453C600C522C4 /* WarpImageMultiTransform */; };
+		58A6FBD3116453C600C522C4 /* ConvertImagePixelType in Resources */ = {isa = PBXBuildFile; fileRef = 58A6FBD0116453C600C522C4 /* ConvertImagePixelType */; };
+		58A6FBD4116453C600C522C4 /* ANTS in Resources */ = {isa = PBXBuildFile; fileRef = 58A6FBD1116453C600C522C4 /* ANTS */; };
+		58A766C31AA4D0A50038029E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A766C21AA4D0A50038029E /* Images.xcassets */; };
+		58A766C51AA4D0E60038029E /* Neb4.icns in Resources */ = {isa = PBXBuildFile; fileRef = 58A766C41AA4D0E60038029E /* Neb4.icns */; };
+		58B3F3A00EAF913400EDDB3A /* Opticstar142c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58B3F39C0EAF913400EDDB3A /* Opticstar142c.cpp */; };
+		58BACBD60E70DDAB004ED49A /* alignment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70609BE2499005A3E96 /* alignment.cpp */; };
+		58BACBD70E70DDAB004ED49A /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70809BE2499005A3E96 /* camera.cpp */; };
+		58BACBD80E70DDAB004ED49A /* clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70A09BE2499005A3E96 /* clock.cpp */; };
+		58BACBDA0E70DDAB004ED49A /* debayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70C09BE2499005A3E96 /* debayer.cpp */; };
+		58BACBDB0E70DDAB004ED49A /* display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70E09BE2499005A3E96 /* display.cpp */; };
+		58BACBDC0E70DDAB004ED49A /* dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70F09BE2499005A3E96 /* dummy.cpp */; };
+		58BACBDD0E70DDAB004ED49A /* file_tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71109BE2499005A3E96 /* file_tools.cpp */; };
+		58BACBDE0E70DDAB004ED49A /* image_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71309BE2499005A3E96 /* image_io.cpp */; };
+		58BACBDF0E70DDAB004ED49A /* image_manip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71409BE2499005A3E96 /* image_manip.cpp */; };
+		58BACBE00E70DDAB004ED49A /* image_math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71509BE2499005A3E96 /* image_math.cpp */; };
+		58BACBE10E70DDAB004ED49A /* main_classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71709BE2499005A3E96 /* main_classes.cpp */; };
+		58BACBE20E70DDAB004ED49A /* Nebulosity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */; };
+		58BACBE30E70DDAB004ED49A /* osxfuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71C09BE2499005A3E96 /* osxfuncs.cpp */; };
+		58BACBE40E70DDAB004ED49A /* preprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71E09BE2499005A3E96 /* preprocess.cpp */; };
+		58BACBE50E70DDAB004ED49A /* scripts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A72009BE2499005A3E96 /* scripts.cpp */; };
+		58BACBE60E70DDAB004ED49A /* manual_color_camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58CB23D80A02AD2E00F24639 /* manual_color_camera.cpp */; };
+		58BACBE70E70DDAB004ED49A /* sac10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58EE69600A403DAC002BCD28 /* sac10.cpp */; };
+		58BACBE80E70DDAB004ED49A /* SAC78.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 58EE69620A403DAC002BCD28 /* SAC78.CPP */; };
+		58BACBE90E70DDAB004ED49A /* simulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58EE69650A403DAC002BCD28 /* simulator.cpp */; };
+		58BACBEA0E70DDAB004ED49A /* Starshoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58EE69670A403DAC002BCD28 /* Starshoot.cpp */; };
+		58BACBEB0E70DDAB004ED49A /* CIM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5806E19D0A72771A00E85E30 /* CIM.cpp */; };
+		58BACBEC0E70DDAB004ED49A /* drizzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5806E19F0A72772000E85E30 /* drizzle.cpp */; };
+		58BACBED0E70DDAB004ED49A /* artemis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5808EE3F0A7BED1600CB1D62 /* artemis.cpp */; };
+		58BACBEE0E70DDAB004ED49A /* quality.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58D808060A9C9CB90056433F /* quality.cpp */; };
+		58BACBEF0E70DDAB004ED49A /* canon_cr2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5867497C0A9DEEEA003D4F5F /* canon_cr2.cpp */; };
+		58BACBF00E70DDAB004ED49A /* reconstruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FF990C0AA3535400638F98 /* reconstruct.cpp */; };
+		58BACBF10E70DDAB004ED49A /* CanonDSLR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */; };
+		58BACBF20E70DDAB004ED49A /* preferences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585C82ED0ABB0D0A0095F5FA /* preferences.cpp */; };
+		58BACBF30E70DDAB004ED49A /* DSUSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5881D1A60ADFBDE10071BE95 /* DSUSB.cpp */; };
+		58BACBF50E70DDAB004ED49A /* MeadeDSI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589EB7F80B0119AA009CAA3B /* MeadeDSI.cpp */; };
+		58BACBF60E70DDAB004ED49A /* LRGB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 580D903A0B33968E00018760 /* LRGB.cpp */; };
+		58BACBF80E70DDAB004ED49A /* preview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585277320B60641B000EC3A9 /* preview.cpp */; };
+		58BACBF90E70DDAB004ED49A /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5821929C0B6682D500E52BC7 /* geometry.cpp */; };
+		58BACBFA0E70DDAB004ED49A /* SXV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5835AE240B6CEE84006EC993 /* SXV.cpp */; };
+		58BACBFB0E70DDAB004ED49A /* SBIG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 586B3DC90B8F3F7D004B0C55 /* SBIG.cpp */; };
+		58BACBFC0E70DDAB004ED49A /* focus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581A4E180B9E4DC3002C95A7 /* focus.cpp */; };
+		58BACBFD0E70DDAB004ED49A /* Q8HR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581C83130BAF1A9F0051AACE /* Q8HR.cpp */; };
+		58BACBFE0E70DDAB004ED49A /* Opticstar335.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5807AD9F0C0BC70C0036C117 /* Opticstar335.cpp */; };
+		58BACBFF0E70DDAB004ED49A /* qhy268.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58242BD00C35D9D2001F7E4A /* qhy268.cpp */; };
+		58BACC000E70DDAB004ED49A /* greyc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 580AD7E50CB7F454004504CC /* greyc.cpp */; };
+		58BACC010E70DDAB004ED49A /* setup_tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58D258290CBE9FB600E3CF5A /* setup_tools.cpp */; };
+		58BACC020E70DDAB004ED49A /* Opticstar130.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58EB4C120D538936006B7157 /* Opticstar130.cpp */; };
+		58BACC030E70DDAB004ED49A /* QSI500.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5895D9260D616CE600B19589 /* QSI500.cpp */; };
+		58BACC040E70DDAB004ED49A /* QHY2Pro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5895D9280D616CE600B19589 /* QHY2Pro.cpp */; };
+		58BACC050E70DDAB004ED49A /* Opticstar145.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58DCCE560DEB0D8200BFD72C /* Opticstar145.cpp */; };
+		58BACC060E70DDAB004ED49A /* ASCOMCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58F210840DFBA5E7001A6E06 /* ASCOMCamera.cpp */; };
+		58BACC080E70DDAB004ED49A /* Opticstar142.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 582EDEBF0E62093E00B7354E /* Opticstar142.cpp */; };
+		58BACC0A0E70DDAB004ED49A /* libHIDUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5881D1BD0ADFBFF80071BE95 /* libHIDUtilities.a */; };
+		58BACC0D0E70DDAB004ED49A /* libcfitsio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F487A73609BE24F2005A3E96 /* libcfitsio.a */; };
+		58BACC110E70DDAB004ED49A /* libDsiDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 581928180B036752008651FE /* libDsiDevice.a */; };
+		58BACC120E70DDAB004ED49A /* libSXMacLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 582710660B77B55400976AB9 /* libSXMacLib.a */; };
+		58BACC160E70DDAB004ED49A /* libqhy8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 580D01AB0D751D4A00443557 /* libqhy8.a */; };
+		58BACC170E70DDAB004ED49A /* libqsiai_7_6_0_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852644F0E14B561002F2164 /* libqsiai_7_6_0_64.a */; };
+		58BACC1E0E70DDAB004ED49A /* GREYCstoration in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5846BBFF0CB6A4D20054A36F /* GREYCstoration */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		58BACC1F0E70DDAB004ED49A /* NebulosityDocs.pdf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 587F3E670AED3B83008A34B8 /* NebulosityDocs.pdf */; };
+		58BB01C41879D8CE0007A1EF /* WDM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58BB01C21879D8C80007A1EF /* WDM.cpp */; };
+		58BCBACF10EC03340061A7AC /* ext_filterwheel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58BCBACD10EC03340061A7AC /* ext_filterwheel.cpp */; };
+		58C17EFE244B9B95007687DE /* libqhyccd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C17EFD244B9B95007687DE /* libqhyccd.a */; };
+		58C77D241262C8F50013EA11 /* ASCOMLateCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58C77D221262C8F50013EA11 /* ASCOMLateCamera.cpp */; };
+		58DF43D21B9B6CC1006CFD71 /* ZWOASI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58DF43D11B9B6CC1006CFD71 /* ZWOASI.cpp */; };
+		58DF43D41B9B7566006CFD71 /* libASICamera2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DF43D31B9B7566006CFD71 /* libASICamera2.a */; };
+		58ECE80E1A0344790032AB92 /* libwxpng-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ECE80D1A0344790032AB92 /* libwxpng-3.1.a */; };
+		58FE756B14EE110000A429ED /* nebulosity.mo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58FE756914EE10D800A429ED /* nebulosity.mo */; };
+		58FE756D14EE114100A429ED /* nebulosity.mo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58FE756714EE10C300A429ED /* nebulosity.mo */; };
+		58FED1880FCF4D1B00F18967 /* QHY8Pro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FED1860FCF4D1B00F18967 /* QHY8Pro.cpp */; };
+		58FEEAA425B6642D00532916 /* libraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 582ED04114959180002F8602 /* libraw.a */; };
+		58FF0B4A20558D3200BF45F2 /* QHYUniversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FF0B4920558D3200BF45F2 /* QHYUniversal.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		584BFB8D14EEB77E00DA5085 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = nl;
+			dstSubfolderSpec = 7;
+			files = (
+				584BFB8E14EEB7A300DA5085 /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584BFB8F14EEB7B900DA5085 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = it;
+			dstSubfolderSpec = 7;
+			files = (
+				584BFB9014EEB7C700DA5085 /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586B8EC11A82F5EF00132BE1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = APyTools;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58BACC190E70DDAB004ED49A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				58770E1D23BED0B100D3F68D /* libusb-1.0.0.dylib in CopyFiles */,
+				581B212619AEB93800B22AFF /* EDSDK.framework in CopyFiles */,
+				5810454915B1FA5B00FF78C9 /* SBIGUDrv.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58BACC1D0E70DDAB004ED49A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				5844198622DD8EC1009D58FA /* libusb-1.0.0.dylib in CopyFiles */,
+				5844198522DD8EB9009D58FA /* libftd2xx.1.2.2.dylib in CopyFiles */,
+				5844198422DD8EA4009D58FA /* libatikcameras.dylib in CopyFiles */,
+				58BACC1E0E70DDAB004ED49A /* GREYCstoration in CopyFiles */,
+				58BACC1F0E70DDAB004ED49A /* NebulosityDocs.pdf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE756614EE106A00A429ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = fr;
+			dstSubfolderSpec = 7;
+			files = (
+				58FE756B14EE110000A429ED /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE756C14EE112A00A429ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = de;
+			dstSubfolderSpec = 7;
+			files = (
+				58FE756D14EE114100A429ED /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		58025CA115AD4EBE0051BAC2 /* CCDAD_QHY10.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD_QHY10.HEX; path = extras_intel/CCDAD_QHY10.HEX; sourceTree = "<group>"; };
+		58025CA215AD4EBE0051BAC2 /* CCDAD.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD.HEX; path = extras_intel/CCDAD.HEX; sourceTree = "<group>"; };
+		58025CA315AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD_QHY8PRO.HEX; path = extras_intel/CCDAD_QHY8PRO.HEX; sourceTree = "<group>"; };
+		58025CA415AD4EBE0051BAC2 /* CCDAD_QHY8L.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD_QHY8L.HEX; path = extras_intel/CCDAD_QHY8L.HEX; sourceTree = "<group>"; };
+		58025CA515AD4EBE0051BAC2 /* CCDAD_QHY12.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD_QHY12.HEX; path = extras_intel/CCDAD_QHY12.HEX; sourceTree = "<group>"; };
+		58044C5411FF4586000C548B /* Opticstar336.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Opticstar336.cpp; sourceTree = "<group>"; };
+		58044C5511FF4586000C548B /* Moravian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Moravian.cpp; sourceTree = "<group>"; };
+		58044C5611FF4586000C548B /* Opticstar336.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opticstar336.h; sourceTree = "<group>"; };
+		58044C5711FF4586000C548B /* Moravian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moravian.h; sourceTree = "<group>"; };
+		5806D72815C0F48A00536F95 /* Opticstar616.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opticstar616.h; sourceTree = "<group>"; };
+		5806D72A15C0F6AB00536F95 /* Opticstar616.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Opticstar616.cpp; sourceTree = "<group>"; };
+		5806E19D0A72771A00E85E30 /* CIM.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CIM.cpp; sourceTree = "<group>"; };
+		5806E19F0A72772000E85E30 /* drizzle.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = drizzle.cpp; sourceTree = "<group>"; };
+		5807AD9F0C0BC70C0036C117 /* Opticstar335.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Opticstar335.cpp; sourceTree = "<group>"; };
+		5807ADA00C0BC70C0036C117 /* Opticstar335.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Opticstar335.h; sourceTree = "<group>"; };
+		5808EE3F0A7BED1600CB1D62 /* artemis.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = artemis.cpp; sourceTree = "<group>"; };
+		580914FE0ADEC93C0042AFAB /* preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = preferences.h; sourceTree = "<group>"; };
+		580AD7E50CB7F454004504CC /* greyc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = greyc.cpp; sourceTree = "<group>"; };
+		580C09161D793495009EBE29 /* libatikcameras.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libatikcameras.dylib; path = cameras/libatikcameras.dylib; sourceTree = "<group>"; };
+		580D01AB0D751D4A00443557 /* libqhy8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqhy8.a; path = cameras/libqhy8.a; sourceTree = "<group>"; };
+		580D90390B33968E00018760 /* LRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRGB.h; sourceTree = "<group>"; };
+		580D903A0B33968E00018760 /* LRGB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRGB.cpp; sourceTree = "<group>"; };
+		581044EA15ADF97E00FF78C9 /* CCDAD_QHY9.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD_QHY9.HEX; path = extras_intel/CCDAD_QHY9.HEX; sourceTree = "<group>"; };
+		58157B5E176994980056B3BD /* liblcms2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblcms2.a; path = /opt/local/lib/liblcms2.a; sourceTree = "<absolute>"; };
+		581768AD1CCDAACA00F78ED9 /* libfli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfli.a; path = cameras/libfli.a; sourceTree = "<group>"; };
+		581928180B036752008651FE /* libDsiDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDsiDevice.a; path = cameras/libDsiDevice.a; sourceTree = "<group>"; };
+		581A4E170B9E4DC3002C95A7 /* focus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = focus.h; sourceTree = "<group>"; };
+		581A4E180B9E4DC3002C95A7 /* focus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = focus.cpp; sourceTree = "<group>"; };
+		581C28B61C06286B0094BE9E /* altair_astro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = altair_astro.cpp; sourceTree = "<group>"; };
+		581C28B71C06286B0094BE9E /* altair_astro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = altair_astro.h; sourceTree = "<group>"; };
+		581C41AA1A8527990017C023 /* APyTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = APyTools.cpp; sourceTree = "<group>"; };
+		581C83130BAF1A9F0051AACE /* Q8HR.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Q8HR.cpp; sourceTree = "<group>"; };
+		581C83140BAF1A9F0051AACE /* Q8HR.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Q8HR.h; sourceTree = "<group>"; };
+		5821929C0B6682D500E52BC7 /* geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geometry.cpp; sourceTree = "<group>"; };
+		58242BD00C35D9D2001F7E4A /* qhy268.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = qhy268.cpp; sourceTree = "<group>"; };
+		58242BD10C35D9D2001F7E4A /* qhy268.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = qhy268.h; sourceTree = "<group>"; };
+		58249515128B00EB00E2A072 /* Opticstar615.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Opticstar615.cpp; sourceTree = "<group>"; };
+		58249516128B00EB00E2A072 /* Opticstar615.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opticstar615.h; sourceTree = "<group>"; };
+		5824BB4914A91BBD009F81E1 /* libfreeimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreeimage.a; path = ../Mac_Libraries/FreeImage_3_18/Dist/libfreeimage.a; sourceTree = "<group>"; };
+		582710660B77B55400976AB9 /* libSXMacLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSXMacLib.a; path = cameras/libSXMacLib.a; sourceTree = "<group>"; };
+		582C50A414E1EC6200D520CF /* macro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macro.cpp; sourceTree = "<group>"; };
+		582C50A514E1EC6200D520CF /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		582ED04114959180002F8602 /* libraw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraw.a; path = "../Mac_Libraries/LibRaw-0.20.2/lib/libraw.a"; sourceTree = SOURCE_ROOT; };
+		582EDEBF0E62093E00B7354E /* Opticstar142.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Opticstar142.cpp; sourceTree = "<group>"; };
+		582EDEC00E62093E00B7354E /* Opticstar142.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Opticstar142.h; sourceTree = "<group>"; };
+		5835AE240B6CEE84006EC993 /* SXV.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SXV.cpp; sourceTree = "<group>"; };
+		5835AE250B6CEE84006EC993 /* SXV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SXV.h; sourceTree = "<group>"; };
+		5836CF6516053C970092F683 /* focuser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = focuser.cpp; sourceTree = "<group>"; };
+		5836CF6616053C970092F683 /* focuser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = focuser.h; sourceTree = "<group>"; };
+		583ED74C0FC7BA540043E9D8 /* qhy9.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = qhy9.h; sourceTree = "<group>"; };
+		583ED74D0FC7BA540043E9D8 /* qhy9.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = qhy9.cpp; sourceTree = "<group>"; };
+		5844197D22D8F679009D58FA /* Nebulosity 4 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Nebulosity 4 copy-Info.plist"; path = "/Users/stark/dev/nebulosity3/Nebulosity 4 copy-Info.plist"; sourceTree = "<absolute>"; };
+		5844778A1A81E09A00F5CD38 /* libwx_baseu_net-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_baseu_net-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_baseu_net-3.1.a"; sourceTree = "<group>"; };
+		5846BBFF0CB6A4D20054A36F /* GREYCstoration */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = GREYCstoration; sourceTree = "<group>"; };
+		5848281419AEA193001BF25E /* EDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EDSDK.framework; path = ../Mac_Libraries/EDSDK_v131231_Macintosh/EDSDK/Framework/EDSDK.framework; sourceTree = "<group>"; };
+		584BFB8914EEB73100DA5085 /* nebulosity.mo */ = {isa = PBXFileReference; lastKnownFileType = file; name = nebulosity.mo; path = nl/nebulosity.mo; sourceTree = "<group>"; };
+		584BFB8B14EEB74500DA5085 /* nebulosity.mo */ = {isa = PBXFileReference; lastKnownFileType = file; name = nebulosity.mo; path = it/nebulosity.mo; sourceTree = "<group>"; };
+		58512F3D23122B340088F599 /* libEFWFilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEFWFilter.a; path = cameras/libEFWFilter.a; sourceTree = "<group>"; };
+		5852644F0E14B561002F2164 /* libqsiai_7_6_0_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqsiai_7_6_0_64.a; path = cameras/libqsiai_7_6_0_64.a; sourceTree = "<group>"; };
+		5852646A0E14B787002F2164 /* libftdi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libftdi.a; path = cameras/libftdi.a; sourceTree = "<group>"; };
+		585277320B60641B000EC3A9 /* preview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = preview.cpp; sourceTree = "<group>"; };
+		585836C70FE850CF00772871 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		585C82ED0ABB0D0A0095F5FA /* preferences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = preferences.cpp; sourceTree = "<group>"; };
+		5862FF8F14BB79090006746D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5867497C0A9DEEEA003D4F5F /* canon_cr2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = canon_cr2.cpp; sourceTree = "<group>"; };
+		586B3DC80B8F3F7D004B0C55 /* SBIG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBIG.h; sourceTree = "<group>"; };
+		586B3DC90B8F3F7D004B0C55 /* SBIG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SBIG.cpp; sourceTree = "<group>"; };
+		586B6D730E1051DD00FBD251 /* artemis.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = artemis.h; sourceTree = "<group>"; };
+		586BBA44156A054E0095447D /* SBIGUDrv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SBIGUDrv.framework; path = ../Mac_Libraries/SBIGUDrv.framework; sourceTree = SOURCE_ROOT; };
+		586BE9041526782200C42CEF /* libwx_baseu_xml-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_baseu_xml-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_baseu_xml-3.1.a"; sourceTree = "<group>"; };
+		586BE9051526782200C42CEF /* libwx_baseu-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_baseu-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_baseu-3.1.a"; sourceTree = "<group>"; };
+		586BE9061526782200C42CEF /* libwx_osx_cocoau_adv-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_adv-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_osx_cocoau_adv-3.1.a"; sourceTree = "<group>"; };
+		586BE9071526782200C42CEF /* libwx_osx_cocoau_aui-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_aui-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_osx_cocoau_aui-3.1.a"; sourceTree = "<group>"; };
+		586BE9081526782200C42CEF /* libwx_osx_cocoau_core-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_core-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_osx_cocoau_core-3.1.a"; sourceTree = "<group>"; };
+		586BE9091526782200C42CEF /* libwx_osx_cocoau_html-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_html-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_osx_cocoau_html-3.1.a"; sourceTree = "<group>"; };
+		586BE90A1526782200C42CEF /* libwx_osx_cocoau_media-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_media-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_osx_cocoau_media-3.1.a"; sourceTree = "<group>"; };
+		586BE90B1526782200C42CEF /* libwx_osx_cocoau_propgrid-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_propgrid-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwx_osx_cocoau_propgrid-3.1.a"; sourceTree = "<group>"; };
+		586E61AD1AAE4CF50009F22C /* CamToolDialogs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CamToolDialogs.cpp; sourceTree = "<group>"; };
+		586E61AE1AAE4CF50009F22C /* CamToolDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamToolDialogs.h; sourceTree = "<group>"; };
+		5874C7C623E650B10045FF41 /* Starfish.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Starfish.cpp; sourceTree = "<group>"; };
+		5874C7C723E650B10045FF41 /* Starfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Starfish.h; sourceTree = "<group>"; };
+		587660DE1A895C770071CBA5 /* nebulosity3.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = nebulosity3.profdata; sourceTree = "<group>"; };
+		58770E1E23BEDE5100D3F68D /* Nebulosity4-64.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nebulosity4-64.entitlements"; sourceTree = "<group>"; };
+		587F3E670AED3B83008A34B8 /* NebulosityDocs.pdf */ = {isa = PBXFileReference; explicitFileType = file; path = NebulosityDocs.pdf; sourceTree = "<group>"; };
+		5881D1A60ADFBDE10071BE95 /* DSUSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = DSUSB.cpp; sourceTree = "<group>"; };
+		5881D1A70ADFBDE10071BE95 /* DSUSB.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSUSB.h; sourceTree = "<group>"; };
+		5881D1BD0ADFBFF80071BE95 /* libHIDUtilities.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHIDUtilities.a; path = ../Mac_Libraries/HID64/build/Products/Deployment/libHIDUtilities.a; sourceTree = "<group>"; };
+		5883B4560AD6F37500D45DB9 /* canon_cr2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = canon_cr2.h; sourceTree = "<group>"; };
+		5884D005159CBDB500D8A58E /* QHY8L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QHY8L.cpp; sourceTree = "<group>"; };
+		5884D006159CBDB500D8A58E /* QHY8L.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHY8L.h; sourceTree = "<group>"; };
+		588898430ED4D7CD005B8BF4 /* serialport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = serialport.cpp; sourceTree = "<group>"; };
+		588C191C0E0DEECF00B6494B /* NebulosityDocs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NebulosityDocs.pdf; sourceTree = "<group>"; };
+		58929A261AA296C0006EB776 /* libATIK.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libATIK.dylib; path = cameras/AOSX/libATIK.dylib; sourceTree = "<group>"; };
+		58929A271AA296C0006EB776 /* libATIKLegacy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libATIKLegacy.dylib; path = cameras/AOSX/libATIKLegacy.dylib; sourceTree = "<group>"; };
+		58929A281AA296C0006EB776 /* libftd2xx.1.2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libftd2xx.1.2.2.dylib; path = cameras/libftd2xx.1.2.2.dylib; sourceTree = "<group>"; };
+		58929A291AA296C0006EB776 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "cameras/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		5892E99C15AD57EF00E15AD3 /* libusb-0.1.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-0.1.4.dylib"; path = "cameras/libusb-0.1.4.dylib"; sourceTree = "<group>"; };
+		5895D9250D616CE600B19589 /* QSI500.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSI500.h; sourceTree = "<group>"; };
+		5895D9260D616CE600B19589 /* QSI500.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = QSI500.cpp; sourceTree = "<group>"; };
+		5895D9270D616CE600B19589 /* QHY2Pro.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QHY2Pro.h; sourceTree = "<group>"; };
+		5895D9280D616CE600B19589 /* QHY2Pro.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = QHY2Pro.cpp; sourceTree = "<group>"; };
+		5896DAFC1038F08E00754FA2 /* DSSView.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = DSSView.cpp; sourceTree = "<group>"; };
+		5896DAFD1038F08E00754FA2 /* Apogee.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Apogee.cpp; sourceTree = "<group>"; };
+		5896DAFE1038F08E00754FA2 /* Apogee.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Apogee.h; sourceTree = "<group>"; };
+		589BD0D715870AB100DC0F0C /* libQHYCSlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQHYCSlib.a; path = cameras/libQHYCSlib.a; sourceTree = "<group>"; };
+		589BD0D915870C5500DC0F0C /* QHY10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QHY10.cpp; sourceTree = "<group>"; };
+		589BD0DA15870C5500DC0F0C /* QHY10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHY10.h; sourceTree = "<group>"; };
+		589BD0DB15870C5500DC0F0C /* QHY12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QHY12.cpp; sourceTree = "<group>"; };
+		589BD0DC15870C5500DC0F0C /* QHY12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHY12.h; sourceTree = "<group>"; };
+		589BD0E015870D4600DC0F0C /* fxload-osx */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "fxload-osx"; path = "extras_intel/fxload-osx"; sourceTree = "<group>"; };
+		589EB7E90B011852009CAA3B /* DsiDevice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DsiDevice.h; path = cameras/DsiDevice.h; sourceTree = "<group>"; };
+		589EB7F80B0119AA009CAA3B /* MeadeDSI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MeadeDSI.cpp; sourceTree = "<group>"; };
+		589EB7F90B0119AA009CAA3B /* MeadeDSI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MeadeDSI.h; sourceTree = "<group>"; };
+		589EEBC8109CF183003418B2 /* autoalign.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = autoalign.cpp; sourceTree = "<group>"; };
+		589EEBCD109CF1B6003418B2 /* autoalign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autoalign.h; sourceTree = "<group>"; };
+		58A07C93104C82D100935597 /* FLI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = FLI.cpp; sourceTree = "<group>"; };
+		58A07C94104C82D100935597 /* FLI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FLI.h; sourceTree = "<group>"; };
+		58A346631A82F9C600AAFBC6 /* APyTools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APyTools; sourceTree = "<group>"; };
+		58A6FBCF116453C600C522C4 /* WarpImageMultiTransform */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = WarpImageMultiTransform; path = extras_intel/WarpImageMultiTransform; sourceTree = "<group>"; };
+		58A6FBD0116453C600C522C4 /* ConvertImagePixelType */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = ConvertImagePixelType; path = extras_intel/ConvertImagePixelType; sourceTree = "<group>"; };
+		58A6FBD1116453C600C522C4 /* ANTS */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = ANTS; path = extras_intel/ANTS; sourceTree = "<group>"; };
+		58A766C21AA4D0A50038029E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58A766C41AA4D0E60038029E /* Neb4.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Neb4.icns; sourceTree = "<group>"; };
+		58B3F39C0EAF913400EDDB3A /* Opticstar142c.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Opticstar142c.cpp; sourceTree = "<group>"; };
+		58B3F39D0EAF913400EDDB3A /* Opticstar142c.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Opticstar142c.h; sourceTree = "<group>"; };
+		58BACC240E70DDAB004ED49A /* Nebulosity4-64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nebulosity4-64.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BACC260E70DDAB004ED49A /* nebulosity-Info_XC6.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nebulosity-Info_XC6.plist"; sourceTree = "<group>"; };
+		58BB01C21879D8C80007A1EF /* WDM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WDM.cpp; sourceTree = "<group>"; };
+		58BB01C31879D8C80007A1EF /* WDM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDM.h; sourceTree = "<group>"; };
+		58BCBACC10EC03340061A7AC /* ext_filterwheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_filterwheel.h; sourceTree = "<group>"; };
+		58BCBACD10EC03340061A7AC /* ext_filterwheel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ext_filterwheel.cpp; sourceTree = "<group>"; };
+		58C17EFD244B9B95007687DE /* libqhyccd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqhyccd.a; path = cameras/libqhyccd.a; sourceTree = "<group>"; };
+		58C77D221262C8F50013EA11 /* ASCOMLateCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASCOMLateCamera.cpp; sourceTree = "<group>"; };
+		58CB23D80A02AD2E00F24639 /* manual_color_camera.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = manual_color_camera.cpp; sourceTree = "<group>"; };
+		58D186941ABF2E6200928AD9 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "cameras/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		58D258290CBE9FB600E3CF5A /* setup_tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = setup_tools.cpp; sourceTree = "<group>"; };
+		58D258370CBEA2E300E3CF5A /* setup_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setup_tools.h; sourceTree = "<group>"; };
+		58D808050A9C9CB90056433F /* quality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quality.h; sourceTree = "<group>"; };
+		58D808060A9C9CB90056433F /* quality.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quality.cpp; sourceTree = "<group>"; };
+		58DCCE560DEB0D8200BFD72C /* Opticstar145.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Opticstar145.cpp; sourceTree = "<group>"; };
+		58DCCE570DEB0D8200BFD72C /* Opticstar145.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Opticstar145.h; sourceTree = "<group>"; };
+		58DF43D01B9B6CC1006CFD71 /* ZWO_ASI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWO_ASI.h; sourceTree = "<group>"; };
+		58DF43D11B9B6CC1006CFD71 /* ZWOASI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZWOASI.cpp; sourceTree = "<group>"; };
+		58DF43D31B9B7566006CFD71 /* libASICamera2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libASICamera2.a; path = cameras/libASICamera2.a; sourceTree = "<group>"; };
+		58EB4C120D538936006B7157 /* Opticstar130.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Opticstar130.cpp; sourceTree = "<group>"; };
+		58EB4C130D538936006B7157 /* Opticstar130.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Opticstar130.h; sourceTree = "<group>"; };
+		58ECE80D1A0344790032AB92 /* libwxpng-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwxpng-3.1.a"; path = "../Mac_Libraries/wxWidgets-3.1.2/Cocoa/lib/libwxpng-3.1.a"; sourceTree = "<group>"; };
+		58EE695E0A403DAC002BCD28 /* cam_class.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cam_class.h; sourceTree = "<group>"; };
+		58EE69600A403DAC002BCD28 /* sac10.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = sac10.cpp; sourceTree = "<group>"; };
+		58EE69610A403DAC002BCD28 /* sac10.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sac10.h; sourceTree = "<group>"; };
+		58EE69620A403DAC002BCD28 /* SAC78.CPP */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SAC78.CPP; sourceTree = "<group>"; };
+		58EE69630A403DAC002BCD28 /* SAC78.H */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = SAC78.H; sourceTree = "<group>"; };
+		58EE69640A403DAC002BCD28 /* SACStarShoot.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SACStarShoot.h; sourceTree = "<group>"; };
+		58EE69650A403DAC002BCD28 /* simulator.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = simulator.cpp; sourceTree = "<group>"; };
+		58EE69660A403DAC002BCD28 /* simulator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = simulator.h; sourceTree = "<group>"; };
+		58EE69670A403DAC002BCD28 /* Starshoot.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Starshoot.cpp; sourceTree = "<group>"; };
+		58EE69680A403DAC002BCD28 /* StarShootDLL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StarShootDLL.h; sourceTree = "<group>"; };
+		58F052A40B0FF7780053B421 /* serialport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serialport.h; sourceTree = "<group>"; };
+		58F210840DFBA5E7001A6E06 /* ASCOMCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ASCOMCamera.cpp; sourceTree = "<group>"; };
+		58F210850DFBA5E7001A6E06 /* ASCOMCamera.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASCOMCamera.h; sourceTree = "<group>"; };
+		58FE756714EE10C300A429ED /* nebulosity.mo */ = {isa = PBXFileReference; lastKnownFileType = file; name = nebulosity.mo; path = de/nebulosity.mo; sourceTree = "<group>"; };
+		58FE756914EE10D800A429ED /* nebulosity.mo */ = {isa = PBXFileReference; lastKnownFileType = file; name = nebulosity.mo; path = fr/nebulosity.mo; sourceTree = "<group>"; };
+		58FED1860FCF4D1B00F18967 /* QHY8Pro.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = QHY8Pro.cpp; sourceTree = "<group>"; };
+		58FED1870FCF4D1B00F18967 /* QHY8Pro.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QHY8Pro.h; sourceTree = "<group>"; };
+		58FF0B4820558D3200BF45F2 /* QHYUniversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHYUniversal.h; sourceTree = "<group>"; };
+		58FF0B4920558D3200BF45F2 /* QHYUniversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QHYUniversal.cpp; sourceTree = "<group>"; };
+		58FF990C0AA3535400638F98 /* reconstruct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reconstruct.cpp; sourceTree = "<group>"; };
+		58FF99140AA3549C00638F98 /* CanonDSLR.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CanonDSLR.cpp; sourceTree = "<group>"; };
+		58FF99190AA354B200638F98 /* CanonDSLR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanonDSLR.h; sourceTree = "<group>"; };
+		F487A70609BE2499005A3E96 /* alignment.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = alignment.cpp; sourceTree = "<group>"; };
+		F487A70709BE2499005A3E96 /* alignment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = alignment.h; sourceTree = "<group>"; };
+		F487A70809BE2499005A3E96 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		F487A70909BE2499005A3E96 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		F487A70A09BE2499005A3E96 /* clock.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = clock.cpp; sourceTree = "<group>"; };
+		F487A70C09BE2499005A3E96 /* debayer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = debayer.cpp; sourceTree = "<group>"; };
+		F487A70D09BE2499005A3E96 /* debayer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = debayer.h; sourceTree = "<group>"; };
+		F487A70E09BE2499005A3E96 /* display.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = display.cpp; sourceTree = "<group>"; };
+		F487A70F09BE2499005A3E96 /* dummy.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = dummy.cpp; sourceTree = "<group>"; };
+		F487A71009BE2499005A3E96 /* dummy.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = dummy.h; sourceTree = "<group>"; };
+		F487A71109BE2499005A3E96 /* file_tools.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = file_tools.cpp; sourceTree = "<group>"; };
+		F487A71209BE2499005A3E96 /* file_tools.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = file_tools.h; sourceTree = "<group>"; };
+		F487A71309BE2499005A3E96 /* image_io.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = image_io.cpp; sourceTree = "<group>"; };
+		F487A71409BE2499005A3E96 /* image_manip.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = image_manip.cpp; sourceTree = "<group>"; };
+		F487A71509BE2499005A3E96 /* image_math.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = image_math.cpp; sourceTree = "<group>"; };
+		F487A71609BE2499005A3E96 /* image_math.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = image_math.h; sourceTree = "<group>"; };
+		F487A71709BE2499005A3E96 /* main_classes.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main_classes.cpp; sourceTree = "<group>"; };
+		F487A71809BE2499005A3E96 /* main_classes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = main_classes.h; sourceTree = "<group>"; };
+		F487A71A09BE2499005A3E96 /* Nebulosity.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Nebulosity.cpp; sourceTree = "<group>"; };
+		F487A71B09BE2499005A3E96 /* Nebulosity.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Nebulosity.h; sourceTree = "<group>"; };
+		F487A71C09BE2499005A3E96 /* osxfuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = osxfuncs.cpp; sourceTree = "<group>"; };
+		F487A71D09BE2499005A3E96 /* osxfuncs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = osxfuncs.h; sourceTree = "<group>"; };
+		F487A71E09BE2499005A3E96 /* preprocess.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = preprocess.cpp; sourceTree = "<group>"; };
+		F487A71F09BE2499005A3E96 /* preprocess.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = preprocess.h; sourceTree = "<group>"; };
+		F487A72009BE2499005A3E96 /* scripts.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = scripts.cpp; sourceTree = "<group>"; };
+		F487A73609BE24F2005A3E96 /* libcfitsio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcfitsio.a; path = ../Mac_Libraries/cfitsio_3290/libcfitsio.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58BACC090E70DDAB004ED49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BACC0A0E70DDAB004ED49A /* libHIDUtilities.a in Frameworks */,
+				58DF43D41B9B7566006CFD71 /* libASICamera2.a in Frameworks */,
+				58BACC0D0E70DDAB004ED49A /* libcfitsio.a in Frameworks */,
+				58BACC110E70DDAB004ED49A /* libDsiDevice.a in Frameworks */,
+				58BACC120E70DDAB004ED49A /* libSXMacLib.a in Frameworks */,
+				5844197F22DD8759009D58FA /* libftd2xx.1.2.2.dylib in Frameworks */,
+				58ECE80E1A0344790032AB92 /* libwxpng-3.1.a in Frameworks */,
+				58512F3E23122B350088F599 /* libEFWFilter.a in Frameworks */,
+				58BACC160E70DDAB004ED49A /* libqhy8.a in Frameworks */,
+				58BACC170E70DDAB004ED49A /* libqsiai_7_6_0_64.a in Frameworks */,
+				585836C80FE850CF00772871 /* OpenGL.framework in Frameworks */,
+				589BD0D815870AB100DC0F0C /* libQHYCSlib.a in Frameworks */,
+				5844197E22DD7F95009D58FA /* libatikcameras.dylib in Frameworks */,
+				58C17EFE244B9B95007687DE /* libqhyccd.a in Frameworks */,
+				58FEEAA425B6642D00532916 /* libraw.a in Frameworks */,
+				5824BB4A14A91BBD009F81E1 /* libfreeimage.a in Frameworks */,
+				5844198022DD8792009D58FA /* libusb-1.0.0.dylib in Frameworks */,
+				5862FF9014BB79090006746D /* IOKit.framework in Frameworks */,
+				586BE90D1526782200C42CEF /* libwx_baseu_xml-3.1.a in Frameworks */,
+				586BE90E1526782200C42CEF /* libwx_baseu-3.1.a in Frameworks */,
+				586BE90F1526782200C42CEF /* libwx_osx_cocoau_adv-3.1.a in Frameworks */,
+				586BE9101526782200C42CEF /* libwx_osx_cocoau_aui-3.1.a in Frameworks */,
+				586BE9111526782200C42CEF /* libwx_osx_cocoau_core-3.1.a in Frameworks */,
+				586BE9131526782200C42CEF /* libwx_osx_cocoau_media-3.1.a in Frameworks */,
+				586BE9121526782200C42CEF /* libwx_osx_cocoau_html-3.1.a in Frameworks */,
+				586BE9141526782200C42CEF /* libwx_osx_cocoau_propgrid-3.1.a in Frameworks */,
+				5839A3E01AA2E17C00C6D7E8 /* libftdi.a in Frameworks */,
+				581768AE1CCDAACA00F78ED9 /* libfli.a in Frameworks */,
+				5848281519AEA193001BF25E /* EDSDK.framework in Frameworks */,
+				586BBA45156A054E0095447D /* SBIGUDrv.framework in Frameworks */,
+				5844778B1A81E09A00F5CD38 /* libwx_baseu_net-3.1.a in Frameworks */,
+				58157B5F176994980056B3BD /* liblcms2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		583FEF220B39DEBD00495689 /* I/O */ = {
+			isa = PBXGroup;
+			children = (
+				5883B4560AD6F37500D45DB9 /* canon_cr2.h */,
+				5867497C0A9DEEEA003D4F5F /* canon_cr2.cpp */,
+				F487A71109BE2499005A3E96 /* file_tools.cpp */,
+				F487A71209BE2499005A3E96 /* file_tools.h */,
+				F487A71309BE2499005A3E96 /* image_io.cpp */,
+				585277320B60641B000EC3A9 /* preview.cpp */,
+			);
+			name = I/O;
+			sourceTree = "<group>";
+		};
+		586E61B01AAE4D2F0009F22C /* Helper tools */ = {
+			isa = PBXGroup;
+			children = (
+				5896DAFC1038F08E00754FA2 /* DSSView.cpp */,
+				580AD7E50CB7F454004504CC /* greyc.cpp */,
+				581C41AA1A8527990017C023 /* APyTools.cpp */,
+			);
+			name = "Helper tools";
+			sourceTree = "<group>";
+		};
+		586E61B11AAE4D4B0009F22C /* Other hardware */ = {
+			isa = PBXGroup;
+			children = (
+				58BCBACC10EC03340061A7AC /* ext_filterwheel.h */,
+				58BCBACD10EC03340061A7AC /* ext_filterwheel.cpp */,
+				5881D1A60ADFBDE10071BE95 /* DSUSB.cpp */,
+				5881D1A70ADFBDE10071BE95 /* DSUSB.h */,
+				586E61AD1AAE4CF50009F22C /* CamToolDialogs.cpp */,
+				586E61AE1AAE4CF50009F22C /* CamToolDialogs.h */,
+				5836CF6516053C970092F683 /* focuser.cpp */,
+				5836CF6616053C970092F683 /* focuser.h */,
+			);
+			name = "Other hardware";
+			sourceTree = "<group>";
+		};
+		586E61B21AAE4D880009F22C /* Image processing */ = {
+			isa = PBXGroup;
+			children = (
+				58FF990C0AA3535400638F98 /* reconstruct.cpp */,
+				F487A70D09BE2499005A3E96 /* debayer.h */,
+				F487A70C09BE2499005A3E96 /* debayer.cpp */,
+				581A4E180B9E4DC3002C95A7 /* focus.cpp */,
+				581A4E170B9E4DC3002C95A7 /* focus.h */,
+				5821929C0B6682D500E52BC7 /* geometry.cpp */,
+				F487A71409BE2499005A3E96 /* image_manip.cpp */,
+				F487A71509BE2499005A3E96 /* image_math.cpp */,
+				F487A71609BE2499005A3E96 /* image_math.h */,
+				58D808050A9C9CB90056433F /* quality.h */,
+				58D808060A9C9CB90056433F /* quality.cpp */,
+				580D90390B33968E00018760 /* LRGB.h */,
+				580D903A0B33968E00018760 /* LRGB.cpp */,
+			);
+			name = "Image processing";
+			sourceTree = "<group>";
+		};
+		587660DD1A895C770071CBA5 /* OptimizationProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				587660DE1A895C770071CBA5 /* nebulosity3.profdata */,
+			);
+			path = OptimizationProfiles;
+			sourceTree = "<group>";
+		};
+		5883B4000AD6D9FC00D45DB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5848281419AEA193001BF25E /* EDSDK.framework */,
+				586BBA44156A054E0095447D /* SBIGUDrv.framework */,
+				585836C70FE850CF00772871 /* OpenGL.framework */,
+				5862FF8F14BB79090006746D /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58929A251AA295ED006EB776 /* QSI */ = {
+			isa = PBXGroup;
+			children = (
+				5852644F0E14B561002F2164 /* libqsiai_7_6_0_64.a */,
+				58D186941ABF2E6200928AD9 /* libusb-1.0.0.dylib */,
+				5892E99C15AD57EF00E15AD3 /* libusb-0.1.4.dylib */,
+				5852646A0E14B787002F2164 /* libftdi.a */,
+			);
+			name = QSI;
+			sourceTree = "<group>";
+		};
+		58929A2E1AA296C8006EB776 /* AOSX */ = {
+			isa = PBXGroup;
+			children = (
+				58929A261AA296C0006EB776 /* libATIK.dylib */,
+				58929A271AA296C0006EB776 /* libATIKLegacy.dylib */,
+				580C09161D793495009EBE29 /* libatikcameras.dylib */,
+			);
+			name = AOSX;
+			sourceTree = "<group>";
+		};
+		58A6FBCC1164538500C522C4 /* IntelOnlyExtras */ = {
+			isa = PBXGroup;
+			children = (
+				581044EA15ADF97E00FF78C9 /* CCDAD_QHY9.HEX */,
+				58025CA115AD4EBE0051BAC2 /* CCDAD_QHY10.HEX */,
+				58025CA215AD4EBE0051BAC2 /* CCDAD.HEX */,
+				58025CA315AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX */,
+				58025CA415AD4EBE0051BAC2 /* CCDAD_QHY8L.HEX */,
+				58025CA515AD4EBE0051BAC2 /* CCDAD_QHY12.HEX */,
+				589BD0E015870D4600DC0F0C /* fxload-osx */,
+				58A6FBCF116453C600C522C4 /* WarpImageMultiTransform */,
+				58A6FBD0116453C600C522C4 /* ConvertImagePixelType */,
+				58A6FBD1116453C600C522C4 /* ANTS */,
+			);
+			name = IntelOnlyExtras;
+			sourceTree = "<group>";
+		};
+		58BB01C01879D8190007A1EF /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				58929A2E1AA296C8006EB776 /* AOSX */,
+				F487A73609BE24F2005A3E96 /* libcfitsio.a */,
+				580D01AB0D751D4A00443557 /* libqhy8.a */,
+				58929A251AA295ED006EB776 /* QSI */,
+				589BD0D715870AB100DC0F0C /* libQHYCSlib.a */,
+				58512F3D23122B340088F599 /* libEFWFilter.a */,
+				586BE9041526782200C42CEF /* libwx_baseu_xml-3.1.a */,
+				586BE9051526782200C42CEF /* libwx_baseu-3.1.a */,
+				586BE9061526782200C42CEF /* libwx_osx_cocoau_adv-3.1.a */,
+				586BE9071526782200C42CEF /* libwx_osx_cocoau_aui-3.1.a */,
+				586BE9081526782200C42CEF /* libwx_osx_cocoau_core-3.1.a */,
+				586BE9091526782200C42CEF /* libwx_osx_cocoau_html-3.1.a */,
+				586BE90A1526782200C42CEF /* libwx_osx_cocoau_media-3.1.a */,
+				5844778A1A81E09A00F5CD38 /* libwx_baseu_net-3.1.a */,
+				586BE90B1526782200C42CEF /* libwx_osx_cocoau_propgrid-3.1.a */,
+				58ECE80D1A0344790032AB92 /* libwxpng-3.1.a */,
+				582710660B77B55400976AB9 /* libSXMacLib.a */,
+				581928180B036752008651FE /* libDsiDevice.a */,
+				58DF43D31B9B7566006CFD71 /* libASICamera2.a */,
+				58C17EFD244B9B95007687DE /* libqhyccd.a */,
+				5824BB4914A91BBD009F81E1 /* libfreeimage.a */,
+				5881D1BD0ADFBFF80071BE95 /* libHIDUtilities.a */,
+				582ED04114959180002F8602 /* libraw.a */,
+				58929A291AA296C0006EB776 /* libusb-1.0.0.dylib */,
+				58929A281AA296C0006EB776 /* libftd2xx.1.2.2.dylib */,
+				58157B5E176994980056B3BD /* liblcms2.a */,
+				581768AD1CCDAACA00F78ED9 /* libfli.a */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		58FF99040AA34E2E00638F98 /* Cameras */ = {
+			isa = PBXGroup;
+			children = (
+				58BB01C21879D8C80007A1EF /* WDM.cpp */,
+				58BB01C31879D8C80007A1EF /* WDM.h */,
+				F487A70909BE2499005A3E96 /* camera.h */,
+				F487A70809BE2499005A3E96 /* camera.cpp */,
+				5874C7C623E650B10045FF41 /* Starfish.cpp */,
+				5874C7C723E650B10045FF41 /* Starfish.h */,
+				58EE695E0A403DAC002BCD28 /* cam_class.h */,
+				581C28B61C06286B0094BE9E /* altair_astro.cpp */,
+				581C28B71C06286B0094BE9E /* altair_astro.h */,
+				5896DAFD1038F08E00754FA2 /* Apogee.cpp */,
+				5896DAFE1038F08E00754FA2 /* Apogee.h */,
+				5808EE3F0A7BED1600CB1D62 /* artemis.cpp */,
+				586B6D730E1051DD00FBD251 /* artemis.h */,
+				58F210840DFBA5E7001A6E06 /* ASCOMCamera.cpp */,
+				58F210850DFBA5E7001A6E06 /* ASCOMCamera.h */,
+				58C77D221262C8F50013EA11 /* ASCOMLateCamera.cpp */,
+				58FF99190AA354B200638F98 /* CanonDSLR.h */,
+				58FF99140AA3549C00638F98 /* CanonDSLR.cpp */,
+				589EB7E90B011852009CAA3B /* DsiDevice.h */,
+				58A07C93104C82D100935597 /* FLI.cpp */,
+				58A07C94104C82D100935597 /* FLI.h */,
+				58CB23D80A02AD2E00F24639 /* manual_color_camera.cpp */,
+				589EB7F80B0119AA009CAA3B /* MeadeDSI.cpp */,
+				589EB7F90B0119AA009CAA3B /* MeadeDSI.h */,
+				58044C5511FF4586000C548B /* Moravian.cpp */,
+				58044C5711FF4586000C548B /* Moravian.h */,
+				58249515128B00EB00E2A072 /* Opticstar615.cpp */,
+				58249516128B00EB00E2A072 /* Opticstar615.h */,
+				5806D72A15C0F6AB00536F95 /* Opticstar616.cpp */,
+				5806D72815C0F48A00536F95 /* Opticstar616.h */,
+				58B3F39C0EAF913400EDDB3A /* Opticstar142c.cpp */,
+				58B3F39D0EAF913400EDDB3A /* Opticstar142c.h */,
+				582EDEBF0E62093E00B7354E /* Opticstar142.cpp */,
+				582EDEC00E62093E00B7354E /* Opticstar142.h */,
+				58DCCE560DEB0D8200BFD72C /* Opticstar145.cpp */,
+				58DCCE570DEB0D8200BFD72C /* Opticstar145.h */,
+				58EB4C120D538936006B7157 /* Opticstar130.cpp */,
+				58EB4C130D538936006B7157 /* Opticstar130.h */,
+				5807AD9F0C0BC70C0036C117 /* Opticstar335.cpp */,
+				5807ADA00C0BC70C0036C117 /* Opticstar335.h */,
+				58044C5411FF4586000C548B /* Opticstar336.cpp */,
+				58044C5611FF4586000C548B /* Opticstar336.h */,
+				58FF0B4820558D3200BF45F2 /* QHYUniversal.h */,
+				58FF0B4920558D3200BF45F2 /* QHYUniversal.cpp */,
+				58242BD00C35D9D2001F7E4A /* qhy268.cpp */,
+				58242BD10C35D9D2001F7E4A /* qhy268.h */,
+				5895D9270D616CE600B19589 /* QHY2Pro.h */,
+				5895D9280D616CE600B19589 /* QHY2Pro.cpp */,
+				58FED1860FCF4D1B00F18967 /* QHY8Pro.cpp */,
+				58FED1870FCF4D1B00F18967 /* QHY8Pro.h */,
+				581C83130BAF1A9F0051AACE /* Q8HR.cpp */,
+				581C83140BAF1A9F0051AACE /* Q8HR.h */,
+				5884D005159CBDB500D8A58E /* QHY8L.cpp */,
+				5884D006159CBDB500D8A58E /* QHY8L.h */,
+				583ED74C0FC7BA540043E9D8 /* qhy9.h */,
+				583ED74D0FC7BA540043E9D8 /* qhy9.cpp */,
+				589BD0D915870C5500DC0F0C /* QHY10.cpp */,
+				589BD0DA15870C5500DC0F0C /* QHY10.h */,
+				589BD0DB15870C5500DC0F0C /* QHY12.cpp */,
+				589BD0DC15870C5500DC0F0C /* QHY12.h */,
+				5895D9250D616CE600B19589 /* QSI500.h */,
+				5895D9260D616CE600B19589 /* QSI500.cpp */,
+				58EE69620A403DAC002BCD28 /* SAC78.CPP */,
+				58EE69630A403DAC002BCD28 /* SAC78.H */,
+				58EE69640A403DAC002BCD28 /* SACStarShoot.h */,
+				58EE69600A403DAC002BCD28 /* sac10.cpp */,
+				58EE69610A403DAC002BCD28 /* sac10.h */,
+				586B3DC80B8F3F7D004B0C55 /* SBIG.h */,
+				586B3DC90B8F3F7D004B0C55 /* SBIG.cpp */,
+				58F052A40B0FF7780053B421 /* serialport.h */,
+				588898430ED4D7CD005B8BF4 /* serialport.cpp */,
+				58EE69650A403DAC002BCD28 /* simulator.cpp */,
+				58EE69660A403DAC002BCD28 /* simulator.h */,
+				58EE69670A403DAC002BCD28 /* Starshoot.cpp */,
+				58EE69680A403DAC002BCD28 /* StarShootDLL.h */,
+				5835AE240B6CEE84006EC993 /* SXV.cpp */,
+				5835AE250B6CEE84006EC993 /* SXV.h */,
+				58DF43D01B9B6CC1006CFD71 /* ZWO_ASI.h */,
+				58DF43D11B9B6CC1006CFD71 /* ZWOASI.cpp */,
+			);
+			name = Cameras;
+			sourceTree = "<group>";
+		};
+		58FF99050AA351EA00638F98 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F487A70A09BE2499005A3E96 /* clock.cpp */,
+				F487A71009BE2499005A3E96 /* dummy.h */,
+				F487A71C09BE2499005A3E96 /* osxfuncs.cpp */,
+				F487A71D09BE2499005A3E96 /* osxfuncs.h */,
+				F487A70F09BE2499005A3E96 /* dummy.cpp */,
+				580914FE0ADEC93C0042AFAB /* preferences.h */,
+				585C82ED0ABB0D0A0095F5FA /* preferences.cpp */,
+				F487A72009BE2499005A3E96 /* scripts.cpp */,
+				582C50A414E1EC6200D520CF /* macro.cpp */,
+				582C50A514E1EC6200D520CF /* macro.h */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		58FF99060AA3523400638F98 /* Preproc & Align */ = {
+			isa = PBXGroup;
+			children = (
+				589EEBCD109CF1B6003418B2 /* autoalign.h */,
+				589EEBC8109CF183003418B2 /* autoalign.cpp */,
+				F487A71E09BE2499005A3E96 /* preprocess.cpp */,
+				F487A71F09BE2499005A3E96 /* preprocess.h */,
+				F487A70709BE2499005A3E96 /* alignment.h */,
+				F487A70609BE2499005A3E96 /* alignment.cpp */,
+				5806E19D0A72771A00E85E30 /* CIM.cpp */,
+				5806E19F0A72772000E85E30 /* drizzle.cpp */,
+			);
+			name = "Preproc & Align";
+			sourceTree = "<group>";
+		};
+		F487A6C009BE226F005A3E96 = {
+			isa = PBXGroup;
+			children = (
+				58770E1E23BEDE5100D3F68D /* Nebulosity4-64.entitlements */,
+				58A766C21AA4D0A50038029E /* Images.xcassets */,
+				58A766C41AA4D0E60038029E /* Neb4.icns */,
+				5883B4000AD6D9FC00D45DB9 /* Frameworks */,
+				58BB01C01879D8190007A1EF /* Libs */,
+				58FF99040AA34E2E00638F98 /* Cameras */,
+				58FF99050AA351EA00638F98 /* Misc */,
+				58FF99060AA3523400638F98 /* Preproc & Align */,
+				583FEF220B39DEBD00495689 /* I/O */,
+				586E61B21AAE4D880009F22C /* Image processing */,
+				586E61B01AAE4D2F0009F22C /* Helper tools */,
+				586E61B11AAE4D4B0009F22C /* Other hardware */,
+				F487A71709BE2499005A3E96 /* main_classes.cpp */,
+				F487A71809BE2499005A3E96 /* main_classes.h */,
+				F487A70E09BE2499005A3E96 /* display.cpp */,
+				58D258290CBE9FB600E3CF5A /* setup_tools.cpp */,
+				58D258370CBEA2E300E3CF5A /* setup_tools.h */,
+				F487A71A09BE2499005A3E96 /* Nebulosity.cpp */,
+				F487A71B09BE2499005A3E96 /* Nebulosity.h */,
+				F487A70309BE242D005A3E96 /* Products */,
+				587F3E670AED3B83008A34B8 /* NebulosityDocs.pdf */,
+				588C191C0E0DEECF00B6494B /* NebulosityDocs.pdf */,
+				5846BBFF0CB6A4D20054A36F /* GREYCstoration */,
+				584BFB8914EEB73100DA5085 /* nebulosity.mo */,
+				584BFB8B14EEB74500DA5085 /* nebulosity.mo */,
+				58FE756714EE10C300A429ED /* nebulosity.mo */,
+				58FE756914EE10D800A429ED /* nebulosity.mo */,
+				58A346631A82F9C600AAFBC6 /* APyTools */,
+				58A6FBCC1164538500C522C4 /* IntelOnlyExtras */,
+				58BACC260E70DDAB004ED49A /* nebulosity-Info_XC6.plist */,
+				587660DD1A895C770071CBA5 /* OptimizationProfiles */,
+				5844197D22D8F679009D58FA /* Nebulosity 4 copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		F487A70309BE242D005A3E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58BACC240E70DDAB004ED49A /* Nebulosity4-64.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58BACBD10E70DDAB004ED49A /* Nebulosity 4-64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58BACC200E70DDAB004ED49A /* Build configuration list for PBXNativeTarget "Nebulosity 4-64" */;
+			buildPhases = (
+				58BACBD20E70DDAB004ED49A /* Resources */,
+				58BACBD50E70DDAB004ED49A /* Sources */,
+				58BACC090E70DDAB004ED49A /* Frameworks */,
+				58BACC190E70DDAB004ED49A /* CopyFiles */,
+				58BACC1D0E70DDAB004ED49A /* CopyFiles */,
+				58FE756614EE106A00A429ED /* CopyFiles */,
+				58FE756C14EE112A00A429ED /* CopyFiles */,
+				584BFB8D14EEB77E00DA5085 /* CopyFiles */,
+				584BFB8F14EEB7B900DA5085 /* CopyFiles */,
+				586B8EC11A82F5EF00132BE1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nebulosity 4-64";
+			productName = nebulosity3;
+			productReference = 58BACC240E70DDAB004ED49A /* Nebulosity4-64.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F487A6C409BE226F005A3E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stark Labs";
+				TargetAttributes = {
+					58BACBD10E70DDAB004ED49A = {
+						DevelopmentTeam = QPLDUH9V6T;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 58E94E7309CC93B0006073FB /* Build configuration list for PBXProject "OpenNebulosity4_64" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = F487A6C009BE226F005A3E96;
+			productRefGroup = F487A70309BE242D005A3E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58BACBD10E70DDAB004ED49A /* Nebulosity 4-64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58BACBD20E70DDAB004ED49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6FBD2116453C600C522C4 /* WarpImageMultiTransform in Resources */,
+				58A6FBD3116453C600C522C4 /* ConvertImagePixelType in Resources */,
+				58A766C31AA4D0A50038029E /* Images.xcassets in Resources */,
+				58A6FBD4116453C600C522C4 /* ANTS in Resources */,
+				58A766C51AA4D0E60038029E /* Neb4.icns in Resources */,
+				589BD0E215870D4600DC0F0C /* fxload-osx in Resources */,
+				58025CA615AD4EBE0051BAC2 /* CCDAD_QHY10.HEX in Resources */,
+				58025CA815AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX in Resources */,
+				58025CA915AD4EBE0051BAC2 /* CCDAD_QHY8L.HEX in Resources */,
+				58A346641A82F9C600AAFBC6 /* APyTools in Resources */,
+				58025CAA15AD4EBE0051BAC2 /* CCDAD_QHY12.HEX in Resources */,
+				581044EB15ADF97E00FF78C9 /* CCDAD_QHY9.HEX in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58BACBD50E70DDAB004ED49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DF43D21B9B6CC1006CFD71 /* ZWOASI.cpp in Sources */,
+				58BACBD60E70DDAB004ED49A /* alignment.cpp in Sources */,
+				5874C7C823E650B10045FF41 /* Starfish.cpp in Sources */,
+				58BACBD70E70DDAB004ED49A /* camera.cpp in Sources */,
+				58BACBD80E70DDAB004ED49A /* clock.cpp in Sources */,
+				58BACBDA0E70DDAB004ED49A /* debayer.cpp in Sources */,
+				58BACBDB0E70DDAB004ED49A /* display.cpp in Sources */,
+				58BACBDC0E70DDAB004ED49A /* dummy.cpp in Sources */,
+				58BACBDD0E70DDAB004ED49A /* file_tools.cpp in Sources */,
+				58BACBDE0E70DDAB004ED49A /* image_io.cpp in Sources */,
+				58BACBDF0E70DDAB004ED49A /* image_manip.cpp in Sources */,
+				58BACBE00E70DDAB004ED49A /* image_math.cpp in Sources */,
+				58BACBE10E70DDAB004ED49A /* main_classes.cpp in Sources */,
+				58BACBE20E70DDAB004ED49A /* Nebulosity.cpp in Sources */,
+				58BACBE30E70DDAB004ED49A /* osxfuncs.cpp in Sources */,
+				58BACBE40E70DDAB004ED49A /* preprocess.cpp in Sources */,
+				58BACBE50E70DDAB004ED49A /* scripts.cpp in Sources */,
+				581C41AB1A8527990017C023 /* APyTools.cpp in Sources */,
+				58BACBE60E70DDAB004ED49A /* manual_color_camera.cpp in Sources */,
+				58BACBE70E70DDAB004ED49A /* sac10.cpp in Sources */,
+				58BACBE80E70DDAB004ED49A /* SAC78.CPP in Sources */,
+				58BACBE90E70DDAB004ED49A /* simulator.cpp in Sources */,
+				58BACBEA0E70DDAB004ED49A /* Starshoot.cpp in Sources */,
+				58BACBEB0E70DDAB004ED49A /* CIM.cpp in Sources */,
+				586E61AF1AAE4CF50009F22C /* CamToolDialogs.cpp in Sources */,
+				58BACBEC0E70DDAB004ED49A /* drizzle.cpp in Sources */,
+				58BACBED0E70DDAB004ED49A /* artemis.cpp in Sources */,
+				58BACBEE0E70DDAB004ED49A /* quality.cpp in Sources */,
+				58BACBEF0E70DDAB004ED49A /* canon_cr2.cpp in Sources */,
+				58BACBF00E70DDAB004ED49A /* reconstruct.cpp in Sources */,
+				58BACBF10E70DDAB004ED49A /* CanonDSLR.cpp in Sources */,
+				58BACBF20E70DDAB004ED49A /* preferences.cpp in Sources */,
+				58BACBF30E70DDAB004ED49A /* DSUSB.cpp in Sources */,
+				58FF0B4A20558D3200BF45F2 /* QHYUniversal.cpp in Sources */,
+				58BACBF50E70DDAB004ED49A /* MeadeDSI.cpp in Sources */,
+				58BACBF60E70DDAB004ED49A /* LRGB.cpp in Sources */,
+				58BB01C41879D8CE0007A1EF /* WDM.cpp in Sources */,
+				58BACBF80E70DDAB004ED49A /* preview.cpp in Sources */,
+				58BACBF90E70DDAB004ED49A /* geometry.cpp in Sources */,
+				58BACBFA0E70DDAB004ED49A /* SXV.cpp in Sources */,
+				58BACBFB0E70DDAB004ED49A /* SBIG.cpp in Sources */,
+				58BACBFC0E70DDAB004ED49A /* focus.cpp in Sources */,
+				58BACBFD0E70DDAB004ED49A /* Q8HR.cpp in Sources */,
+				58BACBFE0E70DDAB004ED49A /* Opticstar335.cpp in Sources */,
+				58BACBFF0E70DDAB004ED49A /* qhy268.cpp in Sources */,
+				58BACC000E70DDAB004ED49A /* greyc.cpp in Sources */,
+				58BACC010E70DDAB004ED49A /* setup_tools.cpp in Sources */,
+				58BACC020E70DDAB004ED49A /* Opticstar130.cpp in Sources */,
+				58BACC030E70DDAB004ED49A /* QSI500.cpp in Sources */,
+				58BACC040E70DDAB004ED49A /* QHY2Pro.cpp in Sources */,
+				58BACC050E70DDAB004ED49A /* Opticstar145.cpp in Sources */,
+				58BACC060E70DDAB004ED49A /* ASCOMCamera.cpp in Sources */,
+				58BACC080E70DDAB004ED49A /* Opticstar142.cpp in Sources */,
+				58B3F3A00EAF913400EDDB3A /* Opticstar142c.cpp in Sources */,
+				588898450ED4D7CD005B8BF4 /* serialport.cpp in Sources */,
+				583ED74F0FC7BA540043E9D8 /* qhy9.cpp in Sources */,
+				58FED1880FCF4D1B00F18967 /* QHY8Pro.cpp in Sources */,
+				5896DAFF1038F08E00754FA2 /* DSSView.cpp in Sources */,
+				5896DB001038F08E00754FA2 /* Apogee.cpp in Sources */,
+				581C28B81C06286B0094BE9E /* altair_astro.cpp in Sources */,
+				58A07C95104C82D100935597 /* FLI.cpp in Sources */,
+				589EEBCA109CF183003418B2 /* autoalign.cpp in Sources */,
+				58BCBACF10EC03340061A7AC /* ext_filterwheel.cpp in Sources */,
+				58044C5811FF4587000C548B /* Opticstar336.cpp in Sources */,
+				58044C5911FF4587000C548B /* Moravian.cpp in Sources */,
+				58C77D241262C8F50013EA11 /* ASCOMLateCamera.cpp in Sources */,
+				58249518128B00EB00E2A072 /* Opticstar615.cpp in Sources */,
+				582C50A614E1EC6200D520CF /* macro.cpp in Sources */,
+				589BD0DD15870C5500DC0F0C /* QHY10.cpp in Sources */,
+				589BD0DE15870C5500DC0F0C /* QHY12.cpp in Sources */,
+				5884D007159CBDB500D8A58E /* QHY8L.cpp in Sources */,
+				5806D72B15C0F6AB00536F95 /* Opticstar616.cpp in Sources */,
+				5836CF6716053C970092F683 /* focuser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58BACC210E70DDAB004ED49A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_ENTITLEMENTS = "Nebulosity4-64.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(SRCROOT)/cameras",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework\"";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = precomp.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Users/stark/dev/HID64,
+					/Users/stark/dev/Canon/Current/EDSDK/Header,
+					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
+					"$(WXDIR)/include",
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					/Users/stark/dev/cfitsio,
+					"$(LIBRAWDIR)libraw",
+					/usr/local/include,
+					"$(SRCROOT)/cameras/AOSX",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/nebulosity-Info_XC6.plist";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
+				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/stark/dev/cfitsio,
+					"$(PROJECT_DIR)/cameras/AOSX",
+					"$(WXDIR)/Cocoa/lib",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRAWDIR)/lib",
+					/usr/lib,
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					"\"$(SRCROOT)/cameras\"",
+					"$(PROJECT_DIR)/cameras",
+					"$(PROJECT_DIR)/APyTools",
+					"/Users/stark/dev/armadillo-4.600.4",
+					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
+				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MARKETING_VERSION = 4.4.4;
+				OTHER_CFLAGS = (
+					"-D__WXMAC__",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-DNO_GCC_PRAGMA",
+					"-DNEB2",
+					"-DNEB2IL",
+					"-DN64MAC",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SBIGUDrv,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+					"-framework",
+					WebKit,
+					"-framework",
+					AudioToolbox,
+					"-lz",
+					"-lpthread",
+					"-liconv",
+					"-framework",
+					Accelerate,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Nebulosity4-64";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Neb4-64 DevID 2025";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				VALID_ARCHS = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+			};
+			name = Development;
+		};
+		58BACC220E70DDAB004ED49A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CODE_SIGN_ENTITLEMENTS = "Nebulosity4-64.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(SRCROOT)/cameras",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework\"";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = precomp.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Users/stark/dev/HID64,
+					/Users/stark/dev/Canon/Current/EDSDK/Header,
+					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
+					"$(WXDIR)/include",
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					/Users/stark/dev/cfitsio,
+					"$(LIBRAWDIR)libraw",
+					/usr/local/include,
+					"$(SRCROOT)/cameras/AOSX",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/nebulosity-Info_XC6.plist";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
+				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/stark/dev/cfitsio,
+					"$(PROJECT_DIR)/cameras/AOSX",
+					"$(WXDIR)/Cocoa/lib",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRAWDIR)/lib",
+					/usr/lib,
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					"\"$(SRCROOT)/cameras\"",
+					"$(PROJECT_DIR)/cameras",
+					"$(PROJECT_DIR)/APyTools",
+					"/Users/stark/dev/armadillo-4.600.4",
+					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
+				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MARKETING_VERSION = 4.4.4;
+				OTHER_CFLAGS = (
+					"-D__WXMAC__",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-DNO_GCC_PRAGMA",
+					"-DNEB2",
+					"-DNEB2IL",
+					"-DN64MAC",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SBIGUDrv,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+					"-framework",
+					WebKit,
+					"-framework",
+					AudioToolbox,
+					"-lz",
+					"-lpthread",
+					"-liconv",
+					"-framework",
+					Accelerate,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Nebulosity4-64";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Neb4-64 DevID 2025";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				VALID_ARCHS = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+			};
+			name = Deployment;
+		};
+		58BACC230E70DDAB004ED49A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_ENTITLEMENTS = "Nebulosity4-64.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(SRCROOT)/cameras",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework\"";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = precomp.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Users/stark/dev/HID64,
+					/Users/stark/dev/Canon/Current/EDSDK/Header,
+					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
+					"$(WXDIR)/include",
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					/Users/stark/dev/cfitsio,
+					"$(LIBRAWDIR)libraw",
+					/usr/local/include,
+					"$(SRCROOT)/cameras/AOSX",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/nebulosity-Info_XC6.plist";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
+				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/stark/dev/cfitsio,
+					"$(PROJECT_DIR)/cameras/AOSX",
+					"$(WXDIR)/Cocoa/lib",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRAWDIR)/lib",
+					/usr/lib,
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					"\"$(SRCROOT)/cameras\"",
+					"$(PROJECT_DIR)/cameras",
+					"$(PROJECT_DIR)/APyTools",
+					"/Users/stark/dev/armadillo-4.600.4",
+					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
+				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MARKETING_VERSION = 4.4.4;
+				OTHER_CFLAGS = (
+					"-D__WXMAC__",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-DNO_GCC_PRAGMA",
+					"-DNEB2",
+					"-DNEB2IL",
+					"-DN64MAC",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SBIGUDrv,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+					"-framework",
+					WebKit,
+					"-framework",
+					AudioToolbox,
+					"-lz",
+					"-lpthread",
+					"-liconv",
+					"-framework",
+					Accelerate,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Nebulosity4-64";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Neb4-64 DevID 2025";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+			};
+			name = Default;
+		};
+		58E94E7409CC93B0006073FB /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = ../Canon/EDSDK/Framework;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "nebulosity-Info_XC6.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Nebulosity4-64";
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		58E94E7509CC93B0006073FB /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					../Canon/EDSDK/Framework,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "nebulosity-Info_XC6.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Nebulosity4-64";
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		58E94E7609CC93B0006073FB /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = ../Canon/EDSDK/Framework;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "nebulosity-Info_XC6.plist";
+				"INFOPLIST_FILE[sdk=*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Nebulosity4-64";
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58BACC200E70DDAB004ED49A /* Build configuration list for PBXNativeTarget "Nebulosity 4-64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58BACC210E70DDAB004ED49A /* Development */,
+				58BACC220E70DDAB004ED49A /* Deployment */,
+				58BACC230E70DDAB004ED49A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		58E94E7309CC93B0006073FB /* Build configuration list for PBXProject "OpenNebulosity4_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E94E7409CC93B0006073FB /* Development */,
+				58E94E7509CC93B0006073FB /* Deployment */,
+				58E94E7609CC93B0006073FB /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F487A6C409BE226F005A3E96 /* Project object */;
+}

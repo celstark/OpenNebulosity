@@ -1,0 +1,4243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-25 23:00-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Craig Stark <craig@stark-labs.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ASCOMCamera.cpp:255
+#: ASCOMCamera.cpp:356
+#: ASCOMCamera.cpp:412
+#: ASCOMCamera.cpp:426
+#: ASCOMCamera.cpp:438
+#: ASCOMLateCamera.cpp:41
+#: ASCOMLateCamera.cpp:52
+#: ASCOMLateCamera.cpp:85
+#: ASCOMLateCamera.cpp:90
+#: ASCOMLateCamera.cpp:94
+#: ASCOMLateCamera.cpp:99
+#: ASCOMLateCamera.cpp:114
+#: ASCOMLateCamera.cpp:127
+#: ASCOMLateCamera.cpp:138
+#: ASCOMLateCamera.cpp:142
+#: ASCOMLateCamera.cpp:150
+#: ASCOMLateCamera.cpp:161
+#: ASCOMLateCamera.cpp:169
+#: ASCOMLateCamera.cpp:178
+#: ASCOMLateCamera.cpp:186
+#: ASCOMLateCamera.cpp:195
+#: ASCOMLateCamera.cpp:203
+#: ASCOMLateCamera.cpp:212
+#: ASCOMLateCamera.cpp:219
+#: ASCOMLateCamera.cpp:228
+#: ASCOMLateCamera.cpp:236
+#: ASCOMLateCamera.cpp:245
+#: ASCOMLateCamera.cpp:252
+#: ASCOMLateCamera.cpp:261
+#: ASCOMLateCamera.cpp:272
+#: ASCOMLateCamera.cpp:277
+#: ASCOMLateCamera.cpp:282
+#: ASCOMLateCamera.cpp:287
+#: ASCOMLateCamera.cpp:292
+#: ASCOMLateCamera.cpp:297
+#: ASCOMLateCamera.cpp:302
+#: ASCOMLateCamera.cpp:307
+#: ASCOMLateCamera.cpp:313
+#: ASCOMLateCamera.cpp:318
+#: ASCOMLateCamera.cpp:323
+#: ASCOMLateCamera.cpp:328
+#: ASCOMLateCamera.cpp:333
+#: ASCOMLateCamera.cpp:339
+#: ASCOMLateCamera.cpp:344
+#: ASCOMLateCamera.cpp:349
+#: ASCOMLateCamera.cpp:354
+#: ASCOMLateCamera.cpp:359
+#: ASCOMLateCamera.cpp:604
+#: ASCOMLateCamera.cpp:1124
+#: Apogee.cpp:270
+#: Apogee.cpp:326
+#: CIM.cpp:186
+#: CIM.cpp:210
+#: CIM.cpp:233
+#: CIM.cpp:237
+#: CIM.cpp:241
+#: CIM.cpp:273
+#: CIM.cpp:307
+#: CanonDSLR.cpp:278
+#: CanonDSLR.cpp:285
+#: CanonDSLR.cpp:377
+#: CanonDSLR.cpp:403
+#: CanonDSLR.cpp:679
+#: CanonDSLR.cpp:792
+#: CanonDSLR.cpp:1542
+#: CanonDSLR.cpp:1550
+#: CanonDSLR.cpp:2444
+#: CanonDSLR.cpp:2484
+#: CanonDSLR.cpp:2622
+#: CanonDSLR.cpp:2637
+#: FLI.cpp:289
+#: FLI.cpp:346
+#: MeadeDSI.cpp:315
+#: MeadeDSI.cpp:406
+#: Moravian.cpp:104
+#: Moravian.cpp:112
+#: Moravian.cpp:119
+#: Moravian.cpp:128
+#: Moravian.cpp:135
+#: Moravian.cpp:142
+#: Moravian.cpp:149
+#: Moravian.cpp:156
+#: Moravian.cpp:163
+#: Moravian.cpp:171
+#: Moravian.cpp:178
+#: Moravian.cpp:186
+#: Moravian.cpp:195
+#: Moravian.cpp:202
+#: Moravian.cpp:209
+#: Moravian.cpp:216
+#: Moravian.cpp:223
+#: Moravian.cpp:230
+#: Moravian.cpp:237
+#: Moravian.cpp:460
+#: Moravian.cpp:506
+#: Nebulosity.cpp:231
+#: Nebulosity.cpp:233
+#: Nebulosity.cpp:1540
+#: Opticstar130.cpp:66
+#: Opticstar130.cpp:72
+#: Opticstar130.cpp:119
+#: Opticstar130.cpp:167
+#: Opticstar130.cpp:245
+#: Opticstar130.cpp:256
+#: Opticstar142.cpp:68
+#: Opticstar142.cpp:73
+#: Opticstar142.cpp:122
+#: Opticstar142.cpp:183
+#: Opticstar142.cpp:268
+#: Opticstar142.cpp:279
+#: Opticstar142c.cpp:68
+#: Opticstar142c.cpp:73
+#: Opticstar142c.cpp:120
+#: Opticstar142c.cpp:179
+#: Opticstar142c.cpp:264
+#: Opticstar142c.cpp:275
+#: Opticstar145.cpp:73
+#: Opticstar145.cpp:80
+#: Opticstar145.cpp:86
+#: Opticstar145.cpp:145
+#: Opticstar145.cpp:151
+#: Opticstar145.cpp:214
+#: Opticstar145.cpp:299
+#: Opticstar145.cpp:311
+#: Opticstar145.cpp:317
+#: Opticstar335.cpp:66
+#: Opticstar335.cpp:71
+#: Opticstar335.cpp:139
+#: Opticstar335.cpp:192
+#: Opticstar335.cpp:269
+#: Opticstar335.cpp:280
+#: Opticstar336.cpp:69
+#: Opticstar336.cpp:74
+#: Opticstar336.cpp:149
+#: Opticstar336.cpp:207
+#: Opticstar336.cpp:282
+#: Opticstar336.cpp:293
+#: Opticstar615.cpp:69
+#: Opticstar615.cpp:74
+#: Opticstar615.cpp:163
+#: Opticstar615.cpp:218
+#: Opticstar615.cpp:297
+#: Opticstar615.cpp:310
+#: Q8HR.cpp:95
+#: Q8HR.cpp:101
+#: Q8HR.cpp:107
+#: Q8HR.cpp:113
+#: Q8HR.cpp:120
+#: Q8HR.cpp:126
+#: Q8HR.cpp:132
+#: Q8HR.cpp:138
+#: Q8HR.cpp:144
+#: Q8HR.cpp:152
+#: Q8HR.cpp:154
+#: Q8HR.cpp:230
+#: Q8HR.cpp:289
+#: Q8HR.cpp:372
+#: Q8HR.cpp:405
+#: QHY2Pro.cpp:95
+#: QHY2Pro.cpp:101
+#: QHY2Pro.cpp:107
+#: QHY2Pro.cpp:113
+#: QHY2Pro.cpp:127
+#: QHY2Pro.cpp:133
+#: QHY2Pro.cpp:139
+#: QHY2Pro.cpp:145
+#: QHY2Pro.cpp:151
+#: QHY2Pro.cpp:157
+#: QHY2Pro.cpp:165
+#: QHY2Pro.cpp:218
+#: QHY2Pro.cpp:266
+#: QHY2Pro.cpp:334
+#: QHY2Pro.cpp:345
+#: QHY8Pro.cpp:110
+#: QHY8Pro.cpp:112
+#: QHY8Pro.cpp:121
+#: QHY8Pro.cpp:127
+#: QHY8Pro.cpp:133
+#: QHY8Pro.cpp:139
+#: QHY8Pro.cpp:146
+#: QHY8Pro.cpp:152
+#: QHY8Pro.cpp:162
+#: QHY8Pro.cpp:169
+#: QHY8Pro.cpp:176
+#: QHY8Pro.cpp:183
+#: QHY8Pro.cpp:190
+#: QHY8Pro.cpp:197
+#: QHY8Pro.cpp:219
+#: QHY8Pro.cpp:227
+#: QHY8Pro.cpp:235
+#: QHY8Pro.cpp:243
+#: QHY8Pro.cpp:252
+#: QHY8Pro.cpp:492
+#: QHY8Pro.cpp:569
+#: QSI500.cpp:357
+#: QSI500.cpp:455
+#: QSI500.cpp:531
+#: QSI500.cpp:554
+#: QSI500.cpp:566
+#: SBIG.cpp:461
+#: SBIG.cpp:585
+#: SXV.cpp:730
+#: SXV.cpp:849
+#: Starfish.cpp:205
+#: Starfish.cpp:279
+#: Starshoot.cpp:101
+#: Starshoot.cpp:109
+#: Starshoot.cpp:113
+#: Starshoot.cpp:116
+#: Starshoot.cpp:119
+#: Starshoot.cpp:122
+#: Starshoot.cpp:125
+#: Starshoot.cpp:129
+#: Starshoot.cpp:132
+#: Starshoot.cpp:135
+#: Starshoot.cpp:141
+#: Starshoot.cpp:144
+#: Starshoot.cpp:147
+#: Starshoot.cpp:150
+#: Starshoot.cpp:178
+#: Starshoot.cpp:217
+#: Starshoot.cpp:234
+#: Starshoot.cpp:282
+#: Starshoot.cpp:369
+#: Starshoot.cpp:385
+#: Starshoot.cpp:395
+#: Starshoot.cpp:467
+#: alignment.cpp:311
+#: alignment.cpp:793
+#: alignment.cpp:802
+#: alignment.cpp:867
+#: alignment.cpp:881
+#: alignment.cpp:1088
+#: alignment.cpp:1309
+#: alignment.cpp:1317
+#: alignment.cpp:1325
+#: alignment.cpp:1454
+#: alignment.cpp:1509
+#: alignment.cpp:1526
+#: alignment.cpp:1543
+#: alignment.cpp:1581
+#: artemis.cpp:224
+#: artemis.cpp:297
+#: artemis.cpp:346
+#: artemis.cpp:367
+#: autoalign.cpp:843
+#: autoalign.cpp:868
+#: autoalign.cpp:896
+#: autoalign.cpp:904
+#: camera.cpp:112
+#: camera.cpp:438
+#: camera.cpp:441
+#: canon_cr2.cpp:329
+#: canon_cr2.cpp:337
+#: canon_cr2.cpp:430
+#: canon_cr2.cpp:453
+#: canon_cr2.cpp:744
+#: canon_cr2.cpp:752
+#: canon_cr2.cpp:758
+#: canon_cr2.cpp:772
+#: debayer.cpp:188
+#: debayer.cpp:205
+#: debayer.cpp:605
+#: debayer.cpp:622
+#: debayer.cpp:785
+#: debayer.cpp:791
+#: debayer.cpp:830
+#: debayer.cpp:1308
+#: debayer.cpp:1317
+#: debayer.cpp:1684
+#: debayer.cpp:1812
+#: debayer.cpp:1978
+#: debayer.cpp:2341
+#: drizzle.cpp:197
+#: drizzle.cpp:222
+#: drizzle.cpp:233
+#: drizzle.cpp:241
+#: drizzle.cpp:303
+#: drizzle.cpp:321
+#: drizzle.cpp:332
+#: ext_filterwheel.cpp:282
+#: ext_filterwheel.cpp:287
+#: ext_filterwheel.cpp:291
+#: ext_filterwheel.cpp:296
+#: ext_filterwheel.cpp:310
+#: ext_filterwheel.cpp:330
+#: ext_filterwheel.cpp:350
+#: ext_filterwheel.cpp:354
+#: ext_filterwheel.cpp:361
+#: ext_filterwheel.cpp:372
+#: ext_filterwheel.cpp:381
+#: ext_filterwheel.cpp:390
+#: ext_filterwheel.cpp:402
+#: ext_filterwheel.cpp:411
+#: ext_filterwheel.cpp:474
+#: ext_filterwheel.cpp:485
+#: ext_filterwheel.cpp:538
+#: ext_filterwheel.cpp:586
+#: file_tools.cpp:142
+#: file_tools.cpp:183
+#: file_tools.cpp:195
+#: file_tools.cpp:210
+#: file_tools.cpp:220
+#: file_tools.cpp:230
+#: file_tools.cpp:304
+#: file_tools.cpp:320
+#: file_tools.cpp:331
+#: file_tools.cpp:345
+#: file_tools.cpp:356
+#: file_tools.cpp:370
+#: file_tools.cpp:391
+#: file_tools.cpp:403
+#: file_tools.cpp:471
+#: file_tools.cpp:477
+#: file_tools.cpp:483
+#: file_tools.cpp:490
+#: file_tools.cpp:498
+#: file_tools.cpp:564
+#: file_tools.cpp:602
+#: file_tools.cpp:610
+#: file_tools.cpp:618
+#: file_tools.cpp:775
+#: file_tools.cpp:815
+#: file_tools.cpp:972
+#: file_tools.cpp:981
+#: file_tools.cpp:989
+#: file_tools.cpp:997
+#: file_tools.cpp:1039
+#: file_tools.cpp:1068
+#: geometry.cpp:299
+#: geometry.cpp:309
+#: geometry.cpp:553
+#: greyc.cpp:170
+#: image_io.cpp:89
+#: image_io.cpp:103
+#: image_io.cpp:115
+#: image_io.cpp:123
+#: image_io.cpp:132
+#: image_io.cpp:199
+#: image_io.cpp:212
+#: image_io.cpp:354
+#: image_io.cpp:404
+#: image_io.cpp:487
+#: image_io.cpp:554
+#: image_manip.cpp:560
+#: image_manip.cpp:684
+#: image_manip.cpp:792
+#: image_manip.cpp:972
+#: image_manip.cpp:976
+#: image_manip.cpp:1077
+#: image_manip.cpp:1079
+#: image_manip.cpp:1174
+#: image_manip.cpp:1274
+#: image_manip.cpp:1276
+#: image_manip.cpp:1374
+#: image_manip.cpp:1476
+#: image_manip.cpp:1478
+#: image_manip.cpp:3134
+#: image_manip_grr.cpp:318
+#: image_manip_grr.cpp:438
+#: image_manip_grr.cpp:546
+#: image_manip_grr.cpp:726
+#: image_manip_grr.cpp:730
+#: image_manip_grr.cpp:831
+#: image_manip_grr.cpp:833
+#: image_manip_grr.cpp:928
+#: image_manip_grr.cpp:1028
+#: image_manip_grr.cpp:1030
+#: image_manip_grr.cpp:1128
+#: image_manip_grr.cpp:1230
+#: image_manip_grr.cpp:1232
+#: image_manip_grr.cpp:2886
+#: image_math.cpp:751
+#: image_math.cpp:885
+#: image_math.cpp:1065
+#: image_math.cpp:1236
+#: image_math.cpp:1656
+#: image_math.cpp:1667
+#: image_math.cpp:1671
+#: main_classes.cpp:605
+#: main_classes.cpp:633
+#: main_classes.cpp:656
+#: main_classes.cpp:683
+#: main_classes.cpp:707
+#: preprocess.cpp:210
+#: preprocess.cpp:248
+#: preprocess.cpp:487
+#: preprocess.cpp:526
+#: preprocess.cpp:532
+#: preprocess.cpp:538
+#: preprocess.cpp:558
+#: preprocess.cpp:628
+#: preprocess.cpp:640
+#: preprocess.cpp:654
+#: preprocess.cpp:658
+#: preprocess.cpp:666
+#: preprocess.cpp:673
+#: preprocess.cpp:742
+#: preprocess.cpp:746
+#: preprocess.cpp:768
+#: preprocess.cpp:772
+#: preprocess.cpp:777
+#: preprocess.cpp:821
+#: preprocess.cpp:828
+#: preprocess.cpp:883
+#: preprocess.cpp:887
+#: preprocess.cpp:892
+#: preprocess.cpp:897
+#: preprocess.cpp:905
+#: preprocess.cpp:941
+#: preprocess.cpp:948
+#: preprocess.cpp:967
+#: preprocess.cpp:974
+#: preprocess.cpp:996
+#: preprocess.cpp:1003
+#: preprocess.cpp:1031
+#: preprocess.cpp:1035
+#: preprocess.cpp:1039
+#: preprocess.cpp:1146
+#: preprocess.cpp:1239
+#: preprocess.cpp:1253
+#: preprocess.cpp:1259
+#: preprocess.cpp:1269
+#: preprocess.cpp:1278
+#: preprocess.cpp:1345
+#: preprocess.cpp:1351
+#: preprocess.cpp:1358
+#: preprocess.cpp:1398
+#: preprocess.cpp:1407
+#: preprocess.cpp:1452
+#: preprocess.cpp:1458
+#: preprocess.cpp:1465
+#: preprocess.cpp:1472
+#: preprocess.cpp:1482
+#: preprocess.cpp:1507
+#: preprocess.cpp:1516
+#: preprocess.cpp:1537
+#: preprocess.cpp:1546
+#: preprocess.cpp:1570
+#: preprocess.cpp:1579
+#: preprocess.cpp:1628
+#: preprocess.cpp:1633
+#: preprocess.cpp:1638
+#: preprocess.cpp:1722
+#: preprocess.cpp:1782
+#: qhy268.cpp:105
+#: qhy268.cpp:111
+#: qhy268.cpp:117
+#: qhy268.cpp:123
+#: qhy268.cpp:129
+#: qhy268.cpp:135
+#: qhy268.cpp:141
+#: qhy268.cpp:147
+#: qhy268.cpp:153
+#: qhy268.cpp:159
+#: qhy268.cpp:165
+#: qhy268.cpp:171
+#: qhy268.cpp:177
+#: qhy268.cpp:183
+#: qhy268.cpp:189
+#: qhy268.cpp:195
+#: qhy268.cpp:366
+#: qhy268.cpp:437
+#: qhy268.cpp:447
+#: qhy9.cpp:121
+#: qhy9.cpp:123
+#: qhy9.cpp:132
+#: qhy9.cpp:138
+#: qhy9.cpp:144
+#: qhy9.cpp:150
+#: qhy9.cpp:158
+#: qhy9.cpp:164
+#: qhy9.cpp:172
+#: qhy9.cpp:179
+#: qhy9.cpp:186
+#: qhy9.cpp:193
+#: qhy9.cpp:200
+#: qhy9.cpp:207
+#: qhy9.cpp:214
+#: qhy9.cpp:221
+#: qhy9.cpp:228
+#: qhy9.cpp:461
+#: qhy9.cpp:536
+#: quality.cpp:281
+#: reconstruct.cpp:102
+#: reconstruct.cpp:142
+#: reconstruct.cpp:148
+#: reconstruct.cpp:154
+#: reconstruct.cpp:256
+#: reconstruct.cpp:464
+#: sac10.cpp:129
+#: sac10.cpp:138
+#: sac10.cpp:325
+#: sac10.cpp:366
+#: scripts.cpp:640
+#: scripts.cpp:882
+#: scripts.cpp:1082
+#: setup_tools.cpp:373
+#: simulator.cpp:93
+msgid "Error"
+msgstr "Erro"
+
+#: ASCOMCamera.cpp:356
+#: ASCOMCamera.cpp:412
+#: ASCOMLateCamera.cpp:604
+#: ASCOMLateCamera.cpp:1124
+#: Apogee.cpp:270
+#: Apogee.cpp:326
+#: CIM.cpp:210
+#: CanonDSLR.cpp:679
+#: CanonDSLR.cpp:792
+#: CanonDSLR.cpp:2444
+#: CanonDSLR.cpp:2484
+#: FLI.cpp:289
+#: FLI.cpp:346
+#: MeadeDSI.cpp:315
+#: MeadeDSI.cpp:406
+#: Moravian.cpp:460
+#: Moravian.cpp:506
+#: Opticstar130.cpp:167
+#: Opticstar130.cpp:245
+#: Opticstar142.cpp:183
+#: Opticstar142.cpp:268
+#: Opticstar142c.cpp:179
+#: Opticstar142c.cpp:264
+#: Opticstar145.cpp:214
+#: Opticstar145.cpp:299
+#: Opticstar335.cpp:192
+#: Opticstar335.cpp:269
+#: Opticstar336.cpp:207
+#: Opticstar336.cpp:282
+#: Opticstar615.cpp:218
+#: Opticstar615.cpp:297
+#: Q8HR.cpp:289
+#: Q8HR.cpp:372
+#: QHY2Pro.cpp:266
+#: QHY2Pro.cpp:334
+#: QHY8Pro.cpp:492
+#: QHY8Pro.cpp:569
+#: QSI500.cpp:455
+#: QSI500.cpp:531
+#: SBIG.cpp:461
+#: SBIG.cpp:585
+#: SXV.cpp:730
+#: SXV.cpp:849
+#: Starfish.cpp:205
+#: Starfish.cpp:279
+#: Starshoot.cpp:282
+#: Starshoot.cpp:385
+#: alignment.cpp:802
+#: alignment.cpp:1454
+#: artemis.cpp:297
+#: artemis.cpp:346
+#: debayer.cpp:188
+#: debayer.cpp:605
+#: debayer.cpp:1308
+#: debayer.cpp:1317
+#: debayer.cpp:1684
+#: debayer.cpp:1812
+#: debayer.cpp:1978
+#: debayer.cpp:2341
+#: drizzle.cpp:222
+#: drizzle.cpp:233
+#: drizzle.cpp:241
+#: geometry.cpp:299
+#: geometry.cpp:309
+#: image_manip.cpp:560
+#: image_manip.cpp:684
+#: image_manip.cpp:792
+#: image_manip.cpp:972
+#: image_manip.cpp:976
+#: image_manip.cpp:1077
+#: image_manip.cpp:1079
+#: image_manip.cpp:1174
+#: image_manip.cpp:1274
+#: image_manip.cpp:1276
+#: image_manip.cpp:1374
+#: image_manip.cpp:1476
+#: image_manip.cpp:1478
+#: image_manip.cpp:3134
+#: image_manip_grr.cpp:318
+#: image_manip_grr.cpp:438
+#: image_manip_grr.cpp:546
+#: image_manip_grr.cpp:726
+#: image_manip_grr.cpp:730
+#: image_manip_grr.cpp:831
+#: image_manip_grr.cpp:833
+#: image_manip_grr.cpp:928
+#: image_manip_grr.cpp:1028
+#: image_manip_grr.cpp:1030
+#: image_manip_grr.cpp:1128
+#: image_manip_grr.cpp:1230
+#: image_manip_grr.cpp:1232
+#: image_manip_grr.cpp:2886
+#: image_math.cpp:751
+#: image_math.cpp:885
+#: image_math.cpp:1065
+#: image_math.cpp:1236
+#: preprocess.cpp:248
+#: qhy268.cpp:366
+#: qhy268.cpp:437
+#: qhy9.cpp:461
+#: qhy9.cpp:536
+#: sac10.cpp:129
+#: sac10.cpp:325
+msgid "Cannot allocate enough memory"
+msgstr "Memória insuficiente"
+
+#: CIM.cpp:186
+#: alignment.cpp:793
+#: debayer.cpp:830
+#: drizzle.cpp:197
+msgid "All files marked as skipped"
+msgstr "Todos os arquivos marcados como omitidos"
+
+#: CIM.cpp:218
+msgid "Min number of images for full CIM?"
+msgstr "Minimo número de imagens para CIM total"
+
+#: CIM.cpp:218
+msgid "CIM Threshold"
+msgstr "Limiar de CIM"
+
+#: CIM.cpp:237
+#: drizzle.cpp:321
+msgid "Stacking currently only supports equal sized images.  Aborting."
+msgstr "O empilhamento atual somente suporta imagens de mesmo tamanho. Abortando"
+
+#: CIM.cpp:241
+msgid "Cannot do CIM on full-color images.  Aborting."
+msgstr "Impossível fazer CIM e imagens coloridas. Abortando"
+
+#: CIM.cpp:246
+#: alignment.cpp:887
+#: alignment.cpp:1075
+#: drizzle.cpp:389
+#: drizzle.cpp:465
+#: drizzle.cpp:514
+msgid "Alignment aborted"
+msgstr "Alinhamento abortado"
+
+#: CIM.cpp:249
+#, c-format
+msgid "Gathering data from %lu of %u"
+msgstr "Coletando dados desde %lu de %u"
+
+#: CIM.cpp:250
+#: LRGB.cpp:139
+#: alignment.cpp:484
+#: alignment.cpp:1305
+#: display.cpp:21
+#: drizzle.cpp:345
+#: geometry.cpp:217
+#: geometry.cpp:374
+#: geometry.cpp:400
+#: geometry.cpp:466
+#: greyc.cpp:166
+#: greyc.cpp:252
+#: greyc.cpp:266
+#: image_io.cpp:408
+#: image_io.cpp:491
+#: image_io.cpp:559
+#: image_manip.cpp:206
+#: image_manip.cpp:553
+#: image_manip.cpp:615
+#: image_manip.cpp:688
+#: image_manip.cpp:722
+#: image_manip.cpp:796
+#: image_manip.cpp:901
+#: image_manip.cpp:993
+#: image_manip.cpp:1022
+#: image_manip.cpp:1081
+#: image_manip.cpp:1120
+#: image_manip.cpp:1178
+#: image_manip.cpp:1219
+#: image_manip.cpp:1278
+#: image_manip.cpp:1322
+#: image_manip.cpp:1376
+#: image_manip.cpp:1416
+#: image_manip.cpp:1480
+#: image_manip.cpp:1526
+#: image_manip.cpp:3127
+#: image_manip.cpp:3205
+#: image_manip_grr.cpp:144
+#: image_manip_grr.cpp:311
+#: image_manip_grr.cpp:369
+#: image_manip_grr.cpp:442
+#: image_manip_grr.cpp:476
+#: image_manip_grr.cpp:550
+#: image_manip_grr.cpp:655
+#: image_manip_grr.cpp:747
+#: image_manip_grr.cpp:776
+#: image_manip_grr.cpp:835
+#: image_manip_grr.cpp:874
+#: image_manip_grr.cpp:932
+#: image_manip_grr.cpp:973
+#: image_manip_grr.cpp:1032
+#: image_manip_grr.cpp:1076
+#: image_manip_grr.cpp:1130
+#: image_manip_grr.cpp:1170
+#: image_manip_grr.cpp:1234
+#: image_manip_grr.cpp:1280
+#: image_manip_grr.cpp:2879
+#: image_manip_grr.cpp:2957
+#: image_math.cpp:2045
+#: image_math.cpp:2109
+#: image_math.cpp:2187
+#: image_math.cpp:2195
+#: image_math.cpp:2214
+#: image_math.cpp:2228
+#: image_math.cpp:2271
+#: preprocess.cpp:492
+#: preprocess.cpp:499
+#: preprocess.cpp:544
+#: preprocess.cpp:646
+#: preprocess.cpp:1028
+#: preprocess.cpp:1043
+#: preprocess.cpp:1245
+#: preprocess.cpp:1625
+#: reconstruct.cpp:38
+#: reconstruct.cpp:160
+#: reconstruct.cpp:286
+#: reconstruct.cpp:565
+#: sac10.cpp:246
+msgid "Processing"
+msgstr "Processando"
+
+#: CIM.cpp:345
+msgid "Doing CIM combination"
+msgstr "Fazendo combinação de CIM"
+
+#: CIM.cpp:525
+#, c-format
+msgid ""
+"Total pixels: %d\n"
+" %%Partial CIM %d\n"
+" %%No CIM stack %d"
+msgstr ""
+"Total de pixels: %d\n"
+" %%Parcial CIM %d\n"
+" %%Não estaquear CIM %d"
+
+
+#: CIM.cpp:526
+#: Nebulosity.cpp:1553
+#: Nebulosity.cpp:1576
+#: preprocess.cpp:733
+#: preprocess.cpp:1335
+msgid "Info"
+msgstr "Informação"
+
+#: CanonDSLR.cpp:2046
+#: CanonDSLR.cpp:2057
+#: LRGB.cpp:242
+#: Nebulosity.cpp:966
+#: Nebulosity.cpp:1912
+#: Nebulosity.cpp:1952
+#: alignment.cpp:26
+#: alignment.cpp:517
+#: alignment.cpp:1310
+#: alignment.cpp:1318
+#: alignment.cpp:1326
+#: alignment.cpp:1337
+#: alignment.cpp:1455
+#: alignment.cpp:1473
+#: alignment.cpp:1497
+#: alignment.cpp:1510
+#: alignment.cpp:1527
+#: alignment.cpp:1544
+#: alignment.cpp:1569
+#: alignment.cpp:1582
+#: alignment.cpp:1634
+#: alignment.cpp:1668
+#: alignment.cpp:1701
+#: alignment.cpp:1767
+#: alignment.cpp:1842
+#: autoalign.cpp:987
+#: camera.cpp:435
+#: camera.cpp:465
+#: camera.cpp:511
+#: camera.cpp:669
+#: canon_cr2.cpp:689
+#: canon_cr2.cpp:988
+#: display.cpp:113
+#: file_tools.cpp:306
+#: file_tools.cpp:322
+#: file_tools.cpp:333
+#: file_tools.cpp:347
+#: file_tools.cpp:358
+#: file_tools.cpp:372
+#: file_tools.cpp:393
+#: file_tools.cpp:405
+#: file_tools.cpp:412
+#: file_tools.cpp:973
+#: file_tools.cpp:982
+#: file_tools.cpp:990
+#: file_tools.cpp:998
+#: file_tools.cpp:1040
+#: file_tools.cpp:1073
+#: file_tools.cpp:1084
+#: file_tools.cpp:1207
+#: file_tools.cpp:1331
+#: geometry.cpp:230
+#: geometry.cpp:300
+#: geometry.cpp:310
+#: geometry.cpp:390
+#: geometry.cpp:418
+#: geometry.cpp:478
+#: geometry.cpp:554
+#: geometry.cpp:607
+#: greyc.cpp:233
+#: greyc.cpp:256
+#: greyc.cpp:275
+#: image_io.cpp:45
+#: image_io.cpp:137
+#: image_io.cpp:208
+#: image_io.cpp:362
+#: image_io.cpp:405
+#: image_io.cpp:430
+#: image_io.cpp:488
+#: image_io.cpp:513
+#: image_io.cpp:555
+#: image_io.cpp:584
+#: image_manip.cpp:264
+#: image_manip.cpp:298
+#: image_manip.cpp:582
+#: image_manip.cpp:606
+#: image_manip.cpp:618
+#: image_manip.cpp:704
+#: image_manip.cpp:708
+#: image_manip.cpp:726
+#: image_manip.cpp:825
+#: image_manip.cpp:885
+#: image_manip.cpp:905
+#: image_manip.cpp:1007
+#: image_manip.cpp:1026
+#: image_manip.cpp:1095
+#: image_manip.cpp:1104
+#: image_manip.cpp:1124
+#: image_manip.cpp:1192
+#: image_manip.cpp:1203
+#: image_manip.cpp:1223
+#: image_manip.cpp:1297
+#: image_manip.cpp:1306
+#: image_manip.cpp:1326
+#: image_manip.cpp:1391
+#: image_manip.cpp:1400
+#: image_manip.cpp:1420
+#: image_manip.cpp:1508
+#: image_manip.cpp:1530
+#: image_manip.cpp:3157
+#: image_manip.cpp:3176
+#: image_manip.cpp:3209
+#: image_manip_grr.cpp:203
+#: image_manip_grr.cpp:240
+#: image_manip_grr.cpp:340
+#: image_manip_grr.cpp:358
+#: image_manip_grr.cpp:372
+#: image_manip_grr.cpp:458
+#: image_manip_grr.cpp:462
+#: image_manip_grr.cpp:480
+#: image_manip_grr.cpp:579
+#: image_manip_grr.cpp:639
+#: image_manip_grr.cpp:659
+#: image_manip_grr.cpp:761
+#: image_manip_grr.cpp:780
+#: image_manip_grr.cpp:849
+#: image_manip_grr.cpp:858
+#: image_manip_grr.cpp:878
+#: image_manip_grr.cpp:946
+#: image_manip_grr.cpp:957
+#: image_manip_grr.cpp:977
+#: image_manip_grr.cpp:1051
+#: image_manip_grr.cpp:1060
+#: image_manip_grr.cpp:1080
+#: image_manip_grr.cpp:1145
+#: image_manip_grr.cpp:1154
+#: image_manip_grr.cpp:1174
+#: image_manip_grr.cpp:1262
+#: image_manip_grr.cpp:1284
+#: image_manip_grr.cpp:2909
+#: image_manip_grr.cpp:2928
+#: image_manip_grr.cpp:2961
+#: image_math.cpp:1983
+#: image_math.cpp:2086
+#: image_math.cpp:2173
+#: image_math.cpp:2201
+#: image_math.cpp:2223
+#: image_math.cpp:2237
+#: image_math.cpp:2343
+#: preprocess.cpp:13
+#: preprocess.cpp:14
+#: preprocess.cpp:372
+#: preprocess.cpp:528
+#: preprocess.cpp:534
+#: preprocess.cpp:540
+#: preprocess.cpp:559
+#: preprocess.cpp:566
+#: preprocess.cpp:573
+#: preprocess.cpp:1019
+#: preprocess.cpp:1172
+#: preprocess.cpp:1254
+#: preprocess.cpp:1260
+#: preprocess.cpp:1270
+#: preprocess.cpp:1279
+#: preprocess.cpp:1346
+#: preprocess.cpp:1353
+#: preprocess.cpp:1360
+#: preprocess.cpp:1399
+#: preprocess.cpp:1408
+#: preprocess.cpp:1453
+#: preprocess.cpp:1459
+#: preprocess.cpp:1466
+#: preprocess.cpp:1473
+#: preprocess.cpp:1483
+#: preprocess.cpp:1508
+#: preprocess.cpp:1517
+#: preprocess.cpp:1538
+#: preprocess.cpp:1547
+#: preprocess.cpp:1571
+#: preprocess.cpp:1580
+#: preprocess.cpp:1597
+#: preprocess.cpp:1629
+#: preprocess.cpp:1634
+#: preprocess.cpp:1639
+#: preprocess.cpp:1746
+#: preprocess.cpp:1783
+#: preprocess.cpp:1801
+#: preprocess.cpp:1832
+#: quality.cpp:282
+#: quality.cpp:321
+#: reconstruct.cpp:55
+#: reconstruct.cpp:104
+#: reconstruct.cpp:143
+#: reconstruct.cpp:149
+#: reconstruct.cpp:155
+#: reconstruct.cpp:170
+#: reconstruct.cpp:231
+#: reconstruct.cpp:257
+#: reconstruct.cpp:269
+#: reconstruct.cpp:318
+#: reconstruct.cpp:465
+#: reconstruct.cpp:481
+#: reconstruct.cpp:546
+#: reconstruct.cpp:571
+#: reconstruct.cpp:598
+#: scripts.cpp:1107
+#: scripts.cpp:1152
+#: setup_tools.cpp:223
+#: setup_tools.cpp:369
+msgid "Idle"
+msgstr "Inativo"
+
+#: DSSView.cpp:59
+msgid "FOV Calculator"
+msgstr "Calculador de FOV"
+
+#: DSSView.cpp:80
+msgid "# X-pixels"
+msgstr "# X-pixels"
+
+#: DSSView.cpp:82
+msgid "# Y-pixels"
+msgstr "# Y-pixels"
+
+#: DSSView.cpp:84
+msgid "X pixel size"
+msgstr "tamanho do pixel em X"
+
+#: DSSView.cpp:86
+msgid "Y pixel size"
+msgstr "tamanho do pixel em Y"
+
+#: DSSView.cpp:88
+msgid "Focal length"
+msgstr "Distância focal"
+
+#: DSSView.cpp:90
+msgid "Reducer"
+msgstr "Redutor"
+
+#: DSSView.cpp:94
+#: drizzle.cpp:45
+#: geometry.cpp:163
+#: greyc.cpp:102
+#: image_manip.cpp:152
+#: image_manip.cpp:2726
+#: image_manip_grr.cpp:2478
+#: image_manip_grr.cpp:3009
+#: image_math.cpp:2016
+#: main_classes.cpp:381
+#: main_classes.cpp:384
+#: preprocess.cpp:137
+msgid "&Done"
+msgstr "&Feito"
+
+#: DSSView.cpp:95
+#: geometry.cpp:164
+#: greyc.cpp:103
+#: image_manip.cpp:153
+#: image_manip.cpp:2727
+#: image_manip_grr.cpp:2479
+#: image_manip_grr.cpp:3010
+#: image_math.cpp:2017
+#: preprocess.cpp:138
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+#: DSSView.cpp:172
+#: DSSView.cpp:340
+#: Nebulosity.cpp:420
+msgid "DSS Loader"
+msgstr "Carregar DSS"
+
+#: DSSView.cpp:182
+msgid "Download Image"
+msgstr "Baixar imagem"
+
+#: DSSView.cpp:183
+#: alignment.cpp:526
+#: preview.cpp:83
+#: scripts.cpp:167
+msgid "Done"
+msgstr "Feito"
+
+#: DSSView.cpp:186
+msgid "Scale:"
+msgstr "Dimensionar:"
+
+#: DSSView.cpp:197
+msgid "Image pixels"
+msgstr "Pixeis da imagem"
+
+#: DSSView.cpp:199
+msgid "Image FOV (degrees)"
+msgstr "FOV da imagem (graus)"
+
+#: DSSView.cpp:205
+msgid "Overlay X-FOV"
+msgstr "Sobrescrever X-FOV"
+
+#: DSSView.cpp:210
+msgid "Overlay Y-FOV"
+msgstr "Sobrescrever Y-FOV"
+
+#: DSSView.cpp:318
+msgid "Downloading image"
+msgstr "Baixando a imagem"
+
+#: LRGB.cpp:74
+msgid "(L)RGB Color Synthesis"
+msgstr "Sintetizar cor (L)RGB"
+
+#: LRGB.cpp:82
+msgid "RGB"
+msgstr "RGB"
+
+#: LRGB.cpp:83
+msgid "LRGB: Color Ratio"
+msgstr "LRGB: Relação de cores"
+
+#: LRGB.cpp:84
+msgid "LRGB: Traditional HSI"
+msgstr "LRGB: HSI tradicional"
+
+#: LRGB.cpp:88
+msgid "Red frame"
+msgstr "Fotograma vermelho"
+
+#: LRGB.cpp:93
+msgid "Green frame"
+msgstr "Fotograma verde"
+
+#: LRGB.cpp:98
+msgid "Blue frame"
+msgstr "Fotograma azul"
+
+#: LRGB.cpp:103
+msgid "Luminance frame"
+msgstr "Fotograma luminancia"
+
+#: LRGB.cpp:106
+msgid "RGB frame"
+msgstr "Fotograma RGB"
+
+#: LRGB.cpp:113
+msgid "Apply"
+msgstr "Aplicar"
+
+#: LRGB.cpp:284
+msgid "Cannot use this frame as the number of pixels does not match.  Please align frames first."
+msgstr "Não se pode usar este fotograma por que a quantidade de pixeis não coincide. Por favor alinhe os fotogramas antes."
+
+#: LRGB.cpp:308
+msgid "Image not a color frame.  I doubt you mean to load a BW frame into red, green, and blue."
+msgstr "A imagem não é um fotograma em cores. Creio que você carregou um fotograma PB em vermelho, verde e azul"
+
+#: MeadeDSI.cpp:128
+msgid "Which camera?"
+msgstr "Qual câmera?"
+
+#: Nebulosity.cpp:260
+#: Nebulosity.cpp:262
+#: Nebulosity.cpp:264
+#: Nebulosity.cpp:265
+#: Nebulosity.cpp:266
+#: Nebulosity.cpp:267
+#: Nebulosity.cpp:269
+#: Nebulosity.cpp:270
+#: Nebulosity.cpp:271
+#: Nebulosity.cpp:272
+#: Nebulosity.cpp:273
+#: Nebulosity.cpp:274
+#: Nebulosity.cpp:275
+#: Nebulosity.cpp:276
+#: Nebulosity.cpp:277
+#: Nebulosity.cpp:278
+#: Nebulosity.cpp:647
+#: setup_tools.cpp:1763
+#: setup_tools.cpp:1765
+#: setup_tools.cpp:1767
+#: setup_tools.cpp:1769
+#: setup_tools.cpp:1771
+#: setup_tools.cpp:1773
+#: setup_tools.cpp:1775
+#: setup_tools.cpp:1777
+#: setup_tools.cpp:1779
+#: setup_tools.cpp:1781
+#: setup_tools.cpp:1783
+#: setup_tools.cpp:1785
+#: setup_tools.cpp:1787
+#: setup_tools.cpp:1789
+#: setup_tools.cpp:1791
+#: setup_tools.cpp:1793
+msgid "&View"
+msgstr "&Exibir"
+
+#: Nebulosity.cpp:260
+#: Nebulosity.cpp:602
+#: setup_tools.cpp:1734
+#: setup_tools.cpp:1777
+msgid "QSI Control"
+msgstr "Controle QSI"
+
+#: Nebulosity.cpp:262
+#: Nebulosity.cpp:599
+#: setup_tools.cpp:1732
+#: setup_tools.cpp:1775
+msgid "SBIG Control"
+msgstr "Controle SBIG"
+
+#: Nebulosity.cpp:264
+#: Nebulosity.cpp:606
+#: setup_tools.cpp:1736
+#: setup_tools.cpp:1779
+msgid "QHY9 Control"
+msgstr "Controle QHY9"
+
+#: Nebulosity.cpp:265
+#: Nebulosity.cpp:610
+#: setup_tools.cpp:1738
+#: setup_tools.cpp:1781
+msgid "Apogee Control"
+msgstr "Controle da Apogee"
+
+#: Nebulosity.cpp:266
+#: Nebulosity.cpp:612
+#: setup_tools.cpp:1740
+#: setup_tools.cpp:1783
+msgid "FLI Control"
+msgstr "Controle da FLI"
+
+#: Nebulosity.cpp:267
+#: Nebulosity.cpp:614
+#: setup_tools.cpp:1742
+#: setup_tools.cpp:1785
+msgid "Moravian Control"
+msgstr "Controle da Moravian"
+
+#: Nebulosity.cpp:269
+#: Nebulosity.cpp:618
+#: setup_tools.cpp:1744
+#: setup_tools.cpp:1787
+msgid "PHD Link"
+msgstr "Ligar PHD"
+
+#: Nebulosity.cpp:270
+#: Nebulosity.cpp:620
+#: setup_tools.cpp:1789
+msgid "Ext. Filter Wheel"
+msgstr "Roda de filtros Externa"
+
+#: Nebulosity.cpp:271
+#: Nebulosity.cpp:622
+msgid "Mini Capture"
+msgstr "Captura da Mini"
+
+#: Nebulosity.cpp:272
+#: Nebulosity.cpp:593
+#: setup_tools.cpp:1728
+#: setup_tools.cpp:1763
+msgid "Notes"
+msgstr "Notas"
+
+#: Nebulosity.cpp:273
+#: Nebulosity.cpp:597
+#: setup_tools.cpp:1730
+#: setup_tools.cpp:1767
+msgid "Macro processing"
+msgstr "Processamento de Macro"
+
+#: Nebulosity.cpp:274
+#: Nebulosity.cpp:595
+#: setup_tools.cpp:1726
+#: setup_tools.cpp:1765
+msgid "History"
+msgstr "História"
+
+#: Nebulosity.cpp:275
+#: Nebulosity.cpp:587
+#: Nebulosity.cpp:937
+#: setup_tools.cpp:1769
+msgid "Main Image"
+msgstr "Imagem principal"
+
+#: Nebulosity.cpp:276
+#: Nebulosity.cpp:589
+#: setup_tools.cpp:1771
+msgid "Display Control"
+msgstr "Mostrar controle"
+
+#: Nebulosity.cpp:277
+#: Nebulosity.cpp:591
+#: Nebulosity.cpp:943
+#: setup_tools.cpp:1773
+msgid "Capture Control"
+msgstr "Controle de captura"
+
+#: Nebulosity.cpp:278
+#: Nebulosity.cpp:624
+#: setup_tools.cpp:1750
+#: setup_tools.cpp:1793
+msgid "Pixel Stats"
+msgstr "Estatística do Pixel"
+
+#: Nebulosity.cpp:417
+msgid "&Open File\tCtrl+O"
+msgstr "&Abrir um arquivo\tCtrl+O"
+
+#: Nebulosity.cpp:417
+msgid "Open file"
+msgstr "Abrir um arquivo"
+
+#: Nebulosity.cpp:419
+msgid "Preview Files"
+msgstr "Ver arquivos"
+
+#: Nebulosity.cpp:419
+msgid "Preview / Rename / Delete files"
+msgstr "Ver/Renomear/Apagar arquivos"
+
+#: Nebulosity.cpp:420
+msgid "Download DSS Image"
+msgstr "Baixar Imagem do DSS"
+
+#: Nebulosity.cpp:421
+msgid "FITS Header Tool"
+msgstr "Ferramenta leitor de FITS"
+
+#: Nebulosity.cpp:421
+msgid "View FITS header"
+msgstr "Explorar leitor de FITS"
+
+#: Nebulosity.cpp:424
+msgid "&Save Current File\tCtrl+S"
+msgstr "&Salvar o Arquivo Atual\tCtrl+S"
+
+#: Nebulosity.cpp:424
+msgid "Save current file as FITS"
+msgstr "Salvar o arquivo atual em FITS"
+
+#: Nebulosity.cpp:425
+msgid "Save &BMP File as Displayed"
+msgstr "Salvar &arquivo BMP como exibida"
+
+#: Nebulosity.cpp:425
+msgid "Save current display in 24-bit BMP format"
+msgstr "Salvar a informação atual em formato 24-bit BMP "
+
+#: Nebulosity.cpp:426
+msgid "Save &JPG File as Displayed"
+msgstr "Salvar arquivo em &JPG como exibido"
+
+#: Nebulosity.cpp:426
+msgid "Save current display in 24-bit JPG format"
+msgstr "Salvar a atual informação em formato JPG 24-bit"
+
+#: Nebulosity.cpp:427
+msgid "Save 16-bit/color &TIFF File"
+msgstr "Salvar arquivo em formato &TIFF 16-bit em cores"
+
+#: Nebulosity.cpp:427
+msgid "Save as 16-bit/color TIFF (uncompressed)"
+msgstr "Salvar como 16-bit/ TIFF em cores ( sem compressão)"
+
+#: Nebulosity.cpp:428
+msgid "Save 16-bit/color &Compressed TIFF File"
+msgstr "Salvar em 16-bit/arquivo TIFF comprimido em cores "
+
+#: Nebulosity.cpp:428
+msgid "Save as 16-bit/color TIFF (compressed)"
+msgstr "Salvar em 16-bit/ TIFF em cores (comprimido)"
+
+#: Nebulosity.cpp:429
+msgid "Save 16-bit/color &PNG File"
+msgstr "Salvar em 16-bit/arquivo PNG em cores"
+
+#: Nebulosity.cpp:429
+msgid "Save as 16-bit/color PNG"
+msgstr "Salvar como 16-bit/PNG em cores"
+
+#: Nebulosity.cpp:430
+msgid "Save 16-bit/color &PPM/PGM/PNM File"
+msgstr "Salar 16-bit/em cores arquivo PPM/PGM/PNM"
+
+#: Nebulosity.cpp:430
+msgid "Save as 16-bit/color PNM file"
+msgstr "Salvar como 16-bit/colorido o arquivo PNM"
+
+#: Nebulosity.cpp:431
+msgid "Save Color Components"
+msgstr "Salve os componentes coloridos"
+
+#: Nebulosity.cpp:431
+msgid "Split color components into different files"
+msgstr "Separe os componentes das cores em arquivos distintos"
+
+#: Nebulosity.cpp:433
+msgid "Launch new instance"
+msgstr "Inicie novo exemplo"
+
+#: Nebulosity.cpp:433
+msgid "Launch new instance of Nebulosity"
+msgstr "Inicie novo exemplo do Nebulosity"
+
+#: Nebulosity.cpp:435
+msgid "Change language"
+msgstr "Mude a linguagem"
+
+#: Nebulosity.cpp:435
+msgid "Change language / locale"
+msgstr "Mude de linguagem/local"
+
+#: Nebulosity.cpp:436
+msgid "Exit\tCtrl+Q"
+msgstr "Sair\tCtrl+Q"
+
+#: Nebulosity.cpp:436
+msgid "Quit program"
+msgstr "Sair do programa"
+
+#: Nebulosity.cpp:438
+msgid "Undo\tCtrl+Z"
+msgstr "Desfazer\tCtrl+Z"
+
+#: Nebulosity.cpp:438
+msgid "Undo last image change"
+msgstr "Desfazer a última modificação na imagem"
+
+#: Nebulosity.cpp:439
+msgid "Redo\tCtrl+Y"
+msgstr "Refazer\tCtrl+Y"
+
+#: Nebulosity.cpp:439
+msgid "Redo last undo"
+msgstr "Refazer a última modificação"
+
+#: Nebulosity.cpp:443
+msgid "&Image Info"
+msgstr "&Informação da imagem"
+
+#: Nebulosity.cpp:443
+msgid "Info on current image"
+msgstr "Informação da imagem atual"
+
+#: Nebulosity.cpp:444
+msgid "Measure &Distance"
+msgstr "Medida &distância"
+
+#: Nebulosity.cpp:444
+msgid "Measure distance between points on image"
+msgstr "Medir a distância entre pontos na imagem"
+
+#: Nebulosity.cpp:447
+msgid "Edit/Create Script"
+msgstr "Editar/criar Script"
+
+#: Nebulosity.cpp:447
+msgid "Edit or create script file"
+msgstr "Editar ou criar arquivo de Script"
+
+#: Nebulosity.cpp:448
+msgid "Run Script\tCtrl+R"
+msgstr "Rodar o script\tCtrl+R"
+
+#: Nebulosity.cpp:448
+msgid "Run (execute) a script file"
+msgstr "Rodar (executar)um documento"
+
+#: Nebulosity.cpp:451
+msgid "&Preferences"
+msgstr "&Preferências"
+
+#: Nebulosity.cpp:451
+msgid "Set program options and preferences"
+msgstr "Marque as opções e preferências do programa"
+
+#: Nebulosity.cpp:452
+msgid "De-select cameras"
+msgstr "Desmarcar câmeras"
+
+#: Nebulosity.cpp:452
+msgid "Enable / disable cameras"
+msgstr "Ativar / desativar câmeras"
+
+#: Nebulosity.cpp:454
+msgid "Check / Update license"
+msgstr "Verificar/ atualizar da licença"
+
+#: Nebulosity.cpp:454
+msgid "Check or change your license"
+msgstr "Verificar ou mudar sua licença"
+
+#: Nebulosity.cpp:458
+msgid "Pre-process image sets"
+msgstr "Pre-processar imagens"
+
+#: Nebulosity.cpp:458
+msgid "Dark/flat/bias on several sets of images"
+msgstr "Dark/flat/bias em vários conjuntos de imagens"
+
+#: Nebulosity.cpp:460
+msgid "Make Bad Pixel Map"
+msgstr "Fazer um mapa de Pixeis defeituosos"
+
+#: Nebulosity.cpp:460
+msgid "Create map of bad pixels"
+msgstr "Criar um mapa de Pixeis defeituosos"
+
+#: Nebulosity.cpp:465
+msgid "Batch Demosaic+Square RAW color"
+msgstr "Lote Demosaic+Square RAW em cores "
+
+#: Nebulosity.cpp:465
+msgid "Batch recon RAW color recon: Demosaic + Squaring"
+msgstr "Reconverter lote RAW a cores: demosaic + quadratura"
+
+#: Nebulosity.cpp:466
+msgid "Batch Square B&&W "
+msgstr "Lote Square Preto&&Branco"
+
+#: Nebulosity.cpp:466
+msgid "Batch RAW recon B&W frames: Pixel squaring"
+msgstr "Lote RAW recon fotos Preto&Branco: quadratura dos pixeis"
+
+#: Nebulosity.cpp:468
+msgid "Grade Image Quality (auto)"
+msgstr "Graduar a qualidade da imagem(auto)"
+
+#: Nebulosity.cpp:468
+msgid "Grade images based on quality"
+msgstr "Graduar as imagens baseado na qualidade"
+
+#: Nebulosity.cpp:469
+msgid "Normalize Intensities"
+msgstr "Normalizar as intensidades"
+
+#: Nebulosity.cpp:469
+msgid "Normalize image intensities"
+msgstr "Normalizar a intensidade das imagens"
+
+#: Nebulosity.cpp:470
+msgid "Match histograms"
+msgstr "Ajustar histogramas"
+
+#: Nebulosity.cpp:470
+msgid "Match image histograms to a reference"
+msgstr "Ajustar o histograma das imagens com a referencia"
+
+#: Nebulosity.cpp:472
+msgid "&Align and Combine Images"
+msgstr "&Alinhar e Combinar Imagens"
+
+#: Nebulosity.cpp:472
+msgid "Alignment and stacking (all methods)"
+msgstr "Alinhamento e estaqueamento (todos os métodos)"
+
+#: Nebulosity.cpp:474
+msgid "&Automatic Alignment (non-stellar)"
+msgstr "&Alinhamento automático (não estelar)"
+
+#: Nebulosity.cpp:474
+msgid "Automatic image registration"
+msgstr "Registro automático da imagem"
+
+#: Nebulosity.cpp:478
+msgid "2x2 Bin: Sum"
+msgstr "2x2 Bin: Soma"
+
+#: Nebulosity.cpp:478
+msgid "Batch 2x2 bin - sum"
+msgstr "Lote 2x2 bin - soma"
+
+#: Nebulosity.cpp:479
+msgid "2x2 Bin: Average"
+msgstr "2x2 Bin: Média"
+
+#: Nebulosity.cpp:479
+msgid "Batch 2x2 bin - average"
+msgstr "Lote 2x2 bin - média"
+
+#: Nebulosity.cpp:480
+msgid "2x2 Bin: Adaptive"
+msgstr "2x2 Bin: Adaptativo"
+
+#: Nebulosity.cpp:480
+msgid "Batch 2x2 bin - adaptive"
+msgstr "Lote 2x2 bin - adaptativo"
+
+#: Nebulosity.cpp:481
+msgid "L-R Mirror"
+msgstr "L-R espelho"
+
+#: Nebulosity.cpp:481
+msgid "Batch Left-Right mirror"
+msgstr "Lote espelhar Esquerdo-Direito"
+
+#: Nebulosity.cpp:482
+msgid "U-D Mirror"
+msgstr "Espelhar U-D "
+
+#: Nebulosity.cpp:482
+msgid "Batch Up-Down mirror"
+msgstr "Lote espelhar Up-Down"
+
+#: Nebulosity.cpp:483
+msgid "90-CW Rotation"
+msgstr "90-rotação horária"
+
+#: Nebulosity.cpp:483
+msgid "Batch 90-CW Rotation"
+msgstr "Lote 90- rotação horária"
+
+#: Nebulosity.cpp:484
+msgid "180 Rotation"
+msgstr "Rotação 180"
+
+#: Nebulosity.cpp:484
+msgid "Batch 180 Rotation"
+msgstr "Lote rotação 180"
+
+#: Nebulosity.cpp:485
+msgid "90-CCW Rotation"
+msgstr "90-rotação antihorária"
+
+#: Nebulosity.cpp:485
+msgid "Batch 90-CCW Rotation"
+msgstr "Lote 90-rotação anti-horária"
+
+#: Nebulosity.cpp:486
+msgid "Resize"
+msgstr "Redimensionar"
+
+#: Nebulosity.cpp:486
+msgid "Batch Resize"
+msgstr "Lote redimensionar"
+
+#: Nebulosity.cpp:487
+msgid "Crop"
+msgstr "Cortar"
+
+#: Nebulosity.cpp:487
+msgid "Batch Crop"
+msgstr "Lote cortar"
+
+#: Nebulosity.cpp:488
+msgid "Batch Geometry"
+msgstr "Lote geometria"
+
+#: Nebulosity.cpp:490
+msgid "FITS to PNG"
+msgstr "FITS para PNG"
+
+#: Nebulosity.cpp:490
+msgid "Batch convert FITS to 16-bit/color PNG"
+msgstr "Converter o lote de FITS para 16-it/PNG colorido"
+
+#: Nebulosity.cpp:491
+msgid "FITS to TIFF"
+msgstr "FITS para TIFF"
+
+#: Nebulosity.cpp:491
+msgid "Batch convert FITS to 16-bit/color TIFF"
+msgstr "Lote de conversão FITS para 16-bits TIFF colorido"
+
+#: Nebulosity.cpp:492
+msgid "Graphics File to FITS"
+msgstr "Arquivos gráficos para FITS"
+
+#: Nebulosity.cpp:492
+msgid "Batch convert BMP, JPG, PNG, etc. to FITS"
+msgstr "Converter lote BMP,JPG, etc. para FITS"
+
+#: Nebulosity.cpp:493
+msgid "DSLR RAW to FITS"
+msgstr "DSLR RAW para FITS"
+
+#: Nebulosity.cpp:494
+msgid "Color to mono"
+msgstr "Cor para monocromático"
+
+#: Nebulosity.cpp:494
+msgid "Batch convert color into mono files"
+msgstr "Converter lote colorido para arquivos monocromático"
+
+#: Nebulosity.cpp:495
+msgid "RGB to 3 separate color"
+msgstr "RGB para 3 cores separadas"
+
+#: Nebulosity.cpp:495
+msgid "Batch convert color 3 mono files"
+msgstr "Converter lote colorido para 3 arquivos monocromáticos"
+
+#: Nebulosity.cpp:497
+msgid "Batch Conversion"
+msgstr "Conversão do lote"
+
+#: Nebulosity.cpp:499
+#: Nebulosity.cpp:515
+msgid "Generic RAW into Luminosity only"
+msgstr "RAW genérico em somente Luminosidad"
+
+#: Nebulosity.cpp:499
+#: Nebulosity.cpp:515
+msgid "Strip Bayer pattern into Luminosity channel only"
+msgstr "Padrão Bayer em canal de Luminosidade "
+
+#: Nebulosity.cpp:500
+#: Nebulosity.cpp:516
+msgid "Low-Noise 2x2 Bin"
+msgstr "Baixo-ruido 2x2 Bin"
+
+#: Nebulosity.cpp:500
+#: Nebulosity.cpp:516
+msgid "Adaptive binning for filtered one-shot color images"
+msgstr "Binning adaptativo para imagens coloridas únicas"
+
+#: Nebulosity.cpp:501
+#: Nebulosity.cpp:520
+msgid "RGB camera, Extract R"
+msgstr "Camera RGB, Extrair R "
+
+#: Nebulosity.cpp:501
+#: Nebulosity.cpp:520
+msgid "Extract R pixels only"
+msgstr "Extrair pixeis R somente"
+
+#: Nebulosity.cpp:502
+#: Nebulosity.cpp:523
+msgid "RGB camera, Extract G"
+msgstr "Camera RGB, Extrair G"
+
+#: Nebulosity.cpp:502
+#: Nebulosity.cpp:523
+msgid "Extract G pixels only (average fields)"
+msgstr "Extrair somente pixeis G (campos médios)"
+
+#: Nebulosity.cpp:503
+#: Nebulosity.cpp:524
+msgid "RGB camera, Extract B"
+msgstr "Camera RGB, Extrair B"
+
+#: Nebulosity.cpp:503
+#: Nebulosity.cpp:524
+msgid "Extract B pixels only"
+msgstr "Extrair somente pixeis B"
+
+#: Nebulosity.cpp:504
+#: Nebulosity.cpp:518
+msgid "RGB camera, Nebula filter"
+msgstr "Camera RGB, Filtro Nebular"
+
+#: Nebulosity.cpp:504
+#: Nebulosity.cpp:518
+msgid "RAW conversion with nebula filter and RGB array"
+msgstr "Conversão de RAW com filtro nebular em matriz RGB"
+
+#: Nebulosity.cpp:505
+#: Nebulosity.cpp:527
+msgid "CMYG camera, Ha filter"
+msgstr "Camera CMYG, filtro Ha"
+
+#: Nebulosity.cpp:506
+#: Nebulosity.cpp:528
+msgid "CMYG camera, pure O-III filter"
+msgstr "Camera CMYG, em filtro O-III puro"
+
+#: Nebulosity.cpp:506
+#: Nebulosity.cpp:528
+msgid "RAW conversion with pure O-III filter CMYG array"
+msgstr "Conversão RAW com filtro O-III puro em matriz CMYG "
+
+#: Nebulosity.cpp:507
+#: Nebulosity.cpp:526
+msgid "CMYG camera, Nebula filter"
+msgstr "Camera CMYG, filtro Nebular"
+
+#: Nebulosity.cpp:507
+#: Nebulosity.cpp:526
+msgid "RAW conversion with nebula filter and CMYG array"
+msgstr "Conversão de RAW com filtro nebular em matriz CMYG"
+
+#: Nebulosity.cpp:508
+msgid "Batch One-shot Color with Line Filters"
+msgstr "Lote One-shot Color com filtro de Linha"
+
+#: Nebulosity.cpp:512
+msgid "&De-mosaic RAW (Best quality) + Square\tCtrl+B"
+msgstr "&De-mosaic RAW (melhor qualidade) + Quadrado\tCtrl+B"
+
+#: Nebulosity.cpp:512
+msgid "Best quality: Convert RAW image to color image"
+msgstr "Melhor qualidade: Converter imagens RAW em imagens coloridas"
+
+#: Nebulosity.cpp:513
+msgid "Square B&&W pixels"
+msgstr "Quadrar pixeis B&&W"
+
+#: Nebulosity.cpp:513
+msgid "Square black and white pixels"
+msgstr "Quadrar pixeis preto e branco"
+
+#: Nebulosity.cpp:521
+msgid "RGB camera, Extract G1"
+msgstr "Camera RGB, extrair G1"
+
+#: Nebulosity.cpp:521
+msgid "Extract G pixels only - Field 1"
+msgstr "Extrair somente pixeis G – Campo 1"
+
+#: Nebulosity.cpp:522
+msgid "RGB camera, Extract G2"
+msgstr "Camera RGB, Extrair G2"
+
+#: Nebulosity.cpp:522
+msgid "Extract G pixels only - Field 2"
+msgstr "Extrair somente pixeis G – Campo 2"
+
+#: Nebulosity.cpp:527
+msgid "RAW conversion with Ha filter and CMYG array"
+msgstr "Conversão RAW com filtro Ha e matriz CMYG"
+
+#: Nebulosity.cpp:529
+msgid "One-shot Color with Line Filters"
+msgstr "One-shot Color com Filtros de Linha"
+
+#: Nebulosity.cpp:532
+msgid "Crop\tCtrl+K"
+msgstr "Cortar\tCtrl+K"
+
+#: Nebulosity.cpp:532
+msgid "Crop imaget"
+msgstr "Cortar a imagem"
+
+#: Nebulosity.cpp:534
+msgid "L-R (Horiz.) Mirror"
+msgstr "Espelhar L-R (Horizontal)"
+
+#: Nebulosity.cpp:534
+msgid "Left/Right mirror image"
+msgstr "Espelhar imagem Esquerda/Direita"
+
+#: Nebulosity.cpp:535
+msgid "U-D (Vert.) Mirror"
+msgstr "Espelhar ( Vertical) U-D"
+
+#: Nebulosity.cpp:535
+msgid "Up/Down mirror image"
+msgstr "Espelhar imagem Acima/Abaixo"
+
+#: Nebulosity.cpp:536
+msgid "Rotate 90 CW"
+msgstr "Rodar 90 CW"
+
+#: Nebulosity.cpp:536
+msgid "Rotate 90 clockwise"
+msgstr "Rodar 90 sentido horário "
+
+#: Nebulosity.cpp:537
+msgid "Rotate 90 CCW"
+msgstr "Rodar 90 CCW"
+
+#: Nebulosity.cpp:537
+msgid "Rotate 90 counter-clockwise"
+msgstr "Rodar 90 sentido antihorário "
+
+#: Nebulosity.cpp:538
+msgid "Rotate 180"
+msgstr "Rodar 180"
+
+#: Nebulosity.cpp:538
+msgid "Rotate 180 degrees"
+msgstr "Rodar 180 graus"
+
+#: Nebulosity.cpp:539
+msgid "Mirror/Rotate Image"
+msgstr "Espelhar/Rodar imagem"
+
+#: Nebulosity.cpp:540
+#: geometry.cpp:436
+msgid "Resize Image"
+msgstr "Redimensionar Imagem"
+
+#: Nebulosity.cpp:540
+msgid "Resize / resample image"
+msgstr "Redimensionar/criar nova amostra da imagem"
+
+#: Nebulosity.cpp:542
+msgid "2x2 bin: Sum"
+msgstr "2x2 binning: adicionado"
+
+#: Nebulosity.cpp:542
+msgid "2x2 binning, adding data"
+msgstr "Adicionando dados 2x2 binning"
+
+#: Nebulosity.cpp:543
+msgid "2x2 bin: Average"
+msgstr "2x2 bin: Média"
+
+#: Nebulosity.cpp:543
+msgid "2x2 binning, averaging data"
+msgstr "2x2 binning, média dos dados"
+
+#: Nebulosity.cpp:544
+msgid "2x2 bin: Adaptive"
+msgstr "2x2 bin: Adaptativo"
+
+#: Nebulosity.cpp:544
+msgid "2x2 binning, using full scale"
+msgstr "2x2 binning,usando escala completa"
+
+#: Nebulosity.cpp:545
+msgid "Bin Image"
+msgstr "Imagem Bin"
+
+#: Nebulosity.cpp:547
+msgid "Levels / Power Stretch\tCtrl+L"
+msgstr "Níveis/Stretch\tCtrl+L"
+
+#: Nebulosity.cpp:547
+msgid "Apply Levels / Power stretch tool to the image"
+msgstr "Aplicar níveis/Aplicar ferramenta stretch na imagem"
+
+#: Nebulosity.cpp:548
+msgid "Digital Development (DDP)\tCtrl+D"
+msgstr "Desenvolvimento Digital (DDP)\tCtrl+D"
+
+#: Nebulosity.cpp:548
+msgid "Digital Development Processing"
+msgstr "Processamento de Desenvolvimento Digital"
+
+#: Nebulosity.cpp:549
+msgid "Curves\tAlt+C"
+msgstr "Curvas\tAlt+C"
+
+#: Nebulosity.cpp:549
+#: image_manip.cpp:2711
+#: image_manip_grr.cpp:2463
+msgid "Bezier Curves"
+msgstr "Curvas Bezier"
+
+#: Nebulosity.cpp:550
+msgid "&Zero Min"
+msgstr "&Zero Min"
+
+#: Nebulosity.cpp:550
+msgid "Reset image min to zero"
+msgstr "Redefinir Imagem min para zero"
+
+#: Nebulosity.cpp:551
+msgid "&Scale Intensity"
+msgstr "&Escala de intensidade"
+
+#: Nebulosity.cpp:551
+msgid "Rescale image by a constant"
+msgstr "Redimensionar imagem por uma constante"
+
+#: Nebulosity.cpp:554
+msgid "Adjust Color Background (Offset)\tCtrl+A"
+msgstr "Ajustar cor do fundo ( Offset)\tCtrl+A"
+
+#: Nebulosity.cpp:554
+msgid "Subtract color to balance background"
+msgstr "Subtrair cor para balancear o fundo"
+
+#: Nebulosity.cpp:555
+msgid "Adjust Color Scaling\tAlt+S"
+msgstr "Ajustar escala de cores\tAlt+S"
+
+#: Nebulosity.cpp:555
+msgid "Rescale each color by a constant"
+msgstr "Redimensionar cada cor por uma constante"
+
+#: Nebulosity.cpp:556
+msgid "Auto Color Balance"
+msgstr "Balanço de cores automático"
+
+#: Nebulosity.cpp:556
+msgid "Equate color channel histograms"
+msgstr "Equalizar histograma do canal de cores"
+
+#: Nebulosity.cpp:557
+msgid "Adjust Hue / Saturation"
+msgstr "Ajustar Tonalidade/Saturação"
+
+#: Nebulosity.cpp:557
+msgid "Adjust Hue, Saturation and Lightness"
+msgstr "Ajustar Tonalidade,Saturação e Leveza"
+
+#: Nebulosity.cpp:558
+msgid "Discard color (L only)"
+msgstr "Descartar cor (L somente)"
+
+#: Nebulosity.cpp:558
+msgid "Extract luminance data"
+msgstr "Extrair dados de luminancia"
+
+#: Nebulosity.cpp:559
+msgid "Convert to color"
+msgstr "Converter para cor"
+
+#: Nebulosity.cpp:559
+msgid "Make a monochrome image color"
+msgstr "Transforme uma imagem monocromática em colorida"
+
+#: Nebulosity.cpp:560
+msgid "LRGB Color Synthesis"
+msgstr "Sintetizar Cor LRGB"
+
+#: Nebulosity.cpp:560
+msgid "Combine (L)RGB data"
+msgstr "Combinar dados de (L)RGB"
+
+#: Nebulosity.cpp:564
+msgid "Sharpen"
+msgstr "Sharpen"
+
+#: Nebulosity.cpp:564
+msgid "Traditional sharpen filter"
+msgstr "Filtro sharpen Tradicional"
+
+#: Nebulosity.cpp:565
+msgid "Laplacian sharpen filter"
+msgstr "Filtro Sharpen Laplaciano"
+
+#: Nebulosity.cpp:566
+msgid "Tighten star edges (morphological)\tCtrl+T"
+msgstr "Diminuir a borda das estrelas (morfologico)\tCrl+T"
+
+#: Nebulosity.cpp:566
+msgid "Tighten stars with edge detection"
+msgstr "Diminuir estrelas com deteção da borda"
+
+#: Nebulosity.cpp:567
+#: image_manip.cpp:1441
+#: image_manip.cpp:1444
+#: image_manip_grr.cpp:1195
+#: image_manip_grr.cpp:1198
+msgid "Unsharp mask"
+msgstr "Máscara de desfoque"
+
+#: Nebulosity.cpp:567
+msgid "Sharpen via unsharp mask"
+msgstr "Sharpen através da máscara de desfoque"
+
+#: Nebulosity.cpp:568
+msgid "Gaussian blur"
+msgstr "Gaussian blur"
+
+#: Nebulosity.cpp:574
+msgid "3x3 Pixel Median"
+msgstr "Mediana de Pixel 3x3"
+
+#: Nebulosity.cpp:574
+msgid "3x3 pixel median"
+msgstr "Mediana de pixel 3x3"
+
+#: Nebulosity.cpp:575
+msgid "Sharpen / blur image"
+msgstr "Sharpen / blur a imagem"
+
+#: Nebulosity.cpp:576
+msgid "&Vertical smoothing (deinterlace)"
+msgstr "Suavização &Vertical (deinterlace) "
+
+#: Nebulosity.cpp:576
+msgid "Vertical smoothing (deinterlace)"
+msgstr "Suavização Vertical (deinterlace)"
+
+#: Nebulosity.cpp:577
+msgid "&Adaptive median noise reduction"
+msgstr "&Redução do ruido por mediana adaptativa"
+
+#: Nebulosity.cpp:577
+msgid "Noise reduction by local adaptive median filtering"
+msgstr "Redução do ruido por filtragem mediana local adaptativa "
+
+#: Nebulosity.cpp:578
+msgid "&GREYCstoration noise reduction"
+msgstr "&GREYCstoration redução de ruido "
+
+#: Nebulosity.cpp:578
+msgid "Noise reduction using the GREYCstoration tool"
+msgstr "Redução de ruido usando ferramenta GREYCstoration"
+
+#: Nebulosity.cpp:587
+msgid "Toggle main image"
+msgstr "Ativar/desativar imagem principal "
+
+#: Nebulosity.cpp:589
+msgid "Toggle display control"
+msgstr "Ativar/desativar mostrar controle"
+
+#: Nebulosity.cpp:591
+msgid "Toggle capture control"
+msgstr "Ativar/desativar controle de captura"
+
+#: Nebulosity.cpp:593
+msgid "Toggle notes window"
+msgstr "Ativar/desativar janela notas"
+
+#: Nebulosity.cpp:595
+msgid "Toggle history window"
+msgstr "Ativar/desativar janela história"
+
+#: Nebulosity.cpp:597
+msgid "Toggle macro window"
+msgstr "Alternar janela de macro"
+
+#: Nebulosity.cpp:599
+msgid "SBIG Control panel"
+msgstr "Painel de controle SBIG"
+
+#: Nebulosity.cpp:602
+msgid "QSI Control panel"
+msgstr "Painel de controle QSI"
+
+#: Nebulosity.cpp:606
+msgid "QHY9 Control panel"
+msgstr "Painel de controle QHY9"
+
+#: Nebulosity.cpp:610
+msgid "Apogee Control panel"
+msgstr "Painel de controle Apogee"
+
+#: Nebulosity.cpp:612
+msgid "FLI Control panel"
+msgstr "Painel de controle FLI"
+
+#: Nebulosity.cpp:614
+msgid "Moravian Control panel"
+msgstr "Painel de controle Moravian"
+
+#: Nebulosity.cpp:618
+msgid "PHD Control panel"
+msgstr "Painel de controle do PHD"
+
+#: Nebulosity.cpp:620
+msgid "External filter wheel control panel"
+msgstr "Painel de controle da roda de filtros externa"
+
+#: Nebulosity.cpp:622
+msgid "Mini Capture Control panel"
+msgstr "Painel de controle de Captura da Mini"
+
+#: Nebulosity.cpp:624
+msgid "Pixel statistics panel"
+msgstr "Painel de controle de estatística do Pixel"
+
+#: Nebulosity.cpp:627
+msgid "Reset view"
+msgstr "Redefinir modo de exibição"
+
+#: Nebulosity.cpp:628
+msgid "Reset position"
+msgstr "Redefinir posição"
+
+#: Nebulosity.cpp:630
+msgid "Zoom in\tCtrl+="
+msgstr "Aumentar Zoom\tCtrl+="
+
+#: Nebulosity.cpp:631
+msgid "Zoom out\tCtrl+-"
+msgstr "Diminuir Zoom \tCtrl+="
+
+#: Nebulosity.cpp:633
+msgid "&About"
+msgstr "&Sobre"
+
+#: Nebulosity.cpp:633
+msgid "About Nebulosity"
+msgstr "Sobre o Nebulosity"
+
+#: Nebulosity.cpp:634
+msgid "View Help"
+msgstr "Exibir ajuda"
+
+#: Nebulosity.cpp:634
+msgid "View Nebulosity manual"
+msgstr "Exibir manual do Nebolosity"
+
+#: Nebulosity.cpp:635
+msgid "Check Web for Updates"
+msgstr "Checar a Web para atualizações"
+
+#: Nebulosity.cpp:635
+msgid "Check website for updates"
+msgstr "Checar o website para atualizações"
+
+#: Nebulosity.cpp:641
+msgid "&File"
+msgstr "&Arquivo"
+
+#: Nebulosity.cpp:642
+msgid "&Edit"
+msgstr "&Editar"
+
+#: Nebulosity.cpp:644
+msgid "&Batch"
+msgstr "&Lote"
+
+#: Nebulosity.cpp:645
+msgid "&Image"
+msgstr "&Imagem"
+
+#: Nebulosity.cpp:648
+msgid "&Help"
+msgstr "&Ajuda"
+
+#: Nebulosity.cpp:713
+msgid "Raw image level to set to black"
+msgstr "Nível de imagem RAW para definir como preto "
+
+#: Nebulosity.cpp:714
+msgid "Raw image level to set to white"
+msgstr "Nível de imagem RAW para definir como branco "
+
+#: Nebulosity.cpp:732
+msgid "Zoom"
+msgstr "Zoom"
+
+#: Nebulosity.cpp:750
+#: setup_tools.cpp:1471
+msgid "No camera"
+msgstr "Sem câmera"
+
+#: Nebulosity.cpp:751
+#: camera.cpp:274
+#: simulator.cpp:10
+msgid "Simulator"
+msgstr "Simulador"
+
+#: Nebulosity.cpp:809
+msgid "Advanced"
+msgstr "Avançado"
+
+#: Nebulosity.cpp:823
+#: setup_tools.cpp:1479
+msgid "Duration"
+msgstr "Duração"
+
+#: Nebulosity.cpp:832
+msgid "Gain       "
+msgstr "Ganho   "
+
+#: Nebulosity.cpp:837
+msgid "Offset"
+msgstr "Offset"
+
+#: Nebulosity.cpp:847
+#: main_classes.cpp:408
+msgid "# Exposures"
+msgstr "# Exposições"
+
+#: Nebulosity.cpp:853
+msgid "Time lapse (s)"
+msgstr "Time lapse (s)"
+
+#: Nebulosity.cpp:862
+msgid "Capture Series"
+msgstr "Série de capturas"
+
+#: Nebulosity.cpp:864
+msgid "Preview"
+msgstr "Visualizar"
+
+#: Nebulosity.cpp:867
+msgid "Frame and Focus"
+msgstr "Enquadrar e focar"
+
+#: Nebulosity.cpp:869
+msgid "Fine Focus"
+msgstr "Foco fino"
+
+#: Nebulosity.cpp:871
+#: setup_tools.cpp:1503
+msgid "Abort"
+msgstr "Abortar"
+
+#: Nebulosity.cpp:873
+msgid "Directory"
+msgstr "Diretório"
+
+#: Nebulosity.cpp:877
+msgid "Name"
+msgstr "Nome"
+
+#: Nebulosity.cpp:937
+msgid "Main"
+msgstr "Principal"
+
+#: Nebulosity.cpp:939
+msgid "Display"
+msgstr "Mostrar"
+
+#: Nebulosity.cpp:943
+msgid "Capture"
+msgstr "Captura"
+
+#: Nebulosity.cpp:1116
+msgid "View will be reset the next time you start Nebulosity"
+msgstr "A vista será redefinida da próxima vez que você iniciar o Nebulosity"
+
+#: Nebulosity.cpp:1462
+msgid " SPAWNED"
+msgstr " GEROU"
+
+#: Nebulosity.cpp:1494
+msgid ""
+"Please choose a language.  If you are changing\n"
+"to a different language, you will need to\n"
+"restart Nebulosity"
+msgstr "Por favor escolha a linguagem.\n"
+"Se você está mudando para uma linguagem diferente,\n"
+"você precisa reiniciar o Nebulosity."
+
+#: Nebulosity.cpp:1494
+msgid "Language"
+msgstr "Linguagem"
+
+#: Nebulosity.cpp:1502
+msgid "Restart Nebulosity to finish making your change"
+msgstr "Reiniciar Nebulosity para terminar de fazer sua alteração"
+
+#: Nebulosity.cpp:1553
+msgid "Unable to connect to www.stark-labs.com to check for updates"
+msgstr "Não é possível conectar-se a www.stark-labs.com para verificar se há atualizações"
+
+#: Nebulosity.cpp:1570
+msgid "Your version is current.  No updates available"
+msgstr "Sua versão é atual. Não há atualizações disponíveis"
+
+#: Nebulosity.cpp:1574
+msgid ""
+"A more recent version of Nebulosity is available at: http://www.stark-labs.com\n"
+"\n"
+"Click OK to open your browser and go there or Cancel to download later.\n"
+"\n"
+msgstr "Uma versão mais recente de nebulosidade está disponível em: http:www.stark-labs.com\n"
+
+#: Nebulosity.cpp:1893
+msgid "Capturing"
+msgstr "Capturando"
+
+#: Nebulosity.cpp:1895
+#, c-format
+msgid "Preview acquisition 1/1  %.2f s"
+msgstr "Visualizar aquisição 1/1  %.2f s"
+
+#: Nebulosity.cpp:1911
+#, c-format
+msgid "Preview done %d x %d pixels"
+msgstr "Visualização feita %d x %d pixels"
+
+#: Nebulosity.cpp:2039
+msgid "Choose a folder"
+msgstr "Escolha uma pasta"
+
+#: Nebulosity.cpp:2158
+msgid "Select which cameras should be disabled"
+msgstr "Selecione quais câmeras devem ser desabilitadas"
+
+#: Nebulosity.cpp:2158
+msgid "Edit camera list"
+msgstr "Editar lista de câmeras"
+
+#: alignment.cpp:36
+msgid "Aborted"
+msgstr "Abortado"
+
+#: alignment.cpp:59
+msgid "Alignment / Stacking"
+msgstr "Alinhar / Empilhar"
+
+#: alignment.cpp:62
+#: autoalign.cpp:63
+msgid "Save stack"
+msgstr "Salvar empilhamento"
+
+#: alignment.cpp:62
+#: autoalign.cpp:63
+msgid "Save each file"
+msgstr "Salve cada pasta"
+
+#: alignment.cpp:63
+msgid "None (fixed)"
+msgstr "Nenhum (corrigido)"
+
+#: alignment.cpp:63
+msgid "Translation"
+msgstr "Tradução"
+
+#: alignment.cpp:64
+msgid "Translation + Rotation"
+msgstr "Translação + Rotação"
+
+#: alignment.cpp:64
+msgid "Translation + Rotation + Scale"
+msgstr "Translação + Rotação + Redimensionar"
+
+#: alignment.cpp:65
+msgid "Drizzle"
+msgstr "Drizzle"
+
+#: alignment.cpp:65
+msgid "Colors In Motion"
+msgstr "Cores em movimento"
+
+#: alignment.cpp:67
+msgid "Average / Default"
+msgstr "Padrão/médio"
+
+#: alignment.cpp:68
+msgid "Std. Dev. filter (1.25)"
+msgstr "Filtro desvio padrão (1.25)"
+
+#: alignment.cpp:69
+msgid "Std. Dev. filter (1.5 - typical)"
+msgstr "Filtro desvio padrão (1.5 – típico)"
+
+#: alignment.cpp:70
+msgid "Std. Dev. filter (1.75 - typical)"
+msgstr "Filtro desvio padrão (1.75 – típico)"
+
+#: alignment.cpp:71
+msgid "Std. Dev. filter (2.0)"
+msgstr "Filtro desvio padrão (2.0)"
+
+#: alignment.cpp:72
+msgid "Std. Dev. filter (custom)"
+msgstr "Filtro desvio padrão (personalizado)"
+
+#: alignment.cpp:76
+#: autoalign.cpp:67
+msgid "Output mode"
+msgstr "Modo de saída"
+
+#: alignment.cpp:77
+msgid "Alignment method"
+msgstr "Método de alinhamento"
+
+#: alignment.cpp:78
+msgid "Stacking function"
+msgstr "Função empilhamento"
+
+#: alignment.cpp:80
+msgid "Starfield fine-tune alignment"
+msgstr "Ajuste fino do alinhamento estelar"
+
+#: alignment.cpp:81
+msgid "Fine-tune star location"
+msgstr "Ajuste fino da localização da estrela"
+
+#: alignment.cpp:265
+msgid "Select RAW frames for CIM"
+msgstr "Selecionar fotogramas RAW por CIM"
+
+#: alignment.cpp:267
+msgid "Select color or B/W frames to align"
+msgstr "Selecionar fotogramas cor ou P&B para alinhar"
+
+#: alignment.cpp:311
+msgid "Colors in Motion requires RAW data -- Aborting"
+msgstr "Cores em movimento requerem dados RAW-- Abortando"
+
+#: alignment.cpp:322
+msgid "Click on the same non-saturated star (Shift-click to skip)"
+msgstr "Clique na mesma estrela não saturada ( Shift-click para saltar)"
+
+#: alignment.cpp:324
+msgid "CIM-Aligning files"
+msgstr "CIM-Alinhando arquivos"
+
+#: alignment.cpp:324
+#: alignment.cpp:332
+msgid ", 0 skipped"
+msgstr ", 0 ignorado"
+
+#: alignment.cpp:332
+msgid "Aligning files"
+msgstr "Alinhando arquivos"
+
+#: alignment.cpp:432
+msgid "Click on the star (Shift=skip, Command=keep guess, Alt=auto-all)"
+msgstr "Click na estrela (Shift=saltar, Command=manter, Alt=automático)"
+
+#: alignment.cpp:434
+msgid "Click on the star (Shift=skip, Ctrl=keep guess, Alt=auto-all)"
+msgstr "Click na estrela (Shift=saltar, Command=manter, Alt=automático)"
+
+#: alignment.cpp:442
+#, c-format
+msgid "CIM-Aligning %d files - %lu to go, %lu skipped"
+msgstr "CIM-Alinhando %d arquivos - %lu para ir, %lu ignorado"
+
+#: alignment.cpp:448
+#, c-format
+msgid "2nd star %d valid - on %lu/%u"
+msgstr "2ª estrela %d valida - sobre %lu/%u"
+
+#: alignment.cpp:453
+#, c-format
+msgid "Aligning %u files - %lu to go, %lu skipped"
+msgstr "Alinhando %u arquivos - %lu para ir, %lu ignorado"
+
+#: alignment.cpp:480
+#, c-format
+msgid "All %u frames aligned, stacking"
+msgstr "Todos %u fotogramas alinhados, empilhar"
+
+#: alignment.cpp:501
+#, c-format
+msgid "Aligned %d / %u files"
+msgstr "Alinhado %d / %u arquivos"
+
+#: alignment.cpp:504
+msgid "No frames selected to align and combine"
+msgstr "Nenhum fotograma selecionado para alinhar e combinar"
+
+#: alignment.cpp:522
+#, c-format
+msgid "Save stack of %d frames"
+msgstr "Salve o empilhamento de %d fotogramas"
+
+#: alignment.cpp:867
+msgid "Alignment aborted on read error"
+msgstr "Alinhamento abortado ao encontrar erro"
+
+#: alignment.cpp:881
+#: drizzle.cpp:332
+msgid "Cannot combine B&W and color images.  Aborting."
+msgstr "Impossível combinar imagens P&B e Cor. Abortando"
+
+#: alignment.cpp:915
+#: autoalign.cpp:351
+msgid "Aligning"
+msgstr "Alinhando"
+
+#: alignment.cpp:1079
+#, c-format
+msgid "%lu / %u stacked"
+msgstr "%lu / %u empilhamento"
+
+#: alignment.cpp:1088
+msgid "Memory allocation error."
+msgstr "Erro de alocação de memória"
+
+#: alignment.cpp:1202
+msgid "Custom standard deviation"
+msgstr "Desvio padrão personalizado"
+
+#: alignment.cpp:1202
+msgid "Enter the desired standard deviation (0.1 - 5.0)"
+msgstr "Entre com o desvio padrão desejado(0.1 – 5.0)"
+
+#: alignment.cpp:1207
+msgid "Invalid entry.  Number must be between 0.1 and 5.0"
+msgstr "Entrada inválida. O número deve estar entre 0.1 e 0.5"
+
+#: alignment.cpp:1309
+#: preprocess.cpp:1782
+msgid "Could not load"
+msgstr "Impossível carregar"
+
+#: alignment.cpp:1317
+msgid "Wrong color type for image (must be all same type)"
+msgstr "Tipo de cor errada para imagem (todos devem ser do mesmo tipo)"
+
+#: alignment.cpp:1325
+msgid "Image size mismatch between images (must be all same size)"
+msgstr "Incompatibilidade de tamanho de imagem entre elas (todas devem ser do mesmo tamanho)"
+
+
+#: alignment.cpp:1336
+#: alignment.cpp:1472
+#: alignment.cpp:1496
+#: alignment.cpp:1633
+#: alignment.cpp:1667
+#: alignment.cpp:1700
+#: alignment.cpp:1766
+msgid "ABORTED"
+msgstr "ABORTADO "
+
+#: alignment.cpp:1397
+#, c-format
+msgid "%d / %d loaded"
+msgstr "%d / %d carregado"
+
+#: alignment.cpp:1490
+#: alignment.cpp:1493
+#: alignment.cpp:1562
+#: alignment.cpp:1565
+#, c-format
+msgid "%lu pixels to fix"
+msgstr "%lu pixeis para corrigir"
+
+#: alignment.cpp:1509
+#: alignment.cpp:1526
+#: alignment.cpp:1543
+#: alignment.cpp:1581
+#: greyc.cpp:170
+msgid "Error writing temp file"
+msgstr "Êrro escrevendo arquivo temporário"
+
+#: alignment.cpp:1624
+#: alignment.cpp:1630
+#, c-format
+msgid "%u red fixes left"
+msgstr "%u correção de vermelho à esquerda"
+
+#: alignment.cpp:1625
+#, c-format
+msgid "%u red pixels filtered"
+msgstr "%u pixeis vermelhos filtrados"
+
+#: alignment.cpp:1658
+#: alignment.cpp:1664
+#, c-format
+msgid "%u green fixes left"
+msgstr "%u correção de verdes à esquerda"
+
+#: alignment.cpp:1659
+#, c-format
+msgid "%u green pixels filtered"
+msgstr "%u pixeis verdes filtrados"
+
+#: alignment.cpp:1691
+#: alignment.cpp:1697
+#, c-format
+msgid "%u blue fixes left"
+msgstr "%u pixeis azuis filtrados"
+
+#: alignment.cpp:1692
+#, c-format
+msgid "%u blue pixels filtered"
+msgstr "%u pixeis azuis filtrados"
+
+#: alignment.cpp:1755
+#, c-format
+msgid "%u pixels filtered"
+msgstr ""
+
+#: alignment.cpp:1756
+#: alignment.cpp:1763
+#, c-format
+msgid "%u fixes left"
+msgstr "%u pixeis filtrados"
+
+#: alignment.cpp:1860
+msgid "Select frames to combine"
+msgstr "Selecionar fotogramas para combinar"
+
+#: alignment.cpp:1862
+msgid "Select the frames to combine"
+msgstr "Selecionar os fotogramas para combinar "
+
+#: autoalign.cpp:61
+msgid "Auto Align"
+msgstr "Auto alinhamento"
+
+#: autoalign.cpp:64
+msgid "Rigid (4 param)"
+msgstr "Rígido(4 param)"
+
+#: autoalign.cpp:68
+msgid "Transformation method"
+msgstr "Método de transformação"
+
+#: autoalign.cpp:100
+#: preprocess.cpp:1961
+msgid "Prefix"
+msgstr "Prefixo"
+
+#: autoalign.cpp:102
+msgid "Method"
+msgstr "Método"
+
+#: autoalign.cpp:104
+msgid "Size"
+msgstr "Tamanho"
+
+#: autoalign.cpp:109
+#: autoalign.cpp:154
+msgid "None selected"
+msgstr "Nenhum selecionado"
+
+#: autoalign.cpp:110
+msgid "Select Master"
+msgstr "Selecione o Mestre"
+
+#: autoalign.cpp:129
+msgid "Select master frame"
+msgstr "Selecione o fotograma mestre"
+
+#: autoalign.cpp:190
+msgid "Select frames to align"
+msgstr "Selecione os fotogramas para alinhar"
+
+#: autoalign.cpp:202
+msgid "Alignment progess"
+msgstr "Alinhamento em progresso"
+
+#: autoalign.cpp:202
+msgid "Processing master"
+msgstr "Processando o mestre"
+
+#: autoalign.cpp:221
+msgid "Error writing temporary file - aborting"
+msgstr "Êrro escrevendo o arquivo temporário - abortando"
+
+#: autoalign.cpp:340
+msgid "Aligning frame"
+msgstr "Alinhando o fotograma"
+
+#: autoalign.cpp:348
+msgid "Frame"
+msgstr "Fotograma"
+
+#: autoalign.cpp:421
+#: autoalign.cpp:511
+#: autoalign.cpp:534
+#: autoalign.cpp:561
+#: autoalign.cpp:582
+#: autoalign.cpp:614
+#: autoalign.cpp:635
+#: autoalign.cpp:710
+msgid "Error during alignment -- aborting"
+msgstr "Êrro durante o alinhamento--abortando"
+
+#: autoalign.cpp:744
+msgid "Done aligning"
+msgstr "Alinhamento feito"
+
+#: canon_cr2.cpp:313
+msgid "Open Canon CR2 RAW"
+msgstr "Abrir Canon CR2 RAW "
+
+#: canon_cr2.cpp:459
+#: canon_cr2.cpp:777
+#: file_tools.cpp:818
+#: image_io.cpp:250
+#: image_io.cpp:471
+#: image_io.cpp:551
+msgid "Loading"
+msgstr "Carregando"
+
+#: canon_cr2.cpp:729
+msgid "Open Canon CRW RAW"
+msgstr "Abrir Canon CR2 RAW "
+
+#: drizzle.cpp:34
+#: drizzle.cpp:36
+msgid "Drizzle Parameters"
+msgstr "Parâmetros de Drizzle"
+
+#: drizzle.cpp:42
+msgid "Pixel reduction=0.6"
+msgstr "Redução do Pixel=0.6"
+
+#: drizzle.cpp:43
+msgid "Up-sample=1.5"
+msgstr "Exemplo acima=1.5"
+
+#: drizzle.cpp:44
+msgid "Atomizer=2"
+msgstr "Atomizador=2"
+
+#: drizzle.cpp:62
+#, c-format
+msgid "Pixel reduction=%.1f"
+msgstr "Redução de Pixel=%.1f"
+
+#: drizzle.cpp:63
+#, c-format
+msgid "Up-sample=%.1f"
+msgstr "Exemplo acima=%.1f"
+
+#: drizzle.cpp:64
+#, c-format
+msgid "Atomizer=%d"
+msgstr "Atomizador=%d"
+
+#: drizzle.cpp:301
+msgid "User aborted alignment"
+msgstr "Alinhamento abortado pelo usuário"
+
+#: drizzle.cpp:344
+#: drizzle.cpp:379
+#: drizzle.cpp:456
+#: drizzle.cpp:508
+#, c-format
+msgid "Gathering data from %lu of %u (%d%%)"
+msgstr "Coletando dados de %lu de %u (%d%%)"
+
+#: ext_filterwheel.cpp:31
+#: ext_filterwheel.cpp:35
+#: setup_tools.cpp:167
+#: setup_tools.cpp:320
+#: setup_tools.cpp:468
+#: setup_tools.cpp:653
+#: setup_tools.cpp:798
+#: setup_tools.cpp:940
+msgid "None"
+msgstr "Nenhum"
+
+#: ext_filterwheel.cpp:73
+#: ext_filterwheel.cpp:116
+#: ext_filterwheel.cpp:130
+msgid "Filter: Not connected"
+msgstr "Filtro: Não conectado"
+
+#: ext_filterwheel.cpp:75
+#: setup_tools.cpp:568
+#: setup_tools.cpp:975
+#, c-format
+msgid "Filter: %d/%d"
+msgstr "Filtro: %d/%d"
+
+#: ext_filterwheel.cpp:106
+msgid "Filter: Connecting"
+msgstr "Filtro: conectando"
+
+#: ext_filterwheel.cpp:140
+#: setup_tools.cpp:236
+#: setup_tools.cpp:475
+#, c-format
+msgid "Filter %d"
+msgstr "Filtro %d"
+
+#: file_tools.cpp:187
+#: image_io.cpp:40
+#: image_io.cpp:99
+#: image_io.cpp:111
+#: image_io.cpp:128
+#: image_io.cpp:171
+#: image_io.cpp:413
+#: image_io.cpp:496
+#: image_io.cpp:564
+#: preprocess.cpp:549
+#: preprocess.cpp:1114
+#: preprocess.cpp:1716
+#: reconstruct.cpp:214
+msgid "Saving"
+msgstr "Salvando"
+
+#: file_tools.cpp:449
+msgid "Save Image"
+msgstr "Salvar imagem"
+
+#: file_tools.cpp:471
+#: file_tools.cpp:477
+#: file_tools.cpp:483
+#: file_tools.cpp:490
+#: file_tools.cpp:498
+#: file_tools.cpp:602
+#: file_tools.cpp:610
+#: file_tools.cpp:618
+msgid "Your data were not saved"
+msgstr "Seus dados não foram salvos"
+
+#: file_tools.cpp:473
+#: file_tools.cpp:479
+#: file_tools.cpp:485
+#: file_tools.cpp:492
+#: file_tools.cpp:500
+#: file_tools.cpp:604
+#: file_tools.cpp:612
+#: file_tools.cpp:620
+#: image_io.cpp:214
+msgid " saved"
+msgstr " salvo"
+
+#: file_tools.cpp:512
+msgid "Open Image"
+msgstr "Abrir imagem"
+
+#: file_tools.cpp:564
+msgid "Could not load file"
+msgstr "Impossível carregar o arquivo"
+
+#: file_tools.cpp:581
+msgid "Base filename to save"
+msgstr "Nomeie o arquivo para salvar"
+
+#: file_tools.cpp:687
+msgid "Open FITS file"
+msgstr "Abrir arquivo FITS"
+
+#: file_tools.cpp:694
+msgid "Cannot open file"
+msgstr "Impossível abrir o arquivo"
+
+#: file_tools.cpp:775
+msgid "File is not a valid FITS image"
+msgstr "O arquivo não é uma imagem FITS válida"
+
+#: geometry.cpp:144
+msgid "Crop Image"
+msgstr "Cortar a imagem"
+
+#: geometry.cpp:147
+msgid "Left"
+msgstr "Esquerda"
+
+#: geometry.cpp:151
+msgid "Right"
+msgstr "Direita"
+
+#: geometry.cpp:155
+msgid "Top"
+msgstr "Acima"
+
+#: geometry.cpp:159
+msgid "Bottom"
+msgstr "Abaixo"
+
+#: geometry.cpp:244
+msgid "Select 2 or more points first (right-click in image)"
+msgstr "Selecione 2 ou mais pontos primeiro (clique com o botão da direita na imagem)"
+
+#: geometry.cpp:250
+msgid ""
+"What is the image resolution?\n" "arc-sec / pixel"
+msgstr "Qual é a resolução da imagem?\n""arc-sec / pixel"
+
+#: geometry.cpp:251
+msgid "Image resolution?"
+msgstr "Resolução da imagem?"
+
+#: geometry.cpp:386
+#, c-format
+msgid "%d x %d pixels"
+msgstr "%d x %d pixels"
+
+#: geometry.cpp:442
+msgid "Scale factor"
+msgstr "Fator escalar"
+
+#: geometry.cpp:444
+msgid "Algorithm"
+msgstr "Algoritmo"
+
+#: geometry.cpp:502
+#: preprocess.cpp:1763
+#: preprocess.cpp:1816
+#: preview.cpp:164
+#: quality.cpp:255
+#: reconstruct.cpp:396
+msgid "Select Frames"
+msgstr "Selecionar fotogramas"
+
+#: geometry.cpp:553
+#: image_io.cpp:487
+#: image_io.cpp:554
+#: image_math.cpp:1656
+#: image_math.cpp:1667
+#: reconstruct.cpp:464
+msgid "Could not load image"
+msgstr "Impossível carregar a imagem"
+
+#: greyc.cpp:49
+msgid "Properties"
+msgstr "Propriedades"
+
+#: greyc.cpp:100
+msgid "&Preview"
+msgstr "&visualizar"
+
+#: greyc.cpp:101
+msgid "&Show Original"
+msgstr "&Mostrar o original"
+
+#: image_io.cpp:28
+msgid "Save PPM/PGM (PNM) file"
+msgstr "Salvar arquivo PPM/PGM (PNM) "
+
+#: image_io.cpp:79
+msgid "Save Uncompressed TIFF Image"
+msgstr "Salvar imagem TIFF sem compressão"
+
+#: image_io.cpp:92
+msgid "Save Compressed TIFF Image"
+msgstr "Salvar Imagem TIFF comprimida"
+
+#: image_io.cpp:106
+msgid "Save PNG Image"
+msgstr "Salvar imagem PNG"
+
+#: image_io.cpp:150
+msgid "Save BMP Image"
+msgstr "Salvar imagem BMP"
+
+#: image_io.cpp:155
+msgid "Save JPG Image"
+msgstr "Salvar imagem JPG"
+
+#: image_io.cpp:174
+msgid "JPEG Quality?"
+msgstr "Qualidade JPG?"
+
+#: image_io.cpp:174
+msgid "JPEG Compression Quality"
+msgstr "Qualidade de compressão JPG"
+
+#: image_io.cpp:227
+msgid "Open Graphics File"
+msgstr "Abrir arquivos gráficos"
+
+#: image_io.cpp:386
+msgid "Select FITS files"
+msgstr "Selecionar arquivos FITS"
+
+#: image_io.cpp:409
+#: image_io.cpp:492
+#: image_io.cpp:560
+#: reconstruct.cpp:161
+#, c-format
+msgid "Processing %s"
+msgstr "Processando %s"
+
+#: image_io.cpp:410
+#: image_io.cpp:493
+#: image_io.cpp:561
+#: reconstruct.cpp:162
+#, c-format
+msgid "On %d/%d"
+msgstr "Em %d/%d"
+
+#: image_io.cpp:431
+#: image_io.cpp:514
+#: image_io.cpp:585
+#: reconstruct.cpp:270
+#, c-format
+msgid "Finished processing %d images"
+msgstr "Processamento %d de imagem finalizado"
+
+#: image_io.cpp:457
+msgid "Select graphic image files"
+msgstr "Selecionar arquivos de imagem gráfica"
+
+#: image_io.cpp:537
+msgid "Select color graphic image files"
+msgstr "Selecionar arquivos coloridos de imagem gráfica"
+
+#: image_io.cpp:572
+msgid "Not a color image - skipping"
+msgstr "Não é uma imagem a cores - pular"
+
+#: image_manip.cpp:151
+#: image_manip_grr.cpp:3008
+msgid "&Apply"
+msgstr "&Aplicar"
+
+#: image_manip.cpp:338
+msgid "Black level?"
+msgstr "Nível de preto?"
+
+#: image_manip.cpp:338
+#: image_manip.cpp:343
+#: image_manip.cpp:348
+#: image_manip.cpp:358
+#: image_manip.cpp:363
+#: image_manip.cpp:368
+#: image_manip.cpp:375
+#: image_manip.cpp:383
+#: image_manip.cpp:391
+#: image_manip.cpp:401
+#: image_manip.cpp:409
+#: image_manip.cpp:417
+#: image_manip.cpp:427
+#: image_manip.cpp:432
+#: image_manip.cpp:437
+#: image_manip.cpp:447
+#: image_manip.cpp:458
+#: image_manip.cpp:465
+#: image_manip.cpp:475
+#: image_manip.cpp:480
+msgid "Manual value entry"
+msgstr "Entrar com valor manual"
+
+#: image_manip.cpp:343
+msgid "White level?"
+msgstr "Nível de branco?"
+
+#: image_manip.cpp:348
+#: image_manip.cpp:447
+msgid "Power? 0.0-2.0"
+msgstr "Força? 0.0-2.0"
+
+#: image_manip.cpp:358
+msgid "Red level?"
+msgstr "Nível de vermelho?"
+
+#: image_manip.cpp:363
+msgid "Green level?"
+msgstr "Nível de verde?"
+
+#: image_manip.cpp:368
+msgid "Blue level?"
+msgstr "Nível de azul?"
+
+#: image_manip.cpp:375
+msgid "Red level? 0.0-2.0"
+msgstr "Nível de vermelho? 0.0-2.0"
+
+#: image_manip.cpp:383
+msgid "Green level? 0.0-2.0"
+msgstr "Nível de verde? 0.0-2.0"
+
+#: image_manip.cpp:391
+msgid "Blue level? 0.0-2.0"
+msgstr "Nível de azul? 0.0-2.0"
+
+#: image_manip.cpp:401
+msgid "Hue? -0.5-0.5"
+msgstr "Tonalidade? -0.5-0.5"
+
+#: image_manip.cpp:409
+msgid "Saturation? -1.0-1.0"
+msgstr "Saturação? -1.0-1.0"
+
+#: image_manip.cpp:417
+msgid "Luminance? -1.0-1.0"
+msgstr "Luminancia? -1.0-1.0"
+
+#: image_manip.cpp:427
+msgid "Background?"
+msgstr "Plano de fundo"
+
+#: image_manip.cpp:432
+msgid "Xover?"
+msgstr "X ao longo?"
+
+#: image_manip.cpp:437
+msgid "B-Power? 0.0-2.0"
+msgstr "B-Força? 0.0-2.0"
+
+#: image_manip.cpp:458
+#: image_manip.cpp:475
+msgid "Amount?"
+msgstr "Quantidade?"
+
+#: image_manip.cpp:465
+#: image_manip.cpp:480
+msgid "Radius? 0.0-20.0"
+msgstr "Raio? 0.0-2.0"
+
+#: image_manip.cpp:516
+#: image_manip.cpp:518
+#: image_manip.cpp:524
+#: image_manip_grr.cpp:275
+#: image_manip_grr.cpp:277
+#: image_manip_grr.cpp:283
+msgid "Levels/ Power stretch"
+msgstr "Níveis stretch"
+
+#: image_manip.cpp:658
+#: image_manip_grr.cpp:412
+msgid "Hue / Saturation / Lightness"
+msgstr "Tonalidade/saturação/leveza"
+
+#: image_manip.cpp:659
+#: image_manip_grr.cpp:413
+msgid "Hue, Saturation, Lightness"
+msgstr "Tonalidade/saturação/leveza"
+
+#: image_manip.cpp:755
+#: image_manip_grr.cpp:509
+msgid "Color Offset Adjustment"
+msgstr "Ajustamento do Offset em cores"
+
+#: image_manip.cpp:758
+#: image_manip_grr.cpp:512
+msgid "Color offset adjustment"
+msgstr "Ajustamento do Offset em cores"
+
+#: image_manip.cpp:771
+#: image_manip_grr.cpp:525
+msgid "Color scaling adjustment"
+msgstr "Ajustamento da escala de cores"
+
+#: image_manip.cpp:772
+#: image_manip_grr.cpp:526
+msgid "Color Scaling Adjustment"
+msgstr "Ajustamento da Escala de Cores"
+
+#: image_manip.cpp:957
+#: image_manip_grr.cpp:711
+msgid "Edge Enhancement"
+msgstr "Reforço da borda"
+
+#: image_manip.cpp:1048
+#: image_manip_grr.cpp:802
+msgid "Tighten Edges"
+msgstr "Afinando as bordas"
+
+#: image_manip.cpp:1051
+#: image_manip_grr.cpp:805
+msgid "Tighten Star Edges"
+msgstr "Afinando as bordas das estrelas"
+
+#: image_manip.cpp:1145
+#: image_manip.cpp:1148
+#: image_manip_grr.cpp:899
+#: image_manip_grr.cpp:902
+msgid "Vertical Smoothing"
+msgstr "Suavização vertical"
+
+#: image_manip.cpp:1245
+#: image_manip_grr.cpp:999
+msgid "Adaptive Median NR"
+msgstr "Mediana adaptativa NR"
+
+#: image_manip.cpp:1248
+#: image_manip_grr.cpp:1002
+msgid "Adaptive Median Noise Reduction"
+msgstr "Mediana adaptativa Redução de ruído"
+
+#: image_manip.cpp:1347
+#: image_manip.cpp:1350
+#: image_manip_grr.cpp:1101
+#: image_manip_grr.cpp:1104
+msgid "Gaussian Blur"
+msgstr "Gaussian Blur"
+
+#: image_manip.cpp:2728
+#: image_manip_grr.cpp:2480
+msgid "&Save"
+msgstr "&Salvar"
+
+#: image_manip.cpp:2729
+#: image_manip_grr.cpp:2481
+msgid "&Zoom"
+msgstr "&Zoom"
+
+#: image_manip.cpp:2731
+#: image_manip_grr.cpp:2483
+msgid "Reset (Linear)"
+msgstr "Redefinir (Linear)"
+
+#: image_manip.cpp:2734
+#: image_manip_grr.cpp:2486
+msgid "Contrast"
+msgstr "Contraste"
+
+#: image_manip.cpp:2736
+#: image_manip_grr.cpp:2488
+msgid "Quick Mega"
+msgstr "Quick Mega"
+
+#: image_manip.cpp:2737
+#: image_manip_grr.cpp:2489
+msgid "Last curve"
+msgstr "Última curva"
+
+#: image_manip.cpp:2738
+#: image_manip_grr.cpp:2490
+msgid "Saved curve"
+msgstr "Salvar Curva"
+
+#: image_manip.cpp:2739
+#: image_manip_grr.cpp:2491
+msgid "Pre-sets"
+msgstr "Pré-definições"
+
+#: image_math.cpp:1671
+msgid "Target images must be at least as large as reference image"
+msgstr "Imagem de destino deve ser do mesmo tamanhoque a imagem de referência"
+
+#: image_math.cpp:2002
+msgid "Multiply by X"
+msgstr "Multiplicar por X"
+
+#: image_math.cpp:2003
+msgid "Divide by X"
+msgstr "Dividir por X"
+
+#: image_math.cpp:2004
+msgid "Add X"
+msgstr "Somar X"
+
+#: image_math.cpp:2005
+msgid "Subtract X"
+msgstr "Subtrair X"
+
+#: image_math.cpp:2006
+msgid "Log"
+msgstr "Log"
+
+#: image_math.cpp:2007
+msgid "Square root"
+msgstr "Raiz quadrada"
+
+#: image_math.cpp:2008
+msgid "Arcsinh"
+msgstr "Arcsinh "
+
+#: image_math.cpp:2009
+msgid "Invert"
+msgstr "Inverter"
+
+#: macro.cpp:31
+msgid "Load"
+msgstr "Carregar"
+
+#: macro.cpp:32
+msgid "Save"
+msgstr "Salvar"
+
+#: macro.cpp:33
+msgid "Run"
+msgstr "Executar"
+
+#: macro.cpp:42
+#: setup_tools.cpp:88
+msgid "Load file"
+msgstr "Carregar arquivo"
+
+#: macro.cpp:56
+#: setup_tools.cpp:102
+msgid "Save file as"
+msgstr "Salvar arquivo como"
+
+#: macro.cpp:360
+msgid "Unsupported command"
+msgstr "Comando não suportado"
+
+#: main_classes.cpp:407
+msgid "Exposure Status"
+msgstr "Status da exposição"
+
+#: main_classes.cpp:409
+msgid "Exposure Duration"
+msgstr "Duração da exposição"
+
+#: main_classes.cpp:461
+msgid "Edit"
+msgstr "Editar"
+
+#: main_classes.cpp:461
+msgid "Undo"
+msgstr "Desfazer"
+
+#: main_classes.cpp:486
+msgid "Temporary 'undo' files found, perhaps from a crashed session.  Should I deletethem?"
+msgstr "Arquivos temporariamente desfeitos encontrados, talvez originados de uma sessão perdida. Devo apagá-los?"
+
+#: main_classes.cpp:486
+#: main_classes.cpp:500
+#: main_classes.cpp:511
+msgid "Delete temporary files?"
+msgstr "Apagar arquivos temporários?"
+
+#: main_classes.cpp:500
+msgid "Temporary auto-align files found, perhaps from a crashed session.  Should I delete them?"
+msgstr "Arquivos temporariamente autoalinhados encontrados, talvez originados de uma sessão perdida. Devo apagá-los?"
+
+#: main_classes.cpp:511
+msgid "Temporary multi-preproc files found, perhaps from a crashed session.  Should I delete them?"
+msgstr "Arquivos temporariamente multi-processados encontrados, talvez originados de uma sessão perdida. Devo apagá-los?"
+
+#: main_classes.cpp:664
+#, c-format
+msgid "Undone - %d undos left"
+msgstr "Desfeito - %d desfeitos a esquerda"
+
+#: main_classes.cpp:714
+#, c-format
+msgid "Redone - %d redos left"
+msgstr "Refeito - %d refazer a esquerda"
+
+#: preferences.cpp:232
+#: preferences.cpp:443
+msgid "Gradient direction"
+msgstr "Sentido do Gradiente"
+
+#: preprocess.cpp:38
+msgid "Dark"
+msgstr "Dark"
+
+#: preprocess.cpp:39
+#: preprocess.cpp:2080
+#: preprocess.cpp:2086
+#: preprocess.cpp:2099
+#: preprocess.cpp:2105
+msgid "Flat"
+msgstr "Flat"
+
+#: preprocess.cpp:40
+msgid "Bias"
+msgstr "Bias"
+
+#: preprocess.cpp:41
+msgid "Autoscale dark"
+msgstr "Autoescalar Darks"
+
+#: preprocess.cpp:71
+#: preprocess.cpp:202
+msgid "Select dark frame"
+msgstr "Selecionar fotograma Dark"
+
+#: preprocess.cpp:82
+msgid "Select flat frame"
+msgstr "Selecionar fotograma Flat"
+
+#: preprocess.cpp:93
+msgid "Select bias frame"
+msgstr "Selecionar Fotograma Bias"
+
+#: preprocess.cpp:210
+#: preprocess.cpp:487
+msgid "Bad pixel mapping only possible on RAW color or BW data.  This is  a full-color image."
+msgstr "Mapear Pixeis ruins só é possível em dados de RAW cor ou PB. Esta é uma imagem full-color"
+
+#: preprocess.cpp:216
+msgid "Create Bad Pixel Map"
+msgstr "Criar mapa de pixeis defeituosos"
+
+#: preprocess.cpp:246
+msgid "Adjust threshold"
+msgstr "Ajuste o limiar"
+
+#: preprocess.cpp:499
+msgid "bad pixels"
+msgstr "Pixeis defeituosos"
+
+#: preprocess.cpp:502
+msgid "Select RAW//BW frames"
+msgstr "Selecionar fotogramas RAW//PB"
+
+#: preprocess.cpp:526
+#: reconstruct.cpp:142
+msgid "Could not load RAW frame"
+msgstr "Impossível carregar fotograma RAW"
+
+#: preprocess.cpp:532
+#: reconstruct.cpp:148
+msgid "Image already a color image.  Aborting."
+msgstr "A imagem já é uma imagem colorida. Abortando"
+
+#: preprocess.cpp:558
+#: preprocess.cpp:1146
+#: preprocess.cpp:1722
+#: reconstruct.cpp:256
+msgid "Error writing output file - file exists or disk full?"
+msgstr "Erro escrevendo o arquivo de saida – o arquivo existe ou o disco esta cheio?"
+
+#: preprocess.cpp:574
+#: preprocess.cpp:1173
+#: preprocess.cpp:1747
+msgid "Finished processing"
+msgstr "Processameno concluido"
+
+#: preprocess.cpp:628
+msgid "Could not load first image file"
+msgstr "Não foi possível carregar o primeiro arquivo de imagem "
+
+#: preprocess.cpp:640
+#: preprocess.cpp:1239
+msgid ""
+"You must specify at least one pre-processing file.\n"
+"Otherwise, not much processing going on is there?"
+msgstr "Você deve especificar ao menos um arquivo para pre-processamento.\n"
+"Caso contrário nenhum processamento pode ser feito"
+
+#: preprocess.cpp:654
+#: preprocess.cpp:1253
+msgid "Could not load dark file"
+msgstr "Não foi possível carregar arquivo Dark"
+
+#: preprocess.cpp:658
+#: preprocess.cpp:1259
+msgid "Dark file not of right color type"
+msgstr "Arquivo Dark não é da cor certa"
+
+#: preprocess.cpp:666
+#: preprocess.cpp:673
+#: preprocess.cpp:821
+#: preprocess.cpp:828
+#: preprocess.cpp:897
+#: preprocess.cpp:905
+#: preprocess.cpp:941
+#: preprocess.cpp:948
+#: preprocess.cpp:967
+#: preprocess.cpp:974
+#: preprocess.cpp:996
+#: preprocess.cpp:1003
+#: preprocess.cpp:1269
+#: preprocess.cpp:1278
+#: preprocess.cpp:1398
+#: preprocess.cpp:1407
+#: preprocess.cpp:1472
+#: preprocess.cpp:1482
+#: preprocess.cpp:1507
+#: preprocess.cpp:1516
+#: preprocess.cpp:1537
+#: preprocess.cpp:1546
+#: preprocess.cpp:1570
+#: preprocess.cpp:1579
+msgid "Could not allocate needed memory"
+msgstr "Memória insuficiente"
+
+#: preprocess.cpp:733
+msgid ""
+"Warning -- could not find a suitable definition of hot pixel threshold after 20 iterations. \n"
+"Turning automatic dark scaling off (count="
+msgstr "Aviso - não foi possível encontrar uma definição adequada do limiar de hot pixel após 20 iterações. n"
+"Desligando o dimensionamento automático do Dark( contando="
+
+#: preprocess.cpp:742
+msgid "Could not load BPM file"
+msgstr "Não foi possível carregar arquivo BMP"
+
+#: preprocess.cpp:746
+msgid "BPM should be a monochrome file and it's a color one"
+msgstr "BMP deve ser um arquivo monocromático e este é colorido"
+
+#: preprocess.cpp:768
+#: preprocess.cpp:1345
+msgid "Could not load flat file"
+msgstr "Não foi possível carregar o arquivo Flat"
+
+#: preprocess.cpp:772
+#: preprocess.cpp:1351
+msgid "Flat file not of right color type"
+msgstr "O arquivo Flat não esta na coloração certa"
+
+#: preprocess.cpp:777
+#: preprocess.cpp:1358
+msgid "Flat file and dark file have different # of pixels"
+msgstr "Arquivos Flat e Dark tem diferentes # de Pixeis"
+
+#: preprocess.cpp:883
+#: preprocess.cpp:1452
+msgid "Could not load bias file"
+msgstr "Não foi possível carregar o arquivo Bias"
+
+#: preprocess.cpp:887
+msgid "bias file not of right color type"
+msgstr "O arquivo Bias não está na coloração certa "
+
+#: preprocess.cpp:892
+#: preprocess.cpp:1465
+msgid "Bias file and dark/flat file have different # of pixels"
+msgstr "Arquivos Flat e Dark tem diferentes # de Pixeis "
+
+#: preprocess.cpp:1031
+#: preprocess.cpp:1628
+msgid "Could not load light frame"
+msgstr "Não foi possível carregar fotogramas "
+
+#: preprocess.cpp:1035
+#: preprocess.cpp:1633
+msgid "Wrong color type for light frame"
+msgstr "Tipo de cro erada para o fotograma"
+
+#: preprocess.cpp:1039
+#: preprocess.cpp:1638
+msgid "Image size mismatch between light frame and dark/flat/bias"
+msgstr "Incompatibilidade de tamanho de imagem entre o fotograma e dark/flat/bias "
+
+#: preprocess.cpp:1123
+msgid "Output file exists - should we overwrite this and any others (OK)or should we abort pre-processing (Cancel)?"
+msgstr "O arquivo de saída já existe - posso sobrescrever este e qualquer outro (OK) ou devo abortar a pré-transformação (Cancelar)?"
+
+#: preprocess.cpp:1124
+msgid "Allow overwrites?"
+msgstr "Permitir sobre-escrever?"
+
+#: preprocess.cpp:1173
+msgid "images"
+msgstr "Imagens"
+
+#: preprocess.cpp:1223
+msgid "Select Color Pre-process Frames"
+msgstr "Selecionar cor em fotogramas pre-processados"
+
+#: preprocess.cpp:1224
+msgid "Select B&W / RAW Pre-process Frames"
+msgstr "Selecionar P&B/RAW em fotogramas pre-processados"
+
+#: preprocess.cpp:1334
+msgid ""
+"Warning -- could not find a suitable definition of hot pixel threshold after 20 iterations.                                       \n"
+"Turning automatic dark scaling off (count="
+msgstr 
+""
+"Aviso - não foi possível encontrar uma definição adequada do limiar de hot pixel após 20 iterações. \n"
+"Desligando o dimensionamento automático do Dark( contando="
+
+
+#: preprocess.cpp:1600
+msgid "Select light frames"
+msgstr "Selecionar fotogramas"
+
+#: preprocess.cpp:1810
+msgid "Reference image"
+msgstr "Imagem de referencia"
+
+#: preprocess.cpp:1860
+msgid "Multiple set pre-processing"
+msgstr "Definir múltiplos pre-processamentos"
+
+#: preprocess.cpp:1865
+#: preprocess.cpp:1869
+#: preprocess.cpp:1873
+#: preprocess.cpp:1874
+msgid "-    -    -    -    -    None loaded    -    -    -    -    -"
+msgstr "-   -   -   -   -    Nada carregado    -   -   -   -   -"
+
+#: preprocess.cpp:1881
+msgid "No bias"
+msgstr "Sem Bias"
+
+#: preprocess.cpp:1881
+msgid "Bias 1"
+msgstr "Bias 1"
+
+#: preprocess.cpp:1881
+msgid "Bias 2"
+msgstr "Bias 2"
+
+#: preprocess.cpp:1883
+msgid "No dark"
+msgstr "Sem Darks"
+
+#: preprocess.cpp:1883
+msgid "Dark 1"
+msgstr "Dark 1"
+
+#: preprocess.cpp:1883
+msgid "Dark 2"
+msgstr "Dark 2"
+
+#: preprocess.cpp:1884
+msgid "Dark 3"
+msgstr "Dark 3"
+
+#: preprocess.cpp:1886
+msgid "No flat"
+msgstr "Sem Flats"
+
+#: preprocess.cpp:1886
+msgid "Flat 1"
+msgstr "Flat 1"
+
+#: preprocess.cpp:1886
+msgid "Flat 2"
+msgstr "Flat 2"
+
+#: preprocess.cpp:1887
+msgid "Flat 3"
+msgstr "Flat 3"
+
+#: preprocess.cpp:1887
+msgid "Flat 4"
+msgstr "Flat 4"
+
+#: preprocess.cpp:1887
+msgid "Flat 5"
+msgstr "Flat 5"
+
+#: preprocess.cpp:1889
+msgid "No processing"
+msgstr "Sem processamento"
+
+#: preprocess.cpp:1889
+msgid "2x2 mean"
+msgstr "2x2 média"
+
+#: preprocess.cpp:1889
+msgid "3x3 median"
+msgstr "3x3 mediana"
+
+#: preprocess.cpp:1890
+msgid "7 pixel blur"
+msgstr "Desfoque de 7 pixeis"
+
+#: preprocess.cpp:1890
+msgid "10 pixel blur"
+msgstr "Desfoque de 10 pixeis"
+
+#: preprocess.cpp:1890
+msgid "CFA Scaling"
+msgstr "Dimensionamento de CFA"
+
+#: preprocess.cpp:1906
+msgid "Dark subtract"
+msgstr "Subtração de Dark"
+
+#: preprocess.cpp:1907
+msgid "BPM Mono"
+msgstr "BMP Mono"
+
+#: preprocess.cpp:1907
+msgid "BPM RAW color"
+msgstr "BMP RAW colorido"
+
+#: preprocess.cpp:1954
+msgid "Stack method for biases, darks, and flats?"
+msgstr "Método de empilhamento para bias,darks e flats?"
+
+#: preprocess.cpp:1956
+msgid "Average"
+msgstr "Média"
+
+#: preprocess.cpp:1982
+msgid "Select dark(s) or BPM: Set"
+msgstr "Selecione Dark(s) ou BMP: Configure"
+
+#: preprocess.cpp:1986
+msgid "Select bias(es): Set"
+msgstr "Selecione Bias(s):Configure"
+
+#: preprocess.cpp:1993
+msgid "Select light(s): Set"
+msgstr "Selecione fotograma(s) : configure"
+
+#: preprocess.cpp:2000
+msgid "Select flat(s): Set"
+msgstr "Selecione Flat(s) : selecione"
+
+#: preprocess.cpp:2080
+#: preprocess.cpp:2099
+msgid "asking for undefined bias frame"
+msgstr "procurando fotograma Bias indefinido"
+
+#: preprocess.cpp:2086
+#: preprocess.cpp:2105
+msgid "asking for undefined dark frame"
+msgstr "procurando fotograma Dark indefinido "
+
+#: preprocess.cpp:2114
+msgid "When using bad pixel mapping, only select a single frame (the BPM) with the Dark button.  BPMs aren't stacked.  So, you should have already made a single BPM that you will pass in here."
+msgstr ""
+
+#: preprocess.cpp:2120
+msgid "No light frames defined -- define at least one or hit Cancel"
+msgstr "Nenhum fotorama selecionado—selecione pelo menos um ou pressione Cancelar"
+
+#: preprocess.cpp:2153
+msgid "Error stacking darks"
+msgstr "Erro ao empilhar Darks"
+
+#: preprocess.cpp:2160
+msgid "Error saving dark stack"
+msgstr "Erro salvando empilhamentode Darks"
+
+#: preprocess.cpp:2212
+msgid "Pre-processing"
+msgstr "Pre-processando"
+
+#: preprocess.cpp:2212
+msgid "Processing control frames"
+msgstr "Quadro de controle de processamento"
+
+#: preprocess.cpp:2231
+msgid "Error loading bias to apply to flat\n"
+msgstr "Erro carregando Bias para aplicar no Flat\n"
+
+#: preprocess.cpp:2237
+msgid "Error loading flat to subtract bias from it\n"
+msgstr "Erro carregando Flat para dele subtrair o bias\n"
+
+#: preprocess.cpp:2246
+msgid "Error saving bias-processed flat: "
+msgstr "Erro salvando o Flat com o Bias processado"
+
+#: preprocess.cpp:2257
+msgid "Error loading dark to apply to flat\n"
+msgstr "Erro carregando Dark para aplicar ao Flat\n"
+
+#: preprocess.cpp:2263
+msgid "Error loading flat to subtract dark from it\n"
+msgstr "Erro carregando flat para subtrair o Dark dele\n"
+
+#: preprocess.cpp:2289
+msgid "Error saving dark-processed flat: "
+msgstr "Erro salvando o Flat processado "
+
+#: preprocess.cpp:2305
+msgid "Processing set"
+msgstr "Processando o conjunto"
+
+#: preview.cpp:72
+msgid "Image Previewer"
+msgstr "Visualizador de imagens"
+
+#: preview.cpp:74
+msgid "Rename"
+msgstr "Renomear"
+
+#: preview.cpp:75
+msgid "Delete"
+msgstr "Apagar"
+
+#: preview.cpp:76
+msgid "Next"
+msgstr "Próximo"
+
+#: preview.cpp:77
+msgid "Previous"
+msgstr "Anterior"
+
+#: preview.cpp:78
+msgid "Lock image"
+msgstr "Bloquear imagem"
+
+#: preview.cpp:79
+#: preview.cpp:245
+#: preview.cpp:247
+msgid "Blink"
+msgstr "Blink"
+
+#: preview.cpp:82
+msgid "Load Images"
+msgstr "Carregar imagens"
+
+#: preview.cpp:87
+msgid "Rename prefix"
+msgstr "Renomear prefixo"
+
+#: preview.cpp:190
+msgid "Output file exists"
+msgstr "O arquivo de saída existe"
+
+#: preview.cpp:202
+msgid "Delete file?"
+msgstr "Apagar arquivo?"
+
+#: preview.cpp:202
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: preview.cpp:219
+msgid "Could not delete file"
+msgstr "Não é possível apagar o arquivo"
+
+#: preview.cpp:236
+msgid "Blink delay (0-1000 ms)?"
+msgstr "Atraso de Blink (0-100ms)"
+
+#: preview.cpp:236
+msgid "Enter blink delay (ms)"
+msgstr "Entre com o atrao de Blink (ms)"
+
+#: preview.cpp:255
+#: preview.cpp:257
+msgid "Stop blinking"
+msgstr "Parar Blink"
+
+#: quality.cpp:272
+msgid ""
+"Create new copies (Yes) or \n"
+"merely rename existing images (No)"
+msgstr ""
+"Criar novas cópias(Sim) ou \n" 
+"apenas renomeie imagens existentes (Não)"
+
+#: quality.cpp:272
+msgid "Create New Files?"
+msgstr "Criar novos Arquivos"
+
+#: reconstruct.cpp:120
+msgid "Select RAW frames"
+msgstr "Selecionar fotogramas RAW"
+
+#: reconstruct.cpp:154
+msgid "Image already square.  Aborting."
+msgstr "A imagem jé é quadrada. Abortano"
+
+#: reconstruct.cpp:226
+msgid "Output file already exists.  OK to overwrite all or cancel?"
+msgstr "Já existe um arquivo de saída. OK para substituir tudo ou cancelar "
+
+#: reconstruct.cpp:226
+msgid "Problem"
+msgstr "Problema"
+
+#: reconstruct.cpp:231
+msgid "Batch reconstruction canceled"
+msgstr "Reconstrução de lote cancelada"
+
+#: scripts.cpp:136
+msgid "Script Editor"
+msgstr "Editor de scripts"
+
+#: scripts.cpp:146
+msgid "Command"
+msgstr "Comando"
+
+#: scripts.cpp:147
+msgid "Parameter"
+msgstr "Parâmetro"
+
+#: scripts.cpp:159
+msgid "Description"
+msgstr "Descrição"
+
+#: scripts.cpp:165
+msgid "Load Script"
+msgstr "Carregar script"
+
+#: scripts.cpp:166
+msgid "Save Script"
+msgstr "Salvar script"
+
+#: scripts.cpp:168
+msgid "Run Script"
+msgstr "Executar script"
+
+#: scripts.cpp:170
+msgid "Prefab Scripts"
+msgstr "Scripts pre-fabricados"
+
+#: scripts.cpp:171
+#: scripts.cpp:445
+msgid "Save / Restore state"
+msgstr "Salvar/restaurar estado"
+
+#: scripts.cpp:172
+#: scripts.cpp:453
+msgid "LRGB sequence"
+msgstr "Sequencia LRGB"
+
+#: scripts.cpp:210
+msgid "\\u2550  Most common"
+msgstr "\\u2550  Mais comum "
+
+#: scripts.cpp:213
+msgid "Most common"
+msgstr "Mais comum"
+
+#: scripts.cpp:221
+#: scripts.cpp:355
+msgid "Captures a series of ___ images"
+msgstr "Capturar uma série de ___ imagens"
+
+#: scripts.cpp:226
+#: scripts.cpp:278
+msgid "Sets the file name to be ___"
+msgstr "Define o nome do arquivo a ser ___"
+
+#: scripts.cpp:231
+#: scripts.cpp:283
+msgid "Sets the capture directory to be ___"
+msgstr "Define o diretório de captura ___"
+
+#: scripts.cpp:236
+#: scripts.cpp:288
+msgid "Sets the exposure duration to be ___ seconds. Use fractions if you want milliseconds.  Append an 'm' if you want minutes.  ('2.5m' would be 2 minutes, 30 seconds.  '2m30' would also be this."
+msgstr ""
+
+#: scripts.cpp:241
+#: scripts.cpp:298
+msgid "Sets the camera binning to be ___.  0=no binning (1x1), 1 or 2=2x2, 3=3x3, 4=4x4"
+msgstr "Define o binning da camera para ser___0+sem binning(1x1), 1 ou 2=2x2, 3=3x3 , 4=4x4"
+
+#: scripts.cpp:246
+#: scripts.cpp:303
+msgid "Sets the shutter state to be ___.  0=open=light, 1=closed=dark"
+msgstr "Define o estado do Obturador ___. 0=open=light, 1=fechado=dark"
+
+#: scripts.cpp:251
+#: scripts.cpp:308
+msgid "Selects filter #___ on the onboard filter wheel"
+msgstr "Seleciona filtro #___ na roda de filtros integrada "
+
+#: scripts.cpp:256
+#: scripts.cpp:313
+msgid "Selects filter #___ on the external filter wheel"
+msgstr "Seleciona filtro #___na roda de filtros integrada"
+
+#: scripts.cpp:267
+msgid "\\u2550  Capture Setup"
+msgstr "\\u2550  Configuração de Captura "
+
+#: scripts.cpp:270
+msgid "Capture Setup"
+msgstr "Configuração de captura"
+
+#: scripts.cpp:293
+msgid "Selects time delay between exposures to be ___ msec"
+msgstr "Selecione o intervalo de tempo entre as exposições para ser___ mseg"
+
+#: scripts.cpp:318
+msgid "Sets the camera gain to be ___"
+msgstr "Defina o ganho da câmera para ser___"
+
+#: scripts.cpp:323
+msgid "Sets the camera offset to be ___"
+msgstr "Defina o offset da câmera para ser___"
+
+#: scripts.cpp:328
+msgid "Sets the color file format be ___. 0=RGB FITS (IPlus), 1=RGB FITS (Maxim), 2=3 separate FITS"
+msgstr "Defina o formato do arquivo colorido para ser__. 0=RGB FITS (IPlus), 1=RGB FITS (Maxim), 2=3 FITS separados"
+
+#: scripts.cpp:333
+msgid "Sets the color acquisition mode to be ___ 0=RAW, 1=RGB Optimize speed, 2=RGB Optimize quality"
+msgstr "Defina o modo de auisição colorida para ser ___ 0=RAW, 1=RGB Otimize a velocidade, 2=RGB Otimize a qualidade"
+
+#: scripts.cpp:344
+msgid "\\u2550 Control"
+msgstr "\\u2550 Controle "
+
+#: scripts.cpp:347
+msgid "Control"
+msgstr "Controle"
+
+#: scripts.cpp:360
+msgid "Captures a single frame and save as ___.fit (special behavior if name is 'metric')"
+msgstr "Capturar um fotograma e salva como___.fit (comportamento especial se for 'metric')"
+
+#: scripts.cpp:365
+msgid "Connect to camera #___ (# defined in selection pull-down)"
+msgstr "Conectar a câmera #___ (# definida nas setas acima-abaixo)"
+
+#: scripts.cpp:370
+msgid "Connects to camera named ___"
+msgstr "Conectar a câmera denominada___"
+
+#: scripts.cpp:375
+msgid "Prompts the user with ___ message and wait for OK"
+msgstr "Mensagem solicitando que o usuário aguarde pelo OK"
+
+#: scripts.cpp:380
+msgid "Pause script execution for ___ seconds.  Use fractions if you want milliseconds.  Append an 'm' if you want minutes.  ('2.5m' would be 2 minutes, 30 seconds. '2m30' would also be this.)"
+msgstr "Execução de script de pausa para___ segundos. Use frações se você quiser
+milissegundos. Acrescente um 'm' se você quer minutos. ('2.5m' seriam 2 minutos, 30 segundos. '2m30' também.)"
+
+#: scripts.cpp:385
+msgid "Sets the dither level in the link to PHD guiding. 0=none, 1=small, ... 5=extreme"
+msgstr "Defina o nivel de Dither no link do PHD. 0=nenhum, 1=small, ... 5=extremo"
+
+#: scripts.cpp:390
+msgid "Enable (1) or disable (0) listening for commands on the clipboard"
+msgstr "Habilitar (1) ou desabilitar (0) aguardando por comandos na área de transferência "
+
+#: scripts.cpp:395
+msgid "Enable (value=portnumber) or disable (0) listening for commands via
+TCPIP sockets"
+msgstr "Habilitar (valores=número da porta) ou desabilitar para comandos via soquete TCPIP"
+
+#: scripts.cpp:400
+msgid "Sets the display black level to ___"
+msgstr "Define o nível de exibição negro para ___ "
+
+#: scripts.cpp:405
+msgid "Sets the display white level to ___"
+msgstr "Define o nível de exibição branco para ___"
+
+#: scripts.cpp:410
+msgid "Wait ___ msec and exit the program"
+msgstr "Aguardar___ mseg e sair do programa"
+
+#: scripts.cpp:418
+#: scripts.cpp:595
+msgid "Load script"
+msgstr "Carregar o script"
+
+#: scripts.cpp:425
+msgid "Save script"
+msgstr "Salvar o script"
+
+#: scripts.cpp:436
+msgid "Exit without saving changes?"
+msgstr "Sair sem salvar as modificações?"
+
+#: scripts.cpp:436
+msgid "Discard changes?"
+msgstr "Descartar modificações?"
+
+#: scripts.cpp:601
+msgid "File does not exist"
+msgstr "O arquivo não existe"
+
+#: scripts.cpp:662
+#: scripts.cpp:666
+msgid "Script"
+msgstr "Script"
+
+#: scripts.cpp:882
+#: scripts.cpp:1082
+msgid ""
+"Capture asked for, but no camera connected\n"
+"Aborting"
+msgstr ""
+"Procurando captura, mas nenhuma camera esta conectada\n"
+"Abortando"
+
+#: scripts.cpp:891
+msgid "Script Alert"
+msgstr "Script alerta"
+
+#: scripts.cpp:1042
+msgid "Can't find the camera you're asking for.  It's either disabled or you mistyped the name."
+msgstr "Não é possível encontrar a camera que voce procura. Ela está desabilitada ou o nome foi escrito errado"
+
+#: scripts.cpp:1151
+msgid "Script done"
+msgstr "Script feito"
+
+#: setup_tools.cpp:145
+#: setup_tools.cpp:297
+#: setup_tools.cpp:445
+#: setup_tools.cpp:631
+#: setup_tools.cpp:776
+#: setup_tools.cpp:920
+msgid "On"
+msgstr "Ligado"
+
+#: setup_tools.cpp:145
+#: setup_tools.cpp:297
+#: setup_tools.cpp:445
+#: setup_tools.cpp:631
+#: setup_tools.cpp:776
+#: setup_tools.cpp:920
+msgid "Off"
+msgstr "Desligado"
+
+#: setup_tools.cpp:148
+#: setup_tools.cpp:300
+#: setup_tools.cpp:448
+#: setup_tools.cpp:634
+#: setup_tools.cpp:779
+#: setup_tools.cpp:923
+msgid "Open"
+msgstr "Aberto"
+
+#: setup_tools.cpp:148
+#: setup_tools.cpp:300
+#: setup_tools.cpp:448
+#: setup_tools.cpp:634
+#: setup_tools.cpp:779
+#: setup_tools.cpp:923
+msgid "Closed"
+msgstr "Fechado"
+
+#: setup_tools.cpp:152
+#: setup_tools.cpp:304
+#: setup_tools.cpp:452
+#: setup_tools.cpp:638
+#: setup_tools.cpp:783
+#: setup_tools.cpp:927
+msgid "TEC Regulation"
+msgstr "Regulagem TEC"
+
+#: setup_tools.cpp:155
+#: setup_tools.cpp:307
+#: setup_tools.cpp:455
+#: setup_tools.cpp:641
+#: setup_tools.cpp:786
+#: setup_tools.cpp:930
+msgid "Set point (C)  "
+msgstr "Ponto definido (C)"
+
+#: setup_tools.cpp:164
+#: setup_tools.cpp:317
+#: setup_tools.cpp:650
+#: setup_tools.cpp:795
+#: setup_tools.cpp:937
+msgid "Shutter"
+msgstr "Obturador"
+
+#: setup_tools.cpp:225
+#: setup_tools.cpp:371
+msgid "Busy"
+msgstr "Ocupado"
+
+#: setup_tools.cpp:227
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: setup_tools.cpp:229
+#, c-format
+msgid "Filter: %u/%d ("
+msgstr "Filtro: %u/%d ("
+
+#: setup_tools.cpp:374
+#, c-format
+msgid "Filter: %d/%d ("
+msgstr "Filtro: %d/%d ( "
+
+#: setup_tools.cpp:1099
+msgid "Active"
+msgstr "Ativo"
+
+#: setup_tools.cpp:1099
+msgid "Paused"
+msgstr "Pausado"
+
+#: setup_tools.cpp:1102
+msgid "No Dither"
+msgstr "Sem Dither"
+
+#: setup_tools.cpp:1102
+msgid "Small Dither"
+msgstr "Dither pequeno"
+
+#: setup_tools.cpp:1102
+msgid "Medium Dither"
+msgstr "Dither médio"
+
+#: setup_tools.cpp:1102
+msgid "High Dither"
+msgstr "Dither alto"
+
+#: setup_tools.cpp:1102
+msgid "Very High Dither"
+msgstr "Dither muito alto"
+
+#: setup_tools.cpp:1102
+msgid "Extreme Dither"
+msgstr "Dither extremo"
+
+#: setup_tools.cpp:1105
+msgid "Settle at < 0.1"
+msgstr "Estabeleça <0.1"
+
+#: setup_tools.cpp:1105
+msgid "Settle at < 0.2"
+msgstr "Estabeleça <0.2"
+
+#: setup_tools.cpp:1105
+msgid "Settle at < 0.3"
+msgstr "Estabeleça <0.3"
+
+#: setup_tools.cpp:1106
+msgid "Settle at < 0.4"
+msgstr "Estabeleça <0.4"
+
+#: setup_tools.cpp:1106
+msgid "Settle at < 0.5"
+msgstr "Estabeleça <0.5"
+
+#: setup_tools.cpp:1108
+msgid "Connect"
+msgstr "Conecte"
+
+#: setup_tools.cpp:1110
+msgid "During Download"
+msgstr "Durante o download"
+
+#: setup_tools.cpp:1172
+msgid "Port (0-65535) PHD is listening on?"
+msgstr "Porta (0-65535) PHD esta escutando?"
+
+#: setup_tools.cpp:1172
+msgid "Port"
+msgstr "Porta"
+
+#: setup_tools.cpp:1172
+msgid "PHD Port Configuration"
+msgstr "Configuração da porta do PHD"
+
+#: setup_tools.cpp:1187
+msgid "Connection OK"
+msgstr "Conecção OK"
+
+#: setup_tools.cpp:1195
+msgid "Connection failed"
+msgstr "A conecção falhou"
+
+#: setup_tools.cpp:1391
+msgid "No connection"
+msgstr "Sem conecção"
+
+#: setup_tools.cpp:1504
+msgid "Dir."
+msgstr "Dir."
+
+#: setup_tools.cpp:1570
+#: setup_tools.cpp:1575
+msgid "Image info:"
+msgstr "Informação da Imagem"
+
+#: setup_tools.cpp:1571
+#: setup_tools.cpp:1576
+msgid "  -Not available-"
+msgstr "Não disponível"
+
+#: setup_tools.cpp:1746
+msgid "Ext. Filter wheel"
+msgstr "Roda de filtros externa"
+
+#: setup_tools.cpp:1748
+#: setup_tools.cpp:1791
+msgid "Mini Capture Control"
+msgstr "Controle de mini Captura"
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Log Destination</key>
+	<integer>0</integer>
+	<key>Log FilePath</key>
+	<string></string>
+	<key>LowLevelDrivers</key>
+	<array>
+		<dict>
+			<key>DriverName</key>
+			<string>USBDslr.bundle</string>
+			<key>PortType</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>DriverName</key>
+			<string>FWDslr_x.bundle</string>
+			<key>PortType</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>DriverName</key>
+			<string>FWDslrP_x.bundle</string>
+			<key>PortType</key>
+			<integer>6</integer>
+		</dict>
+	</array>
+	<key>Max Device Count</key>
+	<integer>16</integer>
+	<key>Output log level</key>
+	<integer>0</integer>
+	<key>PTP Event Scan Interval</key>
+	<integer>200</integer>
+	<key>Supported 1394 Devices</key>
+	<array>
+		<string>EOS-1D</string>
+		<string>EOS-1DS</string>
+		<string>EOS-1D Mark II</string>
+		<string>EOS-1Ds Mark II</string>
+		<string>EOS-1D Mark II N</string>
+	</array>
+	<key>Supported USB Devices</key>
+	<array>
+		<integer>12526</integer>
+		<integer>12523</integer>
+		<integer>12420</integer>
+		<integer>12419</integer>
+		<integer>12384</integer>
+		<integer>12356</integer>
+		<integer>12545</integer>
+	</array>
+</dict>
+</plist>

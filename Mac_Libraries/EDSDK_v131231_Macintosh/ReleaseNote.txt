@@ -1,0 +1,61 @@
+------------------------------------------------------------------------------------------
+                             Ver 13.12.31 Release Note
+                                   06/30/2020 
+                                   Canon Inc.
+------------------------------------------------------------------------------------------
+
+1.History
+06/30/2020 Ver 13.12.31 Release
+	* Added support for the EOS R6 / EOS R5
+	* Added functionality as follows:
+		* Auto power off settings
+	* Changed the following interfaces. Modification of program code is necessar.
+		* EdsFocusInfo
+			* The number of "focusPoint" has been changed from "600" to "1053"
+
+02/14/2020 Ver 13.12.10 Release
+	* Added support for the EOS Kiss X10i / EOS Rebel T8i / EOS 850D / EOS Ra
+	* Stopping support OS
+		* Mac OS 10.12
+
+01/09/2020 Ver 13.12.1 Release
+	* Added support for the EOS-1D X Mark III
+	* Added support for Mac OSX 10.15
+
+11/08/2019 Ver 13.11.10 Release
+	* Added functionality as follows:
+		* UTC date time
+		* Evf Click White Balance
+		* Mirror Lockup Control
+		* Switching still image and movie mode
+		* Movie recording image quality
+		* Temperature Warning Information
+		* Get Angle Information 
+
+08/23/2019 Ver 13.11.0 Release
+	* Added support for the EOS M200
+
+07/24/2019 Ver 13.10.30 Release
+	* Added support for the EOS M6 Mark II / EOS 90D
+	* Change the sample language version as follows:
+		* Swift3 -> Swift5
+
+05/16/2019 Ver 13.10.21 Release
+	* Added support for the PowerShot G7X Mark III / PowerShot G5X Mark II
+
+03/12/2019 Ver 13.10.20 Release
+	* Added support for the EOS Kiss X10 / EOS Rebel SL3 / EOS 250D / EOS 200D II
+	* Added Power Zoom Adapter Control functionality
+
+02/22/2019 Ver 13.10.0 Release
+	* Added support for the EOS RP
+
+12/13/2018 Ver 13.9.10 Release
+	* Deleted RAW development functionality
+	* Added samples for the following programming languages
+		* Swift
+		* CSharp
+
+
+2. Usage of EDSDK
+Please refer to EDSDK_API.pdf for the detail.
