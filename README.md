@@ -20,7 +20,7 @@ In the Targets, Build Settings at the end, you'll find a User-Defined section th
 My Windows setup was actually in a VM on my development Mac.  Windows 10 running (don't laugh) Visual Studio 2010 Professional (yes, it's very old).  At one point, though, I'd setup another machine and had it happily compiling with VC Express / Community 2019.  As Windows is happy running 32 and 64 bit apps side by side, we're setup to run at 32 bits so that we can hold onto some old cameras.
 
 #### Setup and configuration
-The build setup expects an environmental variable (My computer, System Properties, Environment variables) called WXWIN to point to your 
+The build setup (Properties page for Nebulosity4) makes a lot of use of `$(SolutionDir)` to provide the path to the libraries and include folders.  Where possible, I've set this up so that both Debug and Release targets share common info (All configurations)
 
 
 I've not packaged ASCOM and its dev bits in here.  You'll need to have that installed and setup in VC to be able to do the building as we tap into it for ASCOM cameras, filter wheels etc.
