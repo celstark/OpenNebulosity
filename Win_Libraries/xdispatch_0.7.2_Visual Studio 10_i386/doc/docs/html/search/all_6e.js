@@ -1,0 +1,17 @@
+var searchData=
+[
+  ['native',['native',['../classxdispatch_1_1object.html#a7bc269c694e9f8a0d41fd1f42921e9b7',1,'xdispatch::object::native()'],['../classxdispatch_1_1group.html#a047a271db3b0b4e02ed660ecbe7e743d',1,'xdispatch::group::native()'],['../classxdispatch_1_1queue.html#aaa0f5a36cdf24bcb5c45052446ccab2e',1,'xdispatch::queue::native()'],['../classxdispatch_1_1sourcetype.html#a9474fd905502680791699e66a3ce6c43',1,'xdispatch::sourcetype::native()'],['../classxdispatch_1_1native__source.html#a71227651db177c45e70979876de8b9e0',1,'xdispatch::native_source::native()'],['../classxdispatch_1_1source.html#a787b4febd38403bba6f93e081079fe33',1,'xdispatch::source::native()']]],
+  ['native_5fgroup',['native_group',['../classxdispatch_1_1group.html#af4c4f3a517ed855fff72eec79a6bd534',1,'xdispatch::group']]],
+  ['native_5fonce',['native_once',['../classxdispatch_1_1once.html#ac40069d60869fff854cd8afbd7712223',1,'xdispatch::once']]],
+  ['native_5fqueue',['native_queue',['../classxdispatch_1_1queue.html#aeaf4b37e85d54a4a1abde73329b1e824',1,'xdispatch::queue']]],
+  ['native_5fsemaphore',['native_semaphore',['../classxdispatch_1_1semaphore.html#afe48356b0236eb32d46f3f8be7f902db',1,'xdispatch::semaphore']]],
+  ['native_5fsource',['native_source',['../classxdispatch_1_1native__source.html',1,'xdispatch']]],
+  ['native_5fsource',['native_source',['../classxdispatch_1_1native__source.html#ad4adb1294a318f09e52e54c664836914',1,'xdispatch::native_source::native_source()'],['../classxdispatch_1_1source.html#a7f904846ec4bb7ad8f79b888ce8aefa2',1,'xdispatch::source::native_source()']]],
+  ['notify',['notify',['../class_q_dispatch_group.html#a9cabeda04f4d4d6a01a01fb70abb83bf',1,'QDispatchGroup::notify(QRunnable *r, const xdispatch::queue &amp;=xdispatch::global_queue())'],['../class_q_dispatch_group.html#ae077f3c23c625946f98ea7dd4102dc9f',1,'QDispatchGroup::notify(xdispatch::operation *, const xdispatch::queue &amp;=xdispatch::global_queue())'],['../class_q_dispatch_group.html#a55630fd791c5ba3e734273dc7b4c04fc',1,'QDispatchGroup::notify(dispatch_block_t b, const xdispatch::queue &amp;q=xdispatch::global_queue())'],['../classxdispatch_1_1group.html#aec1ff07832dc58ac1472274467b9f18e',1,'xdispatch::group::notify(operation *r, const queue &amp;q=global_queue())'],['../classxdispatch_1_1group.html#abaf7dd296c0fc341652f6ccbe6a0cdf8',1,'xdispatch::group::notify(dispatch_block_t b, const queue &amp;q=global_queue())']]],
+  ['nsec_5fper_5fmsec',['nsec_per_msec',['../namespacexdispatch.html#abbdf158690fb086988185d216edee880',1,'xdispatch::nsec_per_msec()'],['../group__dispatch.html#gad16e9029e202d2dfb4cfae8f09131f8f',1,'NSEC_PER_MSEC():&#160;time.h']]],
+  ['nsec_5fper_5fsec',['NSEC_PER_SEC',['../group__dispatch.html#ga0501e82515b2bdf36453c4cc80f5e0cc',1,'NSEC_PER_SEC():&#160;time.h'],['../namespacexdispatch.html#a61c3b15911dd7e562f8564fbdb377f06',1,'xdispatch::nsec_per_sec()']]],
+  ['nsec_5fper_5fusec',['NSEC_PER_USEC',['../group__dispatch.html#ga2180f263d149841a7c1fde663edb84c5',1,'NSEC_PER_USEC():&#160;time.h'],['../namespacexdispatch.html#a63efab830dcb8594d4fa7c459291c198',1,'xdispatch::nsec_per_usec()']]],
+  ['nsecpermsec',['NSecPerMSec',['../class_q_dispatch.html#ab7d19f6ffe047ed29f71c54c893d486b',1,'QDispatch']]],
+  ['nsecpersec',['NSecPerSec',['../class_q_dispatch.html#a18ae146d6a46620b6cc5217891a688c9',1,'QDispatch']]],
+  ['nsecperusec',['NSecPerUSec',['../class_q_dispatch.html#a2f8395b159e407f4ad850ea9cad9ed80',1,'QDispatch']]]
+];

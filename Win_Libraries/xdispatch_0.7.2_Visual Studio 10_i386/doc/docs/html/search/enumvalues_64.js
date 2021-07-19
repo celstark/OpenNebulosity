@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['default',['DEFAULT',['../class_q_dispatch.html#aee589dfbb26850f9e26b43bd97e30fb5a8ddf53f9eeb48057e8c718cba6f5caab',1,'QDispatch::DEFAULT()'],['../namespacexdispatch.html#acffa13e1c8014436b830d337d76c93b5a3407e51054d6f49a3a849c929cbdb85b',1,'xdispatch::DEFAULT()']]],
+  ['dispatch_5fmach_5fsend_5fdead',['DISPATCH_MACH_SEND_DEAD',['../group__dispatch.html#ggadf764cbdea00d65edcd07bb9953ad2b7a1ccbc391a96f82d6d5e03766388d3a24',1,'source.h']]],
+  ['dispatch_5fproc_5fexec',['DISPATCH_PROC_EXEC',['../group__dispatch.html#gga99fb83031ce9923c84392b4e92f956b5a00d0200870a1001d79928c0afff862bb',1,'source.h']]],
+  ['dispatch_5fproc_5fexit',['DISPATCH_PROC_EXIT',['../group__dispatch.html#gga99fb83031ce9923c84392b4e92f956b5a16e8484ab591b38f9b3665e100ce84ca',1,'source.h']]],
+  ['dispatch_5fproc_5ffork',['DISPATCH_PROC_FORK',['../group__dispatch.html#gga99fb83031ce9923c84392b4e92f956b5adbc724f3a4fc83a08a44aa9264a449da',1,'source.h']]],
+  ['dispatch_5fproc_5fsignal',['DISPATCH_PROC_SIGNAL',['../group__dispatch.html#gga99fb83031ce9923c84392b4e92f956b5a214a0f6caf0517dcd297edec535f2ac1',1,'source.h']]],
+  ['dispatch_5fqueue_5fpriority_5fdefault',['DISPATCH_QUEUE_PRIORITY_DEFAULT',['../group__dispatch.html#gga06fc87d81c62e9abb8790b6e5713c55ba5b895463716a62c8b76afd155a43f18f',1,'queue.h']]],
+  ['dispatch_5fqueue_5fpriority_5fhigh',['DISPATCH_QUEUE_PRIORITY_HIGH',['../group__dispatch.html#gga06fc87d81c62e9abb8790b6e5713c55ba90c335b4c010151ade327c0e586fa0c4',1,'queue.h']]],
+  ['dispatch_5fqueue_5fpriority_5flow',['DISPATCH_QUEUE_PRIORITY_LOW',['../group__dispatch.html#gga06fc87d81c62e9abb8790b6e5713c55bae8f3add8782e6c5221e52df1ce756ce7',1,'queue.h']]],
+  ['dispatch_5fvnode_5fattrib',['DISPATCH_VNODE_ATTRIB',['../group__dispatch.html#ggabc6126af1d45847bc59afa0aa3216b04a3157f52f2dda56c6fe6a1c4b74c4a13a',1,'source.h']]],
+  ['dispatch_5fvnode_5fdelete',['DISPATCH_VNODE_DELETE',['../group__dispatch.html#ggabc6126af1d45847bc59afa0aa3216b04a46b005dc6b5e61260285d14ba1ced4a7',1,'source.h']]],
+  ['dispatch_5fvnode_5fextend',['DISPATCH_VNODE_EXTEND',['../group__dispatch.html#ggabc6126af1d45847bc59afa0aa3216b04aadc7c6e7f2b275b4d633b2b1ea8e5140',1,'source.h']]],
+  ['dispatch_5fvnode_5flink',['DISPATCH_VNODE_LINK',['../group__dispatch.html#ggabc6126af1d45847bc59afa0aa3216b04a3c7b94f12ef9e712ce2b5703f3720874',1,'source.h']]],
+  ['dispatch_5fvnode_5frename',['DISPATCH_VNODE_RENAME',['../group__dispatch.html#ggabc6126af1d45847bc59afa0aa3216b04a999f77048dbf846cc186394ddba9bcf6',1,'source.h']]],
+  ['dispatch_5fvnode_5frevoke',['DISPATCH_VNODE_REVOKE',['../group__dispatch.html#ggabc6126af1d45847bc59afa0aa3216b04adc73621bfe8da1a64cfa320bca4822b1',1,'source.h']]],
+  ['dispatch_5fvnode_5fwrite',['DISPATCH_VNODE_WRITE',['../group__dispatch.html#ggabc6126af1d45847bc59afa0aa3216b04a22eb56465aee693e520f71cd11e56f96',1,'source.h']]]
+];

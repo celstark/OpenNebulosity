@@ -1,0 +1,88 @@
+/**
+@mainpage XDispatch - Overview
+@section intro_sec Introduction
+
+XDispatch provides the power of Grand Central Dispatch not only on Mac OS 10.6+
+but also on Windows and Linux. The XDispatch framework consists of three libraries:
+ - \ref dispatch
+ - \ref xdispatch
+ - \ref qtdispatch
+
+
+Please see Apple's documentation on http://developer.apple.com and the libdispatch project at http://libdispatch.macosforge.org
+as well.
+
+See the \ref change_log or the <a href="http://opensource.mlba-team.de/xdispatch/news.htm">NEWS PAGE</a> to get to know the recent development.
+
+@subsection x1 libdispatch - the 'original' (plain C) Interface
+
+The entire Grand Central Dispatch interface is available and can be found in \ref dispatch library.
+ 
+Please note that including <dispatch/dispatch.h> is entirely sufficient and will
+automatically include all other headers as well.
+
+@subsubsection x111 Use of system provided implementations
+
+On some platforms (namely Mac OS) a version of the libdispatch library is installed by default.
+Consequently on each platform xdispatch is built on, the build system will automatically search for existing dispatch implementations  (possibly integrated
+deeper than this user space implementation can do). If found, this "native"
+implementation will automatically be used. If no implementation is available, our own will be used.
+
+Currently a native libdispatch is available on Mac OS X 10.6+ only and therefore will only be used when built on that
+platform.
+ 
+@subsection x11 libxdispatch - a C++ Interface
+
+As a first level of abstraction we created a plain C++ interface providing a more object-oriented way of programming. Detailed
+information can be found at the related page \ref xdispatch.
+
+@subsection x2 Qt Interface
+
+Additionally an interface design in a 'Qt-like' fashion was created. All needed work was done to integrate it with Qt's main
+event loop. For more information, please see the document on \ref qtdispatch
+ 
+@section x3 GCD's use of Blocks
+ 
+When Apple introduced Grand Central Dispatch it extended its compilers by a new feature they called "Blocks". Basically this
+is lambdas (sometimes called closures as well). They allow an easier way to utilize the libdispatch api and are available when using
+Clang or the gcc 4.2 that's shipped with Apple's current Developer Tools.
+
+On compilers implementing the block syntax, it is fully functional when using this port. However we support way
+more compilers when using the C++ interface \ref xdispatch. Please see the documentation found over there for
+extended details.
+ 
+@section x4 Requirements
+
+Requirements differ depending on your goals. Please see the \ref requirements page for details.
+
+@section m1 Get a copy
+
+Since version 0.3 libXDispatch is provided as ready-to-use binary package within the downloads
+section at <a href="http://opensource.mlba-team.de/xdispatch/files">http://opensource.mlba-team.de/xdispatch/files</a>.
+
+The current xdispatch sources can both be browsed at http://opensource.mlba-team.de/websvn 
+and are accessable using subversion as well. To get your own copy, run:
+
+@code
+svn co http://opensource.mlba-team.de/svn/xdispatch/trunk
+@endcode
+
+Please be aware that this is a project still in progress. As such we might introduce interface
+changes and new functionality until reaching version 1.0 - have a look at the \ref change_log
+for details and the current progress. When using this library within a project we recommend to use
+one of the tagged versions or the stable branch available by using subversion:
+
+@code
+svn co http://opensource.mlba-team.de/svn/xdispatch/tags/<version number here>
+svn co http://opensource.mlba-team.de/svn/xdispatch/branches/stable
+@endcode
+
+Those versions were tested on a lot of platforms and should be stable to use. Nevertheless you are encouraged to update
+to the latest version whenever a new release is published as this way you will benefit of further bugfixes, enhanced performance and
+new functionality of libxdispatch providing even better means for implementing concurrent software.
+
+Please do not forget to take a look at the sections concerning \ref requirements and a way for \ref tutorial. In case you want to report a
+bug or contribute to this project, please contact us using email via xdispatch (at) mlba-team.de or subscribe to the mailing list at <a href="http://opensource.mlba-team.de/mailman/listinfo/libxdispatch">
+http://opensource.mlba-team.de/mailman/listinfo/libxdispatch</a>
+
+**/

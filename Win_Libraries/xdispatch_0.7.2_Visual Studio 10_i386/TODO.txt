@@ -1,0 +1,95 @@
+
+Status of API implementation
+============================
+(an X marks an API as done)
+
+
+General:
+----------------------------
+X support for serial queues
+X clean object hierarchy
+X increase performance (see test startfish)
+X reduce number of needed events (mainly dispatch_main)
+  improve priority balancing (see test priority & priority2)
+  port more of the original tests to MUnit
+
+queue.h:
+----------------------------
+X dispatch_get_main_queue
+X dispatch_async
+X dispatch_sync
+X dispatch_apply
+X dispatch_get_current_queue
+X dispatch_get_global_queue
+X dispatch_queue_create
+X dispatch_queue_get_label
+X dispatch_set_target_queue
+X dispatch_main
+X dispatch_after_f
+
+group.h:
+----------------------------
+X dispatch_group_create
+X dispatch_group_async
+X dispatch_group_wait
+X dispatch_group_notify
+X dispatch_group_enter
+X dispatch_group_leave
+  
+object.h:
+----------------------------
+X dispatch_debug
+X dispatch_debugv
+X dispatch_retain
+X dispatch_release
+X dispatch_get_context
+X dispatch_set_context
+X dispatch_suspend
+X dispatch_resume
+
+semaphore.h:
+----------------------------
+X dispatch_semaphore_create
+X dispatch_semaphore_wait
+X dispatch_semaphore_signal
+
+once.h:
+----------------------------
+X dispatch_once
+
+time.h:
+----------------------------
+X dispatch_time
+X dispatch_walltime
+  
+source.h:
+----------------------------
+X dispatch_source_create
+X dispatch_source_set_event_handler
+X dispatch_source_set_cancel_handler
+X dispatch_source_cancel
+X dispatch_source_testcancel
+X dispatch_source_get_handle
+X dispatch_source_get_mask
+X dispatch_source_get_data
+X dispatch_source_merge_data
+X dispatch_source_set_timer
+  DISPATCH_SOURCE_TYPE_DATA_ADD
+  DISPATCH_SOURCE_TYPE_DATA_OR
+  DISPATCH_SOURCE_TYPE_MACH_SEND
+  DISPATCH_SOURCE_TYPE_MACH_RECV
+  DISPATCH_SOURCE_TYPE_PROC
+  DISPATCH_SOURCE_TYPE_READ
+  DISPATCH_SOURCE_TYPE_SIGNAL
+X DISPATCH_SOURCE_TYPE_TIMER
+  DISPATCH_SOURCE_TYPE_VNODE
+  DISPATCH_SOURCE_TYPE_WRITE
+
+  
+Status of Qt API implementation
+===============================
+(an X marks an API as done)
+
+- Elaborate ways of adding event queue
+  support while executing Qt code on
+  QtDispatch queues

@@ -1,0 +1,15 @@
+#ifndef QT_DISPATCH_H_
+#define QT_DISPATCH_H_
+
+#include "qblockrunnable.h"
+#include "qiterationblockrunnable.h"
+#include "qdispatch.h"
+#include "qdispatchgroup.h"
+#include "qdispatchqueue.h"
+#include "qdispatchsemaphore.h"
+#include "qdispatchcoreapplication.h"
+#include "qdispatchapplication.h"
+#include "qdispatchtimer.h"
+#include "qdispatchsource.h"
+
+#endif /* QT_DISPATCH_H_ */

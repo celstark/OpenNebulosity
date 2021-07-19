@@ -1,0 +1,187 @@
+/**
+@page change_log Changelog
+
+@section changes-72 Version 0.7.2
+
+ - Fixed an issue with implicit TLS declarations in conjunction
+   with Windows XP and LoadLibrary()
+
+@section changes-71 Version 0.7.1
+
+released 28/10/2012
+
+ - Improvements to the synchronized implementation (#414)
+ - Fixed a bug causing some synclocks not to be unlocked properly after
+   a call to return or throwing an exception
+ - Added official support for Ubuntu Precise 12.04 (#411)
+ - Introducing a new interface to query the availability of
+   source types at compiletime (#415)
+ - Only export the symbols of source types actually implemented
+   properly on a system (#415)
+ - Improved the support for clang version 3.1.0 and up resulting
+   in the ability to mix blocks and lambdas within the same program (#406)
+ - reworked the test build system
+ - moved to an own copy of the mz-cmaketools removing dependancy to svn:externals
+
+@section changes-7 Version 0.7.0
+
+released 23/05/2012
+
+ - Introduced a xdispatch::once api as a correspondence to the
+   dispatch_once C interface (#379)
+ - Removed the dependency of QtDispatch on QtNetwork (#389)
+ - Make all C++ lambda/std::function/Block api functions inlined to
+   support all types from the same binary (#378)
+ - Restored MinGW support (#392)
+ - Reworked large parts of the documentation (#377)
+ - Made xdispatch::sources canceable (#384)
+ - Added a modules 'findQtDispatch', 'findxdispatch', 'finddispatch' to
+   support calls to find_package (#380)
+ - Include building proper installer packages on platforms supporting it (currently
+   Ubuntu, Mac OS) in the build process (#368)
+ - Reworked the xdispatch::source implementation with special regard on
+   the existing, 'native' sourcetypes (#308)
+ - Reworked the synchronized{} implementation to eradicate degraded performance
+   when using a lot of synchronized blocks (#386)
+ - Reduced the number of interally used calls to new, moved to smart pointers
+   for interal memory management were possible (#307)
+ - Rechecked for proper implementations of assignment and comparison operators (#309)
+ - Moved from dylibs to frameworks on Mac OS
+ - Officially tested support for Mac OS Lion
+ - Assigned all shared libraries a proper version number on all platforms
+ - Dropped support for Visual Studio 2008, need Visual Studio 2008 SP1 instead
+ - Added support for the upcoming Clang 3.1
+ - Provide type-safe constants instead of macros within xdispatch and QtDispatch
+ - Ship documentation within the binary packages on each platform
+ - Included all headers of Qt by prepending the corresponding Qt module
+ - Updated the copyright information on all headers
+
+@section changes-61 Version 0.6.1
+
+released 22/02/2012
+
+ - Fixed a missing boolean variable initialization, causing the select() 
+   fallback mechanism to be used on windows from time to time
+ - Fixed a bug in the windows implementation of kqueue, causing timeouts 
+   to be over far too early and thus causing unecessary cpu load when using
+   dispatch timers
+ - Changed the implementation of _dispatch_get_nanoseconds to return similar 
+   values on all platforms
+ - Added some missing virtual destructors discovered by the code analysis of 
+   clang 3.1 (trunk 148486)
+ - Added flat to disable QtDispatch although Qt is available on the build host
+ - Fixed a bug within QDispatchGroup causing a call with QTime(0,0) not to wait
+   until the group was entirely processed
+ - Did a rewrite of the QDispatchGroup implementation more closely to the 
+   xdispatch::group, this makes the allFinished signal an opt-in
+ - Made the event code of the registered QEventType dynamic to resolve 
+   conflicts with existing Qt applications
+ - Fixed a bug causing very early dispatched jobs never to get executed
+   when using QDispatchApplications
+ - Added missing inclusion of stdlib.h
+ - Modified exceptions thrown from within xdispatch operations to be caught 
+   resulting in a call to abort() as throwing an exception through plain C 
+   code results in odd behaviour
+
+@section changes-6 Version 0.6.0
+
+released 01/08/2011
+
+ - Updated libpthread_workqueue to version 0.8.2 (r200)
+ - Updated libkqueue to r526
+ - Merged a patch by Mark Heily originally contributed to the
+   libdispatch mailing lists
+ - Changed several long datatypes to be an intptr_t instead
+   resulting in better compatibility with non LP64 platforms
+   and a consistent behaviour throughout all architectures
+ - streamlined the C++ and Qt inspired interfaces to use a
+   consistent setter and getter style throughout the entire api
+ - Fixed a bug within xdispatch::source causing source handlers 
+   to be deleted too early and thus causing sigfaults
+ - Including a copy of libblocksruntime to enable building with
+   clang and using blocks without needing any further dependencies
+ - Fixed an issue causing a QDispatchSource not to fire when 
+   using custom QIODevices
+ - Forced use of Winsock2.h instead of Winsock.h on Windows platforms
+   and reduced the number of headers included by xdispatch/dispatch.h
+   
+@section changes-5 Version 0.5.0
+
+released 01/06/2011
+
+ - Improved threading backend implementation on windows
+ - dispatch sources within the xdispatch C++ interface
+ - predefined dispatch sources in QtDispatch
+ - restructured platform/shim source layout
+ - fixed a memory leak causing lambdas and some operations not to 
+   be freed properly
+ - Added support for Windows VS2010 64bit and VS 2008
+ - Standard assignment and comparison operators within the C++ APIs
+ - Updated to libkqueue revision 523
+ - Merged two patches by Joakim Johansson and a patch provided by Mark
+   Heily and contributed to the original libdispatch sources
+
+@section changes-4 Version 0.4.0
+
+released 05/05/2011
+
+ - Introducing the original libdispatch implementation on windows and linux
+   resulting in tremendous performance increases.
+ - Integrating libkqueue by Mark Heily - r500
+ - Integrating libpthread_workqueue by Mark Heily - r119
+ - Sources interface working on windows, DISPATCH_SOURCE_TYPE_TIMER implemented.
+ - xdispatch::timer for using timers in C++ easily
+ - Proper implementation of QDispatchApplication
+ - Dropping support for VS 2008 for this version
+
+@section changes-32 Version 0.3.2
+
+released 04/05/2011
+
+ - Fixed some differences regarding the atomic operations on different platforms
+ - Exported a missing symbol regarding xdispatch::sync_locks
+ - Lambdas for the dispatch_once API
+
+@section changes-31 Version 0.3.1
+
+released 09/04/2011
+
+ - Fixed issue causing link step to fail on windows due to unimported symbols
+ - Changed dispatch_time_t utility functions from using a time_t towards using a timespec
+ - Compatible with openSUSE 11.4 64bit
+
+@section changes-3 Version 0.3 
+
+released 04/04/2011
+
+ - Omitting pthreads-w32 - results in pure Apache Licensed Code
+ - xdispatch and QtDispatch becoming shared libraries
+ - all private symbols hidden by default
+
+@section changes-2 Version 0.2
+
+released 19/03/2011
+
+Attention: New header layout, incompatible to Version 0.1
+
+ - Complete overhaul concerning code layout
+ - Introduction of an additional "plain c++" interface
+ - Extension of the Qt Interface to use a real dispatch_queue
+   in the main thread as well by using an experimental QDispatchCoreApplication
+ - Introduction of the 'synchronized' keyword
+ - Reduction of pointer use
+ - Simplification of the entire QtDispatch API
+ 
+
+@section changes-1 Version 0.1 
+
+released 11/02/2011
+
+ - First release of libXDispatch
+ - Fully functional, but less performant - however completely
+   platform independent rewrite of libdispatch
+ - QtDispatch integrating the main dispatch queue as events into 
+   the main event loop of a QApplication as well as providing support
+   for QRunnables
+   
+*/
