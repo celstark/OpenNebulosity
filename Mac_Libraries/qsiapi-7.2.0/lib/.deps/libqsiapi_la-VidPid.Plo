@@ -1,3 +1,0 @@
-libqsiapi_la-VidPid.lo: VidPid.cpp VidPid.h
-
-VidPid.h:

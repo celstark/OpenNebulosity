@@ -1,1 +1,0 @@
-libqsiapi_la-QSI_USBWrapper.lo: QSI_USBWrapper.cpp
