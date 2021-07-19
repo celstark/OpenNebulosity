@@ -22,8 +22,15 @@ Mac_Libraries/HID64/DerivedData/
 ???_Libraries/**/**/DerivedData
 ???_Libraries/**/**/Debug
 ???_Libraries/**/*.o
-
 nebulosity4/OpenNebulosity4_64.xcodeproj/project.xcworkspace/xcuserdata/stark.xcuserdatad/UserInterfaceState.xcuserstate
 nebulosity4/OpenNebulosity4_64.xcodeproj/project.pbxproj
-nebulosity4/OpenNebulosity4_64.xcodeproj/project.xcworkspace/xcuserdata/stark.xcuserdatad/UserInterfaceState.xcuserstate
-nebulosity4/OpenNebulosity4_64.xcodeproj/project.xcworkspace/xcuserdata/stark.xcuserdatad/UserInterfaceState.xcuserstate
+nebulosity4/Debug
+nebulosity4/Release
+nebulosity4/ipch
+nebulosity4/Nebulosity4.sdf
+nebulosity4/OpenNebulosity4.sdf
+Win_Libraries/LibRaw*/buildfiles
+Win_Libraries/LibRaw*/object
+Win_Libraries/Visual\ Leak\ Detector/src
+Win_Libraries/wxWidgets*/lib/vc_lib/*.pdb
+nebulosity4/OpenNebulosity4.opensdf
