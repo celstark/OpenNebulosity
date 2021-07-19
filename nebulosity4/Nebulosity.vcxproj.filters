@@ -51,9 +51,6 @@
     <ClCompile Include="clock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="code_check.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="debayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -109,9 +106,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MeadeDSI.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="mersenne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Moravian.cpp">
@@ -226,6 +220,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ASCOM_DDE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="APyTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CamToolDialogs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZWOASI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="altair_astro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QHYUniversal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -395,6 +407,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ASCOM_DDE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CamToolDialogs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZWO_ASI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="altair_astro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QHYUniversal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

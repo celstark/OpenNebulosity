@@ -1,7 +1,7 @@
 #ifndef __toupcam_h__
 #define __toupcam_h__
 
-/* Version: 1.6.6145.20150925 */
+/* Version: 1.6.6468.20151118 */
 
 #ifdef _WIN32
 #ifndef _INC_WINDOWS
@@ -96,8 +96,10 @@ typedef struct ToupcamT { int unused; } *HToupCam;
 #define TOUPCAM_FLAG_BITDEPTH16         0x00008000  /* Maximum Bit Depth = 16 */
 #define TOUPCAM_FLAG_FAN                0x00010000  /* cooling fan */
 #define TOUPCAM_FLAG_TEC_ONOFF          0x00020000  /* Thermoelectric Cooler can be turn on or off */
-#define TOUPCAM_FLAG_ISP                0x00040000  /* image signal processing supported */
-#define TOUPCAM_FLAG_TRIGGER            0x00080000  /* support the trigger mode */
+#define TOUPCAM_FLAG_ISP                0x00040000  /* Image Signal Processing supported */
+#define TOUPCAM_FLAG_TRIGGER_SOFTWARE   0x00080000  /* support software trigger */
+#define TOUPCAM_FLAG_TRIGGER_EXTERNAL   0x00100000  /* support external trigger */
+#define TOUPCAM_FLAG_TRIGGER_SINGLE     0x00200000  /* only support trigger single: one trigger, one image */
 
 #define TOUPCAM_TEMP_DEF                6503
 #define TOUPCAM_TEMP_MIN                2000
@@ -159,7 +161,7 @@ typedef struct{
 }ToupcamInst;
 
 /*
-    get the version of this dll, which is: 1.6.6145.20150925
+    get the version of this dll, which is: 1.6.6468.20151118
 */
 #ifdef _WIN32
 toupcam_ports(const wchar_t*)   Toupcam_Version();
@@ -243,7 +245,7 @@ toupcam_ports(HRESULT)  Toupcam_Snap(HToupCam h, unsigned nResolutionIndex);  /*
                 0:          cancel trigger
                 others:     number of images to be triggered
 */
-toupcam_ports(HRESULT)  Toupcam_Trigger(HToupCam h, unsigned nNumber);
+toupcam_ports(HRESULT)  Toupcam_Trigger(HToupCam h, unsigned short nNumber);
 /*
     put_Size, put_eSize, can be used to set the video output resolution BEFORE ToupCam_Start.
     put_Size use width and height parameters, put_eSize use the index parameter.
@@ -355,6 +357,8 @@ toupcam_ports(HRESULT)  Toupcam_put_Speed(HToupCam h, unsigned short nSpeed);
 toupcam_ports(HRESULT)  Toupcam_get_Speed(HToupCam h, unsigned short* pSpeed);
 toupcam_ports(HRESULT)  Toupcam_get_MaxSpeed(HToupCam h); /* get the maximum speed, see "Frame Speed Level", the speed range = [0, max], closed interval */
 
+toupcam_ports(HRESULT)  Toupcam_get_FanMaxSpeed(HToupCam h); /* get the maximum fan speed, the fan speed range = [0, max], closed interval */
+
 toupcam_ports(HRESULT)  Toupcam_get_MaxBitDepth(HToupCam h); /* get the max bit depth of this camera, such as 8, 10, 12, 14, 16 */
         
         /* power supply: 
@@ -445,6 +449,10 @@ toupcam_ports(HRESULT)  Toupcam_put_LEDState(HToupCam h, unsigned short iLed, un
 toupcam_ports(HRESULT)  Toupcam_write_EEPROM(HToupCam h, unsigned addr, const unsigned char* pData, unsigned nDataLen);
 toupcam_ports(HRESULT)  Toupcam_read_EEPROM(HToupCam h, unsigned addr, unsigned char* pBuffer, unsigned nBufferLen);
 
+#define TOUPCAM_TEC_TARGET_MIN      -300
+#define TOUPCAM_TEC_TARGET_DEF      -100
+#define TOUPCAM_TEC_TARGET_MAX      300
+
 #define TOUPCAM_OPTION_NOFRAME_TIMEOUT      0x01    /* iValue: 1 = enable; 0 = disable. default: enable */
 #define TOUPCAM_OPTION_THREAD_PRIORITY      0x02    /* set the priority of the internal thread which grab data from the usb device. iValue: 0 = THREAD_PRIORITY_NORMAL; 1 = THREAD_PRIORITY_ABOVE_NORMAL; 2 = THREAD_PRIORITY_HIGHEST; default: 0; see: msdn SetThreadPriority */
 #define TOUPCAM_OPTION_PROCESSMODE          0x03    /*  0 = better image quality, more cpu usage. this is the default value
@@ -452,15 +460,15 @@ toupcam_ports(HRESULT)  Toupcam_read_EEPROM(HToupCam h, unsigned addr, unsigned 
 #define TOUPCAM_OPTION_RAW                  0x04    /* raw mode, read the sensor data. This can be set only BEFORE Toupcam_StartXXX() */
 #define TOUPCAM_OPTION_HISTOGRAM            0x05    /* 0 = only one, 1 = continue mode */
 #define TOUPCAM_OPTION_BITDEPTH             0x06    /* 0 = 8bits mode, 1 = 16bits mode */
-#define TOUPCAM_OPTION_FAN                  0x07    /* 0 = turn off the cooling fan, 1 = turn on the cooling fan */
+#define TOUPCAM_OPTION_FAN                  0x07    /* 0 = turn off the cooling fan, [1, max] = fan speed */
 #define TOUPCAM_OPTION_TEC                  0x08    /* 0 = turn off the thermoelectric cooler, 1 = turn on the thermoelectric cooler */
 #define TOUPCAM_OPTION_LINEAR               0x09    /* 0 = turn off the builtin linear tone mapping, 1 = turn on the builtin linear tone mapping, default value: 1 */
 #define TOUPCAM_OPTION_CURVE                0x0a    /* 0 = turn off the builtin curve tone mapping, 1 = turn on the builtin curve tone mapping, default value: 1 */
-#define TOUPCAM_OPTION_TRIGGER              0x0b    /* 0 = continuous mode, 1 = trigger mode, default value =  0 */
+#define TOUPCAM_OPTION_TRIGGER              0x0b    /* 0 = continuous mode, 1 = software trigger mode, 2 = external trigger mode, default value =  0 */
 #define TOUPCAM_OPTION_RGB48                0x0c    /* enable RGB48 format when bitdepth > 8 */
 #define TOUPCAM_OPTION_COLORMATIX           0x0d    /* enable or disable the builtin color matrix, default value: 1 */
 #define TOUPCAM_OPTION_WBGAIN               0x0e    /* enable or disable the builtin white balance gain, default value: 1 */
-#define TOUPCAM_OPTION_TECTARGET            0x0f    /* get or set the target temperature of the thermoelectric cooler, in degree Celsius */
+#define TOUPCAM_OPTION_TECTARGET            0x0f    /* get or set the target temperature of the thermoelectric cooler, in 0.1 degree Celsius */
 
 toupcam_ports(HRESULT)  Toupcam_put_Option(HToupCam h, unsigned iOption, unsigned iValue);
 toupcam_ports(HRESULT)  Toupcam_get_Option(HToupCam h, unsigned iOption, unsigned* piValue);
@@ -502,15 +510,15 @@ toupcam_ports(void)   Toupcam_HotPlug(PTOUPCAM_HOTPLUG pHotPlugCallback, void* p
 */
 toupcam_ports(void)     Toupcam_EnableReg(const wchar_t* strRegPath);
 
-/* Toupcam_Start is obsolete, it's a synonyms for Toupcam_StartPushMode. They are exactly the same. */
+/* Toupcam_Start is obsolete, it's a synonyms for Toupcam_StartPushMode. */
 toupcam_ports(HRESULT)  Toupcam_Start(HToupCam h, PTOUPCAM_DATA_CALLBACK pDataCallback, void* pCallbackCtx);
 
-/* Toupcam_put_TempTintInit is obsolete, it's a synonyms for Toupcam_AwbOnePush. They are exactly the same. */
+/* Toupcam_put_TempTintInit is obsolete, it's a synonyms for Toupcam_AwbOnePush. */
 toupcam_ports(HRESULT)  Toupcam_put_TempTintInit(HToupCam h, PITOUPCAM_TEMPTINT_CALLBACK fnTTProc, void* pTTCtx);
 
 /*
-    This is obsolete, please use:
-    set or get the process mode: TOUPCAM_PROCESSMODE_FULL or TOUPCAM_PROCESSMODE_FAST. default is TOUPCAM_PROCESSMODE_FULL.
+    obsolete, please use Toupcam_put_Option or Toupcam_get_Option to set or get the process mode: TOUPCAM_PROCESSMODE_FULL or TOUPCAM_PROCESSMODE_FAST.
+    default is TOUPCAM_PROCESSMODE_FULL.
 */
 #ifndef __TOUPCAM_PROCESSMODE_DEFINED__
 #define __TOUPCAM_PROCESSMODE_DEFINED__
@@ -523,11 +531,11 @@ toupcam_ports(HRESULT)  Toupcam_get_ProcessMode(HToupCam h, unsigned* pnProcessM
 
 #endif
 
-/* This is obsolete */
+/* obsolete, please use Toupcam_put_Roi and Toupcam_get_Roi */
 toupcam_ports(HRESULT)  Toupcam_put_RoiMode(HToupCam h, BOOL bRoiMode, int xOffset, int yOffset);
 toupcam_ports(HRESULT)  Toupcam_get_RoiMode(HToupCam h, BOOL* pbRoiMode, int* pxOffset, int* pyOffset);
 
-/* This is obsolete
+/* obsolete:
             ------------------------------------------------------------|
             | Parameter         |   Range       |   Default             |
             |-----------------------------------------------------------|

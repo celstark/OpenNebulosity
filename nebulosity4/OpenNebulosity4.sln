@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nebulosity4", "Nebulosity.vcxproj", "{10FE69EE-0F2B-4480-883C-F705DEE6FD58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A338A97-8A63-48D4-A3A6-32CD71DE8454}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10FE69EE-0F2B-4480-883C-F705DEE6FD58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10FE69EE-0F2B-4480-883C-F705DEE6FD58}.Debug|Win32.Build.0 = Debug|Win32
+		{10FE69EE-0F2B-4480-883C-F705DEE6FD58}.Release|Win32.ActiveCfg = Release|Win32
+		{10FE69EE-0F2B-4480-883C-F705DEE6FD58}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -44,7 +44,7 @@
 #if defined (__APPLE__)
 #include <SBIGUDrv/sbigudrv.h>
 #else
-#include "cameras/Sbigudrv.h"
+#include "cameras/sbigudrv.h"
 #endif
 
 class Cam_SBIGClass : public CameraType {

@@ -11,7 +11,7 @@
 
 
 #if defined (_WIN32)
-#include "cyapi.h"
+#include "uqhycyapi.h"
 #endif
 
 #ifndef __QHYCCD_H__
