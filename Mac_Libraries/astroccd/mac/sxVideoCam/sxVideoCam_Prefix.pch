@@ -1,5 +1,0 @@
-//
-// Prefix header for all source files of the 'sxVideoCam' target in the 'sxVideoCam' project.
-//
-
-#include <Carbon/Carbon.h>
