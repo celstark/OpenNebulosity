@@ -390,7 +390,7 @@ bool MyApp::OnInit(void) {
         else if ((ext.IsSameAs(_T("png"),false)) || (ext.IsSameAs(_T("tiff"),false)) || (ext.IsSameAs(_T("tif"),false)) \
                  || (ext.IsSameAs(_T("jpg"),false)) || (ext.IsSameAs(_T("jpeg"),false)) || (ext.IsSameAs(_T("bmp"),false)) \
                  || (ext.IsSameAs(_T("cr2"),false)) || (ext.IsSameAs(_T("CR2"),false)) || (ext.IsSameAs(_T("nef"),false)) \
-                 || (ext.IsSameAs(_T("nef"),false)) ) {
+                 || (ext.IsSameAs(_T("cr3"),false)) || (ext.IsSameAs(_T("CR3"),false)) ) {
             GenericLoadFile(arg.fn_str());;
         }
 		else if ( (ext.IsSameAs(_T("neb"),false)) || (ext.IsSameAs(_T("txt"),false)) ) {
