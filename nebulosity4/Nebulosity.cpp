@@ -360,9 +360,8 @@ bool MyApp::OnInit(void) {
 		if (count > 1)
 			MultiThread = count;
 	}
-	if (MultiThread > MAX_THREADS) MultiThread=MAX_THREADS;
 #endif
-	
+    if (MultiThread > MAX_THREADS) MultiThread=MAX_THREADS;
 #ifdef CAMELS
 	frame->Maximize(true);
 	frame->Menubar->Show(false);
