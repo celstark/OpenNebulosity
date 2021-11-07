@@ -704,11 +704,7 @@ void ReadPreferences() {
 	bool Importingv3 = false;
 	
 #if defined (__WINDOWS__)
-#ifdef CAMELS
-	Exp_SaveDir = wxGetHomeDir() + "\\My Documents\\CamelsEL";
-#else
 	Exp_SaveDir = wxGetHomeDir() + "\\My Documents\\Nebulosity";
-#endif
 #else
 	Exp_SaveDir = wxGetHomeDir() + "/Documents/Nebulosity";
 #endif
@@ -812,13 +808,10 @@ void ReadPreferences() {
 	config->Read("FFXHairs",&lval);
 	Pref.FFXhairs = (lval > 0);
 	
-#ifdef CAMELS
-	Pref.DisplayOrientation = 0;
-#else
 	lval = (long) Pref.DisplayOrientation;
 	config->Read("DisplayOrientation",&lval);
 	Pref.DisplayOrientation = (int) lval;
-#endif
+
 	lval = (long) Pref.FullRangeCombine;
 	config->Read("FullRangeCombine",&lval);
 	Pref.FullRangeCombine = (lval > 0);

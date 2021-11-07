@@ -671,11 +671,7 @@ void MyFrame::OnCameraChoice(wxCommandEvent &event) {
 		SetStatusText(_T("Connecting"),3);
 		wxBeginBusyCursor();
 		if (!CurrentCamera->Connect()) {
-#ifdef CAMELS
-			SetStatusText(_T("Camera connected"));
-#else
 			SetStatusText(CurrentCamera->Name + _T(" connected"));
-#endif
 			wxEndBusyCursor();
 			CameraState = STATE_IDLE;
 			Pref.LastCameraNum =  Camera_ChoiceBox->GetSelection();
@@ -683,13 +679,8 @@ void MyFrame::OnCameraChoice(wxCommandEvent &event) {
 		else {
 			wxEndBusyCursor();
 			SetStatusText(_("Idle"),3);
-#ifdef CAMELS
-			SetStatusText(_T("Error connecting to camera"));
-			(void) wxMessageBox(wxT("Failure to connect to camera"),_("Error"),wxOK | wxICON_ERROR);
-#else
 			SetStatusText(_T("Error connecting to ") + CurrentCamera->Name);
 			(void) wxMessageBox(_("Failure to connect to ") + CurrentCamera->Name,_("Error"),wxOK | wxICON_ERROR);
-#endif
 			CurrentCamera = &NoneCamera;
 			Camera_ChoiceBox->SetSelection(0);
 			CameraState = STATE_DISCONNECTED;
@@ -874,9 +865,6 @@ void MyFrame::OnPreviewButton(wxCommandEvent &evt) {
         Capture_Abort = false;
         
         
-#ifdef CAMELS
-		CamelFName=Camel_SNCtrl->GetValue();
-#endif
         AppendGlobalDebug("- Setting DateObs");
 		if (!retval) 
 			CurrImage.Header.DateObs = wxString::Format("%.4d-%.2d-%.2dT%.2d:%.2d:%.2d",timestruct->tm_year+1900,timestruct->tm_mon+1,timestruct->tm_mday,timestruct->tm_hour,timestruct->tm_min,timestruct->tm_sec);
@@ -902,12 +890,6 @@ void MyFrame::OnPreviewButton(wxCommandEvent &evt) {
 			canvas->UpdateDisplayedBitmap(true);
 		}
 
-#ifdef CAMELS
-		if (evt.GetId() == CAMEL_CAPTURE) {
-			wxCommandEvent* tmp_evt = new wxCommandEvent(0,wxID_FILE1);
-			frame->OnCamelImageSave(*tmp_evt);	
-		}
-#endif
 		SetUIState(true);
         //frame->canvas->UpdateDisplayedBitmap(true);  // not sure why I've needed to add this all of a sudden (Aug 2019) to get the histogram to update
 	}

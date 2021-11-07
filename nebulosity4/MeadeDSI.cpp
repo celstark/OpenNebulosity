@@ -39,11 +39,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "camera.h"
 #include "debayer.h"
 #include "image_math.h"
-#include "camels.h"
 #include "preferences.h"
-#ifdef CAMELS
-extern void RotateImage(fImage &Image, int mode);
-#endif
+
 //#include "cameras/ngc_dll.h"
 
 Cam_MeadeDSIClass::Cam_MeadeDSIClass() {
@@ -137,11 +134,7 @@ bool Cam_MeadeDSIClass::Connect() {
 	unsigned int NDevices = MeadeCam->EnumDsiDevices();
 	unsigned int DevNum = 1;
 	if (!NDevices) {
-#ifdef CAMELS
-		wxMessageBox(_T("No camera found"));
-#else
 		wxMessageBox(_T("No DSIs found"));
-#endif
 		return true;
 	}
 	else if (NDevices > 1) { 
@@ -213,9 +206,7 @@ bool Cam_MeadeDSIClass::Connect() {
 		else if (MeadeCam->IsDsiIII) {
 			PixelSize[0]=PixelSize[1]=6.4;
 			ExtraOption = false;
-#ifdef CAMELS
-			ExtraOption = true;
-#endif
+
 			Cap_BinMode = BIN1x1 | BIN2x2;
 			HighSpeed = true;
 			AmpOff = false;
@@ -376,12 +367,6 @@ int Cam_MeadeDSIClass::Capture () {
 	//wxMessageBox(MeadeCam->ErrorMessage);
 
 
-#ifdef CAMELS
-	RotateImage(CurrImage,0); // Flip L-R
-	NormalizeImage(CurrImage);
-	if (CamelCorrectActive)
-		CamelCorrect(CurrImage);
-#endif
 	return 0;
 
 }

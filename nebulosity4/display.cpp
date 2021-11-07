@@ -39,7 +39,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "wx/image.h"
 #include "wx/dcbuffer.h"
 #include "setup_tools.h"
-#include "camels.h"
 #include "preferences.h"
 
 void MyFrame::AdjustContrast () {
@@ -243,9 +242,6 @@ void SetUIState(bool state) {
 		frame->Camera_FineFocusButton->Enable(state);
 		SmCamControl->FineButton->Enable(state);
 	}
-#ifdef CAMELS
-	frame->Camel_SaveImgButton->Enable(state);	
-#endif
 	wxTheApp->Yield(true);	
 	UIState = state;
 }
@@ -458,15 +454,6 @@ void MyCanvas::OnLRelease(wxMouseEvent &mevent) {
 //		frame->SetStatusText(wxString::Format("%d %d  %d %d",x1,y1,x2,y2));
 		if ((x1 == x2) || (y1 == y2))
 			have_selection = false;
-#ifdef CAMELS
-		if (frame->CamelsMarkBadMode) {
-			frame->Undo->CreateUndo();
-	//		frame->SetStatusText(wxString::Format("%d,%d  %d,%d",x1,y1,x2,y2));
-			CamelDrawBadRect(CurrImage,x1,y1,x2,y2);
-			have_selection = false;
-			UpdateDisplayedBitmap(true);
-		}
-#endif
 	}
 	else
 		mevent.Skip();
@@ -751,10 +738,6 @@ void MyCanvas::OnPaint(wxPaintEvent& WXUNUSED(event)) {
 	static int xsize, ysize;
 
 	DoPrepareDC(dc);  // Needs to be here if using wxPaintDC but not if using wxBufferedPaintDC
-	#ifdef CAMELS
-	if (Dirty && CamelText.Len())
-		CamelAnnotate(*DisplayedBitmap);
-	#endif
 
 	// Orig version
 	if ((Disp_ZoomFactor < 1.0) && Dirty) {
@@ -884,12 +867,7 @@ void MyCanvas::OnPaint(wxPaintEvent& WXUNUSED(event)) {
 
 	if (Disp_ZoomFactor < 1.0) {
 		wxBitmap TempBitmap = wxBitmap(tmpimage,24);
-/*		#ifdef CAMELS
-		if (CamelText.Len()) {
-			//memDC.DrawText(CamelText,10,ysize - 20);
-			CamelAnnotate(TempBitmap);
-		}
-		#endif*/
+
 		memDC.SelectObject(TempBitmap);
 		bmpsz.Set(xsize,ysize);
 		SetVirtualSize(bmpsz);

@@ -78,7 +78,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "focus.h"
 #include "focuser.h"
 #include "ext_filterwheel.h"
-#include "camels.h"
 #include "ASCOM_DDE.h"
 
 
@@ -88,7 +87,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // #include <vld.h>
 #endif
 
-#define NEBSUBVER "a"
+#define NEBSUBVER ""
 #define DEVBUILD 0
 #define DEBUGSTART 0
 
@@ -172,7 +171,7 @@ bool MyApp::OnInit(void) {
 	//Initial setup crap
 	SetVendorName(_T("StarkLabs"));	
 	// Create the main frame window
-	wxString ProgName = "Nebulosity";
+	wxString ProgName = "Open Nebulosity";
 	wxStandardPathsBase& StdPaths = wxStandardPaths::Get(); 
 	wxString tempdir, tempdir2;
 	tempdir = StdPaths.GetUserDataDir();
@@ -184,9 +183,7 @@ bool MyApp::OnInit(void) {
 #ifndef __DEBUGBUILD__
 	wxDisableAsserts();
 #endif
-#ifdef CAMELS
-	ProgName = "Camels EL";
-#endif
+
     
 #ifdef __APPLE__
     int osver = wxPlatformInfo::Get().GetOSMinorVersion();
@@ -362,12 +359,7 @@ bool MyApp::OnInit(void) {
 	}
 #endif
     if (MultiThread > MAX_THREADS) MultiThread=MAX_THREADS;
-#ifdef CAMELS
-	frame->Maximize(true);
-	frame->Menubar->Show(false);
-	wxCommandEvent* tmp_evt = new wxCommandEvent(0,CTRL_ZOOMDOWN);
-	frame->OnZoomButton(*tmp_evt);	
-#endif
+
 
 	if (SpawnedCopy) {
 		wxPoint CurrPos = frame->GetPosition();
@@ -508,11 +500,9 @@ wxFrame(frame, wxID_ANY, title, pos, size,wxDEFAULT_FRAME_STYLE | wxFULL_REPAINT
 	wxMenu *processing_menu = new wxMenu;
 	
 	file_menu->Append(MENU_LOAD_FILE, _("&Open File\tCtrl+O"), _("Open file"));
-#ifndef CAMELS
 	file_menu->Append(MENU_PREVIEWFILES, _("Preview Files"),  _("Preview / Rename / Delete files"));
 	file_menu->Append(MENU_DSSVIEW, _("DSS Loader"),  _("Download DSS Image"));
 	file_menu->Append(MENU_FITSHEADER, _("FITS Header Tool"),  _("View FITS header"));
-#endif
 	file_menu->AppendSeparator();
 	file_menu->Append(MENU_SAVE_FILE, _("&Save Current File\tCtrl+S"), _("Save current file as FITS"));
 	file_menu->Append(MENU_SAVE_BMPFILE, _("Save &BMP File as Displayed"), _("Save current display in 24-bit BMP format"));
@@ -530,22 +520,18 @@ wxFrame(frame, wxID_ANY, title, pos, size,wxDEFAULT_FRAME_STYLE | wxFULL_REPAINT
 
 	edit_menu->Append(MENU_IMAGE_UNDO,_("Undo\tCtrl+Z"),_("Undo last image change"));
 	edit_menu->Append(MENU_IMAGE_REDO,_("Redo\tCtrl+Y"),_("Redo last undo"));//
-#ifndef CAMELS
 	edit_menu->AppendSeparator();
 //	edit_menu->Append(MENU_IMAGE_PIXELSTATS, _T("Show Pixel Stats"), _T("Shows stats around cursor"));
 	edit_menu->Append(MENU_IMAGE_INFO, _("&Image Info\tCtrl+I"),  _("Info on current image"));
 	edit_menu->Append(MENU_IMAGE_MEASURE, _("Measure &Distance"),  _("Measure distance between points on image"));
-#endif
 	edit_menu->AppendSeparator();
 	edit_menu->Append(MENU_SCRIPT_EDIT,_("Edit/Create Script"),_("Edit or create script file"));
 	edit_menu->Append(MENU_SCRIPT_RUN,_("Run Script\tCtrl+R"),_("Run (execute) a script file"));
-#ifndef CAMELS
 	edit_menu->AppendSeparator();
 	edit_menu->Append(wxID_PREFERENCES, _("Preferences\tCtrl-,"), _("Set program options and preferences"));
     //edit_menu->Append(wxID_PREFERENCES);
 	edit_menu->Append(MENU_CAMERA_CHOICES, _("De-select cameras"), _("Enable / disable cameras"));
 //	edit_menu->Append(MENU_NAMEFILTERS,_("Name Filters"),_("Set names for filters"));
-#endif
 
 	//processing_menu->Append(MENU_PROC_PREPROCESS_COLOR, _("Pre-process &Color Images"),  _("Dark/flat/bias on full color images"));
 	//processing_menu->Append(MENU_PROC_PREPROCESS_BW, _("Pre-process &B&&W/Raw Images"),  _("Dark/flat/bias on B&W or RAW color images"));
@@ -736,10 +722,8 @@ wxFrame(frame, wxID_ANY, title, pos, size,wxDEFAULT_FRAME_STYLE | wxFULL_REPAINT
 	wxMenuBar *menu_bar = new wxMenuBar;
 	menu_bar->Append(file_menu, _("&File"));
 	menu_bar->Append(edit_menu, _("&Edit"));
-#ifndef CAMELS
 	menu_bar->Append(processing_menu, _("&Batch"));
 	menu_bar->Append(image_menu,_("&Image"));
-#endif
 	menu_bar->Append(view_menu, _("&View"));
 	menu_bar->Append(help_menu, _("&Help"));
 	// Associate the menu bar with the frame
@@ -1068,41 +1052,7 @@ wxFrame(frame, wxID_ANY, title, pos, size,wxDEFAULT_FRAME_STYLE | wxFULL_REPAINT
     entries[1].Set(wxACCEL_NORMAL, WXK_SPACE, KEY_SPACE);
     wxAcceleratorTable accel(1, entries);
 	SetAcceleratorTable(accel);
-/*	
-	// Setup accelerators
-	wxAcceleratorEntry entries[18];
-	entries[0].Set(wxACCEL_CTRL,  (int) 'O', MENU_LOAD_FILE);
-	entries[1].Set(wxACCEL_CTRL,  (int) 'S', MENU_SAVE_FILE);
-	entries[2].Set(wxACCEL_CTRL,  (int) 'Z', MENU_IMAGE_UNDO);
-	entries[3].Set(wxACCEL_CTRL,  (int) 'Y', MENU_IMAGE_REDO);
-	entries[4].Set(wxACCEL_CTRL,	(int) 'R', MENU_SCRIPT_RUN);
-	entries[5].Set(wxACCEL_CTRL,	(int) 'Q', MENU_QUIT);
-#ifdef CAMELS
-	entries[6].Set(wxACCEL_CTRL,	(int) 'B', CAMEL_MARKBAD);
-#else
-	entries[6].Set(wxACCEL_CTRL,	(int) 'B', MENU_IMAGE_DEMOSAIC_BETTER);
-#endif
-	entries[7].Set(wxACCEL_CTRL,	(int) 'A', MENU_IMAGE_COLOROFFSET);
-	entries[8].Set(wxACCEL_ALT,	(int) 'S', MENU_IMAGE_COLORSCALE);
-	entries[9].Set(wxACCEL_CTRL,	(int) 'L', MENU_IMAGE_PSTRETCH);
-	entries[10].Set(wxACCEL_CTRL,	(int) 'D', MENU_IMAGE_DDP);
-	entries[11].Set(wxACCEL_CTRL,	(int) 'T', MENU_IMAGE_TIGHTEN_EDGES);
-	entries[12].Set(wxACCEL_NORMAL, WXK_ESCAPE, KEY_ESC);
-	entries[13].Set(wxACCEL_CTRL, WXK_TAB, KEY_SPACE);
-	entries[14].Set(wxACCEL_CTRL, (int) 'K', MENU_IMAGE_CROP);
-#if defined (__WINDOWS__)
-	entries[15].Set(wxACCEL_CTRL,	(int) 'M', MENU_IMAGE_BCURVES);
-	entries[16].Set(wxACCEL_CTRL, (int) '=',CTRL_ZOOMUP);
-	entries[17].Set(wxACCEL_CTRL, (int) '-',CTRL_ZOOMDOWN);
-#else
-	entries[15].Set(wxACCEL_CMD,	(int) 'N', MENU_IMAGE_BCURVES);
-	entries[16].Set(wxACCEL_CMD, (int) '-',CTRL_ZOOMUP);
-	entries[17].Set(wxACCEL_CMD, (int) '=',CTRL_ZOOMDOWN);
-#endif
-	
-	wxAcceleratorTable accel(18, entries);
-	SetAcceleratorTable(accel);
-*/
+
 	Pushed_evt = new wxCommandEvent();
 	
 }
@@ -1380,15 +1330,10 @@ EVT_MENU(MENU_PROC_BATCH_CROP,MyFrame::OnBatchGeometry)
 EVT_CHOICE(CTRL_EXPDURPULLDOWN,MyFrame::OnDurPulldown)	
 EVT_TEXT_ENTER(CTRL_BVAL,MyFrame::OnBWValUpdate)
 EVT_TEXT_ENTER(CTRL_WVAL,MyFrame::OnBWValUpdate)
-EVT_BUTTON(CAMEL_CAPTURE,MyFrame::OnPreviewButton)
 EVT_SOCKET(SCRIPTSOCKET_ID, MyFrame::OnScriptSocketEvent)
 EVT_SOCKET(SCRIPTSERVER_ID, MyFrame::OnScriptServerEvent)
 //EVT_KEY_DOWN(MyFrame::CheckAbort)
 
-#ifdef CAMELS
-EVT_BUTTON(CAMEL_SAVEIMG,MyFrame::OnCamelImageSave)
-EVT_MENU(CAMEL_MARKBAD,MyFrame::OnCamelsHotkey)
-#endif
 
 /*#if defined (__WINDOWS__)
 EVT_ACTIVATE(MyFrame::OnActivate)
@@ -1508,11 +1453,7 @@ void MyFrame::OnIdle(wxIdleEvent& WXUNUSED(evt)) {
 }
 
 void MyFrame::OnAbout(wxCommandEvent& WXUNUSED(event)) {
-#ifdef CAMELS
-	(void)wxMessageBox(wxString::Format("Camels EL v%s\n\nCopyright 2009-2011 Craig Stark, Stark Labs\n\nMulti-thread mode: %d",VERSION,MultiThread),
-					   _T("About Camels EL"), wxOK);
-#else
-	wxString msgtext = wxString::Format("Nebulosity v%s\n\nwww.stark-labs.com\n\nCopyright 2005-2016 Craig Stark\n\nLicense level: Open source\nMulti-thread count: %d\nwxWidgets %s",
+	wxString msgtext = wxString::Format("Open Nebulosity v%s\n\nwww.stark-labs.com\n\nCopyright 2005-2021 Craig Stark\n\nLicense level: Open source\nMulti-thread count: %d\nwxWidgets %s",
 										VERSION, MultiThread,wxVERSION_STRING);
 	msgtext = msgtext + wxString::Format("\nSpawn: %d  DDE Server: %d",(int) SpawnedCopy, (int) (CameraServer != NULL));
 #ifdef _OPENMP
@@ -1528,7 +1469,7 @@ void MyFrame::OnAbout(wxCommandEvent& WXUNUSED(event)) {
 //	msgtext = msgtext + "\n:Logo design: Michele Palma";
     msgtext = msgtext + "\n\nPerennial thanks to: Chuck Kimball, Michael Garvin, Ed Hall, Emanuele Laface, Sean Prange, Dave Schmenck, and the Stark Labs Yahoo Group";
 	(void)wxMessageBox(msgtext,_T("About Nebulosity"), wxOK);
-#endif
+
 }
 
 void MyFrame::OnLaunchNew(wxCommandEvent& WXUNUSED(evt)) {
@@ -1760,14 +1701,9 @@ void MyFrame::OnBWValUpdate(wxCommandEvent &event) {
 	}
 }
 void MyFrame::OnZoomButton(wxCommandEvent &event) {
-#ifdef CAMELS
-	float zoom_factors[7] = {0.25, 0.3333333333, 0.5, 0.8, 1.0, 2.0, 4.0};
-	const int nindices = 6;
-#else
 	float zoom_factors[8] = { 0.1, 0.2, 0.25, 0.3333333333, 0.5, 1.0, 2.0, 4.0};
 	const int nindices = 7;
 
-#endif
 	int index;
 //	int x, y;
 
@@ -2081,11 +2017,7 @@ void MyFrame::OnExpSaveNameUpdate(wxCommandEvent& WXUNUSED(event)) {
 void MyFrame::OnDirectoryButton(wxCommandEvent& WXUNUSED(event)) {
 	if (!wxDirExists(Exp_SaveDir))
 #if defined (__WINDOWS__)
-#ifdef CAMELS
-	Exp_SaveDir = wxGetHomeDir() + "\\My Documents\\CamelsEL";
-#else
 	Exp_SaveDir = wxGetHomeDir() + "\\My Documents\\Nebulosity";
-#endif
 #else
 		Exp_SaveDir = wxGetHomeDir() + "/Documents/Nebulosity";
 #endif
@@ -2280,29 +2212,6 @@ void MyFrame::AppendGlobalDebug(wxString debugtext) {
     
 }
 
-#ifdef CAMELS
-void MyFrame::OnCamelsHotkey(wxCommandEvent &evt) {
-	if (evt.GetId() == CAMEL_MARKBAD) {
-		CamelsMarkBadMode = !CamelsMarkBadMode;
-		if (CamelsMarkBadMode)
-			SetStatusText("Marking bad regions enabled");
-		else
-			SetStatusText("Marking bad regions disabled");
-	}
-}
-#endif
-
-
-
-//#include "file_tools.h"
-//#include "quality.h"
-//extern bool CFAExtract(fImage& img, int mode, int xoffset, int yoffset);
-//extern float CalcHFR(fImage& Image, int orig_x, int orig_y);
-//extern int qs_compare (const void *arg1, const void *arg2 );
-//#include <wx/numdlg.h>
-//extern bool VNG_Interpolate_MT(int array_type, int xoff, int yoff, int trim);
-//#include "omp.h"
-//#include "debayer.h"
 
 
 

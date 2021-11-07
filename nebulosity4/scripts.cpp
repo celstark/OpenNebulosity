@@ -91,19 +91,11 @@ movernd N - move mount a random amount in RA and Dec with N as max arcsec **GDPr
 #include "focuser.h"
 #include "file_tools.h"
 #include "quality.h"
-#include "camels.h"
 #include "setup_tools.h"
 #include "preferences.h"
 
 
 extern void RotateImage(fImage &Image, int mode);
-
-#ifdef CAMELS
-extern double CamelCoef[3];
-extern bool CamelCorrectActive;
-extern int CamelCtrX;
-extern int CamelCtrY;
-#endif
 
 enum {
 	SCRIPT_SAVE = LAST_MAIN_EVENT,
@@ -664,6 +656,7 @@ void MyFrame::OnRunScript(wxCommandEvent &event) {
 	CmdList.Add(_T("Listen"));  // 20
 	CmdList.Add(_T("SetShutter")); // 21
 	CmdList.Add(_T("SetFilter")); // 22
+    // 23-29 were for Camels EL version.  Before removing them here, we need to update RunScript
 	CmdList.Add(_T("SetCamelCoef1")); // 23
 	CmdList.Add(_T("SetCamelCoef2")); // 24
 	CmdList.Add(_T("SetCamelCorrect")); // 25
@@ -702,9 +695,6 @@ void MyFrame::OnRunScript(wxCommandEvent &event) {
 		wxMessageBox(_("File does not exist"));
 		return;
 	}
-#ifdef CAMELS
-	CamelGetScriptInfo(fname);
-#endif
 	script_file.Open();
 	nlines = script_file.GetLineCount();
 	sound_name = wxGetOSDirectory() + _T("\\Media\\tada.wav");
@@ -1051,31 +1041,7 @@ void MyFrame::OnRunScript(wxCommandEvent &event) {
 					canvas->Refresh();
 					break;
 				case 18:  // Connect to a camera #
-	#ifdef CAMELS  // CamelsEL will always connect to a Meade or nothing
 					param.ToLong(&lVal);
-					if (lVal) {
-						CurrCams = Camera_ChoiceBox->GetStrings();
-						lVal = 1; // just in case we can't find it - simulator
-						int tmp_ctr;
-						for (tmp_ctr = 0; tmp_ctr<CurrCams.GetCount(); tmp_ctr++) {
-							if (CurrCams[tmp_ctr].Contains(_T("Meade"))) {
-								//found_cam = true;
-								//wxMessageBox(wxString::Format("Found cam at %d",tmp_ctr));
-								lVal = tmp_ctr;
-								break;
-							}
-						}
-					}
-					/*	for (lVal = 0; lVal<CameraChoices.GetCount(); lVal++) {
-							if (CameraChoices[lVal].Contains(_T("Meade"))) {
-	//							wxMessageBox("Found cam");
-								break;
-							}	
-						}
-					}*/
-	#else
-					param.ToLong(&lVal);
-	#endif
 					if (lVal == -1)
 						tmp_evt->SetInt(Pref.LastCameraNum);
 					else
@@ -1114,41 +1080,7 @@ void MyFrame::OnRunScript(wxCommandEvent &event) {
 					param.ToULong(&ulVal);
 					CurrentCamera->SetFilter((int) ulVal);
 					break;
-	#ifdef CAMELS
-				case 23:
-					param.ToDouble(&dVal);
-					CamelCoef[0]=dVal;
-					break;
-				case 24:
-					param.ToDouble(&dVal);
-					CamelCoef[1]=dVal;
-					break;
-				case 25:
-					param.ToULong(&ulVal);
-					CamelCorrectActive = (ulVal > 0);
-					break;
-				case 27:
-					param.ToDouble(&dVal);
-					CamelCoef[2]=dVal;
-					break;
-				case 28:
-					param.ToULong(&ulVal);
-					CamelCtrX = (int) ulVal;
-					break;
-				case 29:
-					param.ToULong(&ulVal);
-					CamelCtrY = (int) ulVal;
-					break;
-				case 34: // Camel JPEG compression
-					param.ToULong(&ulVal);
-					CamelCompression = (int) ulVal;
-					if (CamelCompression < 10) CamelCompression = 10;
-					else if (CamelCompression > 100) CamelCompression = 100;
-					break;
-				case 35: // Camel annotation
-					CamelText = param;
-					break;
-	#endif
+                // 23-35 were for CamelsEL version
 				case 26:  // Connect to a camera named ...
 					int tmp_ctr;
 					bool found_cam;

@@ -450,8 +450,8 @@
             timestampString = "588394154.7849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2154"
-            endingLineNumber = "2154"
+            startingLineNumber = "2090"
+            endingLineNumber = "2090"
             landmarkName = "MyFrame::SetMenuState(mode)"
             landmarkType = "7">
          </BreakpointContent>
@@ -486,8 +486,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "157"
             endingLineNumber = "157"
-            landmarkName = "CaptureSeries()"
-            landmarkType = "9">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -518,8 +518,8 @@
             timestampString = "588394154.785272"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
             landmarkName = "MyApp::OnInit()"
             landmarkType = "7">
          </BreakpointContent>
@@ -739,8 +739,8 @@
             timestampString = "588394154.785584"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2334"
-            endingLineNumber = "2334"
+            startingLineNumber = "2247"
+            endingLineNumber = "2247"
             landmarkName = "MyFrame::TempFunc()"
             landmarkType = "7">
          </BreakpointContent>
@@ -756,8 +756,8 @@
             timestampString = "588394154.7857701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2334"
-            endingLineNumber = "2334"
+            startingLineNumber = "2247"
+            endingLineNumber = "2247"
             landmarkName = "MyFrame::TempFunc()"
             landmarkType = "7">
          </BreakpointContent>
@@ -773,8 +773,8 @@
             timestampString = "588394154.785949"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2334"
-            endingLineNumber = "2334"
+            startingLineNumber = "2247"
+            endingLineNumber = "2247"
             landmarkName = "MyFrame::TempFunc()"
             landmarkType = "7">
          </BreakpointContent>
@@ -943,8 +943,8 @@
             timestampString = "588394154.786186"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "454"
-            endingLineNumber = "454"
+            startingLineNumber = "446"
+            endingLineNumber = "446"
             landmarkName = "MyFrame::MyFrame(frame, title, pos, size)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1134,23 +1134,6 @@
             endingLineNumber = "172"
             landmarkName = "CaptureSeries()"
             landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B7D8FCD4-064D-4561-A5A6-394E067EFEE6"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "camera.cpp"
-            timestampString = "588394154.786592"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "675"
-            endingLineNumber = "675"
-            landmarkName = "MyFrame::OnCameraChoice(event)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1387,8 +1370,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1377"
             endingLineNumber = "1377"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "WhiteBalance()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1402,8 +1385,8 @@
             timestampString = "588394154.7874171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2323"
-            endingLineNumber = "2323"
+            startingLineNumber = "2236"
+            endingLineNumber = "2236"
             landmarkName = "MyFrame::TempFunc()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1453,8 +1436,8 @@
             timestampString = "588394154.7876509"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2031"
-            endingLineNumber = "2031"
+            startingLineNumber = "1971"
+            endingLineNumber = "1971"
             landmarkName = "MyFrame::OnExpCtrlUpdate(evt)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1555,8 +1538,8 @@
             timestampString = "588394154.7882529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "430"
-            endingLineNumber = "430"
+            startingLineNumber = "422"
+            endingLineNumber = "422"
             landmarkName = "MyFrame::MyFrame(frame, title, pos, size)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1672,8 +1655,8 @@
             filePath = "Nebulosity.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1637"
-            endingLineNumber = "1637"
+            startingLineNumber = "1582"
+            endingLineNumber = "1582"
             landmarkName = "MyFrame::OnCheckUpdate()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1688,8 +1671,8 @@
             filePath = "Nebulosity.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1634"
-            endingLineNumber = "1634"
+            startingLineNumber = "1579"
+            endingLineNumber = "1579"
             landmarkName = "MyFrame::OnCheckUpdate()"
             landmarkType = "7">
          </BreakpointContent>

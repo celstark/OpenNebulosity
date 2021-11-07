@@ -397,11 +397,8 @@ void MyFrame::OnLoadBitmap(wxCommandEvent &event) {
 	SetStatusText(fname.AfterLast(PATHSEPCH),1);
 	canvas->UpdateDisplayedBitmap(false);
 	SetStatusText(_("Idle"),3);
-#ifdef CAMELS
-	SetTitle(wxString::Format("Camels EL v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#else
-	SetTitle(wxString::Format("Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#endif
+	SetTitle(wxString::Format("Open Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
+
 
 	return;
 }

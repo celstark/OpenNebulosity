@@ -467,11 +467,8 @@ bool SaveFITS (fImage& Image, wxString fname, int colormode, bool Force16bit) {
 	if (Pref.Save15bit)  // need to halve the data
 		ScaleAtSave(colormode, 2.0, 0.0);
 	frame->SetStatusText(_("Idle"),3);
-#ifdef CAMELS
-	frame->SetTitle(wxString::Format("Camels EL v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#else
-	frame->SetTitle(wxString::Format("Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#endif
+	frame->SetTitle(wxString::Format("Open Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
+
 	wxEndBusyCursor();
     frame->AppendGlobalDebug("Leaving SaveFITS");
 	return false;   
@@ -1171,11 +1168,8 @@ bool LoadFITSFile(fImage& Image, wxString fname, bool hide_display) {
 		frame->canvas->Refresh();
 
 	frame->SetStatusText(_("Idle"),3);
-#ifdef CAMELS
-	frame->SetTitle(wxString::Format("Camels EL v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#else
-	frame->SetTitle(wxString::Format("Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#endif
+	frame->SetTitle(wxString::Format("Open Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
+
 	return false;
 }
 
@@ -1294,11 +1288,9 @@ bool LoadPNM(fImage& Image, wxString fname) {
 	frame->SetStatusText(fname.AfterLast(PATHSEPCH),1);
 	frame->canvas->UpdateDisplayedBitmap(false);
 	frame->SetStatusText(_("Idle"),3);
-#ifdef CAMELS
-	frame->SetTitle(wxString::Format("Camels EL v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#else
-	frame->SetTitle(wxString::Format("Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#endif
+
+	frame->SetTitle(wxString::Format("Open Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
+
 	
 	
 	return false;
@@ -1769,11 +1761,8 @@ bool LibRAWLoad(fImage& Image, wxString &fname) {
 	frame->SetStatusText(fname.AfterLast(PATHSEPCH),1);
 	frame->canvas->UpdateDisplayedBitmap(false);
 	frame->SetStatusText(_("Idle"),3);
-#ifdef CAMELS
-	frame->SetTitle(wxString::Format("Camels EL v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#else
-	frame->SetTitle(wxString::Format("Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
-#endif
+	frame->SetTitle(wxString::Format("Open Nebulosity v%s - %s",VERSION,fname.AfterLast(PATHSEPCH).c_str()));
+
 	
 	
 	//wxMessageBox("Done");

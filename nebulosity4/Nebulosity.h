@@ -32,7 +32,7 @@
  */
 
 // The main header file for Craig Stark's "Nebulosity"
-#define VERSION "4.4.4"
+#define VERSION "1.0.0"
 
 #if defined( __GNUG__) && !defined(__APPLE__)
 #pragma interface
@@ -188,8 +188,6 @@ public:
 	Dialog_Hist_Window *Histogram_Window;
 	wxTextCtrl *Exp_DurCtrl;
 	wxTextCtrl *Exp_DelayCtrl;
-	wxTextCtrl *Camel_SNCtrl;
-	wxButton   *Camel_SaveImgButton;
 	wxTextCtrl *Disp_BVal;
 	wxTextCtrl *Disp_WVal;
 	wxSpinCtrl *Exp_GainCtrl;
@@ -232,11 +230,6 @@ public:
 	wxCommandEvent *Pushed_evt;
     bool GlobalDebugEnabled;
 
-#ifdef CAMELS
-	bool CamelsMarkBadMode;
-	void OnCamelsHotkey(wxCommandEvent& evt);
-#endif
-
 	void OnImageUnsharp(wxCommandEvent& evt);
 	void OnImagePStretch(wxCommandEvent& evt);
 	void OnImageDigitalDevelopment(wxCommandEvent& evt);
@@ -269,7 +262,6 @@ protected:
 	void OnAUIClose(wxAuiManagerEvent &evt);
 	void OnDurPulldown(wxCommandEvent& evt);
 	void OnBWValUpdate(wxCommandEvent& evt);
-	void OnCamelImageSave(wxCommandEvent& evt);
 	void OnActivate(bool) {}
     void OnNameFilters(wxCommandEvent& evt);
 	void OnSaveBMPFile(wxCommandEvent& evt);
@@ -604,10 +596,6 @@ enum {
 	MENU_IMAGE_GREYC,
 	CTRL_WSLIDER,
 	CTRL_BSLIDER,
-	CAMEL_SAVEIMG,
-	CAMEL_SN,
-	CAMEL_CAPTURE,
-	CAMEL_MARKBAD,
 	SCRIPTSERVER_ID,
 	SCRIPTSOCKET_ID,
 	LAST_MAIN_EVENT

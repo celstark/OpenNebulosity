@@ -42,7 +42,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <wx/stdpaths.h>
 #include "FreeImage.h"
 #include "setup_tools.h"
-#include "camels.h"
 
 //#define ROUND(x) (int) floor(x + 0.5)
 #define ASINH(x) logf(x + sqrtf(x * x + 1.0))
