@@ -2,19 +2,19 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 [Setup]
-AppName=Nebulosity4
-AppVerName=Nebulosity 4.4.4
+AppName=OpenNebulosity
+AppVerName=Open Nebulosity 1.0.0
 AppPublisher=Stark Labs
 AppPublisherURL=http://www.stark-labs.com
 AppSupportURL=http://www.stark-labs.com
 AppUpdatesURL=http://www.stark-labs.com
-DefaultDirName={pf}\Nebulosity4
-DefaultGroupName=Nebulosity4
-LicenseFile=\Dev\Nebulosity4\Nebulosity_dist\license.txt
-OutputBaseFilename=setup_Nebulosity4
+DefaultDirName={pf}\OpenNebulosity
+DefaultGroupName=OpenNebulosity
+LicenseFile=\Dev\OpenNebulosity\LICENSE
+OutputBaseFilename=setup_OpenNebulosity4
 Compression=lzma
 SolidCompression=yes
-VersionInfoVersion=4.4.4
+VersionInfoVersion=1.0.0
 
 [Languages]
 Name: "eng"; MessagesFile: "compiler:Default.isl"
@@ -24,86 +24,80 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "\Dev\Nebulosity4\Nebulosity_dist\Nebulosity4.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\GREYCstoration.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\NebulosityDocs.pdf"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\SAC10.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\ShoestringLXUSB_DLL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\ShoestringDSUSB_DLL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\ShoestringDSUSB2_DLL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\DSCI.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "Nebulosity4.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "GREYCstoration.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "NebulosityDocs.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "SAC10.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ShoestringLXUSB_DLL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ShoestringDSUSB_DLL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ShoestringDSUSB2_DLL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "DSCI.dll"; DestDir: "{app}"; Flags: ignoreversion
 ;Source: "\Dev\Nebulosity3\Nebulosity_dist\ngc_dll.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\EDSDK.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\EdsImage.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "EDSDK.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "EdsImage.dll"; DestDir: "{app}"; Flags: ignoreversion
 
-Source: "\Dev\Nebulosity4\Nebulosity_dist\SXUSB.dll"; DestDir: "{app}"; Flags: ignoreversion                                                         
-Source: "\Dev\Nebulosity4\Nebulosity_dist\ASICamera2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "SXUSB.dll"; DestDir: "{app}"; Flags: ignoreversion                                                         
+Source: "ASICamera2.dll"; DestDir: "{app}"; Flags: ignoreversion
 
-Source: "\Dev\Nebulosity4\Nebulosity_dist\altaircam.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "altaircam.dll"; DestDir: "{app}"; Flags: ignoreversion
 
-Source: "\Dev\Nebulosity4\Nebulosity_dist\cfitsio.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "cfitsio.dll"; DestDir: "{app}"; Flags: ignoreversion
 
-Source: "\Dev\Nebulosity4\Nebulosity_dist\qhy2proDLL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\qhy2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\qhy8.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\QHYCAM.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\QHYUSB.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\qhyccd.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\tbb.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\winusb.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\ftd2xx.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "qhy2proDLL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "qhy2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "qhy8.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "QHYCAM.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "QHYUSB.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "qhyccd.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "tbb.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "winusb.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ftd2xx.dll"; DestDir: "{app}"; Flags: ignoreversion
 
 
-;Source: "\Dev\Nebulosity3\Nebulosity_dist\QHY8CCDDLL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\CCDVideoAPI.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\libfli.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\FreeImage.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\libraw.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "CCDVideoAPI.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "libfli.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "FreeImage.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "libraw.dll"; DestDir: "{app}"; Flags: ignoreversion
 
-Source: "\Dev\Nebulosity4\Nebulosity_dist\gXusb.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\vtools3.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\vproc3.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "gXusb.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "vtools3.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "vproc3.dll"; DestDir: "{app}"; Flags: ignoreversion
 
-;Source: "\Dev\Nebulosity3\Nebulosity_dist\NkImgSDK.dll"; DestDir: "{app}"
-;Source: "\Dev\Nebulosity3\Nebulosity_dist\Zelkova6.dll"; DestDir: "{app}"
-;Source: "\Dev\Nebulosity3\Nebulosity_dist\Zelkova6Lang.dll"; DestDir: "{app}"
-;Source: "\Dev\Nebulosity3\Nebulosity_dist\RCSigProc.dll"; DestDir: "{app}"
-;Source: "\Dev\Nebulosity3\Nebulosity_dist\Strato7.dll"; DestDir: "{app}"
 
-Source: "\Dev\Nebulosity4\Nebulosity_dist\ANTS.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\ConvertImagePixelType.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\WarpImageMultiTransform.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\APyTools\*"; DestDir: "{app}\APyTools"; Flags: ignoreversion recursesubdirs
+Source: "ANTS.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ConvertImagePixelType.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "WarpImageMultiTransform.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "APyTools\*"; DestDir: "{app}\APyTools"; Flags: ignoreversion recursesubdirs
 
-Source: "\Dev\Nebulosity4\Nebulosity_dist\astroDLLGeneric.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\cc3290mt.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\cxcore100.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\cv100.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\libguide40.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\QHY9DLL.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\QHY8LDLL.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\QHY10DLL.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\QHY8Util.dll"; DestDir: "{app}"
+Source: "astroDLLGeneric.dll"; DestDir: "{app}"
+Source: "cc3290mt.dll"; DestDir: "{app}"
+Source: "cxcore100.dll"; DestDir: "{app}"
+Source: "cv100.dll"; DestDir: "{app}"
+Source: "libguide40.dll"; DestDir: "{app}"
+Source: "QHY9DLL.dll"; DestDir: "{app}"
+Source: "QHY8LDLL.dll"; DestDir: "{app}"
+Source: "QHY10DLL.dll"; DestDir: "{app}"
+Source: "QHY8Util.dll"; DestDir: "{app}"
 
 ;Source: "\Dev\Nebulosity3\Nebulosity_dist\msvcr80.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\inpout32.dll"; DestDir: "{app}"
-Source: "\Dev\Nebulosity4\Nebulosity_dist\dispatch.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\Nebulosity_dist\xdispatch.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "inpout32.dll"; DestDir: "{app}"
+Source: "dispatch.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "xdispatch.dll"; DestDir: "{app}"; Flags: ignoreversion
 
 
 ; Language files
-Source: "\Dev\Nebulosity4\de\nebulosity.mo"; DestDir: "{app}\de"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\fr\nebulosity.mo"; DestDir: "{app}\fr" ; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\it\nebulosity.mo"; DestDir: "{app}\it"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\nl\nebulosity.mo"; DestDir: "{app}\nl"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\pt\nebulosity.mo"; DestDir: "{app}\pt"; Flags: ignoreversion
-Source: "\Dev\Nebulosity4\es\nebulosity.mo"; DestDir: "{app}\es"; Flags: ignoreversion
+Source: "..\nebulosity4\de\nebulosity.mo"; DestDir: "{app}\de"; Flags: ignoreversion
+Source: "..\nebulosity4\fr\nebulosity.mo"; DestDir: "{app}\fr" ; Flags: ignoreversion
+Source: "..\nebulosity4\it\nebulosity.mo"; DestDir: "{app}\it"; Flags: ignoreversion
+Source: "..\nebulosity4\nl\nebulosity.mo"; DestDir: "{app}\nl"; Flags: ignoreversion
+Source: "..\nebulosity4\pt\nebulosity.mo"; DestDir: "{app}\pt"; Flags: ignoreversion
+Source: "..\nebulosity4\es\nebulosity.mo"; DestDir: "{app}\es"; Flags: ignoreversion
 
 
 ;Source: "\Dev\vcredist_x86.exe"; DestDir: "{tmp}"
-Source: "\Dev\vcredist_2013_x86.exe"; DestDir: "{tmp}"
-Source: "\Dev\vcredist_x86_2010SP1.exe"; DestDir: "{tmp}"
-Source: "\Dev\vc8redist_x86.exe"; DestDir: "{tmp}"
+Source: "vcredist_2013_x86.exe"; DestDir: "{tmp}"
+Source: "vcredist_x86_2010SP1.exe"; DestDir: "{tmp}"
+Source: "vc8redist_x86.exe"; DestDir: "{tmp}"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [InstallDelete]

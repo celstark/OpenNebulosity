@@ -30,3 +30,7 @@ nebulosity4/*sdf
 Win_Libraries/**/*.pdb
 nebulosity4/ipch
 
+Win_Installer/Output
+nebulosity4/Nebulosity.vcxproj.filters
+nebulosity4/Nebulosity.vcxproj.filters
+Win_Installer/Nebulosity4.exe

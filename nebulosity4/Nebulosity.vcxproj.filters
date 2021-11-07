@@ -33,9 +33,6 @@
     <ClCompile Include="autoalign.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="camels.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -263,9 +260,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="cam_class.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="camels.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="camera.h">

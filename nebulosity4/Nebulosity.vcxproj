@@ -201,7 +201,6 @@
     <ClCompile Include="ASCOM_DDE.cpp" />
     <ClCompile Include="atik_OSX_WindowsCrap.cpp" />
     <ClCompile Include="autoalign.cpp" />
-    <ClCompile Include="camels.cpp" />
     <ClCompile Include="camera.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -332,7 +331,6 @@
     <ClInclude Include="autoalign.h" />
     <ClInclude Include="CamToolDialogs.h" />
     <ClInclude Include="cam_class.h" />
-    <ClInclude Include="camels.h" />
     <ClInclude Include="camera.h" />
     <ClInclude Include="CanonDSLR.h" />
     <ClInclude Include="debayer.h" />
